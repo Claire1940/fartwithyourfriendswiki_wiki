@@ -1,20 +1,20 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Fart With Your Friends Wiki - Codes, Rafts & Maps",
+      "description": "Find Fart With Your Friends codes, raft controls, maps, modes, animals, updates, and beginner tips. Play smarter, survive every river, and win with friends.",
+      "keywords": "Fart With Your Friends, Roblox codes, raft guide, maps, animals, updates",
+      "ogTitle": "Fart With Your Friends Wiki - Codes, Rafts & Maps",
+      "ogDescription": "Find Fart With Your Friends codes, raft controls, maps, modes, animals, updates, and beginner tips. Play smarter, survive every river, and win with friends.",
+      "twitterTitle": "Fart With Your Friends Wiki - Codes, Rafts & Maps",
+      "twitterDescription": "Find Fart With Your Friends codes, raft controls, maps, modes, animals, updates, and beginner tips. Play smarter, survive every river, and win with friends."
     }
   },
   "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -27,27 +27,28 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Chaotic Multiplayer Raft Obby",
+    "title": "Fart With Your Friends Wiki",
+    "description": "Fart With Your Friends is a chaotic Roblox raft game where players work together, race through wild rivers, avoid obstacles, unlock animals and rafts, and compete in funny multiplayer challenges.",
+    "keywords": "Fart With Your Friends, Roblox, raft game, multiplayer obby, raft race, river levels, animals, rafts",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "4",
+        "label": "Game Modes"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "1-4",
+        "label": "Players per Race"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "3",
+        "label": "Animals Available"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "3",
+        "label": "Rafts Available"
       }
     }
   },
@@ -778,27 +779,24 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Play Fart With Your Friends?",
+    "description": "Jump into chaotic raft races with your friends on Roblox — team up, survive wild rivers, and unlock new animals and rafts!",
+    "joinCommunity": "Play on Roblox",
+    "joinGame": "Explore Beginner Guide"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Fart With Your Friends Wiki",
+    "description": "Your complete resource hub for Fart With Your Friends codes, modes, maps, rafts, animals, and updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Fart With Your Friends Wiki. Not affiliated with the developers of Fart With Your Friends or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made resource website.",
+    "roblox": "Roblox Official Page"
   },
   "pages": {
     "guides": {
