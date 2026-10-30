@@ -101,9 +101,9 @@ export default function HomePageClient({
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
-          width: 1920,
-          height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          width: 1600,
+          height: 900,
+          caption: "Fart With Your Friends - Chaotic Roblox Raft Obby",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -128,9 +128,9 @@ export default function HomePageClient({
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
-          width: 1920,
-          height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          width: 1600,
+          height: 900,
+          caption: "Fart With Your Friends Wiki - Roblox Raft Game",
         },
         sameAs: [
           "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
