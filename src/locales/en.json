@@ -10,7 +10,14 @@
       "twitterDescription": "Find Fart With Your Friends codes, raft controls, maps, modes, animals, updates, and beginner tips. Play smarter, survive every river, and win with friends."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "multiplayer": "Multiplayer",
+    "gameplay": "Gameplay",
+    "tips": "Tips",
+    "steam": "Steam",
+    "videos": "Videos"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -439,125 +446,125 @@
     "roblox": "Roblox Official Page"
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+    "guide": {
+      "title": "Fart With Your Friends Guides",
+      "description": "Complete guides covering setup, controls, all four game modes, and playing with friends in Fart With Your Friends.",
+      "metaTitle": "Fart With Your Friends Guides - Modes, Controls & Setup",
+      "metaDescription": "Step-by-step Fart With Your Friends guides for setup, controls, Campaign, Raft Race, Endless River, Daily River, and playing with friends.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "whatIsDescription": "Step-by-step tutorials covering installation, raft controls, every game mode, and multiplayer setup. Each guide walks you from your first launch to confident river runs with friends.",
+      "why": "Why read our guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Get Started Fast",
+        "step1Description": "Install the game, join a lobby, and control your raft without confusion",
+        "step2Title": "Understand Every Mode",
+        "step2Description": "Learn how Campaign, Raft Race, Endless River, and Daily River differ",
+        "step3Title": "Play Better With Friends",
+        "step3Description": "Invite friends, fill a 1v1 to 4v4 lobby, and coordinate as a team"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "multiplayer": {
+      "title": "Fart With Your Friends Multiplayer",
+      "description": "Play Fart With Your Friends with friends: lobby invites, 1v1 to 4v4 races, online co-op, and local multiplayer setup explained.",
+      "metaTitle": "Fart With Your Friends Multiplayer - Play With Friends",
+      "metaDescription": "Learn every way to play Fart With Your Friends with friends: invites, lobbies, 1v1 to 4v4 races, online co-op, remote play, and local multiplayer.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "What is Multiplayer?",
+      "whatIsDescription": "Multiplayer covers every way to race against real players: inviting friends to a lobby, filling 1v1 to 4v4 matches, and racing together online or on one screen.",
+      "why": "Why play with friends?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Race Real Players",
+        "step1Description": "Swap the solo grind for head-to-head raft races against your friends",
+        "step2Title": "Invite in Seconds",
+        "step2Description": "Share a lobby invite and get everyone paddling before the next race starts",
+        "step3Title": "Fit Any Group",
+        "step3Description": "From 1v1 duels to full 4v4 chaos, pick the setup that matches your crew"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Multiplayer Guides"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "gameplay": {
+      "title": "Fart With Your Friends Gameplay",
+      "description": "Explore Fart With Your Friends gameplay: four raft modes, river obstacles, funny moments, and what makes each race different.",
+      "metaTitle": "Fart With Your Friends Gameplay - Modes, Rivers & Rafts",
+      "metaDescription": "See what Fart With Your Friends gameplay looks like: Campaign, Raft Race, Endless River, Daily River, obstacle runs, unlockable animals, and rafts.",
+      "categoryLabel": "GAMEPLAY",
+      "whatIs": "What is Gameplay?",
+      "whatIsDescription": "Gameplay guides break down how each mode plays: paddling through rivers, dodging obstacles, boosting with well-timed farts, and unlocking new animals and rafts.",
+      "why": "Why explore gameplay?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Know Your Modes",
+        "step1Description": "Pick between Campaign, Raft Race, Endless River, and Daily River with confidence",
+        "step2Title": "Read the River",
+        "step2Description": "Learn obstacle patterns and speed zones so fewer runs end in the water",
+        "step3Title": "Unlock Everything",
+        "step3Description": "Track animals like Penguin, Fox, and Cat plus rafts worth racing for"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Gameplay Articles"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "tips": {
+      "title": "Fart With Your Friends Tips",
+      "description": "Practical tips for Fart With Your Friends: winning strategies, challenge ideas, prank moves, and habits that win more races.",
+      "metaTitle": "Fart With Your Friends Tips - Win More Raft Races",
+      "metaDescription": "Level up with Fart With Your Friends tips: race strategies, how to win, challenge ideas, prank moves, and teamwork habits for every mode.",
+      "categoryLabel": "TIPS & STRATEGIES",
+      "whatIs": "What are Tips?",
+      "whatIsDescription": "Short, actionable tips covering race strategy, boost timing, obstacle reads, and funny challenge ideas you can try with friends in any mode.",
+      "why": "Why use our tips?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Win More Races",
+        "step1Description": "Apply race-proven strategies instead of learning everything the hard way",
+        "step2Title": "Run Fun Challenges",
+        "step2Description": "Try prank ideas and self-made challenges that keep lobbies laughing",
+        "step3Title": "Build Team Habits",
+        "step3Description": "Turn solo skill into group coordination for 4v4 races"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Tips"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "steam": {
+      "title": "Fart With Your Friends on Steam",
+      "description": "Fart With Your Friends on Steam: demo availability, release info, multiplayer on PC, and Steam Remote Play Together setup.",
+      "metaTitle": "Fart With Your Friends Steam - Demo, Release & Remote Play",
+      "metaDescription": "Everything about Fart With Your Friends on Steam: demo status, release news, PC multiplayer, and Remote Play Together with friends.",
+      "categoryLabel": "STEAM EDITION",
+      "whatIs": "What is the Steam edition?",
+      "whatIsDescription": "The Steam edition brings the raft chaos to PC: check demo availability, follow release news, set up multiplayer, and use Remote Play Together to race with friends.",
+      "why": "Why check Steam coverage?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Track the Demo",
+        "step1Description": "Know when a playable demo drops and what it includes",
+        "step2Title": "Set Up on PC",
+        "step2Description": "Get the game running and tuned for smooth multiplayer sessions",
+        "step3Title": "Play Together Anywhere",
+        "step3Description": "Use Remote Play to race with friends who don't own the game"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Steam Articles"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "videos": {
+      "title": "Fart With Your Friends Videos",
+      "description": "Watch Fart With Your Friends in action: gameplay videos, funny moments, live runs, and multiplayer highlights from real races.",
+      "metaTitle": "Fart With Your Friends Videos - Gameplay & Funny Moments",
+      "metaDescription": "The best Fart With Your Friends videos: gameplay runs, funny moments, live sessions, and multiplayer chaos from real races on the rivers.",
+      "categoryLabel": "VIDEOS",
+      "whatIs": "What are Videos?",
+      "whatIsDescription": "Curated video roundups showing real races: gameplay runs, funny fails, multiplayer highlights, and live sessions that show the game before you play.",
+      "why": "Why watch videos?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "See Before You Play",
+        "step1Description": "Watch real race footage to know what each mode looks like in motion",
+        "step2Title": "Learn From Runs",
+        "step2Description": "Spot how strong players handle obstacles, boosts, and river bends",
+        "step3Title": "Share the Fun",
+        "step3Description": "Send the funniest moments to your lobby before race night"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Videos"
     }
   }
 }

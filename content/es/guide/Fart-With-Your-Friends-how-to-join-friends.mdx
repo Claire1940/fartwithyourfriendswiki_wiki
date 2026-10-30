@@ -1,0 +1,210 @@
+import { Users, Map, Settings, Shield, Trophy, MessageCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fart With Your Friends: cómo unirse a amigos - Guía de configuración",
+  description: "Aprende a unirte a tus amigos en Fart With Your Friends, configurar una sala multijugador, resolver problemas de conexión y coordinarte durante los niveles cooperativos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Join+Friends+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de Fart With Your Friends",
+  slug: "fart-with-your-friends-how-to-join-friends"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Fart With Your Friends** utiliza una sala multijugador o un sistema de invitaciones para las sesiones cooperativas.
+- **Primero el anfitrión**: Un jugador debe crear la sesión antes de que los demás amigos intenten unirse.
+- **Usa invitaciones**: Envía una invitación desde el juego o la plataforma y confirma que todos los jugadores aparezcan en la sala.
+- **Coordina el movimiento**: Los puntos de control, el ritmo y los impulsos controlados son importantes durante los niveles compartidos.
+- **Soluciona los problemas en orden**: Comprueba el estado de la sala, las invitaciones, la configuración de privacidad y la estabilidad de la conexión.
+</Callout>
+
+<Section icon={Users} title="Fart With Your Friends: cómo unirse a amigos">
+
+Fart With Your Friends gira en torno al juego cooperativo caótico, así que el método más sencillo consiste en establecer un anfitrión y hacer que todos los demás se unan a esa sesión. Los nombres de los menús pueden variar según la versión, pero el proceso general es sencillo: abre la opción multijugador, crea o selecciona una sala, invita a tu grupo y espera hasta que todos los jugadores sean visibles antes de comenzar.
+
+La referencia de jugabilidad disponible se centra en varios jugadores que avanzan juntos por secciones de obstáculos, usando puntos de control y comunicación por voz para coordinar el ritmo. Por eso, el paso de la sala es especialmente importante: comenzar demasiado pronto puede dejar a un amigo fuera de la sesión u obligar al grupo a repetir la configuración.
+
+**Aspectos destacados del video:**
+
+- El movimiento cooperativo depende del ritmo y de una comunicación clara.
+- Los puntos de control ayudan al grupo a recuperarse después de los intentos fallidos.
+- Los jugadores deben coordinar sus acciones en lugar de avanzar por separado con prisa.
+- El chat de voz puede facilitar la organización de los obstáculos compartidos.
+
+<YouTubeEmbed videoId="0EIyyL4h2wA" title="Fart with your friends BUT we're not friends (GONE WRONG)(SHOTS FIRED)" />
+
+<Callout type="tip" title="Configuración más rápida">
+Elige un anfitrión, crea la sesión multijugador, invita a tus amigos y no comiences el nivel hasta que todo el grupo sea visible.
+</Callout>
+
+| Rol del jugador | Acción recomendada | Por qué es importante |
+| --- | --- | --- |
+| Anfitrión | Crea la sala y envía las invitaciones | Proporciona al grupo una sesión clara a la que unirse |
+| Jugador que se une | Acepta la invitación y confirma que aparece la pantalla de la sala | Evita entrar en la sesión equivocada |
+| Grupo completo | Comprueba la lista de jugadores visibles antes de comenzar | Reduce los inicios fallidos y la ausencia de compañeros |
+| Líder de voz | Indica el ritmo de los movimientos | Ayuda a coordinar los obstáculos compartidos |
+
+Si un amigo no puede ver la invitación, pide al anfitrión que la reenvíe una vez después de confirmar que la sala está abierta. Enviar invitaciones repetidamente sin comprobar el estado de la sesión puede generar confusión, especialmente cuando varios amigos están iniciando el juego al mismo tiempo.
+
+</Section>
+
+<Section icon={Settings} title="Configuración paso a paso de la sala multijugador">
+
+Utiliza la siguiente secuencia cada vez que tu grupo quiera jugar juntos. Los nombres de los botones pueden variar, pero el orden resulta útil para organizar la primera sesión.
+
+<Steps>
+  <Step num="1" title="Elige un anfitrión">
+    Decidid quién creará la sesión. El anfitrión debe tener una conexión estable y permanecer en la sala mientras se unen los demás jugadores. Evitad que varios jugadores creen sesiones separadas al mismo tiempo.
+  </Step>
+  <Step num="2" title="Abre la opción multijugador">
+    Desde el menú principal, selecciona la opción relacionada con el multijugador, el modo cooperativo, la sala o jugar con amigos. Si el juego ofrece opciones públicas y privadas, utiliza la opción privada o solo por invitación para un grupo conocido.
+  </Step>
+  <Step num="3" title="Invita a todos tus amigos">
+    Envía invitaciones mediante el menú disponible dentro del juego o la superposición de la plataforma conectada. Pide a cada amigo que confirme cuando acepte la invitación en lugar de asumir que se ha unido porque tarda en responder.
+  </Step>
+  <Step num="4" title="Verifica el grupo">
+    Comprueba la lista de jugadores, los indicadores de preparación o la pantalla de la sala. Asegúrate de que todos los compañeros previstos estén presentes antes de seleccionar el nivel o iniciar la sesión.
+  </Step>
+  <Step num="5" title="Comienza con un plan de coordinación">
+    Acordad un sistema sencillo de indicaciones antes de moveros. Utilizad comandos breves como “espera”, “vamos”, “punto de control” y “despacio” para que todos entiendan la siguiente acción.
+  </Step>
+</Steps>
+
+El anfitrión debe evitar iniciar la partida inmediatamente después de que se una el primer amigo. Una breve pausa de verificación resulta útil porque las sesiones multijugador pueden tardar distintos tiempos en cargarse. También permite que los jugadores ajusten el audio, el mando o el teclado antes de que el grupo llegue a un obstáculo difícil.
+
+| Etapa de configuración | Qué confirmar | Error común |
+| --- | --- | --- |
+| Creación del anfitrión | Se ha seleccionado el modo multijugador correcto | Abrir por accidente una sesión individual o pública |
+| Invitaciones | Cada amigo acepta la invitación actual | Unirse a una sala antigua o diferente |
+| Comprobación del grupo | Todos los jugadores aparecen antes de iniciar | Comenzar mientras un amigo aún está cargando |
+| Comprobación del audio | Los jugadores pueden oír las indicaciones básicas | Descubrir problemas de voz durante una sección cronometrada |
+| Inicio del nivel | Todos están listos para moverse | Apresurarse antes de que el grupo acuerde el ritmo |
+
+<Callout type="success" title="Hábito fiable para el anfitrión">
+Mantén el mismo anfitrión durante toda la sesión siempre que sea posible. Esto proporciona al grupo una sala constante y facilita la reconexión después de un intento fallido.
+</Callout>
+
+</Section>
+
+<Section icon={MessageCircle} title="Cómo coordinarse después de unirse">
+
+Unirse correctamente es solo la primera parte de una buena partida cooperativa. Las secciones con obstáculos compartidos suelen volverse más difíciles cuando los jugadores avanzan a velocidades diferentes o activan acciones sin avisar. Los grupos más eficaces utilizan una comunicación sencilla y consideran los puntos de control como lugares para reunirse.
+
+La referencia de jugabilidad destaca las llamadas repetidas para ir más despacio, esperar y avanzar juntos. Estos hábitos son prácticos para los grupos nuevos porque reducen los empujones accidentales, los movimientos fuera de tiempo y las situaciones en las que un jugador llega a un obstáculo mientras los demás aún están atrás.
+
+<CardGrid cols={4}>
+  <Card title="Indicaciones">
+    Utiliza comandos breves como “espera”, “vamos”, “izquierda”, “despacio” y “punto de control”. Las palabras claras son más fáciles de seguir durante los momentos ruidosos o caóticos.
+  </Card>
+  <Card title="Ritmo">
+    Muévete como parte del grupo cerca de los peligros. El jugador más rápido debe detenerse en lugar de obligar a los demás a recuperarse.
+  </Card>
+  <Card title="Recuperación">
+    Considera los puntos de control como lugares para reunirse. Confirma que el grupo está junto antes de intentar la siguiente sección.
+  </Card>
+  <Card title="Paciencia">
+    Los intentos fallidos son normales en los obstáculos cooperativos. Reinicia el plan en lugar de culpar a un compañero.
+  </Card>
+</CardGrid>
+
+Para una primera sesión, asignad a una persona la tarea de indicar el ritmo. Esto no significa que ese jugador controle a todos; simplemente evita que cuatro personas den instrucciones diferentes al mismo tiempo. Más adelante podéis cambiar quién da las indicaciones si el grupo prefiere un estilo más relajado.
+
+| Situación | Mejor respuesta del grupo | Evita |
+| --- | --- | --- |
+| Un jugador llega primero a un peligro | Detenerse y describir el siguiente movimiento | Activar la sección sin avisar |
+| Un compañero se queda atrás | Esperar en una zona segura o en un punto de control | Continuar hasta que el grupo se separe |
+| Varios intentos fallan | Cambiar el ritmo o asignar a una persona para dar indicaciones | Repetir el mismo enfoque apresurado |
+| El chat de voz se vuelve ruidoso | Usar comandos breves y constantes | Hablar por encima de cada movimiento |
+| El equipo llega a un punto de control | Confirmar que todos están listos | Suponer que el punto de control ha resuelto todos los problemas |
+
+<Callout type="warning" title="No apresures al grupo">
+Un movimiento individual rápido puede parecer eficiente, pero los obstáculos cooperativos suelen requerir un ritmo sincronizado. Espera al equipo antes de comprometerte con una sección peligrosa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Problemas para unirse y comprobaciones de conexión">
+
+Cuando un amigo no puede unirse, empieza por las comprobaciones más sencillas. Confirma que el anfitrión siga en la sala, que la invitación corresponda a la sesión actual y que el jugador que intenta unirse haya llegado a la pantalla multijugador correcta. Si el problema continúa, ambos jugadores deben reiniciar el proceso de invitación en lugar de hacer clic repetidamente en una solicitud que no responde.
+
+La causa exacta depende de la versión del juego, la plataforma, la red y la configuración de privacidad de la sesión. La siguiente tabla se centra en comprobaciones prácticas que no requieren adivinar un código de error concreto.
+
+<Checklist
+  id="join-friends-checklist"
+  title="Antes de reiniciar la sala:"
+  items={[
+    "Confirma que el anfitrión creó una sesión multijugador en lugar de una partida individual",
+    "Comprueba que el amigo aceptó la invitación más reciente",
+    "Verifica que la configuración de privacidad de la sala permite entrar a los jugadores previstos",
+    "Pide al jugador que intenta unirse que vuelva al menú multijugador",
+    "Reinicia el proceso de invitación una vez si la lista del grupo sigue incompleta"
+  ]}
+/>
+
+| Síntoma | Primera comprobación | Siguiente acción |
+| --- | --- | --- |
+| El amigo no ve ninguna invitación | Confirma que el anfitrión sigue en la sala | Reenvía una invitación actual |
+| El amigo acepta, pero no aparece | Comprueba si el juego volvió al menú principal | Abre de nuevo el multijugador y vuelve a unirte |
+| La sala está llena o no es la correcta | Compara la lista de jugadores visibles | Cierra la sesión y crea una nueva |
+| Un jugador se desconecta durante la carga | Comprueba la estabilidad de la conexión y el estado del juego | Vuelve a unirte desde la sesión actual del anfitrión |
+| El chat de voz no funciona | Revisa la configuración de audio dentro del juego | Usa temporalmente una llamada externa |
+
+Evita cambiar varios ajustes a la vez. Si el anfitrión cambia la privacidad, reinicia el juego y envía varias invitaciones simultáneamente, será difícil identificar qué solucionó el problema. Haz un cambio, vuelve a intentar unirte y continúa con la siguiente comprobación si es necesario.
+
+<Callout type="info" title="Solución de problemas de conexión">
+Si el grupo sigue incompleto, reconstruye la sesión desde una sala limpia. Una sesión nueva del anfitrión suele ser más fácil de verificar que una cadena de invitaciones creada antes de que todos estuvieran listos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Plan para la primera sesión y preguntas frecuentes">
+
+Una breve rutina de preparación facilita el primer intento multijugador. Antes de iniciar un nivel, confirma el anfitrión, la lista del grupo, el método de comunicación y el primer punto de reunión. El objetivo no es eliminar todos los errores, sino hacer que sean fáciles de entender y solucionar.
+
+Utiliza este plan para un grupo nuevo:
+
+1. Elige un anfitrión antes de que nadie abra el modo multijugador.
+2. Invita a tus amigos y espera una confirmación visible.
+3. Prueba un movimiento o una indicación sencilla.
+4. Acordad que los puntos de control serán lugares para reunirse.
+5. Inicia el nivel solo cuando el grupo esté completo.
+
+| Objetivo de la primera sesión | Señal de éxito | Ajuste útil |
+| --- | --- | --- |
+| Unirse a la misma sala | Todos los jugadores previstos son visibles | Reconstruye la sala si la lista está incompleta |
+| Establecer la comunicación | Todos entienden las indicaciones básicas | Utiliza comandos más breves |
+| Llegar al primer punto de control | El grupo llega unido | Haz que el jugador líder avance más despacio |
+| Recuperarse de un fallo | Los jugadores se reúnen sin reiniciar innecesariamente | Cambia el ritmo en lugar de repetir a ciegas |
+| Terminar la sesión correctamente | El anfitrión sigue disponible para la siguiente ronda | Salid juntos antes de crear otra sala |
+
+<Callout type="tip" title="La mejor regla para principiantes">
+En la primera partida, prioriza permanecer juntos antes que avanzar rápido. Cuando el grupo entienda el ritmo del nivel, será más fácil coordinar intentos más rápidos.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo me uno a mis amigos en Fart With Your Friends?",
+    answer: "Haz que un jugador cree la sala multijugador y acepta la invitación actual de ese jugador. Vuelve al menú multijugador si aceptas la invitación, pero la lista del grupo no se actualiza."
+  },
+  {
+    question: "¿Debo crear mi propia sala o unirme a la sala de mi amigo?",
+    answer: "Únete a la sala de tu amigo cuando ya haya creado la sesión. Utilizar un solo anfitrión evita que el grupo se divida entre varias sesiones."
+  },
+  {
+    question: "¿Qué debo hacer si mi amigo no puede ver la invitación?",
+    answer: "Confirma que el anfitrión siga en la sala activa, comprueba la privacidad de la sesión y reenvía una invitación actual. Si no funciona, cierra la sala y crea una nueva sesión."
+  },
+  {
+    question: "¿Cómo pueden coordinarse mejor los amigos durante los niveles cooperativos?",
+    answer: "Utilizad indicaciones de voz breves, esperad cerca de los peligros y reuníos en los puntos de control. Un solo jugador puede indicar el ritmo mientras los demás se concentran en el movimiento."
+  }
+]} />
+
+</Section>

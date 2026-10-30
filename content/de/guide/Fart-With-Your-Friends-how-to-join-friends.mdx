@@ -1,0 +1,210 @@
+import { Users, Map, Settings, Shield, Trophy, MessageCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fart With Your Friends: Freunden beitreten – Einrichtungsanleitung",
+  description: "Erfahre, wie du Freunden in Fart With Your Friends beitrittst, eine Mehrspieler-Lobby einrichtest, Verbindungsprobleme löst und dich während Koop-Leveln koordinierst.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Join+Friends+Guide",
+  date: "2026-10-31",
+  author: "Fart With Your Friends Wiki-Team",
+  slug: "fart-with-your-friends-how-to-join-friends"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Fart With Your Friends** verwendet für gemeinsame Sitzungen eine Mehrspieler-Lobby oder einen Einladungsablauf.
+- **Zuerst den Host bestimmen**: Ein Spieler sollte die Sitzung erstellen, bevor die anderen Freunde versuchen beizutreten.
+- **Einladungen verwenden**: Sende eine Einladung im Spiel oder über die Plattform und bestätige anschließend, dass jeder Spieler in der Lobby erscheint.
+- **Bewegungen koordinieren**: Checkpoints, Timing und kontrollierte Schübe sind in gemeinsamen Leveln wichtig.
+- **Schrittweise Fehler beheben**: Überprüfe den Lobby-Status, Einladungen, Privatsphäre-Einstellungen und die Verbindungsstabilität.
+</Callout>
+
+<Section icon={Users} title="Fart With Your Friends: Freunden beitreten">
+
+Fart With Your Friends ist auf chaotisches kooperatives Spielen ausgelegt. Am einfachsten bestimmst du daher einen Host, während alle anderen dieser Sitzung beitreten. Die Menünamen können je nach Version variieren, aber der grundsätzliche Ablauf bleibt gleich: Öffne die Mehrspieleroption, erstelle oder wähle eine Lobby, lade deine Gruppe ein und warte vor dem Start, bis jeder Spieler sichtbar ist.
+
+Die verfügbaren Gameplay-Referenzen konzentrieren sich darauf, dass mehrere Spieler gemeinsam Hindernisabschnitte bewältigen und dabei Checkpoints sowie Sprachkommunikation zur Koordination des Timings nutzen. Dadurch wird der Lobby-Schritt besonders wichtig: Ein zu früher Start kann dazu führen, dass ein Freund außerhalb der Sitzung bleibt oder die Gruppe die Einrichtung wiederholen muss.
+
+**Höhepunkte des Videos:**
+
+- Kooperative Bewegungen hängen von gutem Timing und klarer Kommunikation ab.
+- Checkpoints helfen der Gruppe, sich nach fehlgeschlagenen Versuchen zu sammeln.
+- Die Spieler müssen ihre Aktionen koordinieren, statt unabhängig voneinander loszustürmen.
+- Sprachchat kann die Organisation gemeinsamer Hindernisse erleichtern.
+
+<YouTubeEmbed videoId="0EIyyL4h2wA" title="Fart with your friends BUT we're not friends (GONE WRONG)(SHOTS FIRED)" />
+
+<Callout type="tip" title="Schnellste Einrichtung">
+Bestimme einen Host, erstelle die Mehrspieler-Sitzung, lade deine Freunde ein und beginne das Level erst, wenn die vollständige Gruppe sichtbar ist.
+</Callout>
+
+| Spielerrolle | Empfohlene Aktion | Warum es wichtig ist |
+| --- | --- | --- |
+| Host | Die Lobby erstellen und Einladungen senden | Gibt der Gruppe eine eindeutige Sitzung, der sie beitreten kann |
+| Beitretender Spieler | Die Einladung annehmen und bestätigen, dass der Lobby-Bildschirm erscheint | Verhindert den Beitritt zur falschen Sitzung |
+| Gesamte Gruppe | Vor dem Start die sichtbare Spielerliste überprüfen | Verringert Fehlstarts und fehlende Teammitglieder |
+| Sprachleiter | Das Bewegungstiming ansagen | Hilft bei der Koordination gemeinsamer Hindernisse |
+
+Wenn ein Freund die Einladung nicht sehen kann, sollte der Host sie einmal erneut senden, nachdem er bestätigt hat, dass die Lobby geöffnet ist. Wiederholtes Senden von Einladungen, ohne den Sitzungsstatus zu überprüfen, kann für Verwirrung sorgen, besonders wenn mehrere Freunde das Spiel gleichzeitig starten.
+
+</Section>
+
+<Section icon={Settings} title="Schrittweise Einrichtung einer Mehrspieler-Lobby">
+
+Verwende die folgende Reihenfolge, wenn deine Gruppe gemeinsam spielen möchte. Die Beschriftung der Schaltflächen kann abweichen, aber die Reihenfolge ist hilfreich, um die erste Sitzung zu organisieren.
+
+<Steps>
+  <Step num="1" title="Einen Host bestimmen">
+    Entscheidet, wer die Sitzung erstellt. Der Host sollte eine stabile Verbindung haben und in der Lobby bleiben, während die anderen Spieler beitreten. Vermeidet, dass mehrere Spieler gleichzeitig separate Sitzungen erstellen.
+  </Step>
+  <Step num="2" title="Die Mehrspieleroption öffnen">
+    Wähle im Hauptmenü die Option für Mehrspieler, Koop, Lobby oder das Spielen mit Freunden. Wenn das Spiel zwischen öffentlichen und privaten Optionen unterscheidet, solltest du für eine bekannte Gruppe die private oder nur auf Einladung zugängliche Option verwenden.
+  </Step>
+  <Step num="3" title="Jeden Freund einladen">
+    Sende Einladungen über das verfügbare Menü im Spiel oder das Overlay der verbundenen Plattform. Bitte jeden Freund um eine Bestätigung, sobald die Einladung angenommen wurde, anstatt davon auszugehen, dass eine verzögerte Antwort bereits einen Beitritt bedeutet.
+  </Step>
+  <Step num="4" title="Die Gruppe überprüfen">
+    Überprüfe die Spielerliste, Bereitschaftsanzeigen oder die Lobby-Ansicht. Stelle sicher, dass alle vorgesehenen Teammitglieder anwesend sind, bevor du das Level auswählst oder die Sitzung startest.
+  </Step>
+  <Step num="5" title="Mit einem Koordinationsplan starten">
+    Vereinbart vor der Bewegung ein einfaches System für Zurufe. Verwendet kurze Befehle wie „warte“, „los“, „Checkpoint“ und „langsam“, damit jeder die nächste Aktion versteht.
+  </Step>
+</Steps>
+
+Der Host sollte vermeiden, die Sitzung sofort zu starten, nachdem der erste Freund beigetreten ist. Eine kurze Überprüfungspause ist sinnvoll, da Mehrspieler-Sitzungen unterschiedlich lange zum Laden benötigen können. Außerdem können die Spieler in dieser Zeit ihre Audio-, Controller- oder Tastatureinstellungen anpassen, bevor die Gruppe ein schwieriges Hindernis erreicht.
+
+| Einrichtungsphase | Was zu bestätigen ist | Häufiger Fehler |
+| --- | --- | --- |
+| Host-Erstellung | Der richtige Mehrspielermodus ist ausgewählt | Versehentlich eine Einzelspieler- oder öffentliche Sitzung öffnen |
+| Einladungen | Jeder Freund nimmt die aktuelle Einladung an | Einer älteren oder anderen Lobby beitreten |
+| Gruppenprüfung | Jeder Spieler erscheint vor dem Start | Starten, während ein Freund noch lädt |
+| Audioprüfung | Die Spieler können grundlegende Zurufe hören | Sprachprobleme erst in einem Abschnitt mit Zeitdruck entdecken |
+| Levelstart | Jeder ist bereit, sich zu bewegen | Losstürmen, bevor die Gruppe das Timing abgestimmt hat |
+
+<Callout type="success" title="Zuverlässige Gewohnheit für den Host">
+Behalte nach Möglichkeit während der gesamten Sitzung denselben Host. Dadurch hat die Gruppe eine einheitliche Lobby und kann nach einem fehlgeschlagenen Versuch leichter wieder beitreten.
+</Callout>
+
+</Section>
+
+<Section icon={MessageCircle} title="So koordinierst du dich nach dem Beitritt">
+
+Erfolgreich beizutreten ist nur der erste Teil eines guten Koop-Durchlaufs. Gemeinsame Hindernisabschnitte werden oft schwieriger, wenn sich Spieler mit unterschiedlichen Geschwindigkeiten bewegen oder Aktionen ohne Vorwarnung auslösen. Die effektivsten Gruppen verwenden einfache Kommunikation und behandeln Checkpoints als Treffpunkte.
+
+Die Gameplay-Referenz hebt wiederholte Aufforderungen hervor, langsamer zu werden, zu warten und sich gemeinsam zu bewegen. Diese Gewohnheiten sind für neue Gruppen praktisch, weil sie versehentliche Schubser, schlechtes Timing und Situationen reduzieren, in denen ein Spieler ein Hindernis erreicht, während die anderen noch zurückliegen.
+
+<CardGrid cols={4}>
+  <Card title="Zurufe">
+    Verwende kurze Befehle wie „warte“, „los“, „links“, „langsam“ und „Checkpoint“. Klare Wörter lassen sich in lauten oder chaotischen Momenten leichter verstehen.
+  </Card>
+  <Card title="Tempo">
+    Bewege dich in der Nähe von Gefahren als Gruppe. Der schnellste Spieler sollte anhalten, anstatt alle anderen zu einer Aufholjagd zu zwingen.
+  </Card>
+  <Card title="Erholung">
+    Behandle Checkpoints als Treffpunkte. Bestätigt, dass die Gruppe zusammen ist, bevor ihr den nächsten Abschnitt versucht.
+  </Card>
+  <Card title="Geduld">
+    Fehlgeschlagene Versuche sind beim kooperativen Hindernisspiel normal. Setzt den Plan zurück, anstatt einem Teammitglied die Schuld zu geben.
+  </Card>
+</CardGrid>
+
+Bestimmt für die erste Sitzung eine Person, die das Timing ansagt. Das bedeutet nicht, dass diese Person alle kontrolliert; es verhindert lediglich, dass vier Personen gleichzeitig unterschiedliche Anweisungen geben. Später könnt ihr den Ansager wechseln, wenn die Gruppe einen entspannteren Spielstil bevorzugt.
+
+| Situation | Beste Reaktion der Gruppe | Vermeiden |
+| --- | --- | --- |
+| Ein Spieler erreicht zuerst eine Gefahr | Anhalten und die nächste Bewegung beschreiben | Den Abschnitt ohne Vorwarnung auslösen |
+| Ein Teammitglied fällt zurück | In einem sicheren Bereich oder an einem Checkpoint warten | Weiterspielen, bis die Gruppe getrennt ist |
+| Mehrere Versuche scheitern | Das Timing ändern oder einen Ansager bestimmen | Den gleichen überhasteten Ansatz wiederholen |
+| Der Sprachchat wird unübersichtlich | Kurze, einheitliche Befehle verwenden | Bei jeder Bewegung dazwischenreden |
+| Das Team erreicht einen Checkpoint | Bestätigen, dass alle bereit sind | Annehmen, dass der Checkpoint jedes Problem gelöst hat |
+
+<Callout type="warning" title="Die Gruppe nicht überstürzen">
+Eine schnelle Einzelbewegung mag effizient wirken, aber kooperative Hindernisse erfordern oft synchronisiertes Timing. Warte auf das Team, bevor du dich auf einen gefährlichen Abschnitt einlässt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Beitrittsprobleme und Verbindungsprüfungen">
+
+Wenn ein Freund nicht beitreten kann, arbeite zuerst die einfachsten Prüfungen durch. Bestätige, dass der Host noch in der Lobby ist, dass die Einladung zur aktuellen Sitzung gehört und dass der beitretende Spieler den richtigen Mehrspielerbildschirm geöffnet hat. Wenn das Problem bestehen bleibt, sollten beide Spieler den Einladungsprozess neu starten, anstatt wiederholt auf eine nicht reagierende Aufforderung zu klicken.
+
+Die genaue Ursache hängt von der Spielversion, der Plattform, dem Netzwerk und den Privatsphäre-Einstellungen der Sitzung ab. Die folgende Tabelle konzentriert sich auf praktische Prüfungen, für die kein Raten eines bestimmten Fehlercodes erforderlich ist.
+
+<Checklist
+  id="join-friends-checklist"
+  title="Vor dem Neustart der Lobby:"
+  items={[
+    "Bestätigen, dass der Host eine Mehrspieler-Sitzung und keinen Einzelspieler-Durchlauf erstellt hat",
+    "Überprüfen, dass der Freund die neueste Einladung angenommen hat",
+    "Sicherstellen, dass die Privatsphäre-Einstellung der Lobby die vorgesehenen Spieler zulässt",
+    "Den beitretenden Spieler auffordern, zum Mehrspielermenü zurückzukehren",
+    "Den Einladungsprozess einmal neu starten, wenn die Gruppenliste unvollständig bleibt"
+  ]}
+/>
+
+| Symptom | Erste Prüfung | Nächste Aktion |
+| --- | --- | --- |
+| Der Freund sieht keine Einladung | Bestätigen, dass der Host noch in der Lobby ist | Eine aktuelle Einladung erneut senden |
+| Der Freund nimmt an, erscheint aber nicht | Prüfen, ob das Spiel zum Hauptmenü zurückgekehrt ist | Den Mehrspielerbereich erneut öffnen und wieder beitreten |
+| Die Lobby ist voll oder falsch | Die sichtbare Spielerliste vergleichen | Die Sitzung schließen und eine neue erstellen |
+| Ein Spieler trennt sich während des Ladens | Verbindungsstabilität und Spielstatus überprüfen | Der aktuellen Host-Sitzung erneut beitreten |
+| Der Sprachchat funktioniert nicht | Die Audioeinstellungen im Spiel überprüfen | Vorübergehend einen externen Anruf verwenden |
+
+Vermeide es, mehrere Einstellungen gleichzeitig zu ändern. Wenn der Host die Privatsphäre ändert, das Spiel neu startet und gleichzeitig mehrere Einladungen sendet, lässt sich nur schwer feststellen, was das Problem gelöst hat. Nimm eine Änderung vor, versuche erneut beizutreten und fahre bei Bedarf anschließend mit der nächsten Prüfung fort.
+
+<Callout type="info" title="Fehlerbehebung bei Verbindungsproblemen">
+Wenn die Gruppe unvollständig bleibt, baue die Sitzung über eine frische Lobby neu auf. Eine neue Host-Sitzung lässt sich oft leichter überprüfen als eine Einladungskette, die erstellt wurde, bevor alle bereit waren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Plan für die erste Sitzung und FAQ">
+
+Eine kurze Vorbereitung macht den ersten Mehrspielerversuch reibungsloser. Bestätigt vor dem Start eines Levels den Host, die Gruppenliste, die Kommunikationsmethode und den ersten Treffpunkt. Das Ziel besteht nicht darin, jeden Fehler zu vermeiden, sondern Fehler verständlich und leicht behebbar zu machen.
+
+Verwende diesen Plan für eine neue Gruppe:
+
+1. Einen Host bestimmen, bevor jemand den Mehrspielerbereich öffnet.
+2. Freunde einladen und auf eine sichtbare Bestätigung warten.
+3. Eine einfache Bewegung oder einen Zuruf testen.
+4. Vereinbaren, dass Checkpoints als Treffpunkte dienen.
+5. Das Level erst starten, wenn die Gruppe vollständig ist.
+
+| Ziel der ersten Sitzung | Erfolgszeichen | Sinnvolle Anpassung |
+| --- | --- | --- |
+| Der gleichen Lobby beitreten | Jeder vorgesehene Spieler ist sichtbar | Die Lobby neu aufbauen, wenn die Liste unvollständig ist |
+| Kommunikation etablieren | Jeder versteht die grundlegenden Zurufe | Kürzere Befehle verwenden |
+| Den ersten Checkpoint erreichen | Die Gruppe kommt gemeinsam an | Den führenden Spieler verlangsamen |
+| Sich von einem Fehlschlag erholen | Die Spieler sammeln sich, ohne unnötig neu zu starten | Das Timing ändern, statt blind zu wiederholen |
+| Die Sitzung sauber beenden | Der Host bleibt für die nächste Runde verfügbar | Gemeinsam gehen, bevor eine weitere Lobby erstellt wird |
+
+<Callout type="tip" title="Beste Regel für Anfänger">
+Bei eurem ersten Durchlauf sollte das Zusammbleiben wichtiger sein als Geschwindigkeit. Sobald die Gruppe den Rhythmus des Levels versteht, lassen sich schnellere Versuche leichter koordinieren.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wie kann ich Freunden in Fart With Your Friends beitreten?",
+    answer: "Lass einen Spieler die Mehrspieler-Lobby erstellen und nimm anschließend die aktuelle Einladung dieses Spielers an. Kehre zum Mehrspielermenü zurück, wenn die Einladung angenommen wurde, die Gruppenliste aber nicht aktualisiert wird."
+  },
+  {
+    question: "Soll ich meine eigene Lobby erstellen oder der Lobby meines Freundes beitreten?",
+    answer: "Tritt der Lobby deines Freundes bei, wenn dieser die Sitzung bereits erstellt hat. Ein einziger Host verhindert, dass sich die Gruppe auf mehrere Sitzungen verteilt."
+  },
+  {
+    question: "Was soll ich tun, wenn mein Freund die Einladung nicht sehen kann?",
+    answer: "Bestätige, dass der Host noch in der aktiven Lobby ist, überprüfe die Privatsphäre der Sitzung und sende eine aktuelle Einladung erneut. Wenn das nicht funktioniert, schließe die Lobby und erstelle eine neue Sitzung."
+  },
+  {
+    question: "Wie können sich Freunde während Koop-Leveln besser koordinieren?",
+    answer: "Verwendet kurze Sprachbefehle, wartet in der Nähe von Gefahren und sammelt euch an Checkpoints. Ein einzelner Spieler kann das Timing ansagen, während sich alle anderen auf die Bewegung konzentrieren."
+  }
+]} />
+
+</Section>

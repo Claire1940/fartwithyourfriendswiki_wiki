@@ -1,1 +1,570 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Fart With Your Friends Wiki - Codes, Balsas y Mapas",
+      "description": "Encuentra codes de Fart With Your Friends, controles de balsa, mapas, modos, animales, actualizaciones y consejos para principiantes. Juega con más cabeza, sobrevive a cada río y gana con tus amigos.",
+      "keywords": "Fart With Your Friends, codes de Roblox, guía de balsas, mapas, animales, actualizaciones",
+      "ogTitle": "Fart With Your Friends Wiki - Codes, Balsas y Mapas",
+      "ogDescription": "Encuentra codes de Fart With Your Friends, controles de balsa, mapas, modos, animales, actualizaciones y consejos para principiantes. Juega con más cabeza, sobrevive a cada río y gana con tus amigos.",
+      "twitterTitle": "Fart With Your Friends Wiki - Codes, Balsas y Mapas",
+      "twitterDescription": "Encuentra codes de Fart With Your Friends, controles de balsa, mapas, modos, animales, actualizaciones y consejos para principiantes. Juega con más cabeza, sobrevive a cada río y gana con tus amigos."
+    }
+  },
+  "nav": {
+    "guide": "Guías",
+    "multiplayer": "Multijugador",
+    "gameplay": "Jugabilidad",
+    "tips": "Consejos",
+    "steam": "Steam",
+    "videos": "Vídeos"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos disponibles próximamente"
+  },
+  "hero": {
+    "badge": "Obby multijugador de balsas y caos",
+    "title": "Fart With Your Friends Wiki",
+    "description": "Fart With Your Friends es un caótico juego de balsas en Roblox donde los jugadores cooperan, compiten en ríos salvajes, esquivan obstáculos, desbloquean animales y balsas, y se enfrentan en divertidos desafíos multijugador.",
+    "keywords": "Fart With Your Friends, Roblox, juego de balsas, obby multijugador, carrera de balsas, niveles de río, animales, balsas",
+    "getFreeCodesCTA": "Conseguir codes gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "4",
+        "label": "Modos de juego"
+      },
+      "stat2": {
+        "value": "1-4",
+        "label": "Jugadores por carrera"
+      },
+      "stat3": {
+        "value": "3",
+        "label": "Animales disponibles"
+      },
+      "stat4": {
+        "value": "3",
+        "label": "Balsas disponibles"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Fart With Your Friends",
+    "description": "Desciende ríos caóticos en balsas inflables, esquiva obstáculos con tus amigos y domina Campaign, Raft Race, Endless River y Daily River en Roblox."
+  },
+  "tools": {
+    "title": "Fart With Your Friends",
+    "titleHighlight": "Kit de herramientas",
+    "subtitle": "Ve directo a lo que necesitas: codes, guías, modos, balsas, animales, eventos y las últimas novedades.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Codes de Fart With Your Friends",
+        "description": "Codes activos, archivo de expirados y el paso a paso para canjearlos"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes de Fart With Your Friends",
+        "description": "Desde tu primer inicio hasta completar un recorrido de río"
+      },
+      {
+        "icon": "Swords",
+        "title": "Modos de juego de Fart With Your Friends",
+        "description": "Campaign, Raft Race, Endless River y Daily River"
+      },
+      {
+        "icon": "Users",
+        "title": "Multijugador de Fart With Your Friends",
+        "description": "Invita amigos, forma equipos y compite de 1v1 a 4v4"
+      },
+      {
+        "icon": "Sailboat",
+        "title": "Balsas de Fart With Your Friends",
+        "description": "Cada balsa, su tema y cómo desbloquearla"
+      },
+      {
+        "icon": "PawPrint",
+        "title": "Animales de Fart With Your Friends",
+        "description": "Penguin, Fox, Cat y cada compañero desbloqueable"
+      },
+      {
+        "icon": "Ghost",
+        "title": "Evento de Halloween de Fart With Your Friends",
+        "description": "Haunted Graveyard, Fart Phantom y el paquete del evento"
+      },
+      {
+        "icon": "Megaphone",
+        "title": "Actualizaciones de Fart With Your Friends",
+        "description": "Noticias y anuncios oficiales de HSF Studios"
+      }
+    ]
+  },
+  "modules": {
+    "fartWithYourFriendsCodes": {
+      "title": "Codes de Fart With Your Friends",
+      "displayType": "codeCards",
+      "eyebrow": "Codes",
+      "subtitle": "Consulta de un vistazo los codes activos, los retirados y el proceso de canje dentro del juego.",
+      "intro": "Esta sección reúne en un solo lugar todos los codes de Fart With Your Friends: nuevos lanzamientos, entradas expiradas y exactamente dónde canjearlos dentro del juego.",
+      "cards": [
+        {
+          "name": "Codes activos",
+          "status": "Actualizado a diario",
+          "description": "Todos los codes de Fart With Your Friends que funcionan aparecen aquí en cuanto se publican, junto con sus recompensas y su período de vigencia."
+        },
+        {
+          "name": "Codes expirados",
+          "status": "Archivados",
+          "description": "Los codes retirados se conservan en un archivo dedicado con sus fechas de baja, para que un code muerto nunca te cueste un intento de canje."
+        },
+        {
+          "name": "Disponibilidad de canje",
+          "status": "Paso a paso",
+          "description": "Descubre dónde está la opción de canje de codes en Fart With Your Friends y sigue una breve guía para canjear sin problemas cada vez."
+        }
+      ]
+    },
+    "fartWithYourFriendsBeginnerGuide": {
+      "title": "Guía para principiantes de Fart With Your Friends",
+      "displayType": "steps",
+      "eyebrow": "Guía para principiantes",
+      "subtitle": "Aprende el flujo básico, desde entrar al juego hasta completar tu primer recorrido de río.",
+      "intro": "Fart With Your Friends se centra en guiar una balsa por un río mientras colaboras con otros jugadores. Empieza con el objetivo, familiarízate con el movimiento de la balsa y luego coordínate con tus compañeros frente a los obstáculos.",
+      "steps": [
+        {
+          "title": "Entra al juego",
+          "description": "Únete a Fart With Your Friends desde su página de juego en Roblox y espera a que cargue la zona de juego.",
+          "tip": "Echa un vistazo a los modos disponibles antes de tu primer recorrido."
+        },
+        {
+          "title": "Elige una actividad de río",
+          "description": "Selecciona una actividad adecuada como Campaign, Raft Race, Endless River o Daily River.",
+          "tip": "Campaign es el lugar más indulgente para aprender el flujo básico."
+        },
+        {
+          "title": "Súbate a la balsa y contrólala",
+          "description": "Sube a la balsa y usa los controles de movimiento para ayudar a guiarla a lo largo del río.",
+          "tip": "Haz ajustes pequeños y deliberados en lugar de cambiar de dirección constantemente."
+        },
+        {
+          "title": "Reacciona a los obstáculos del río",
+          "description": "Observa la ruta por delante y ajusta la dirección de la balsa cuando el río se vuelva más difícil de navegar.",
+          "tip": "Mira hacia delante antes de cada curva para que la balsa tenga tiempo de responder."
+        },
+        {
+          "title": "Coordínate con tus compañeros",
+          "description": "Comunícate sobre el movimiento, los obstáculos que se acercan y cuándo debe cambiar de dirección el grupo.",
+          "tip": "Una dirección acordada vale más que varios jugadores girando por su cuenta."
+        },
+        {
+          "title": "Completa el recorrido",
+          "description": "Sigue avanzando por el río hasta completar la actividad, luego revisa el resultado y prueba un modo más desafiante.",
+          "tip": "Usa tu primer recorrido completado para detectar las curvas que te dieron más problemas."
+        }
+      ]
+    },
+    "fartWithYourFriendsGameModes": {
+      "title": "Modos de juego de Fart With Your Friends",
+      "displayType": "modeCards",
+      "eyebrow": "Modos de juego",
+      "subtitle": "Compara Campaign, Raft Race, Endless River y Daily River de un vistazo.",
+      "intro": "Cada modo ofrece una forma distinta de vivir el río. Campaign ofrece progresión estructurada, Raft Race se centra en la competición directa, Endless River premia la supervivencia pura y Daily River renueva el desafío cada día.",
+      "modes": [
+        {
+          "mode": "Campaign",
+          "playStyle": "Progresión",
+          "goal": "Supera desafíos de río estructurados y aprende la jugabilidad básica.",
+          "players": "Individual o cooperativo",
+          "bestFor": "Jugadores nuevos que buscan una progresión constante y práctica de control de balsa."
+        },
+        {
+          "mode": "Raft Race",
+          "playStyle": "Competitivo",
+          "goal": "Compite contra otro equipo río abajo y llega primero a la meta.",
+          "players": "1v1, 2v2, 3v3 o 4v4",
+          "bestFor": "Grupos competitivos que quieren un desafío directo de equipo contra equipo."
+        },
+        {
+          "mode": "Endless River",
+          "playStyle": "Resistencia",
+          "goal": "Sigue navegando el río todo lo que tu equipo pueda aguantar.",
+          "players": "Individual o cooperativo",
+          "bestFor": "Recorridos de práctica y comprobar cuánto sobrevive una tripulación."
+        },
+        {
+          "mode": "Daily River",
+          "playStyle": "Desafío diario",
+          "goal": "Enfréntate al desafío diario rotativo del río y apunta a un buen resultado.",
+          "players": "Individual o cooperativo",
+          "bestFor": "Jugadores que quieren un desafío recurrente y fresco con amigos."
+        }
+      ]
+    },
+    "fartWithYourFriendsMultiplayerGuide": {
+      "title": "Guía multijugador de Fart With Your Friends",
+      "displayType": "steps",
+      "eyebrow": "Multijugador",
+      "subtitle": "Configura una sesión compartida de Roblox, entra al mismo servidor y coordina a tu equipo de balsa.",
+      "intro": "Las partidas multijugador funcionan mejor cuando todos los jugadores entran a la misma experiencia y acuerdan un plan antes de que la balsa se mueva. Raft Race admite formatos de equipo de 1v1 a 4v4, así que los avisos claros importan en las salas competitivas.",
+      "steps": [
+        {
+          "title": "Añade o selecciona a tus amigos",
+          "description": "Asegúrate de que los jugadores que quieres invitar estén disponibles en Roblox antes de iniciar la sesión de juego.",
+          "tip": "Decide quién va en cada equipo antes de entrar a una partida competitiva."
+        },
+        {
+          "title": "Entren al mismo juego",
+          "description": "Abre Fart With Your Friends y usa las funciones de grupo o unirse de Roblox para que todos entren a la misma experiencia.",
+          "tip": "Confirma que todos tus amigos hayan cargado en la sesión antes de elegir un modo."
+        },
+        {
+          "title": "Selecciona una actividad multijugador",
+          "description": "Elige una actividad de río cooperativa o entra a Raft Race para un desafío de equipo contra equipo.",
+          "tip": "Practiquen juntos primero y pasen a Raft Race cuando la tripulación esté lista."
+        },
+        {
+          "title": "Forma los equipos",
+          "description": "Organiza a los jugadores en los formatos disponibles de Raft Race, de 1v1 a 4v4.",
+          "tip": "Mantén equipos del mismo tamaño cuando sea posible para que la carrera esté equilibrada."
+        },
+        {
+          "title": "Acorden los comandos de balsa",
+          "description": "Elige a un jugador o a un grupo pequeño para avisar de giros, reacciones ante obstáculos y cambios de dirección.",
+          "tip": "Avisos cortos como izquierda, derecha, frenar o girar mantienen las reacciones rápidas."
+        },
+        {
+          "title": "Superen el desafío juntos",
+          "description": "Coordinen el movimiento de la balsa, vigilen el río por delante y ajusten el plan cuando aparezcan obstáculos o tramos difíciles.",
+          "tip": "Una dirección compartida vale más que cada jugador actuando por su cuenta."
+        }
+      ],
+      "teamFormatsLabel": "Formatos de equipo en Raft Race",
+      "teamFormats": [
+        "1v1",
+        "2v2",
+        "3v3",
+        "4v4"
+      ]
+    },
+    "fartWithYourFriendsRaftsGuide": {
+      "title": "Guía de balsas de Fart With Your Friends",
+      "displayType": "table",
+      "eyebrow": "Guía de balsas",
+      "subtitle": "Compara todas las balsas publicadas de Fart With Your Friends por tema, obtención y disponibilidad.",
+      "intro": "Esta guía organiza el catálogo de balsas anunciadas para Fart With Your Friends, separando el elenco estándar de las balsas de evento y de las próximas incorporaciones, para que siempre sepas qué está disponible ahora mismo.",
+      "tableHeaders": {
+        "raft": "Balsa",
+        "theme": "Tema y aspecto",
+        "howToGet": "Cómo conseguirla",
+        "availability": "Disponibilidad",
+        "note": "Nota comparativa"
+      },
+      "rows": [
+        {
+          "raft": "Balsas estándar",
+          "theme": "Los diseños base de balsa inflable disponibles desde el primer día",
+          "howToGet": "Se desbloquean jugando con normalidad en la página oficial del juego",
+          "availability": "Siempre disponibles",
+          "note": "El punto de referencia principal al comparar cualquier otra balsa"
+        },
+        {
+          "raft": "Balsas de evento — Candy Cane, Jack-o'-Lantern, Toxic Slime",
+          "theme": "Estéticas de evento seasonal, desde rayas de caramelo hasta calabazas brillantes y skins verde lodo",
+          "howToGet": "Se consiguen mediante el evento o promoción vigente anunciada por HSF Studios",
+          "availability": "Limitadas al período del evento",
+          "note": "Consigue las balsas de evento antes de que termine: son las más raras del catálogo"
+        },
+        {
+          "raft": "Próximas balsas",
+          "theme": "Nuevos temas anunciados para futuras actualizaciones",
+          "howToGet": "Sigue las instrucciones oficiales de lanzamiento cuando estén disponibles",
+          "availability": "Llegarán con futuras actualizaciones",
+          "note": "Sigue el módulo de Actualizaciones de abajo para que ninguna balsa nueva se te escape"
+        }
+      ]
+    },
+    "fartWithYourFriendsAnimalsGuide": {
+      "title": "Guía de animales de Fart With Your Friends",
+      "displayType": "cardList",
+      "eyebrow": "Animales y mascotas",
+      "subtitle": "Explora todos los compañeros animales de Fart With Your Friends y descubre cómo funciona cada desbloqueo.",
+      "intro": "Esta guía recopila los compañeros animales anunciados para Fart With Your Friends —desde las últimas incorporaciones Penguin, Fox y Cat hasta futuras revelaciones— para que siempre sepas quién nada junto a tu balsa.",
+      "cards": [
+        {
+          "name": "Compañeros animales",
+          "category": "Disponibles ahora",
+          "appearance": "El elenco oficial de animales, incluidas las incorporaciones Penguin, Fox y Cat",
+          "unlockCondition": "Se desbloquean mediante los métodos indicados en la página oficial del juego",
+          "limitedStatus": "Elenco permanente"
+        },
+        {
+          "name": "Animales de evento",
+          "category": "Tiempo limitado",
+          "appearance": "Compañeros animales ligados a eventos de temporada y promociones",
+          "unlockCondition": "Se consiguen durante el período del evento indicado por HSF Studios",
+          "limitedStatus": "Disponibilidad limitada al evento"
+        },
+        {
+          "name": "Próximos animales",
+          "category": "Próximamente",
+          "appearance": "Nuevos diseños de animales revelados mediante anuncios oficiales",
+          "unlockCondition": "Llegarán con la actualización relacionada cuando se publique",
+          "limitedStatus": "Anunciados, llegan pronto"
+        }
+      ]
+    },
+    "fartWithYourFriendsHalloweenEvent": {
+      "title": "Evento de Halloween de Fart With Your Friends",
+      "displayType": "cardList",
+      "eyebrow": "Evento de tiempo limitado",
+      "subtitle": "Explora el Haunted Graveyard, enfréntate al Fart Phantom y consigue el paquete de Halloween de tiempo limitado.",
+      "intro": "El evento de Halloween trae contenido de temporada a Fart With Your Friends: una nueva ubicación encantada, un encuentro escalofriante y un paquete temático. Esto es lo que está disponible y qué esperar cuando el evento termine.",
+      "cards": [
+        {
+          "name": "Haunted Graveyard",
+          "type": "Ubicación del evento",
+          "description": "Una ubicación temática de Halloween añadida al juego para el evento, llena de ambiente escalofriante y desafíos de recorrido en balsa.",
+          "availability": "Disponible durante el evento de Halloween",
+          "afterEvent": "Solo regresa si HSF Studios la trae de vuelta en un evento futuro"
+        },
+        {
+          "name": "Fart Phantom",
+          "type": "Personaje del evento",
+          "description": "El protagonista del anuncio de Halloween: una presencia fantasmal que acecha el contenido del evento.",
+          "availability": "Disponible durante el evento de Halloween",
+          "afterEvent": "Una aparición de tiempo limitado que sigue el calendario oficial del evento"
+        },
+        {
+          "name": "Paquete de Halloween",
+          "type": "Paquete de tiempo limitado",
+          "description": "Un paquete temático repleto de cosméticos y contenido de Halloween para el evento.",
+          "availability": "Disponible por tiempo limitado",
+          "afterEvent": "Sale de la tienda cuando termine el evento, salvo que HSF Studios anuncie su regreso"
+        }
+      ]
+    },
+    "fartWithYourFriendsUpdatesNews": {
+      "title": "Actualizaciones y noticias oficiales de Fart With Your Friends",
+      "displayType": "accordion",
+      "eyebrow": "Noticias oficiales",
+      "subtitle": "Sigue los nuevos modos, animales, balsas, personajes y cambios de jugabilidad de HSF Studios.",
+      "intro": "Este módulo es el punto de entrada de la portada para todo lo nuevo en Fart With Your Friends, separando el contenido disponible de los próximos anuncios para que no te pierdas ningún lanzamiento.",
+      "entries": [
+        {
+          "title": "Nuevos modos",
+          "status": "Disponibles + Próximos",
+          "content": "Cada incorporación de modo llega aquí: desde el elenco de Campaign, Raft Race, Endless River y Daily River hasta futuras revelaciones de modos.",
+          "topics": [
+            "Lanzamientos de modos",
+            "Anuncios de modos",
+            "Cambios en las reglas de juego"
+          ]
+        },
+        {
+          "title": "Animales, balsas y personajes",
+          "status": "Disponibles + Próximos",
+          "content": "Sigue el crecimiento del elenco: los animales Penguin, Fox y Cat, balsas como Candy Cane, Toxic Slime y Jack-o'-Lantern, y cada nuevo personaje.",
+          "topics": [
+            "Incorporaciones de animales",
+            "Incorporaciones de balsas",
+            "Incorporaciones de personajes"
+          ]
+        },
+        {
+          "title": "Eventos y ajustes de jugabilidad",
+          "status": "Disponibles + Próximos",
+          "content": "Eventos de temporada como el de Halloween, además de cambios de balance y actualizaciones de disponibilidad, con el contenido disponible y el próximo claramente separados.",
+          "topics": [
+            "Eventos de tiempo limitado",
+            "Cambios de jugabilidad",
+            "Disponibilidad de eventos"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Fart With Your Friends",
+    "titleHighlight": "FAQ",
+    "subtitle": "Respuestas rápidas sobre el juego, sus modos y esta wiki.",
+    "questions": [
+      {
+        "question": "¿Qué es Fart With Your Friends?",
+        "answer": "Fart With Your Friends es un caótico juego de balsas de Roblox creado por HSF Studios donde guías una balsa inflable por ríos salvajes, esquivas obstáculos y compites en divertidos desafíos multijugador en los modos Campaign, Raft Race, Endless River y Daily River."
+      },
+      {
+        "question": "¿Fart With Your Friends es gratis?",
+        "answer": "Sí. Fart With Your Friends es gratis en Roblox: abre la página oficial del juego, pulsa jugar y estarás en el río en segundos."
+      },
+      {
+        "question": "¿Cuántos jugadores pueden correr juntos en Fart With Your Friends?",
+        "answer": "Raft Race admite formatos de equipo de 1v1 hasta 4v4, así que puedes enfrentarte a un amigo o llevar una tripulación completa de cuatro por bando."
+      },
+      {
+        "question": "¿Qué animales se pueden desbloquear en Fart With Your Friends?",
+        "answer": "El elenco actual incluye a los compañeros Penguin, Fox y Cat, y HSF Studios sigue añadiendo más animales mediante actualizaciones y eventos."
+      },
+      {
+        "question": "¿Fart With Your Friends tiene codes?",
+        "answer": "La sección de Codes de este sitio sigue todos los codes de Fart With Your Friends: cuando sale un code nuevo, aparece aquí con sus recompensas y su período de vigencia, junto con una guía de canje paso a paso."
+      },
+      {
+        "question": "¿Qué hay en el evento de Halloween de Fart With Your Friends?",
+        "answer": "El evento de Halloween añade la ubicación Haunted Graveyard, el personaje Fart Phantom y un paquete de Halloween de tiempo limitado; el módulo del evento de arriba cubre todos los detalles."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar a Fart With Your Friends?",
+    "description": "Lánzate a carreras de balsas caóticas con tus amigos en Roblox: formen equipo, sobrevivan a ríos salvajes y desbloqueen nuevos animales y balsas.",
+    "joinCommunity": "Jugar en Roblox",
+    "joinGame": "Explorar la guía para principiantes"
+  },
+  "footer": {
+    "title": "Fart With Your Friends Wiki",
+    "description": "Tu centro de recursos completo para codes, modos, mapas, balsas, animales y actualizaciones de Fart With Your Friends.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos del servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Fart With Your Friends Wiki. No afiliado a los desarrolladores de Fart With Your Friends ni a Roblox Corporation.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans.",
+    "roblox": "Página oficial de Roblox"
+  },
+  "pages": {
+    "guide": {
+      "title": "Guías de Fart With Your Friends",
+      "description": "Guías completas que cubren la configuración, los controles, los cuatro modos de juego y cómo jugar con amigos en Fart With Your Friends.",
+      "metaTitle": "Guías de Fart With Your Friends - Modos, controles y configuración",
+      "metaDescription": "Guías paso a paso de Fart With Your Friends sobre configuración, controles, Campaign, Raft Race, Endless River, Daily River y jugar con amigos.",
+      "categoryLabel": "GUÍAS DE JUEGO",
+      "whatIs": "¿Qué son las guías?",
+      "whatIsDescription": "Tutoriales paso a paso que cubren la instalación, los controles de balsa, todos los modos de juego y la configuración multijugador. Cada guía te lleva desde tu primer inicio hasta recorridos de río con confianza junto a tus amigos.",
+      "why": "¿Por qué leer nuestras guías?",
+      "whySteps": {
+        "step1Title": "Empieza rápido",
+        "step1Description": "Instala el juego, entra a una sala y controla tu balsa sin confusión",
+        "step2Title": "Entiende cada modo",
+        "step2Description": "Aprende en qué se diferencian Campaign, Raft Race, Endless River y Daily River",
+        "step3Title": "Juega mejor con amigos",
+        "step3Description": "Invita amigos, llena una sala de 1v1 a 4v4 y coordínate en equipo"
+      },
+      "featured": "Destacadas y esenciales",
+      "all": "Todas las guías"
+    },
+    "multiplayer": {
+      "title": "Multijugador de Fart With Your Friends",
+      "description": "Juega a Fart With Your Friends con amigos: invitaciones a la sala, carreras de 1v1 a 4v4, cooperativo online y configuración de multijugador local explicados.",
+      "metaTitle": "Multijugador de Fart With Your Friends - Juega con amigos",
+      "metaDescription": "Descubre todas las formas de jugar a Fart With Your Friends con amigos: invitaciones, salas, carreras de 1v1 a 4v4, cooperativo online, juego remoto y multijugador local.",
+      "categoryLabel": "MULTIJUGADOR",
+      "whatIs": "¿Qué es el multijugador?",
+      "whatIsDescription": "El multijugador cubre todas las formas de competir contra jugadores reales: invitar amigos a una sala, llenar partidas de 1v1 a 4v4 y correr juntos online o en una misma pantalla.",
+      "why": "¿Por qué jugar con amigos?",
+      "whySteps": {
+        "step1Title": "Compite contra jugadores reales",
+        "step1Description": "Cambia la rutina en solitario por carreras de balsas cara a cara contra tus amigos",
+        "step2Title": "Invita en segundos",
+        "step2Description": "Comparte una invitación de sala y ten a todos remando antes de que empiece la próxima carrera",
+        "step3Title": "Adáptate a cualquier grupo",
+        "step3Description": "Desde duelos 1v1 hasta el caos total de 4v4, elige la configuración que encaje con tu grupo"
+      },
+      "featured": "Destacadas y esenciales",
+      "all": "Todas las guías multijugador"
+    },
+    "gameplay": {
+      "title": "Jugabilidad de Fart With Your Friends",
+      "description": "Explora la jugabilidad de Fart With Your Friends: cuatro modos de balsa, obstáculos fluviales, momentos divertidos y qué hace única cada carrera.",
+      "metaTitle": "Jugabilidad de Fart With Your Friends - Modos, ríos y balsas",
+      "metaDescription": "Descubre cómo es la jugabilidad de Fart With Your Friends: Campaign, Raft Race, Endless River, Daily River, recorridos con obstáculos, animales desbloqueables y balsas.",
+      "categoryLabel": "JUGABILIDAD",
+      "whatIs": "¿Qué es la jugabilidad?",
+      "whatIsDescription": "Las guías de jugabilidad desglosan cómo funciona cada modo: remar por los ríos, esquivar obstáculos, acelerar con pedos bien cronometrados y desbloquear nuevos animales y balsas.",
+      "why": "¿Por qué explorar la jugabilidad?",
+      "whySteps": {
+        "step1Title": "Conoce tus modos",
+        "step1Description": "Elige con seguridad entre Campaign, Raft Race, Endless River y Daily River",
+        "step2Title": "Lee el río",
+        "step2Description": "Aprende los patrones de obstáculos y las zonas de velocidad para que menos recorridos acaben en el agua",
+        "step3Title": "Desbloquéalo todo",
+        "step3Description": "Sigue animales como Penguin, Fox y Cat además de balsas por las que vale la pena competir"
+      },
+      "featured": "Destacadas y esenciales",
+      "all": "Todos los artículos de jugabilidad"
+    },
+    "tips": {
+      "title": "Consejos de Fart With Your Friends",
+      "description": "Consejos prácticos para Fart With Your Friends: estrategias ganadoras, ideas de desafíos, bromas y hábitos para ganar más carreras.",
+      "metaTitle": "Consejos de Fart With Your Friends - Gana más carreras de balsas",
+      "metaDescription": "Mejora con los consejos de Fart With Your Friends: estrategias de carrera, cómo ganar, ideas de desafíos, bromas y hábitos de equipo para cada modo.",
+      "categoryLabel": "CONSEJOS Y ESTRATEGIAS",
+      "whatIs": "¿Qué son los consejos?",
+      "whatIsDescription": "Consejos breves y prácticos sobre estrategia de carrera, sincronización de aceleraciones, lectura de obstáculos y divertidas ideas de desafíos para probar con amigos en cualquier modo.",
+      "why": "¿Por qué usar nuestros consejos?",
+      "whySteps": {
+        "step1Title": "Gana más carreras",
+        "step1Description": "Aplica estrategias probadas en carrera en lugar de aprenderlo todo por las malas",
+        "step2Title": "Prueba desafíos divertidos",
+        "step2Description": "Prueba ideas de bromas y desafíos caseros que mantienen las salas riendo",
+        "step3Title": "Crea hábitos de equipo",
+        "step3Description": "Convierte la habilidad individual en coordinación de grupo para las carreras 4v4"
+      },
+      "featured": "Destacadas y esenciales",
+      "all": "Todos los consejos"
+    },
+    "steam": {
+      "title": "Fart With Your Friends en Steam",
+      "description": "Fart With Your Friends en Steam: disponibilidad de la demo, información de lanzamiento, multijugador en PC y configuración de Steam Remote Play Together.",
+      "metaTitle": "Fart With Your Friends en Steam - Demo, lanzamiento y Remote Play",
+      "metaDescription": "Todo sobre Fart With Your Friends en Steam: estado de la demo, noticias de lanzamiento, multijugador en PC y Remote Play Together con amigos.",
+      "categoryLabel": "EDICIÓN DE STEAM",
+      "whatIs": "¿Qué es la edición de Steam?",
+      "whatIsDescription": "La edición de Steam lleva el caos de las balsas a PC: consulta la disponibilidad de la demo, sigue las noticias de lanzamiento, configura el multijugador y usa Remote Play Together para competir con amigos.",
+      "why": "¿Por qué seguir la cobertura de Steam?",
+      "whySteps": {
+        "step1Title": "Sigue la demo",
+        "step1Description": "Sabe cuándo sale una demo jugable y qué incluye",
+        "step2Title": "Configura en PC",
+        "step2Description": "Deja el juego funcionando y ajustado para sesiones multijugador fluidas",
+        "step3Title": "Jueguen juntos desde cualquier lugar",
+        "step3Description": "Usa Remote Play para competir con amigos que no tienen el juego"
+      },
+      "featured": "Destacadas y esenciales",
+      "all": "Todos los artículos de Steam"
+    },
+    "videos": {
+      "title": "Vídeos de Fart With Your Friends",
+      "description": "Mira Fart With Your Friends en acción: vídeos de jugabilidad, momentos divertidos, partidas en directo y lo mejor del multijugador en carreras reales.",
+      "metaTitle": "Vídeos de Fart With Your Friends - Jugabilidad y momentos divertidos",
+      "metaDescription": "Los mejores vídeos de Fart With Your Friends: recorridos de jugabilidad, momentos divertidos, sesiones en directo y caos multijugador de carreras reales en los ríos.",
+      "categoryLabel": "VÍDEOS",
+      "whatIs": "¿Qué son los vídeos?",
+      "whatIsDescription": "Selecciones de vídeos curados que muestran carreras reales: recorridos de jugabilidad, fallos divertidos, momentos destacados del multijugador y sesiones en directo que te muestran el juego antes de jugar.",
+      "why": "¿Por qué ver vídeos?",
+      "whySteps": {
+        "step1Title": "Mira antes de jugar",
+        "step1Description": "Ve grabaciones de carreras reales para saber cómo es cada modo en movimiento",
+        "step2Title": "Aprende de los recorridos",
+        "step2Description": "Observa cómo los mejores jugadores manejan obstáculos, aceleraciones y curvas del río",
+        "step3Title": "Comparte la diversión",
+        "step3Description": "Envía los momentos más graciosos a tu sala antes de la noche de carreras"
+      },
+      "featured": "Destacadas y esenciales",
+      "all": "Todos los vídeos"
+    }
+  }
+}

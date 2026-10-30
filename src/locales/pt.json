@@ -1,1 +1,570 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Fart With Your Friends Wiki - Codes, Jangadas e Mapas",
+      "description": "Encontre codes de Fart With Your Friends, controles de jangada, mapas, modos, animais, atualizações e dicas para iniciantes. Jogue melhor, sobreviva a cada rio e vença com os amigos.",
+      "keywords": "Fart With Your Friends, Roblox codes, guia de jangada, mapas, animais, atualizações",
+      "ogTitle": "Fart With Your Friends Wiki - Codes, Jangadas e Mapas",
+      "ogDescription": "Encontre codes de Fart With Your Friends, controles de jangada, mapas, modos, animais, atualizações e dicas para iniciantes. Jogue melhor, sobreviva a cada rio e vença com os amigos.",
+      "twitterTitle": "Fart With Your Friends Wiki - Codes, Jangadas e Mapas",
+      "twitterDescription": "Encontre codes de Fart With Your Friends, controles de jangada, mapas, modos, animais, atualizações e dicas para iniciantes. Jogue melhor, sobreviva a cada rio e vença com os amigos."
+    }
+  },
+  "nav": {
+    "guide": "Guia",
+    "multiplayer": "Multijogador",
+    "gameplay": "Gameplay",
+    "tips": "Dicas",
+    "steam": "Steam",
+    "videos": "Vídeos"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Tema Claro",
+    "darkMode": "Tema Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você procura não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Obby Caótico de Jangadas Multijogador",
+    "title": "Fart With Your Friends Wiki",
+    "description": "Fart With Your Friends é um jogo caótico de jangadas no Roblox em que os jogadores trabalham juntos, correm por rios selvagens, desviam de obstáculos, desbloqueiam animais e jangadas e competem em desafios multijogador hilários.",
+    "keywords": "Fart With Your Friends, Roblox, jogo de jangada, obby multijogador, corrida de jangadas, níveis de rio, animais, jangadas",
+    "getFreeCodesCTA": "Pegar Codes Grátis",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "4",
+        "label": "Modos de Jogo"
+      },
+      "stat2": {
+        "value": "1-4",
+        "label": "Jogadores por Corrida"
+      },
+      "stat3": {
+        "value": "3",
+        "label": "Animais Disponíveis"
+      },
+      "stat4": {
+        "value": "3",
+        "label": "Jangadas Disponíveis"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Fart With Your Friends",
+    "description": "Corra com jangadas infláveis por rios caóticos, desvie de obstáculos com os amigos e domine Campaign, Raft Race, Endless River e Daily River no Roblox."
+  },
+  "tools": {
+    "title": "Fart With Your Friends",
+    "titleHighlight": "Kit de Ferramentas",
+    "subtitle": "Vá direto ao que você precisa — codes, guias, modos, jangadas, animais, eventos e as últimas novidades.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Codes de Fart With Your Friends",
+        "description": "Codes ativos, arquivo de expirados e o passo a passo de resgate"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes de Fart With Your Friends",
+        "description": "Da primeira inicialização até completar uma descida no rio"
+      },
+      {
+        "icon": "Swords",
+        "title": "Modos de Jogo de Fart With Your Friends",
+        "description": "Campaign, Raft Race, Endless River e Daily River"
+      },
+      {
+        "icon": "Users",
+        "title": "Multijogador de Fart With Your Friends",
+        "description": "Convide amigos, forme equipes e corra de 1v1 a 4v4"
+      },
+      {
+        "icon": "Sailboat",
+        "title": "Jangadas de Fart With Your Friends",
+        "description": "Todas as jangadas, temas e como desbloqueá-las"
+      },
+      {
+        "icon": "PawPrint",
+        "title": "Animais de Fart With Your Friends",
+        "description": "Pinguim, Raposa, Gato e cada desbloqueio de companheiro"
+      },
+      {
+        "icon": "Ghost",
+        "title": "Evento de Halloween de Fart With Your Friends",
+        "description": "Cemitério Assombrado, Fart Phantom e o pacote do evento"
+      },
+      {
+        "icon": "Megaphone",
+        "title": "Atualizações de Fart With Your Friends",
+        "description": "Notícias e comunicados oficiais da HSF Studios"
+      }
+    ]
+  },
+  "modules": {
+    "fartWithYourFriendsCodes": {
+      "title": "Codes de Fart With Your Friends",
+      "displayType": "codeCards",
+      "eyebrow": "Codes",
+      "subtitle": "Confira num relance os codes ativos, os desativados e o fluxo de resgate dentro do jogo.",
+      "intro": "Esta seção reúne todos os codes de Fart With Your Friends em um só lugar — novos lançamentos, entradas expiradas e exatamente onde resgatá-los dentro do jogo.",
+      "cards": [
+        {
+          "name": "Codes Ativos",
+          "status": "Atualizado Diariamente",
+          "description": "Todo code funcionando de Fart With Your Friends é listado aqui assim que entra no ar, junto com suas recompensas e prazo de validade."
+        },
+        {
+          "name": "Codes Expirados",
+          "status": "Arquivados",
+          "description": "Os codes desativados ficam em um arquivo dedicado com suas datas de remoção, então um code morto nunca custa uma tentativa de resgate."
+        },
+        {
+          "name": "Disponibilidade de Resgate",
+          "status": "Passo a Passo",
+          "description": "Saiba onde fica a entrada de resgate de codes em Fart With Your Friends e siga um breve tutorial para um resgate tranquilo sempre."
+        }
+      ]
+    },
+    "fartWithYourFriendsBeginnerGuide": {
+      "title": "Guia para Iniciantes de Fart With Your Friends",
+      "displayType": "steps",
+      "eyebrow": "Guia para Iniciantes",
+      "subtitle": "Aprenda o fluxo básico, desde entrar no jogo até completar sua primeira descida no rio.",
+      "intro": "Fart With Your Friends gira em torno de guiar uma jangada por um rio enquanto coopera com outros jogadores. Comece pelo objetivo, pegue o jeito do movimento da jangada e, então, coordene-se com os colegas nos obstáculos.",
+      "steps": [
+        {
+          "title": "Entre no Jogo",
+          "description": "Entre em Fart With Your Friends pela página do jogo no Roblox e aguarde a área do jogo carregar.",
+          "tip": "Dê uma olhada nos modos disponíveis antes de iniciar sua primeira descida."
+        },
+        {
+          "title": "Escolha uma Atividade de Rio",
+          "description": "Selecione uma atividade adequada, como Campaign, Raft Race, Endless River ou Daily River.",
+          "tip": "Campaign é o lugar mais tranquilo para aprender o fluxo básico."
+        },
+        {
+          "title": "Embarque e Controle a Jangada",
+          "description": "Suba na jangada e use os controles de movimento para ajudá-la a seguir pelo rio.",
+          "tip": "Faça ajustes pequenos e deliberados em vez de mudar de direção constantemente."
+        },
+        {
+          "title": "Reaja aos Obstáculos do Rio",
+          "description": "Observe o trecho à frente e ajuste a direção da jangada conforme o rio fica mais difícil de navegar.",
+          "tip": "Olhe adiante antes de cada curva para que a jangada tenha tempo de responder."
+        },
+        {
+          "title": "Coordene-se com os Colegas",
+          "description": "Comunique-se sobre o movimento, os obstáculos à frente e quando o grupo deve mudar de direção.",
+          "tip": "Uma direção combinada vale mais que vários jogadores remando cada um por si."
+        },
+        {
+          "title": "Complete a Descida",
+          "description": "Siga pelo rio até concluir a atividade, depois analise o resultado e experimente um modo mais desafiador.",
+          "tip": "Use sua primeira descida concluída para identificar as curvas que causaram mais problemas."
+        }
+      ]
+    },
+    "fartWithYourFriendsGameModes": {
+      "title": "Modos de Jogo de Fart With Your Friends",
+      "displayType": "modeCards",
+      "eyebrow": "Modos de Jogo",
+      "subtitle": "Compare Campaign, Raft Race, Endless River e Daily River num relance.",
+      "intro": "Cada modo oferece uma maneira diferente de jogar o rio. Campaign traz progressão estruturada, Raft Race foca na competição direta, Endless River premia a pura sobrevivência e Daily River renova o desafio todos os dias.",
+      "modes": [
+        {
+          "mode": "Campaign",
+          "playStyle": "Progressão",
+          "goal": "Avance por desafios estruturados de rio e aprenda a jogabilidade principal.",
+          "players": "Solo ou cooperativo",
+          "bestFor": "Novos jogadores que querem progressão constante e prática de controle da jangada."
+        },
+        {
+          "mode": "Raft Race",
+          "playStyle": "Competitivo",
+          "goal": "Corra contra outra equipe rio abaixo e chegue primeiro à linha de chegada.",
+          "players": "1v1, 2v2, 3v3 ou 4v4",
+          "bestFor": "Grupos competitivos que querem um desafio direto de equipe contra equipe."
+        },
+        {
+          "mode": "Endless River",
+          "playStyle": "Resistência",
+          "goal": "Continue navegando o rio pelo máximo de tempo que sua equipe aguentar.",
+          "players": "Solo ou cooperativo",
+          "bestFor": "Treinos e para testar quanto tempo uma tripulação consegue sobreviver."
+        },
+        {
+          "mode": "Daily River",
+          "playStyle": "Desafio Diário",
+          "goal": "Encare o desafio diário rotativo do rio e busque uma boa colocação.",
+          "players": "Solo ou cooperativo",
+          "bestFor": "Jogadores que querem um desafio recorrente e renovado com os amigos."
+        }
+      ]
+    },
+    "fartWithYourFriendsMultiplayerGuide": {
+      "title": "Guia Multijogador de Fart With Your Friends",
+      "displayType": "steps",
+      "eyebrow": "Multijogador",
+      "subtitle": "Configure uma sessão compartilhada no Roblox, entre no mesmo servidor e coordene sua equipe de jangada.",
+      "intro": "As partidas multijogador funcionam melhor quando todos entram na mesma experiência e combinam um plano antes de a jangada se mover. Raft Race suporta formatos de equipe de 1v1 a 4v4, então avisos claros fazem diferença em salas competitivas.",
+      "steps": [
+        {
+          "title": "Adicione ou Selecione Seus Amigos",
+          "description": "Certifique-se de que os jogadores que deseja convidar estão disponíveis no Roblox antes de iniciar a sessão.",
+          "tip": "Decida quem entra em qual equipe antes de entrar em uma partida competitiva."
+        },
+        {
+          "title": "Entrem no Mesmo Jogo",
+          "description": "Abra Fart With Your Friends e use os recursos de grupo ou entrada do Roblox para que todos caiam na mesma experiência.",
+          "tip": "Confirme que todos os amigos carregaram a sessão antes de escolher um modo."
+        },
+        {
+          "title": "Selecione uma Atividade Multijogador",
+          "description": "Escolha uma atividade cooperativa de rio ou entre em Raft Race para um desafio de equipe contra equipe.",
+          "tip": "Pratiquem juntos primeiro e mudem para Raft Race quando a tripulação estiver pronta."
+        },
+        {
+          "title": "Formem as Equipes",
+          "description": "Organize os jogadores nos formatos disponíveis de Raft Race, de 1v1 a 4v4.",
+          "tip": "Mantenha os times com tamanhos iguais quando possível para a corrida ficar equilibrada."
+        },
+        {
+          "title": "Combinem os Comandos da Jangada",
+          "description": "Escolha um jogador ou um pequeno grupo para avisar curvas, reações a obstáculos e mudanças de direção.",
+          "tip": "Avisos curtos como esquerda, direita, devagar ou vira mantêm as reações rápidas."
+        },
+        {
+          "title": "Encarem o Desafio Juntos",
+          "description": "Coordenem o movimento da jangada, observem o rio à frente e ajustem o plano quando surgirem obstáculos ou trechos difíceis.",
+          "tip": "Uma direção compartilhada vale mais que cada jogador agindo por conta própria."
+        }
+      ],
+      "teamFormatsLabel": "Formatos de Equipe do Raft Race",
+      "teamFormats": [
+        "1v1",
+        "2v2",
+        "3v3",
+        "4v4"
+      ]
+    },
+    "fartWithYourFriendsRaftsGuide": {
+      "title": "Guia de Jangadas de Fart With Your Friends",
+      "displayType": "table",
+      "eyebrow": "Guia de Jangadas",
+      "subtitle": "Compare todas as jangadas publicadas em Fart With Your Friends por tema, obtenção e disponibilidade.",
+      "intro": "Este guia organiza o elenco de jangadas anunciado para Fart With Your Friends, separando o roster padrão das jangadas de evento e das próximas adições, para que você sempre saiba o que está disponível agora.",
+      "tableHeaders": {
+        "raft": "Jangada",
+        "theme": "Tema e Aparência",
+        "howToGet": "Como Obter",
+        "availability": "Disponibilidade",
+        "note": "Nota Comparativa"
+      },
+      "rows": [
+        {
+          "raft": "Jangadas Padrão",
+          "theme": "Os designs básicos de jangada inflável disponíveis desde o primeiro dia",
+          "howToGet": "Desbloqueadas jogando normalmente pela página oficial do jogo",
+          "availability": "Sempre disponíveis",
+          "note": "O principal ponto de referência ao comparar qualquer outra jangada"
+        },
+        {
+          "raft": "Jangadas de Evento — Candy Cane, Jack-o'-Lantern, Toxic Slime",
+          "theme": "Visuais de eventos sazonais, de listras de bala a rostos de abóbora iluminados e skins verde-lodo",
+          "howToGet": "Obtidas através do evento ou promoção em andamento anunciados pela HSF Studios",
+          "availability": "Limitadas ao período do evento",
+          "note": "Garanta as jangadas de evento antes do fim — são as montarias mais raras do elenco"
+        },
+        {
+          "raft": "Próximas Jangadas",
+          "theme": "Novos temas anunciados para atualizações futuras",
+          "howToGet": "Siga as instruções oficiais de lançamento quando forem publicadas",
+          "availability": "Chegando em atualizações futuras",
+          "note": "Acompanhe o módulo de Atualizações abaixo para que nenhuma jangada nova passe despercebida"
+        }
+      ]
+    },
+    "fartWithYourFriendsAnimalsGuide": {
+      "title": "Guia de Animais de Fart With Your Friends",
+      "displayType": "cardList",
+      "eyebrow": "Animais e Bichinhos",
+      "subtitle": "Veja todos os companheiros animais de Fart With Your Friends e como funciona cada desbloqueio.",
+      "intro": "Este guia reúne os companheiros animais anunciados para Fart With Your Friends — das mais recentes adições Pinguim, Raposa e Gato aos próximos anúncios — para que você sempre saiba quem está nadando ao lado da sua jangada.",
+      "cards": [
+        {
+          "name": "Companheiros Animais",
+          "category": "Disponíveis Agora",
+          "appearance": "O elenco oficial de animais, incluindo as adições Pinguim, Raposa e Gato",
+          "unlockCondition": "Desbloqueados pelos métodos mostrados na página oficial do jogo",
+          "limitedStatus": "Roster permanente"
+        },
+        {
+          "name": "Animais de Evento",
+          "category": "Tempo Limitado",
+          "appearance": "Companheiros animais ligados a eventos sazonais e promoções",
+          "unlockCondition": "Obtidos durante o período do evento anunciado pela HSF Studios",
+          "limitedStatus": "Disponibilidade limitada ao evento"
+        },
+        {
+          "name": "Próximos Animais",
+          "category": "Em Breve",
+          "appearance": "Novos designs de animais revelados por comunicados oficiais",
+          "unlockCondition": "Chegam com a atualização relacionada assim que for ao ar",
+          "limitedStatus": "Anunciados, chegando em breve"
+        }
+      ]
+    },
+    "fartWithYourFriendsHalloweenEvent": {
+      "title": "Evento de Halloween de Fart With Your Friends",
+      "displayType": "cardList",
+      "eyebrow": "Evento por Tempo Limitado",
+      "subtitle": "Explore o Cemitério Assombrado, enfrente o Fart Phantom e garanta o pacote de Halloween por tempo limitado.",
+      "intro": "O Evento de Halloween traz conteúdo sazonal para Fart With Your Friends: um novo local assombrado, um encontro assustador e um pacote temático. Veja o que está no ar e o que esperar quando o evento terminar.",
+      "cards": [
+        {
+          "name": "Cemitério Assombrado",
+          "type": "Local do Evento",
+          "description": "Um local com tema de Halloween adicionado ao jogo para o evento, cheio de atmosfera assustadora e desafios de descida de jangada.",
+          "availability": "Disponível durante o Evento de Halloween",
+          "afterEvent": "Retorna apenas se a HSF Studios o trouxer de volta em um evento futuro"
+        },
+        {
+          "name": "Fart Phantom",
+          "type": "Personagem do Evento",
+          "description": "A estrela do anúncio de Halloween — uma presença fantasmagórica que assombra o conteúdo do evento.",
+          "availability": "Disponível durante o Evento de Halloween",
+          "afterEvent": "Uma aparição por tempo limitado que segue a programação oficial do evento"
+        },
+        {
+          "name": "Pacote de Halloween",
+          "type": "Pacote por Tempo Limitado",
+          "description": "Um pacote temático repleto de cosméticos e conteúdo de Halloween para o evento.",
+          "availability": "Disponível por tempo limitado",
+          "afterEvent": "Sai da loja quando o evento termina, a menos que a HSF Studios anuncie um retorno"
+        }
+      ]
+    },
+    "fartWithYourFriendsUpdatesNews": {
+      "title": "Atualizações e Notícias Oficiais de Fart With Your Friends",
+      "displayType": "accordion",
+      "eyebrow": "Notícias Oficiais",
+      "subtitle": "Acompanhe novos modos, animais, jangadas, personagens e mudanças de gameplay da HSF Studios.",
+      "intro": "Este módulo é a porta de entrada da página inicial para tudo de novo em Fart With Your Friends, separando o conteúdo no ar dos próximos anúncios para que você nunca perca um lançamento.",
+      "entries": [
+        {
+          "title": "Novos Modos",
+          "status": "Disponíveis + Futuros",
+          "content": "Toda adição de modo aparece aqui — do line-up de Campaign, Raft Race, Endless River e Daily River a futuras revelações de modos.",
+          "topics": [
+            "Lançamentos de modos",
+            "Anúncios de modos",
+            "Mudanças nas regras de gameplay"
+          ]
+        },
+        {
+          "title": "Animais, Jangadas e Personagens",
+          "status": "Disponíveis + Futuros",
+          "content": "Acompanhe o elenco crescente: os animais Pinguim, Raposa e Gato, jangadas como Candy Cane, Toxic Slime e Jack-o'-Lantern, e cada novo personagem lançado.",
+          "topics": [
+            "Adições de animais",
+            "Adições de jangadas",
+            "Adições de personagens"
+          ]
+        },
+        {
+          "title": "Eventos e Ajustes de Gameplay",
+          "status": "Disponíveis + Futuros",
+          "content": "Eventos sazonais como o Evento de Halloween, além de mudanças de equilíbrio e atualizações de disponibilidade, com conteúdo no ar e futuro claramente separados.",
+          "topics": [
+            "Eventos por tempo limitado",
+            "Mudanças de gameplay",
+            "Disponibilidade de eventos"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Fart With Your Friends",
+    "titleHighlight": "FAQ",
+    "subtitle": "Respostas rápidas sobre o jogo, seus modos e este wiki.",
+    "questions": [
+      {
+        "question": "O que é Fart With Your Friends?",
+        "answer": "Fart With Your Friends é um jogo caótico de jangadas no Roblox da HSF Studios em que você guia uma jangada inflável por rios selvagens, desvia de obstáculos e compete em desafios multijogador hilários nos modos Campaign, Raft Race, Endless River e Daily River."
+      },
+      {
+        "question": "Fart With Your Friends é gratuito?",
+        "answer": "Sim. Fart With Your Friends é gratuito no Roblox — abra a página oficial do jogo, clique em jogar e em segundos você estará no rio."
+      },
+      {
+        "question": "Quantos jogadores podem correr juntos em Fart With Your Friends?",
+        "answer": "Raft Race suporta formatos de equipe de 1v1 até 4v4, então você pode duelar com um amigo ou levar uma tripulação completa de quatro por lado."
+      },
+      {
+        "question": "Quais animais podem ser desbloqueados em Fart With Your Friends?",
+        "answer": "O elenco atual inclui os companheiros Pinguim, Raposa e Gato, e a HSF Studios continua adicionando mais animais através de atualizações e eventos."
+      },
+      {
+        "question": "Fart With Your Friends tem codes?",
+        "answer": "A seção de Codes deste site acompanha todos os codes de Fart With Your Friends — quando um novo code é lançado, ele aparece aqui com suas recompensas e prazo de validade, junto de um guia de resgate passo a passo."
+      },
+      {
+        "question": "O que tem no Evento de Halloween de Fart With Your Friends?",
+        "answer": "O Evento de Halloween adiciona o local Cemitério Assombrado, o personagem Fart Phantom e um pacote de Halloween por tempo limitado — o módulo do evento acima cobre todos os detalhes."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para jogar Fart With Your Friends?",
+    "description": "Mergulhe em corridas de jangada caóticas com seus amigos no Roblox — formem equipes, sobrevivam a rios selvagens e desbloqueiem novos animais e jangadas!",
+    "joinCommunity": "Jogar no Roblox",
+    "joinGame": "Explorar Guia para Iniciantes"
+  },
+  "footer": {
+    "title": "Fart With Your Friends Wiki",
+    "description": "Seu centro completo de recursos para codes, modos, mapas, jangadas, animais e atualizações de Fart With Your Friends.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Fart With Your Friends Wiki. Não afiliado aos desenvolvedores de Fart With Your Friends nem à Roblox Corporation.",
+    "disclaimer": "Site de recursos não oficial, feito por fãs.",
+    "roblox": "Página Oficial no Roblox"
+  },
+  "pages": {
+    "guide": {
+      "title": "Guias de Fart With Your Friends",
+      "description": "Guias completos cobrindo instalação, controles, os quatro modos de jogo e como jogar com amigos em Fart With Your Friends.",
+      "metaTitle": "Guias de Fart With Your Friends - Modos, Controles e Configuração",
+      "metaDescription": "Guias passo a passo de Fart With Your Friends para instalação, controles, Campaign, Raft Race, Endless River, Daily River e como jogar com amigos.",
+      "categoryLabel": "GUIAS DE JOGO",
+      "whatIs": "O que são Guias?",
+      "whatIsDescription": "Tutoriais passo a passo cobrindo instalação, controles de jangada, todos os modos de jogo e configuração multijogador. Cada guia leva você da primeira inicialização a descidas confiantes no rio com os amigos.",
+      "why": "Por que ler nossos guias?",
+      "whySteps": {
+        "step1Title": "Comece Rápido",
+        "step1Description": "Instale o jogo, entre em uma sala e controle sua jangada sem confusão",
+        "step2Title": "Entenda Cada Modo",
+        "step2Description": "Saiba como Campaign, Raft Race, Endless River e Daily River se diferenciam",
+        "step3Title": "Jogue Melhor com Amigos",
+        "step3Description": "Convide amigos, preencha uma sala de 1v1 a 4v4 e coordene-se como equipe"
+      },
+      "featured": "Destaque e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "multiplayer": {
+      "title": "Multijogador de Fart With Your Friends",
+      "description": "Jogue Fart With Your Friends com amigos: convites de sala, corridas de 1v1 a 4v4, co-op online e configuração de multijogador local explicados.",
+      "metaTitle": "Multijogador de Fart With Your Friends - Jogue com Amigos",
+      "metaDescription": "Aprenda todas as formas de jogar Fart With Your Friends com amigos: convites, salas, corridas de 1v1 a 4v4, co-op online, remote play e multijogador local.",
+      "categoryLabel": "MULTIJOGADOR",
+      "whatIs": "O que é Multijogador?",
+      "whatIsDescription": "Multijogador cobre todas as formas de correr contra jogadores reais: convidar amigos para uma sala, preencher partidas de 1v1 a 4v4 e correr juntos online ou na mesma tela.",
+      "why": "Por que jogar com amigos?",
+      "whySteps": {
+        "step1Title": "Corra Contra Jogadores Reais",
+        "step1Description": "Troque a maratona solo por corridas de jangada frente a frente contra seus amigos",
+        "step2Title": "Convide em Segundos",
+        "step2Description": "Compartilhe um convite de sala e ponha todo mundo remando antes da próxima corrida começar",
+        "step3Title": "Sirva a Qualquer Grupo",
+        "step3Description": "De duelos 1v1 ao caos total de 4v4, escolha o formato que combina com sua turma"
+      },
+      "featured": "Destaque e Essenciais",
+      "all": "Todos os Guias de Multijogador"
+    },
+    "gameplay": {
+      "title": "Gameplay de Fart With Your Friends",
+      "description": "Explore o gameplay de Fart With Your Friends: quatro modos de jangada, obstáculos do rio, momentos engraçados e o que torna cada corrida diferente.",
+      "metaTitle": "Gameplay de Fart With Your Friends - Modos, Rios e Jangadas",
+      "metaDescription": "Veja como é o gameplay de Fart With Your Friends: Campaign, Raft Race, Endless River, Daily River, descidas com obstáculos, animais desbloqueáveis e jangadas.",
+      "categoryLabel": "GAMEPLAY",
+      "whatIs": "O que é Gameplay?",
+      "whatIsDescription": "Os guias de gameplay detalham como cada modo funciona: remar pelos rios, desviar de obstáculos, acelerar com pumis bem cronometrados e desbloquear novos animais e jangadas.",
+      "why": "Por que explorar o gameplay?",
+      "whySteps": {
+        "step1Title": "Conheça Seus Modos",
+        "step1Description": "Escolha entre Campaign, Raft Race, Endless River e Daily River com confiança",
+        "step2Title": "Leia o Rio",
+        "step2Description": "Aprenda padrões de obstáculos e zonas de velocidade para menos descidas terminarem na água",
+        "step3Title": "Desbloqueie Tudo",
+        "step3Description": "Acompanhe animais como Pinguim, Raposa e Gato, além de jangadas que valem a corrida"
+      },
+      "featured": "Destaque e Essenciais",
+      "all": "Todos os Artigos de Gameplay"
+    },
+    "tips": {
+      "title": "Dicas de Fart With Your Friends",
+      "description": "Dicas práticas para Fart With Your Friends: estratégias vencedoras, ideias de desafios, pegadinhas e hábitos que vencem mais corridas.",
+      "metaTitle": "Dicas de Fart With Your Friends - Vença Mais Corridas de Jangada",
+      "metaDescription": "Evolua com dicas de Fart With Your Friends: estratégias de corrida, como vencer, ideias de desafios, pegadinhas e hábitos de equipe para cada modo.",
+      "categoryLabel": "DICAS E ESTRATÉGIAS",
+      "whatIs": "O que são Dicas?",
+      "whatIsDescription": "Dicas curtas e práticas cobrindo estratégia de corrida, cronometragem de aceleração, leitura de obstáculos e ideias de desafios engraçados para experimentar com amigos em qualquer modo.",
+      "why": "Por que usar nossas dicas?",
+      "whySteps": {
+        "step1Title": "Vença Mais Corridas",
+        "step1Description": "Aplique estratégias comprovadas em corridas em vez de aprender tudo pelo caminho difícil",
+        "step2Title": "Faça Desafios Divertidos",
+        "step2Description": "Experimente pegadinhas e desafios criados por você que mantêm as salas dando risada",
+        "step3Title": "Construa Hábitos de Equipe",
+        "step3Description": "Transforme habilidade solo em coordenação de grupo para corridas 4v4"
+      },
+      "featured": "Destaque e Essenciais",
+      "all": "Todas as Dicas"
+    },
+    "steam": {
+      "title": "Fart With Your Friends na Steam",
+      "description": "Fart With Your Friends na Steam: disponibilidade da demo, informações de lançamento, multijogador no PC e configuração do Steam Remote Play Together.",
+      "metaTitle": "Fart With Your Friends Steam - Demo, Lançamento e Remote Play",
+      "metaDescription": "Tudo sobre Fart With Your Friends na Steam: status da demo, notícias de lançamento, multijogador no PC e Remote Play Together com amigos.",
+      "categoryLabel": "EDIÇÃO STEAM",
+      "whatIs": "O que é a edição Steam?",
+      "whatIsDescription": "A edição Steam traz o caos das jangadas para o PC: confira a disponibilidade da demo, acompanhe as notícias de lançamento, configure o multijogador e use o Remote Play Together para correr com os amigos.",
+      "why": "Por que acompanhar a cobertura da Steam?",
+      "whySteps": {
+        "step1Title": "Acompanhe a Demo",
+        "step1Description": "Saiba quando uma demo jogável é lançada e o que ela inclui",
+        "step2Title": "Configure no PC",
+        "step2Description": "Deixe o jogo rodando e ajustado para sessões multijogador fluidas",
+        "step3Title": "Joguem Juntos de Qualquer Lugar",
+        "step3Description": "Use o Remote Play para correr com amigos que não têm o jogo"
+      },
+      "featured": "Destaque e Essenciais",
+      "all": "Todos os Artigos da Steam"
+    },
+    "videos": {
+      "title": "Vídeos de Fart With Your Friends",
+      "description": "Assista a Fart With Your Friends em ação: vídeos de gameplay, momentos engraçados, transmissões ao vivo e melhores momentos multijogador de corridas reais.",
+      "metaTitle": "Vídeos de Fart With Your Friends - Gameplay e Momentos Engraçados",
+      "metaDescription": "Os melhores vídeos de Fart With Your Friends: partidas de gameplay, momentos engraçados, sessões ao vivo e caos multijogador de corridas reais nos rios.",
+      "categoryLabel": "VÍDEOS",
+      "whatIs": "O que são Vídeos?",
+      "whatIsDescription": "Compilações de vídeos selecionados mostrando corridas reais: partidas de gameplay, falhas engraçadas, melhores momentos multijogador e sessões ao vivo que mostram o jogo antes de você jogar.",
+      "why": "Por que assistir aos vídeos?",
+      "whySteps": {
+        "step1Title": "Veja Antes de Jogar",
+        "step1Description": "Assista a filmagens reais de corrida para saber como cada modo fica em movimento",
+        "step2Title": "Aprenda com as Partidas",
+        "step2Description": "Note como bons jogadores lidam com obstáculos, acelerações e curvas do rio",
+        "step3Title": "Compartilhe a Diversão",
+        "step3Description": "Envie os momentos mais engraçados para sua sala antes da noite de corridas"
+      },
+      "featured": "Destaque e Essenciais",
+      "all": "Todos os Vídeos"
+    }
+  }
+}

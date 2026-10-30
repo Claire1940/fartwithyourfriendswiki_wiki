@@ -1,0 +1,194 @@
+import { Map, Settings, Users, ShieldCheck, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fart With Your Friends auf Steam: Einrichtungsanleitung und Spieltipps",
+  description: "Erfahre, wie du Fart With Your Friends auf Steam findest, einrichtest und Fehler behebst – mit praktischen Tipps zur Vorbereitung von Mehrspielerpartien.",
+  category: "Steam-Anleitung",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Steam+Setup+Guide",
+  date: "2026-10-31",
+  author: "Fart With Your Friends Wiki-Team",
+  slug: "fart-with-your-friends-steam"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Bei der Suche nach Fart With Your Friends auf Steam** solltest du dich am aktuellen Steam-Store-Eintrag orientieren.
+- **Überprüfe den Titel**, bevor du das Spiel installierst, da möglicherweise ähnlich benannte Partyspiele in den Suchergebnissen erscheinen.
+- **Bereite Sprachchat** und Controller-Einstellungen vor, bevor du Freunde einlädst.
+- **Sorge für stabile Sitzungen**, indem du die Verbindung des Hosts testest und Zeit für die Fehlerbehebung einplanst.
+</Callout>
+
+<Section icon={Map} title="Fart With Your Friends auf Steam: Den richtigen Eintrag finden">
+
+Die Suche nach Fart With Your Friends auf Steam sollte mit der offiziellen Steam-Suche und den Store-Informationen beginnen. Bestätige vor der Installation den exakten Titel, Angaben zum Entwickler oder Publisher, unterstützte Funktionen und die aktuellen Systemanforderungen. So vermeidest du, das Spiel mit ähnlich benannten Mehrspieler-Erlebnissen zu verwechseln.
+
+Steam-Seiten können sich im Laufe der Zeit ändern. Betrachte daher den aktuellen Store-Eintrag als maßgebliche Quelle für Verfügbarkeit, Preis, unterstützte Betriebssysteme, Sprachoptionen und Mehrspielerfunktionen.
+
+<Callout type="tip" title="Such-Tipp">
+Verwende in der Steam-Suche den exakten Titel und vergleiche anschließend die Store-Beschreibung und Screenshots, bevor du ein Ergebnis auswählst. Verlasse dich nicht allein auf ein ähnliches Vorschaubild oder einen gekürzten Titel.
+</Callout>
+
+| Prüfung | Was zu überprüfen ist | Warum es wichtig ist |
+| --- | --- | --- |
+| Exakter Titel | Der vollständige Spielname stimmt überein | Verhindert die Installation eines ähnlich benannten Spiels |
+| Store-Seite | Entwickler, Publisher, Screenshots | Bestätigt die Identität des Eintrags |
+| Anforderungen | Aktuelle Mindest- und empfohlene Anforderungen | Hilft, Startprobleme zu vermeiden |
+| Funktionen | Mehrspieler, Controller- und Sprachunterstützung | Bestätigt, dass die Einrichtung zu eurer Gruppe passt |
+| Updates | Aktuelle Meldungen oder Patchnotes | Zeigt, ob der Eintrag aktiv gepflegt wird |
+
+<CardGrid cols={3}>
+  <Card title="Titelprüfung">
+    Vergleiche vor dem Kauf oder der Installation den vollständigen Namen, das Store-Artwork und die Entwicklerangaben.
+  </Card>
+  <Card title="Funktionsprüfung">
+    Überprüfe die Angaben zu Mehrspieler, Controller, Sprachchat und Betriebssystem für eure geplante Einrichtung.
+  </Card>
+  <Card title="Bibliotheksprüfung">
+    Stelle sicher, dass das Spiel in deiner Steam-Bibliothek erscheint und die Installation ohne Fehler abgeschlossen wird.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Settings} title="Steam-Installation und erster Start">
+
+Sobald der richtige Eintrag bestätigt ist, installiere das Spiel über Steam und führe eine kurze Prüfung beim ersten Start durch. Halte Steam aktuell, lass die Installation vollständig abschließen und schließe unnötige Anwendungen, wenn dein Computer nur über wenig freien Arbeitsspeicher oder Rechenleistung verfügt.
+
+<Callout type="warning" title="Vor dem Start">
+Gehe nicht davon aus, dass ein erfolgreicher Download automatisch eine erfolgreiche Mehrspielerpartie garantiert. Starte das Spiel zunächst allein, stelle sicher, dass das Hauptmenü geladen wird, und überprüfe zuerst die verfügbaren Eingabeeinstellungen.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Offiziellen Store-Eintrag öffnen">
+    Suche in Steam nach dem exakten Titel und prüfe die Details des Eintrags. Kontrolliere die unterstützte Plattform und die auf der aktuellen Seite angegebenen Anforderungen.
+  </Step>
+  <Step num="2" title="Über Steam installieren">
+    Füge das Spiel gegebenenfalls deiner Bibliothek hinzu, wähle ein Installationslaufwerk aus und warte, bis Steam den Download überprüft hat.
+  </Step>
+  <Step num="3" title="Einzeltest durchführen">
+    Starte das Spiel, ohne Freunde einzuladen. Stelle sicher, dass Menüs, Grafik, Audio und Eingabegeräte korrekt reagieren.
+  </Step>
+  <Step num="4" title="Einstellungen anpassen">
+    Wähle einen angenehmen Anzeigemodus, bestätige das aktive Mikrofon und konfiguriere die Steuerung, bevor du eine Gruppensitzung startest.
+  </Step>
+</Steps>
+
+| Einrichtungsbereich | Empfohlene erste Prüfung | Falls etwas nicht stimmt |
+| --- | --- | --- |
+| Installation | Steam zeigt das Spiel als spielbereit an | Steam neu starten und die lokalen Dateien überprüfen |
+| Anzeige | Menüs passen auf den Bildschirm und bleiben lesbar | Fenster- oder randlosen Modus ausprobieren |
+| Audio | Der Spielton wird an das ausgewählte Gerät ausgegeben | System- und Spielausgabe überprüfen |
+| Eingabe | Tastatur, Maus oder Controller reagiert | Gerät erneut verbinden und Tastenbelegung überprüfen |
+| Netzwerk | Steam bleibt während des Starts verbunden | Router neu starten oder eine andere Verbindung testen |
+
+<Callout type="success" title="Zuverlässige erste Sitzung">
+Ein kurzer Einzeltest beim Start spart Zeit, wenn Freunde beitreten. Behebe Probleme mit Menü, Audio und Steuerung, bevor du einen Mehrspielerraum öffnest.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Vorbereitung und Tipps für Mehrspielerpartien">
+
+Eine gute Partysitzung hängt von klarer Kommunikation und einem einfachen Plan ab. Entscheidet, wer hostet, stellt sicher, dass alle dieselbe aktuelle Version installiert haben, und legt vor dem Versenden der Einladungen die Sprachkommunikation fest.
+
+Verwende nach Möglichkeit den Host mit der stabilsten Verbindung. Wenn das Spiel Raumcodes, Einladungsfunktionen oder Lobby-Einstellungen bietet, teile nur die Informationen, die eure Gruppe benötigt, und halte die Sitzung, sofern möglich, privat.
+
+<Callout type="info" title="Gruppenplanung">
+Bestimmt einen Host, einen Ersatz-Host und einen Sprachkanal. So könnt ihr leichter reagieren, wenn die erste Lobby die Verbindung verliert oder ein Spieler erneut beitreten muss.
+</Callout>
+
+| Rolle | Verantwortung | Nützliche Gewohnheit |
+| --- | --- | --- |
+| Host | Erstellt und verwaltet die Sitzung | Lobby vor dem Einladen aller testen |
+| Spieler | Dem richtigen Raum beitreten und Steuerung prüfen | Während einer laufenden Runde keine Einstellungen ändern |
+| Sprachleitung | Erklärt das nächste Ziel | Anweisungen kurz und präzise halten |
+| Ersatz-Host | Startet die Sitzung bei Bedarf neu | Wissen, wie die Gruppe erneut eingeladen wird |
+
+Für einen reibungsloseren Start:
+
+- Lade Spieler ein, nachdem der Host die Hauptlobby erreicht hat.
+- Bitte alle zu bestätigen, dass Mikrofon und Ausgabegerät funktionieren.
+- Halte Hintergrunddownloads während der ersten Sitzung pausiert.
+- Verwende einen einheitlichen Spitznamen, damit der Host jeden Teilnehmer erkennen kann.
+- Starte die Lobby neu, wenn mehrere Spieler dasselbe Verbindungsproblem haben.
+
+<CardGrid cols={3}>
+  <Card title="Kleine Gruppe">
+    Weniger Stimmen machen Anweisungen leichter verständlich. Dieses Format eignet sich zum Erlernen der Steuerung und zum Testen der Lobby.
+  </Card>
+  <Card title="Große Gruppe">
+    Bestimme eine Person, die Ziele ansagt, damit nicht mehrere Spieler gleichzeitig sprechen.
+  </Card>
+  <Card title="Lockere Sitzung">
+    Halte die Einstellungen einfach, nutze, sofern verfügbar, kurze Runden und plane Zeit für verspätet beitretende Spieler ein.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={ShieldCheck} title="Fehlerbehebung bei Fart With Your Friends auf Steam">
+
+Wenn Fart With Your Friends nicht ordnungsgemäß startet oder keine Verbindung herstellt, solltest du jeweils nur eine Variable überprüfen. Beginne mit Steam und der Spielinstallation und prüfe anschließend lokale Geräte und Netzwerkeinstellungen. Vermeide es, mehrere Einstellungen gleichzeitig zu ändern, da sich die Ursache sonst schwerer erkennen lässt.
+
+<Callout type="warning" title="Reihenfolge bei der Fehlerbehebung">
+Starte zuerst das Spiel und Steam neu, überprüfe anschließend die Installation und kontrolliere danach Audio- und Netzwerkeinstellungen. Wenn das Problem alle Spieler betrifft, vergleicht die aktuellen Steam-Meldungen oder Support-Informationen.
+</Callout>
+
+| Symptom | Erste Maßnahme | Nächste Maßnahme |
+| --- | --- | --- |
+| Spiel startet nicht | Steam neu starten | Installierte Dateien überprüfen |
+| Schwarze oder fehlerhafte Anzeige | Anzeigemodus ändern | Grafiktreiber bei Bedarf aktualisieren |
+| Kein Spielton | Ausgabegerät überprüfen | Systemlautstärke und Spielaudio kontrollieren |
+| Mikrofon nicht verfügbar | Richtigen Eingang auswählen | Mikrofon außerhalb des Spiels testen |
+| Freunde können nicht beitreten | Lobby neu erstellen | Einen anderen Spieler als Host testen lassen |
+| Verbindungsabbrüche dauern an | Downloads pausieren | Eine stabilere Netzwerkverbindung testen |
+
+<Checklist
+  id="steam-session-check"
+  title="Vor dem Beitritt zu Freunden:"
+  items={[
+    "Den exakten Steam-Eintrag und die aktuelle Installation bestätigen",
+    "Das Spiel vor der Gruppensitzung einmal starten",
+    "Anzeige, Audio, Mikrofon und Steuerung testen",
+    "Einen primären Host und einen Ersatz-Host auswählen",
+    "Unnötige Downloads und Hintergrundstreams pausieren"
+  ]}
+/>
+
+<Callout type="tip" title="Schnelle Wiederherstellung">
+Wenn nur ein Spieler betroffen ist, überprüfe zuerst das Gerät dieses Spielers. Wenn alle betroffen sind, erstelle die Lobby neu und teste einen anderen Host, bevor du lokale Einstellungen änderst.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Fart With Your Friends auf Steam – FAQ">
+
+<FAQ items={[
+  {
+    question: "Wie finde ich Fart With Your Friends auf Steam?",
+    answer: "Suche in Steam nach dem exakten Titel und vergleiche vor der Installation die Store-Seite, das Artwork, die Entwicklerangaben, die unterstützten Funktionen und die aktuellen Anforderungen."
+  },
+  {
+    question: "Was sollte ich tun, bevor ich Freunde einlade?",
+    answer: "Starte das Spiel einmal, stelle sicher, dass das Hauptmenü funktioniert, teste deine Steuerung und das Audio und wähle einen Host mit stabiler Verbindung."
+  },
+  {
+    question: "Warum können Freunde meiner Steam-Sitzung nicht beitreten?",
+    answer: "Starte zunächst die Lobby neu, stelle sicher, dass alle dieselbe aktuelle Version verwenden, pausiere Hintergrunddownloads und teste einen anderen Spieler als Host, falls das Problem weiterhin besteht."
+  },
+  {
+    question: "Wo kann ich die aktuelle Verfügbarkeit und die Anforderungen prüfen?",
+    answer: "Verwende den aktuellen Steam-Store-Eintrag, um Verfügbarkeit, unterstützte Systeminformationen, Mehrspielerfunktionen und andere Details zu prüfen, die sich im Laufe der Zeit ändern können."
+  }
+]} />
+
+<Callout type="success" title="Abschließende Empfehlung">
+Betrachte den aktuellen Steam-Eintrag als maßgebliche Quelle, führe einen Einzeltest beim Start durch und bereite die Party-Lobby vor, bevor die Sitzung beginnt.
+</Callout>
+
+</Section>

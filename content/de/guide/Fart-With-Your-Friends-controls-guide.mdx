@@ -1,0 +1,234 @@
+import { Gamepad2, Settings, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fart With Your Friends-Steuerung: Einrichtung & Tipps",
+  description: "Erfahre, wie du die Steuerung konfigurierst, Eingaben testest, häufige Probleme behebst und zuverlässige Gewohnheiten in Fart With Your Friends entwickelst.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Controls+Guide",
+  date: "2026-10-31",
+  author: "Fart With Your Friends Wiki-Team",
+  slug: "fart-with-your-friends-controls-guide"
+}
+
+<Callout type="info" title="Schnellübersicht">
+- **Fart With Your Friends-Steuerung**: Überprüfe vor dem Spielen zunächst das aktive Eingabelayout.
+- **Beste Einrichtung**: Halte Bewegung, Interaktion und die Hauptaktion bequem erreichbar.
+- **Zuverlässige Eingaben**: Teste jede wichtige Taste zuerst in einer entspannten Spielsituation.
+- **Fehlerbehebung**: Überprüfe erneut die Geräteerkennung, den Fokus, die Tastenbelegung und die Controller-Priorität.
+- **Übungsziel**: Entwickle einen einfachen Rhythmus, statt dich auf hektische Tastendrücke zu verlassen.
+</Callout>
+
+<Section icon={Gamepad2} title="Fart With Your Friends-Steuerung: Grundeinrichtung">
+
+Die Planung deiner Fart With Your Friends-Steuerung beginnt mit einer einfachen Regel: Überprüfe das aktive Steuerungsschema, bevor du ein ernsthaftes Match startest. Die genauen Bezeichnungen und verfügbaren Belegungen können von deiner Plattform, deinem Eingabegerät, der Version und den lokalen Einstellungen abhängen. Deshalb konzentriert sich dieser Leitfaden auf zuverlässige Einrichtungsgewohnheiten statt auf unbestätigte Aussagen zu einzelnen Tasten.
+
+Öffne das Steuerungs- oder Einstellungsmenü über den Startbildschirm oder das Pausenmenü. Suche nach dem Bereich, in dem Tastatur-, Controller- oder Eingabebelegungen angezeigt werden. Bestätige, welches Gerät derzeit aktiv ist, und teste anschließend die Aktionen, die du am häufigsten verwenden möchtest. Ein Steuerungslayout ist komfortabel, wenn du dich bewegen, reagieren und interagieren kannst, ohne den Blick wiederholt vom Spielgeschehen abwenden zu müssen.
+
+| Steuerungsgruppe | Was zu überprüfen ist | Empfohlenes Ziel |
+|---|---|---|
+| Bewegung | Richtungseingabe und Empfindlichkeit | Gleichmäßige Bewegung ohne unbeabsichtigtes Anhalten |
+| Hauptaktion | Primäre Taste oder Schaltfläche | Während der Bewegung leicht erreichbar |
+| Interaktion | Bestätigen, Verwenden oder Kontextaktion | Klare Trennung von Abbrechen |
+| Kamera oder Ansicht | Stick-, Maus- oder Richtungsteuerung | Komfortables Verfolgen bei normaler Geschwindigkeit |
+| Menünavigation | Auswählen-, Zurück- und Pauseneingaben | Zuverlässiger Zugriff ohne widersprüchliche Belegungen |
+
+<CardGrid cols={3}>
+  <Card title="Tastatureinrichtung">
+    - Halte den wichtigsten Bewegungsbereich komfortabel.
+    - Platziere die Hauptaktion in der Nähe deiner stärksten Bewegungsfinger.
+    - Vermeide es, zu viele Tasten gleichzeitig neu zu belegen.
+  </Card>
+  <Card title="Controller-Einrichtung">
+    - Bestätige, dass der richtige Controller erkannt wird.
+    - Überprüfe Trigger-, Bumper-, Gesichtstasten- und Stick-Eingaben.
+    - Teste die Vibration getrennt von den wichtigen Steuerungen.
+  </Card>
+  <Card title="Einrichtung für gemeinsames Spielen">
+    - Gib jedem Spieler Zeit, sein Gerät zu identifizieren.
+    - Vermeide es, Geräte nach Beginn einer Runde zu wechseln.
+    - Bestätige, dass jeder Spieler sicher pausieren oder das Spiel verlassen kann.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Praktischer Einrichtungstipp">
+Ändere jeweils nur eine Belegung, teste sie sofort und notiere dir das Layout, das sich natürlich anfühlt. Bei umfangreichen Änderungen ist es schwieriger, die Ursache eines Eingabeproblems zu erkennen.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Steuerung vor dem Spielen konfigurieren">
+
+Eine kurze Konfigurationsroutine verhindert die meisten vermeidbaren Fehler. Warte nicht bis zu einer wichtigen Runde, um festzustellen, dass das Spiel den falschen Controller erkennt oder eine Aktion einer unbequemen Taste zugewiesen ist. Verwende das Einstellungsmenü als Testbereich, statt es nur als Ort für kosmetische Änderungen zu betrachten.
+
+Die nützlichste Einrichtung ist normalerweise diejenige, die Zögern minimiert. Wenn zwei Aktionen schnell nacheinander verwendet werden, platziere sie so, dass deine Hand natürlich zwischen ihnen wechseln kann. Wenn eine Aktion nur gelegentlich, aber dennoch wichtig ist, wähle eine Taste, die leicht zu finden ist, ohne versehentlich gedrückt zu werden.
+
+<Steps>
+  <Step num="1" title="Aktives Gerät identifizieren">
+    Schließe die Tastatur, den Controller oder ein anderes unterstütztes Eingabegerät an, bevor du eine Sitzung startest. Überprüfe, welches Gerät reagiert, wenn du durch das Menü navigierst. Wenn mehr als ein Gerät angeschlossen ist, teste sie einzeln, damit du weißt, welchem Spieler welche Eingabe zugewiesen ist.
+  </Step>
+  <Step num="2" title="Belegungsliste überprüfen">
+    Öffne die Steuerungseinstellungen und lies jede wichtige Aktion durch. Achte besonders auf Bewegung, die Hauptaktion, Interaktion, Bestätigen, Abbrechen, Pause sowie Kamera- oder Ansichtssteuerungen. Gehe nicht davon aus, dass ein vertrautes Layout aktiv ist.
+  </Step>
+  <Step num="3" title="Für bessere Erreichbarkeit neu belegen">
+    Verschiebe die am häufigsten verwendete Aktion näher an die Hand, die du für die Bewegung nutzt, wenn die Standardposition zu Verzögerungen führt. Behalte eine separate Eingabe zum Abbrechen oder Zurückgehen bei, damit Menüfehler nicht zur Gewohnheit werden.
+  </Step>
+  <Step num="4" title="In einer sicheren Situation testen">
+    Begib dich in einen entspannten Bereich, eine Übungssitzung oder eine lockere Runde. Drücke jede wichtige Aktion mehrmals, während du dich bewegst, anhältst, drehst und ein Menü öffnest. Achte auf verpasste Eingaben und versehentliche Aktivierungen.
+  </Step>
+  <Step num="5" title="Speichern und erneut überprüfen">
+    Bestätige, dass die Einstellungen gespeichert wurden, kehre anschließend ins Spiel zurück und teste das Layout noch einmal. Wenn das Spiel Profile anbietet, behalte ein vertrautes Layout bei, bevor du mit einem neuen experimentierst.
+  </Step>
+</Steps>
+
+| Einrichtungskontrolle | Erfolgsbedingung | Falls sie fehlschlägt |
+|---|---|---|
+| Geräteerkennung | Das gewünschte Gerät steuert das Menü | Trenne andere Geräte und verbinde das bevorzugte Gerät erneut |
+| Hauptaktion | Die Aktion reagiert jedes Mal | Überprüfe die Belegung, den Zustand der Taste und den Fokus |
+| Bewegung | Richtungsänderungen fühlen sich vorhersehbar an | Verringere die Empfindlichkeit oder teste eine andere Eingabemethode |
+| Menüsteuerung | Bestätigen und Abbrechen sind getrennt | Stelle die Standardeinstellungen wieder her und belege nur wichtige Aktionen neu |
+| Speicherverhalten | Änderungen bleiben nach dem Verlassen der Einstellungen erhalten | Wende die Änderungen an und öffne den Einstellungsbildschirm erneut |
+
+<Callout type="warning" title="Änderungen während der Runde vermeiden">
+Das Ändern von Belegungen während des aktiven Spiels kann zu Verwirrung führen, besonders wenn mehrere Spieler einen Bildschirm oder Gerätebereich gemeinsam nutzen. Beende die Runde, passe das Layout an und teste es, bevor du weiterspielst.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Timing und Eingabepräzision verbessern">
+
+Eine gute Steuerung hängt nicht nur von der Tastenposition ab. Timing, Handposition und Beständigkeit bestimmen, ob sich eine Eingabe zuverlässig anfühlt. Beginne damit, den Rhythmus einer Aktion zu lernen, statt wiederholt jede Taste in der Nähe zu drücken. Hektische Eingaben können zu Zögern, versehentlichen Menüauswahlen oder verpassten Gelegenheiten führen.
+
+Verwende eine kurze Übungsschleife:
+
+- Bewege dich in eine Richtung, halte an und wiederhole den Vorgang.
+- Führe die Hauptaktion im Stillstand aus.
+- Führe sie direkt nach einem Richtungswechsel erneut aus.
+- Öffne und schließe das Menü, ohne auf die Tastatur oder den Controller zu schauen.
+- Wiederhole die Abfolge mit derselben Handposition.
+
+Vermeide es als Controller-Spieler, das Gerät so fest zu umklammern, dass kleine Stickbewegungen übertrieben ausfallen. Halte deine Finger als Tastaturspieler nahe am Bewegungsbereich und strecke dich in hektischen Momenten nicht nach weit entfernten Tasten. Wenn das Spiel eine Kamera- oder Ansichtssteuerung bietet, beginne mit einer mittleren Empfindlichkeit. Erhöhe sie erst, wenn du Bewegungen verfolgen kannst, ohne zu stark gegenzusteuern.
+
+| Übung | Zweck | Zeichen für Erfolg |
+|---|---|---|
+| Stop-and-go-Bewegung | Kontrolliert das Anfahren und Anhalten | Deine Figur hält wie erwartet an |
+| Richtungswechsel | Testet schnelle Übergänge | Drehungen fühlen sich nicht verzögert oder übertrieben an |
+| Aktion während der Bewegung | Überprüft die Tastenreichweite | Die Aktion unterbricht die Bewegung nicht unbeabsichtigt |
+| Menürehearsal | Stärkt die Sicherheit bei der Navigation | Bestätigen und Abbrechen fühlen sich automatisch an |
+| Wiederholte Eingabe | Findet ungleichmäßige Tastendrücke | Derselbe Befehl erzeugt dieselbe Reaktion |
+
+<CardGrid cols={3}>
+  <Card title="Für neue Spieler">
+    Übe jeweils nur eine Aktion. In den ersten Sitzungen sind Komfort und Beständigkeit wichtiger als Geschwindigkeit.
+  </Card>
+  <Card title="Für wiederkehrende Spieler">
+    Überprüfe dein Layout nach Updates, Gerätewechseln oder längeren Pausen erneut. Vertrautheit kann kleine Konfigurationsänderungen verbergen.
+  </Card>
+  <Card title="Für Gruppen">
+    Verwende für jeden Spieler dieselbe Testroutine. Ein gemeinsamer Ablauf verringert Diskussionen darüber, ob ein Gerät korrekt funktioniert.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Beständigkeit schlägt Komplexität">
+Ein einfaches Layout, das du unter Druck wiederholen kannst, ist normalerweise nützlicher als ein stark angepasstes Layout mit vielen speziellen Belegungen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufige Steuerungsprobleme beheben">
+
+Wenn eine Eingabe fehlschlägt, grenze das Problem ein, bevor du mehrere Einstellungen änderst. Ermittle zuerst, ob die Störung eine einzelne Aktion, ein einzelnes Gerät, einen einzelnen Spieler oder das gesamte Spiel betrifft. Dadurch wird die Fehlerbehebung schneller und du vermeidest, ein komfortables Layout unnötig zu ersetzen.
+
+Verwende die folgende Diagnose-Reihenfolge:
+
+| Symptom | Wahrscheinlicher Prüfbereich | Empfohlene Reaktion |
+|---|---|---|
+| Überhaupt keine Eingabe | Geräteverbindung oder Spielfokus | Verbinde das Gerät erneut und klicke zurück in das Spielfenster |
+| Eine Aktion funktioniert nicht | Belegung oder physische Taste | Weise die Aktion vorübergehend einer anderen Eingabe zu |
+| Der falsche Spieler reagiert | Gerätepriorität oder Zuweisung | Trenne nicht verwendete Geräte und verbinde sie in Spielerreihenfolge erneut |
+| Bewegung fühlt sich instabil an | Stick, Taste oder Empfindlichkeitseinstellung | Teste eine andere Eingabe und verringere, falls möglich, die Empfindlichkeit |
+| Einstellungen werden zurückgesetzt | Speicher- oder Profilverhalten | Wende die Änderungen an, verlasse das Menü und überprüfe sie erneut |
+| Verzögerte Reaktion | Systemauslastung, Verbindung oder Anzeigeverzögerung | Schließe unnötige Anwendungen und teste lokal |
+
+Wenn ein Controller nicht erkannt wird, trenne zusätzliche Controller und Eingabegeräte, bevor du das gewünschte Gerät erneut verbindest. Wenn eine Tastatureingabe in Menüs funktioniert, aber nicht während des Spiels, bestätige, dass das Spielfenster den Fokus hat. Wenn eine Taste unzuverlässig reagiert, weise die Aktion vorübergehend einer anderen Taste zu. So kannst du ein Softwareproblem bei der Belegung von einem Hardwareproblem unterscheiden.
+
+Teste beim gemeinsamen Spielen die Geräte in derselben Reihenfolge, in der die Spieler sie verwenden werden. Gehe nicht davon aus, dass das zuerst verbundene Gerät immer zum ersten Spieler wird. Das Spiel kann die Verbindungsreihenfolge, die Menüauswahl oder das Gerät priorisieren, das die erste Eingabe liefert.
+
+<Checklist
+  id="controls-troubleshooting"
+  title="Vor dem Start einer weiteren Sitzung:"
+  items={[
+    "Bestätige, dass die gewünschte Tastatur oder der gewünschte Controller erkannt wird",
+    "Überprüfe die Eingaben für Bewegung, Hauptaktion, Interaktion, Bestätigen und Abbrechen",
+    "Stelle sicher, dass jeder Spieler dem richtigen Gerät zugewiesen ist",
+    "Teste neu belegte Steuerungen außerhalb einer wichtigen Runde",
+    "Speichere das Layout und bestätige, dass es weiterhin aktiv ist"
+  ]}
+/>
+
+<Callout type="warning" title="Die Reihenfolge der Fehlerbehebung ist wichtig">
+Setze nicht sofort jede Einstellung zurück. Teste Gerät, Fokus, Belegung und Zuweisung in dieser Reihenfolge, damit du wichtige Informationen über das Problem erhältst.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Eine zuverlässige Steuerungsroutine entwickeln">
+
+Sobald dein Layout funktioniert, solltest du es stabil halten. Wiederholte Änderungen an der Steuerung können den Lernfortschritt verlangsamen, weil deine Hände keine gleichmäßigen Bewegungsmuster entwickeln. Speichere eine bevorzugte Anordnung, notiere ungewöhnliche Belegungen und verwende bei jedem Gerätewechsel dieselbe Aufwärmsequenz.
+
+Eine nützliche Routine dauert nur wenige Minuten:
+
+1. Navigiere mit dem vorgesehenen Gerät durch das Menü.
+2. Teste die Bewegung in jede Richtung.
+3. Führe die Hauptaktion im Stillstand aus.
+4. Kombiniere Bewegung und Aktion.
+5. Öffne und schließe das Menü.
+6. Beginne eine lockere Runde, bevor du anspruchsvolleres Spielen versuchst.
+
+| Routinephase | Zeitlicher Schwerpunkt | Ziel |
+|---|---|---|
+| Geräteprüfung | Vor dem Start | Den richtigen Spieler und die richtige Eingabe bestätigen |
+| Belegungsprüfung | Erste Minute | Wichtige Aktionen überprüfen |
+| Bewegungsaufwärmung | Eine kurze Abfolge | Steifheit und Überkorrektur vermeiden |
+| Aktionsprobe | Mehrere Wiederholungen | Vorhersehbares Timing entwickeln |
+| Spieleinstieg | Nach dem Test | Erst spielen, wenn sich das Layout stabil anfühlt |
+
+Behalte die Barrierefreiheit im Blick. Wenn eine Standardsteuerung eine unbequeme Reichweite erfordert, belege sie frühzeitig neu. Wenn die Empfindlichkeit unerwünschte Bewegungen verursacht, passe sie schrittweise an, statt eine große Änderung vorzunehmen. Wenn mehrere Spieler unterschiedliche Bedürfnisse haben, sollte jeder ein Layout verwenden können, das komfortables Spielen ermöglicht und gleichzeitig dieselben wichtigen Aktionen beibehält.
+
+<Callout type="tip" title="Empfehlung der Redaktion">
+Behandle dein bevorzugtes Steuerungslayout wie eine gespeicherte Ausrüstung: Nimm kleine Verbesserungen vor, teste sie in lockeren Partien und behalte eine bewährte Version bei.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fart With Your Friends-Steuerungs-FAQ">
+
+<FAQ items={[
+  {
+    question: "Was ist das beste Steuerungslayout für Fart With Your Friends?",
+    answer: "Das beste Layout ist dasjenige, bei dem Bewegung, die Hauptaktion und Interaktion bequem erreichbar sind. Beginne mit dem Standardlayout, teste es und belege nur die Aktionen neu, die zu Verzögerungen oder versehentlichen Tastendrücken führen."
+  },
+  {
+    question: "Sollte ich eine Tastatur oder einen Controller verwenden?",
+    answer: "Wähle das Gerät, mit dem du dich am gleichmäßigsten bewegen kannst und wichtige Aktionen am einfachsten erreichst. Teste beide, falls verfügbar, aber wechsle während des Übens nicht ständig, da sich das Muskelgedächtnis sonst langsamer entwickelt."
+  },
+  {
+    question: "Warum reagiert meine Steuerung nicht?",
+    answer: "Überprüfe die Geräteverbindung, den Spielfokus, die aktive Spielerzuweisung und die einzelnen Belegungen. Trenne nicht verwendete Geräte, verbinde die gewünschte Eingabe erneut und teste jeweils eine Aktion, bevor du das gesamte Layout zurücksetzt."
+  },
+  {
+    question: "Sollte ich die Steuerung während einer Runde ändern?",
+    answer: "Es ist sicherer, die Runde zu beenden, bevor du Belegungen änderst. Änderungen während der Runde können zu Verwirrung führen, besonders beim gemeinsamen Spielen. Passe das Layout im Einstellungsmenü an, speichere es und teste es in einer lockeren Sitzung."
+  }
+]} />
+
+<Callout type="info" title="Abschließende Erinnerung">
+Eine zuverlässige Einrichtung entsteht durch Überprüfung, kleine Anpassungen und wiederholtes Üben. Verwende diesen Fart With Your Friends-Steuerungsleitfaden immer dann, wenn du Geräte wechselst, dein Layout aktualisierst oder nach einer längeren Pause zurückkehrst.
+</Callout>
+
+</Section>

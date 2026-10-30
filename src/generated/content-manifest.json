@@ -1,1 +1,698 @@
-{}
+{
+  "de": {
+    "gameplay": [
+      {
+        "slug": "Fart-With-Your-Friends-best-moments",
+        "file": "Fart-With-Your-Friends-best-moments"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-crazy-chaos",
+        "file": "Fart-With-Your-Friends-crazy-chaos"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-demo-gameplay",
+        "file": "Fart-With-Your-Friends-demo-gameplay"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-funny-moments",
+        "file": "Fart-With-Your-Friends-funny-moments"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-game-modes",
+        "file": "Fart-With-Your-Friends-game-modes"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-gameplay-with-friends",
+        "file": "Fart-With-Your-Friends-gameplay-with-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-gameplay",
+        "file": "Fart-With-Your-Friends-gameplay"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Fart-With-Your-Friends-beginner-guide",
+        "file": "Fart-With-Your-Friends-beginner-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-controls-guide",
+        "file": "Fart-With-Your-Friends-controls-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-how-to-join-friends",
+        "file": "Fart-With-Your-Friends-how-to-join-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-how-to-play",
+        "file": "Fart-With-Your-Friends-how-to-play"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-lobby-invite-guide",
+        "file": "Fart-With-Your-Friends-lobby-invite-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-multiplayer-guide",
+        "file": "Fart-With-Your-Friends-multiplayer-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-remote-play-guide",
+        "file": "Fart-With-Your-Friends-remote-play-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-setup-guide",
+        "file": "Fart-With-Your-Friends-setup-guide"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "Fart-With-Your-Friends-friends-lobby",
+        "file": "Fart-With-Your-Friends-friends-lobby"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-invite-friends",
+        "file": "Fart-With-Your-Friends-invite-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-local-multiplayer",
+        "file": "Fart-With-Your-Friends-local-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-multiplayer",
+        "file": "Fart-With-Your-Friends-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-online-co-op",
+        "file": "Fart-With-Your-Friends-online-co-op"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-online-multiplayer",
+        "file": "Fart-With-Your-Friends-online-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-play-with-friends",
+        "file": "Fart-With-Your-Friends-play-with-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-remote-play",
+        "file": "Fart-With-Your-Friends-remote-play"
+      }
+    ],
+    "steam": [
+      {
+        "slug": "Fart-With-Your-Friends-steam-demo",
+        "file": "Fart-With-Your-Friends-steam-demo"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-gameplay",
+        "file": "Fart-With-Your-Friends-steam-gameplay"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-multiplayer",
+        "file": "Fart-With-Your-Friends-steam-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-release",
+        "file": "Fart-With-Your-Friends-steam-release"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-remote-play",
+        "file": "Fart-With-Your-Friends-steam-remote-play"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam",
+        "file": "Fart-With-Your-Friends-steam"
+      }
+    ],
+    "tips": [
+      {
+        "slug": "Fart-With-Your-Friends-best-strategies",
+        "file": "Fart-With-Your-Friends-best-strategies"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-challenges",
+        "file": "Fart-With-Your-Friends-challenges"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-funny-challenges",
+        "file": "Fart-With-Your-Friends-funny-challenges"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-how-to-win",
+        "file": "Fart-With-Your-Friends-how-to-win"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-prank-ideas",
+        "file": "Fart-With-Your-Friends-prank-ideas"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-tips",
+        "file": "Fart-With-Your-Friends-tips"
+      }
+    ],
+    "videos": [
+      {
+        "slug": "Fart-With-Your-Friends-YouTube-video",
+        "file": "Fart-With-Your-Friends-YouTube-video"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-funny-video",
+        "file": "Fart-With-Your-Friends-funny-video"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-gameplay-video",
+        "file": "Fart-With-Your-Friends-gameplay-video"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-live-gameplay",
+        "file": "Fart-With-Your-Friends-live-gameplay"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-multiplayer-moments",
+        "file": "Fart-With-Your-Friends-multiplayer-moments"
+      }
+    ]
+  },
+  "en": {
+    "gameplay": [
+      {
+        "slug": "Fart-With-Your-Friends-best-moments",
+        "file": "Fart-With-Your-Friends-best-moments"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-crazy-chaos",
+        "file": "Fart-With-Your-Friends-crazy-chaos"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-demo-gameplay",
+        "file": "Fart-With-Your-Friends-demo-gameplay"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-funny-moments",
+        "file": "Fart-With-Your-Friends-funny-moments"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-game-modes",
+        "file": "Fart-With-Your-Friends-game-modes"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-gameplay-with-friends",
+        "file": "Fart-With-Your-Friends-gameplay-with-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-gameplay",
+        "file": "Fart-With-Your-Friends-gameplay"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Fart-With-Your-Friends-beginner-guide",
+        "file": "Fart-With-Your-Friends-beginner-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-controls-guide",
+        "file": "Fart-With-Your-Friends-controls-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-how-to-join-friends",
+        "file": "Fart-With-Your-Friends-how-to-join-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-how-to-play",
+        "file": "Fart-With-Your-Friends-how-to-play"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-lobby-invite-guide",
+        "file": "Fart-With-Your-Friends-lobby-invite-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-multiplayer-guide",
+        "file": "Fart-With-Your-Friends-multiplayer-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-remote-play-guide",
+        "file": "Fart-With-Your-Friends-remote-play-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-setup-guide",
+        "file": "Fart-With-Your-Friends-setup-guide"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "Fart-With-Your-Friends-friends-lobby",
+        "file": "Fart-With-Your-Friends-friends-lobby"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-invite-friends",
+        "file": "Fart-With-Your-Friends-invite-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-local-multiplayer",
+        "file": "Fart-With-Your-Friends-local-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-multiplayer",
+        "file": "Fart-With-Your-Friends-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-online-co-op",
+        "file": "Fart-With-Your-Friends-online-co-op"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-online-multiplayer",
+        "file": "Fart-With-Your-Friends-online-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-play-with-friends",
+        "file": "Fart-With-Your-Friends-play-with-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-remote-play",
+        "file": "Fart-With-Your-Friends-remote-play"
+      }
+    ],
+    "steam": [
+      {
+        "slug": "Fart-With-Your-Friends-steam-demo",
+        "file": "Fart-With-Your-Friends-steam-demo"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-gameplay",
+        "file": "Fart-With-Your-Friends-steam-gameplay"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-multiplayer",
+        "file": "Fart-With-Your-Friends-steam-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-release",
+        "file": "Fart-With-Your-Friends-steam-release"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-remote-play",
+        "file": "Fart-With-Your-Friends-steam-remote-play"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam",
+        "file": "Fart-With-Your-Friends-steam"
+      }
+    ],
+    "tips": [
+      {
+        "slug": "Fart-With-Your-Friends-best-strategies",
+        "file": "Fart-With-Your-Friends-best-strategies"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-challenges",
+        "file": "Fart-With-Your-Friends-challenges"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-funny-challenges",
+        "file": "Fart-With-Your-Friends-funny-challenges"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-how-to-win",
+        "file": "Fart-With-Your-Friends-how-to-win"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-prank-ideas",
+        "file": "Fart-With-Your-Friends-prank-ideas"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-tips",
+        "file": "Fart-With-Your-Friends-tips"
+      }
+    ],
+    "videos": [
+      {
+        "slug": "Fart-With-Your-Friends-YouTube-video",
+        "file": "Fart-With-Your-Friends-YouTube-video"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-funny-video",
+        "file": "Fart-With-Your-Friends-funny-video"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-gameplay-video",
+        "file": "Fart-With-Your-Friends-gameplay-video"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-live-gameplay",
+        "file": "Fart-With-Your-Friends-live-gameplay"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-multiplayer-moments",
+        "file": "Fart-With-Your-Friends-multiplayer-moments"
+      }
+    ]
+  },
+  "es": {
+    "gameplay": [
+      {
+        "slug": "Fart-With-Your-Friends-best-moments",
+        "file": "Fart-With-Your-Friends-best-moments"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-crazy-chaos",
+        "file": "Fart-With-Your-Friends-crazy-chaos"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-demo-gameplay",
+        "file": "Fart-With-Your-Friends-demo-gameplay"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-funny-moments",
+        "file": "Fart-With-Your-Friends-funny-moments"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-game-modes",
+        "file": "Fart-With-Your-Friends-game-modes"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-gameplay-with-friends",
+        "file": "Fart-With-Your-Friends-gameplay-with-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-gameplay",
+        "file": "Fart-With-Your-Friends-gameplay"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Fart-With-Your-Friends-beginner-guide",
+        "file": "Fart-With-Your-Friends-beginner-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-controls-guide",
+        "file": "Fart-With-Your-Friends-controls-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-how-to-join-friends",
+        "file": "Fart-With-Your-Friends-how-to-join-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-how-to-play",
+        "file": "Fart-With-Your-Friends-how-to-play"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-lobby-invite-guide",
+        "file": "Fart-With-Your-Friends-lobby-invite-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-multiplayer-guide",
+        "file": "Fart-With-Your-Friends-multiplayer-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-remote-play-guide",
+        "file": "Fart-With-Your-Friends-remote-play-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-setup-guide",
+        "file": "Fart-With-Your-Friends-setup-guide"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "Fart-With-Your-Friends-friends-lobby",
+        "file": "Fart-With-Your-Friends-friends-lobby"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-invite-friends",
+        "file": "Fart-With-Your-Friends-invite-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-local-multiplayer",
+        "file": "Fart-With-Your-Friends-local-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-multiplayer",
+        "file": "Fart-With-Your-Friends-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-online-co-op",
+        "file": "Fart-With-Your-Friends-online-co-op"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-online-multiplayer",
+        "file": "Fart-With-Your-Friends-online-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-play-with-friends",
+        "file": "Fart-With-Your-Friends-play-with-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-remote-play",
+        "file": "Fart-With-Your-Friends-remote-play"
+      }
+    ],
+    "steam": [
+      {
+        "slug": "Fart-With-Your-Friends-steam-demo",
+        "file": "Fart-With-Your-Friends-steam-demo"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-gameplay",
+        "file": "Fart-With-Your-Friends-steam-gameplay"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-multiplayer",
+        "file": "Fart-With-Your-Friends-steam-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-release",
+        "file": "Fart-With-Your-Friends-steam-release"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-remote-play",
+        "file": "Fart-With-Your-Friends-steam-remote-play"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam",
+        "file": "Fart-With-Your-Friends-steam"
+      }
+    ],
+    "tips": [
+      {
+        "slug": "Fart-With-Your-Friends-best-strategies",
+        "file": "Fart-With-Your-Friends-best-strategies"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-challenges",
+        "file": "Fart-With-Your-Friends-challenges"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-funny-challenges",
+        "file": "Fart-With-Your-Friends-funny-challenges"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-how-to-win",
+        "file": "Fart-With-Your-Friends-how-to-win"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-prank-ideas",
+        "file": "Fart-With-Your-Friends-prank-ideas"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-tips",
+        "file": "Fart-With-Your-Friends-tips"
+      }
+    ],
+    "videos": [
+      {
+        "slug": "Fart-With-Your-Friends-YouTube-video",
+        "file": "Fart-With-Your-Friends-YouTube-video"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-funny-video",
+        "file": "Fart-With-Your-Friends-funny-video"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-gameplay-video",
+        "file": "Fart-With-Your-Friends-gameplay-video"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-live-gameplay",
+        "file": "Fart-With-Your-Friends-live-gameplay"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-multiplayer-moments",
+        "file": "Fart-With-Your-Friends-multiplayer-moments"
+      }
+    ]
+  },
+  "pt": {
+    "gameplay": [
+      {
+        "slug": "Fart-With-Your-Friends-best-moments",
+        "file": "Fart-With-Your-Friends-best-moments"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-crazy-chaos",
+        "file": "Fart-With-Your-Friends-crazy-chaos"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-demo-gameplay",
+        "file": "Fart-With-Your-Friends-demo-gameplay"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-funny-moments",
+        "file": "Fart-With-Your-Friends-funny-moments"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-game-modes",
+        "file": "Fart-With-Your-Friends-game-modes"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-gameplay-with-friends",
+        "file": "Fart-With-Your-Friends-gameplay-with-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-gameplay",
+        "file": "Fart-With-Your-Friends-gameplay"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Fart-With-Your-Friends-beginner-guide",
+        "file": "Fart-With-Your-Friends-beginner-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-controls-guide",
+        "file": "Fart-With-Your-Friends-controls-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-how-to-join-friends",
+        "file": "Fart-With-Your-Friends-how-to-join-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-how-to-play",
+        "file": "Fart-With-Your-Friends-how-to-play"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-lobby-invite-guide",
+        "file": "Fart-With-Your-Friends-lobby-invite-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-multiplayer-guide",
+        "file": "Fart-With-Your-Friends-multiplayer-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-remote-play-guide",
+        "file": "Fart-With-Your-Friends-remote-play-guide"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-setup-guide",
+        "file": "Fart-With-Your-Friends-setup-guide"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "Fart-With-Your-Friends-friends-lobby",
+        "file": "Fart-With-Your-Friends-friends-lobby"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-invite-friends",
+        "file": "Fart-With-Your-Friends-invite-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-local-multiplayer",
+        "file": "Fart-With-Your-Friends-local-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-multiplayer",
+        "file": "Fart-With-Your-Friends-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-online-co-op",
+        "file": "Fart-With-Your-Friends-online-co-op"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-online-multiplayer",
+        "file": "Fart-With-Your-Friends-online-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-play-with-friends",
+        "file": "Fart-With-Your-Friends-play-with-friends"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-remote-play",
+        "file": "Fart-With-Your-Friends-remote-play"
+      }
+    ],
+    "steam": [
+      {
+        "slug": "Fart-With-Your-Friends-steam-demo",
+        "file": "Fart-With-Your-Friends-steam-demo"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-gameplay",
+        "file": "Fart-With-Your-Friends-steam-gameplay"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-multiplayer",
+        "file": "Fart-With-Your-Friends-steam-multiplayer"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-release",
+        "file": "Fart-With-Your-Friends-steam-release"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam-remote-play",
+        "file": "Fart-With-Your-Friends-steam-remote-play"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-steam",
+        "file": "Fart-With-Your-Friends-steam"
+      }
+    ],
+    "tips": [
+      {
+        "slug": "Fart-With-Your-Friends-best-strategies",
+        "file": "Fart-With-Your-Friends-best-strategies"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-challenges",
+        "file": "Fart-With-Your-Friends-challenges"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-funny-challenges",
+        "file": "Fart-With-Your-Friends-funny-challenges"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-how-to-win",
+        "file": "Fart-With-Your-Friends-how-to-win"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-prank-ideas",
+        "file": "Fart-With-Your-Friends-prank-ideas"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-tips",
+        "file": "Fart-With-Your-Friends-tips"
+      }
+    ],
+    "videos": [
+      {
+        "slug": "Fart-With-Your-Friends-YouTube-video",
+        "file": "Fart-With-Your-Friends-YouTube-video"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-funny-video",
+        "file": "Fart-With-Your-Friends-funny-video"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-gameplay-video",
+        "file": "Fart-With-Your-Friends-gameplay-video"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-live-gameplay",
+        "file": "Fart-With-Your-Friends-live-gameplay"
+      },
+      {
+        "slug": "Fart-With-Your-Friends-multiplayer-moments",
+        "file": "Fart-With-Your-Friends-multiplayer-moments"
+      }
+    ]
+  }
+}

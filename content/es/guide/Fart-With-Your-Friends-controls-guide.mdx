@@ -1,0 +1,234 @@
+import { Gamepad2, Settings, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de controles de Fart With Your Friends: configuración y consejos",
+  description: "Aprende a configurar los controles, probar las entradas, solucionar problemas comunes y desarrollar hábitos confiables en Fart With Your Friends.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Controls+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de Fart With Your Friends",
+  slug: "fart-with-your-friends-controls-guide"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía de controles de Fart With Your Friends**: empieza comprobando la distribución de entrada activa antes de jugar.
+- **Mejor configuración**: mantén el movimiento, la interacción y la acción principal al alcance de forma cómoda.
+- **Entradas fiables**: prueba primero cada botón importante en una sesión sin presión.
+- **Solución de problemas**: vuelve a comprobar la detección del dispositivo, el enfoque, la reasignación y la prioridad del mando.
+- **Objetivo de práctica**: desarrolla un ritmo sencillo en lugar de depender de pulsaciones apresuradas.
+</Callout>
+
+<Section icon={Gamepad2} title="Guía de controles de Fart With Your Friends: configuración básica">
+
+La planificación de la guía de controles de Fart With Your Friends comienza con una regla sencilla: verifica el esquema de controles activo antes de entrar en una partida importante. Las etiquetas exactas y las asignaciones disponibles pueden depender de tu plataforma, dispositivo de entrada, versión y configuración local, así que esta guía se centra en hábitos de configuración fiables en lugar de afirmar teclas no verificadas.
+
+Abre el menú de controles o configuración desde la pantalla de título o el menú de pausa. Busca la sección que muestra las asignaciones del teclado, mando u otros dispositivos de entrada. Confirma qué dispositivo está activo y prueba las acciones que esperas usar con más frecuencia. Una distribución de controles resulta cómoda cuando puedes moverte, reaccionar e interactuar sin apartar la vista de la acción constantemente.
+
+| Grupo de controles | Qué comprobar | Objetivo recomendado |
+|---|---|---|
+| Movimiento | Entrada direccional y sensibilidad | Movimiento fluido sin paradas accidentales |
+| Acción principal | Botón o tecla principal | Fácil de alcanzar durante el movimiento |
+| Interacción | Confirmar, usar o acción contextual | Separación clara del botón de cancelar |
+| Cámara o vista | Palanca, ratón o control direccional | Seguimiento cómodo a velocidad normal |
+| Navegación del menú | Entradas de seleccionar, volver y pausar | Acceso fiable sin asignaciones conflictivas |
+
+<CardGrid cols={3}>
+  <Card title="Configuración del teclado">
+    - Mantén cómoda la zona principal de movimiento.
+    - Coloca la acción principal cerca de los dedos que más utilizas para moverte.
+    - Evita reasignar demasiadas teclas a la vez.
+  </Card>
+  <Card title="Configuración del mando">
+    - Confirma que se reconoce el mando correcto.
+    - Comprueba las entradas de gatillos, botones superiores, botones frontales y palancas.
+    - Prueba la vibración por separado de los controles esenciales.
+  </Card>
+  <Card title="Configuración para jugar en grupo">
+    - Da tiempo a cada jugador para identificar su dispositivo.
+    - Evita cambiar de dispositivo después de que comience una ronda.
+    - Confirma que cada jugador puede pausar o salir de forma segura.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo práctico de configuración">
+Cambia una asignación cada vez, pruébala inmediatamente y anota la distribución que te resulte natural. Las sesiones de reasignación demasiado grandes dificultan identificar el origen de un problema de entrada.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Configura los controles antes de jugar">
+
+Una breve rutina de configuración evita la mayoría de los errores que se pueden prevenir. No esperes hasta una ronda importante para descubrir que el juego está leyendo el mando equivocado o que una acción está asignada a una tecla incómoda. Utiliza el menú de configuración como un área de pruebas, en lugar de tratarlo únicamente como un lugar para realizar cambios estéticos.
+
+La configuración más útil suele ser la que reduce las dudas al mínimo. Si dos acciones se utilizan en rápida sucesión, colócalas donde tu mano pueda pasar de una a otra de forma natural. Si una acción es ocasional pero importante, elige un botón fácil de encontrar que no se pulse accidentalmente.
+
+<Steps>
+  <Step num="1" title="Identifica el dispositivo activo">
+    Conecta el teclado, mando u otro dispositivo de entrada compatible antes de iniciar una sesión. Comprueba qué dispositivo responde cuando navegas por el menú. Si hay más de un dispositivo conectado, pruébalos uno a uno para saber qué entrada está asignada a cada jugador.
+  </Step>
+  <Step num="2" title="Revisa la lista de asignaciones">
+    Abre la configuración de controles y lee cada acción importante. Presta especial atención al movimiento, la acción principal, la interacción, confirmar, cancelar, pausar y cualquier control de cámara o vista. No des por hecho que está activa una distribución conocida.
+  </Step>
+  <Step num="3" title="Reasigna para facilitar el alcance">
+    Acerca la acción que utilizas con más frecuencia a la mano con la que te mueves si su ubicación predeterminada provoca dudas. Conserva una entrada independiente para cancelar o volver, de modo que los errores en el menú no se vuelvan habituales.
+  </Step>
+  <Step num="4" title="Prueba en una situación segura">
+    Entra en una zona sin presión, una sesión de práctica o una ronda informal. Pulsa varias veces cada acción importante mientras te mueves, te detienes, giras y abres un menú. Presta atención a las entradas no registradas y a las activaciones accidentales.
+  </Step>
+  <Step num="5" title="Guarda y vuelve a comprobar">
+    Confirma que la configuración se ha guardado, vuelve al juego y prueba la distribución una vez más. Si el juego ofrece perfiles, conserva una distribución conocida antes de experimentar con una nueva.
+  </Step>
+</Steps>
+
+| Comprobación de configuración | Condición de aprobación | Si falla |
+|---|---|---|
+| Detección del dispositivo | El dispositivo previsto controla el menú | Desconecta los demás dispositivos y vuelve a conectar el preferido |
+| Acción principal | La acción responde siempre | Comprueba la asignación, el estado del botón y el enfoque |
+| Movimiento | Los cambios de dirección resultan predecibles | Reduce la sensibilidad o prueba otro método de entrada |
+| Controles del menú | Confirmar y cancelar son acciones distintas | Restaura los valores predeterminados y reasigna solo las acciones esenciales |
+| Guardado de cambios | Los cambios permanecen después de salir de la configuración | Aplica los cambios y reinicia la pantalla de configuración |
+
+<Callout type="warning" title="Evita cambiar los controles durante la ronda">
+Cambiar las asignaciones durante una partida activa puede generar confusión, especialmente cuando varios jugadores comparten una pantalla o una zona de dispositivos. Termina la ronda, ajusta la distribución y pruébala antes de continuar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejora el ritmo y la precisión de las entradas">
+
+Unos buenos controles no dependen únicamente de la ubicación de los botones. El ritmo, la posición de las manos y la constancia determinan si una entrada resulta fiable. Empieza aprendiendo el ritmo de la acción en lugar de pulsar repetidamente todos los botones cercanos. Las entradas apresuradas pueden provocar dudas, selecciones accidentales en el menú u oportunidades perdidas.
+
+Utiliza un breve circuito de práctica:
+
+- Muévete en una dirección, detente y repite.
+- Realiza la acción principal mientras estás quieto.
+- Vuelve a realizarla inmediatamente después de cambiar de dirección.
+- Abre y cierra el menú sin mirar el teclado o el mando.
+- Repite la secuencia manteniendo la misma posición de las manos.
+
+Si usas un mando, evita sujetarlo con tanta fuerza que los pequeños movimientos de la palanca se vuelvan exagerados. Si usas un teclado, mantén los dedos cerca de la zona de movimiento y evita estirarlos hacia teclas lejanas durante los momentos rápidos. Si el juego incluye controles de cámara o vista, empieza con una sensibilidad moderada. Auméntala solo cuando puedas seguir el movimiento sin corregirlo en exceso.
+
+| Ejercicio de práctica | Propósito | Señal de éxito |
+|---|---|---|
+| Movimiento de parar y avanzar | Desarrolla el control al iniciar y detenerse | Tu personaje se detiene cuando esperas |
+| Cambio de dirección | Pone a prueba las transiciones rápidas | Los giros no se sienten retrasados ni exagerados |
+| Acción mientras te mueves | Comprueba el alcance del botón | La acción no interrumpe el movimiento involuntariamente |
+| Ensayo del menú | Desarrolla confianza al navegar | Confirmar y cancelar se sienten automáticos |
+| Entrada repetida | Detecta pulsaciones inconsistentes | El mismo comando produce la misma respuesta |
+
+<CardGrid cols={3}>
+  <Card title="Para jugadores nuevos">
+    Practica una acción cada vez. Durante las primeras sesiones, la comodidad y la constancia importan más que la velocidad.
+  </Card>
+  <Card title="Para jugadores que regresan">
+    Vuelve a comprobar tu distribución después de actualizaciones, cambios de dispositivo o pausas largas. La familiaridad puede ocultar pequeños cambios de configuración.
+  </Card>
+  <Card title="Para grupos">
+    Utiliza la misma rutina de pruebas con cada jugador. Un proceso compartido reduce las discusiones sobre si un dispositivo funciona correctamente.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="La constancia supera a la complejidad">
+Una distribución sencilla que puedas repetir bajo presión suele ser más útil que una distribución muy personalizada con muchas asignaciones especializadas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Soluciona los problemas habituales de los controles">
+
+Cuando una entrada falla, aísla el problema antes de cambiar varios ajustes. Primero determina si el problema afecta a una acción, un dispositivo, un jugador o al juego completo. Esto agiliza la solución de problemas y te ayuda a evitar sustituir innecesariamente una distribución cómoda.
+
+Utiliza el siguiente orden de diagnóstico:
+
+| Síntoma | Área probable que debes comprobar | Respuesta recomendada |
+|---|---|---|
+| No hay ninguna entrada | Conexión del dispositivo o enfoque del juego | Vuelve a conectar el dispositivo y haz clic de nuevo en el juego |
+| Una acción falla | Asignación o botón físico | Asigna temporalmente la acción a otra entrada |
+| Responde el jugador equivocado | Prioridad o asignación del dispositivo | Desconecta los dispositivos que no uses y vuelve a conectarlos en el orden de los jugadores |
+| El movimiento se siente inestable | Palanca, tecla o configuración de sensibilidad | Prueba otra entrada y reduce la sensibilidad si está disponible |
+| La configuración se revierte | Guardado o comportamiento del perfil | Aplica los cambios, sal del menú y vuelve a comprobarlos |
+| Respuesta retrasada | Carga del sistema, conexión o retraso de pantalla | Cierra las aplicaciones innecesarias y prueba localmente |
+
+Si no se reconoce un mando, desconecta los demás mandos y dispositivos de entrada antes de volver a conectar el que quieras utilizar. Si una acción del teclado funciona en los menús pero no durante la partida, confirma que la ventana del juego tenga el enfoque. Si un botón se comporta de forma inconsistente, asigna temporalmente la acción a otro botón. Esto ayuda a separar un problema de asignación de software de un problema de hardware.
+
+Para jugar en grupo, prueba los dispositivos en el mismo orden en que los utilizarán los jugadores. No des por hecho que el primer dispositivo conectado siempre se convertirá en el primer jugador. El juego puede dar prioridad al orden de conexión, a la selección del menú o al dispositivo que proporciona la primera entrada.
+
+<Checklist
+  id="controls-troubleshooting"
+  title="Antes de iniciar otra sesión:"
+  items={[
+    "Confirma que se detecta el teclado o mando previsto",
+    "Comprueba las entradas de movimiento, acción principal, interacción, confirmar y cancelar",
+    "Verifica que cada jugador está asignado al dispositivo correcto",
+    "Prueba los controles reasignados fuera de una ronda importante",
+    "Guarda la distribución y confirma que sigue activa"
+  ]}
+/>
+
+<Callout type="warning" title="El orden de solución de problemas es importante">
+No restablezcas todos los ajustes de inmediato. Prueba el dispositivo, el enfoque, la asignación y la asignación del jugador en ese orden para conservar información útil sobre el problema.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Crea una rutina de controles fiable">
+
+Cuando tu distribución funcione, mantenla estable. Cambiar los controles repetidamente puede ralentizar tu mejora porque tus manos nunca desarrollan patrones de movimiento constantes. Guarda una disposición preferida, anota las asignaciones poco habituales y utiliza la misma secuencia de calentamiento cada vez que cambies de dispositivo.
+
+Una rutina útil solo requiere unos minutos:
+
+1. Navega por el menú utilizando el dispositivo previsto.
+2. Prueba el movimiento en todas las direcciones.
+3. Realiza la acción principal mientras estás quieto.
+4. Combina el movimiento y la acción.
+5. Abre y cierra el menú.
+6. Comienza una ronda informal antes de intentar una partida más exigente.
+
+| Etapa de la rutina | Momento | Objetivo |
+|---|---|---|
+| Comprobación del dispositivo | Antes de iniciar | Confirmar el jugador y la entrada correctos |
+| Comprobación de asignaciones | Primer minuto | Verificar las acciones esenciales |
+| Calentamiento de movimiento | Una secuencia breve | Eliminar la rigidez y las correcciones excesivas |
+| Ensayo de acciones | Varias repeticiones | Desarrollar un ritmo predecible |
+| Entrada en la partida | Después de las pruebas | Jugar solo cuando la distribución se sienta estable |
+
+Ten en cuenta la accesibilidad. Si un control predeterminado requiere un alcance incómodo, reasígnalo pronto. Si la sensibilidad provoca movimientos no deseados, ajústala gradualmente en lugar de realizar un cambio grande. Si varios jugadores tienen necesidades diferentes, permite que cada persona utilice una distribución que favorezca una experiencia cómoda sin cambiar las acciones esenciales.
+
+<Callout type="tip" title="Recomendación del editor">
+Trata tu distribución de controles preferida como una configuración guardada: realiza pequeñas mejoras, pruébalas en partidas informales y conserva una versión probada disponible.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes sobre los controles de Fart With Your Friends">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor distribución de controles para Fart With Your Friends?",
+    answer: "La mejor distribución es la que mantiene el movimiento, la acción principal y la interacción al alcance de forma cómoda. Empieza con la distribución predeterminada, pruébala y reasigna únicamente las acciones que provoquen dudas o pulsaciones accidentales."
+  },
+  {
+    question: "¿Debería usar un teclado o un mando?",
+    answer: "Elige el dispositivo que te proporcione un movimiento más constante y un acceso más sencillo a las acciones importantes. Prueba ambos cuando sea posible, pero evita cambiar repetidamente durante la práctica porque la memoria muscular se desarrolla más lentamente."
+  },
+  {
+    question: "¿Por qué no responden mis controles?",
+    answer: "Comprueba la conexión del dispositivo, el enfoque del juego, la asignación del jugador activo y las asignaciones individuales. Desconecta los dispositivos que no uses, vuelve a conectar la entrada prevista y prueba una acción cada vez antes de restablecer toda la distribución."
+  },
+  {
+    question: "¿Debería cambiar los controles durante una ronda?",
+    answer: "Es más seguro terminar la ronda antes de cambiar las asignaciones. Los cambios durante la ronda pueden generar confusión, especialmente al jugar en grupo. Ajusta la distribución en el menú de configuración, guárdala y pruébala durante una sesión informal."
+  }
+]} />
+
+<Callout type="info" title="Recordatorio final">
+Una configuración fiable se consigue mediante comprobaciones, pequeños ajustes y práctica repetida. Utiliza esta guía de controles de Fart With Your Friends cada vez que cambies de dispositivo, actualices tu distribución o vuelvas a jugar después de una pausa larga.
+</Callout>
+
+</Section>

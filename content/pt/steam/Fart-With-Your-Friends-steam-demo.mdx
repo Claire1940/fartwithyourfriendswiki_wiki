@@ -1,0 +1,273 @@
+import { Map, Settings, Users, Target, Trophy, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Demo de Fart With Your Friends na Steam: Guia de Configuração e Dicas",
+  description: "Saiba como encontrar e testar a demo de Fart With Your Friends na Steam, preparar uma sessão multijogador e melhorar o trabalho em equipe durante os percursos de obstáculos.",
+  category: "guia",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Steam+Demo+Guide",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de Fart With Your Friends",
+  slug: "fart-with-your-friends-steam-demo"
+}
+
+<Callout type="info" title="Guia rápido">
+- **Demo de Fart With Your Friends na Steam**: use a página oficial da Steam para verificar a disponibilidade atual da demo.
+- **Desafio principal**: coordene movimento, frenagem, posicionamento e impulsos sincronizados pelos percursos de obstáculos.
+- **Melhor preparação**: teste os controles sozinho antes de convidar amigos para uma partida multijogador.
+- **Tática de equipe**: designe um jogador para chamar as mudanças de velocidade enquanto os outros estabilizam o grupo.
+- **Objetivo de progresso**: alcance os checkpoints de forma consistente antes de tentar rotas de conclusão mais rápidas.
+</Callout>
+
+<Section icon={Map} title="Demo de Fart With Your Friends na Steam: o que verificar primeiro">
+
+A demo de Fart With Your Friends na Steam deve ser encarada como um breve teste de habilidade multijogador, e não como um jogo convencional focado em progressão. O principal atrativo é o movimento coordenado por percursos perigosos, nos quais os jogadores precisam equilibrar aceleração, frenagem, posicionamento e tempo.
+
+Antes de iniciar uma sessão, confirme o status atual da demo na [página oficial de busca da Steam](https://store.steampowered.com/search/?term=Fart%20With%20Your%20Friends). As páginas da Steam podem mudar durante o desenvolvimento, portanto consulte a página da loja para conferir a disponibilidade mais recente, os requisitos do sistema, as informações sobre multijogador e as atualizações dos desenvolvedores. Este artigo é datado de **31 de outubro de 2026**.
+
+<Callout type="tip" title="Dica do editor">
+Trate a primeira partida como um teste dos controles. Aprender como o movimento, a frenagem e o tempo dos impulsos interagem tornará as tentativas multijogador posteriores muito mais consistentes.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Prática dos controles">
+    - Teste o movimento para frente
+    - Localize o comando de freio
+    - Aprenda com que rapidez o impulso muda
+  </Card>
+  <Card title="Coordenação da equipe">
+    - Use comandos de voz curtos
+    - Avise sobre os perigos antes que eles apareçam
+    - Evite que vários jogadores façam mudanças repentinas
+  </Card>
+  <Card title="Percepção do percurso">
+    - Fique atento a espinhos e correntes
+    - Identifique os checkpoints
+    - Guarde os impulsos para as seções estreitas
+  </Card>
+</CardGrid>
+
+As perguntas iniciais mais importantes são práticas:
+
+- Todos os jogadores entendem os controles de movimento?
+- O grupo consegue parar sem colidir?
+- Quem avisará quando a equipe deve acelerar?
+- Qual jogador pode se concentrar na rota em vez de reagir aos perigos próximos?
+- Onde ficam os locais mais seguros para se recuperar depois de um erro?
+
+| Verificação | Por que isso importa | Ação recomendada |
+|---|---|---|
+| Disponibilidade da demo | O acesso pode variar conforme o status da loja ou a fase de desenvolvimento | Verifique a página oficial da Steam antes de planejar uma sessão |
+| Configuração dos controles | Controles desconhecidos causam colisões no início | Teste todos os comandos de movimento e frenagem |
+| Acesso ao multijogador | Os amigos podem precisar da mesma versão ou método de sessão | Confirme os convites e as etapas do lobby antes de começar |
+| Comunicação por áudio | O tempo de reação é mais fácil com comandos curtos | Use chat de voz ou comandos de texto concisos |
+| Funcionamento dos checkpoints | A recuperação depende de onde o progresso é salvo | Pare brevemente depois de alcançar um checkpoint |
+
+</Section>
+
+<Section icon={Settings} title="Configuração da demo na Steam e fluxo da primeira partida">
+
+Uma primeira sessão tranquila depende mais da preparação do que da velocidade. Use a página oficial da loja como fonte principal para os detalhes de instalação e disponibilidade e, em seguida, prepare o grupo antes de entrar em um percurso difícil.
+
+<Callout type="warning" title="Antes de convidar os amigos">
+Não presuma que todas as páginas da loja, versões ou recursos multijogador continuam iguais. Confira a descrição atual na Steam e teste a demo localmente antes de agendar uma sessão com um grupo maior.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Confirme a página atual">
+    Abra o resultado oficial da busca da Steam e selecione a página atual de Fart With Your Friends, se estiver disponível. Confira o status da demo, os recursos compatíveis e quaisquer observações dos desenvolvedores exibidas na página.
+  </Step>
+  <Step num="2" title="Instale e inicie a demo">
+    Instale a demo disponível pela Steam e inicie-a uma vez sem convidar os amigos. Isso dará tempo para verificar os menus, os avisos dos controles, as configurações de vídeo e as opções de áudio.
+  </Step>
+  <Step num="3" title="Teste o movimento e a frenagem">
+    Pratique avançar, reduzir a velocidade e parar perto de uma área segura. Não comece na velocidade máxima; primeiro descubra de quanto espaço você precisa para frear.
+  </Step>
+  <Step num="4" title="Crie uma pequena sessão de teste">
+    Convide um ou dois amigos para uma partida introdutória. Um grupo menor facilita a identificação de problemas nos controles e o estabelecimento de uma comunicação clara.
+  </Step>
+  <Step num="5" title="Repita a rota com funções definidas">
+    Na segunda tentativa, designe um jogador para chamar as mudanças de aceleração e frenagem. Deixe os outros jogadores se concentrarem no posicionamento e na prevenção de perigos.
+  </Step>
+</Steps>
+
+Use a seguinte ordem de preparação ao organizar uma sessão:
+
+| Área de preparação | Teste rápido | Bom resultado |
+|---|---|---|
+| Vídeo | Verifique a visibilidade dos perigos e das bordas do percurso | Espinhos, correntes e plataformas são fáceis de identificar |
+| Áudio | Teste o som do jogo e o chat de voz | Os comandos continuam compreensíveis durante os momentos agitados |
+| Controles | Pressione cada comando de movimento em uma área segura | Todos os jogadores sabem como acelerar e frear |
+| Conexão | Participe de um breve teste multijogador | Os jogadores permanecem sincronizados sem reconexões constantes |
+| Regras da sessão | Combine quem dará os comandos e a política de reinício | A equipe evita instruções simultâneas |
+
+O vocabulário de comunicação mais útil é simples:
+
+- **Vamos**: começar ou retomar o movimento.
+- **Freia**: reduzir a velocidade imediatamente.
+- **Segura**: manter a posição atual.
+- **Esquerda** ou **direita**: fazer um pequeno ajuste direcional.
+- **Espera**: ainda não entrar no próximo perigo.
+- **Empurra**: aplicar pressão coordenada para a frente.
+- **Checkpoint**: fazer uma breve pausa depois de alcançar um marcador de progresso.
+
+Comandos curtos são melhores do que explicações durante um perigo. Deixe as discussões mais longas para a área de recuperação ou para depois da partida.
+
+</Section>
+
+<Section icon={Users} title="Funções da equipe em percursos multijogador">
+
+As seções de obstáculos multijogador ficam mais fáceis quando cada jogador tem uma responsabilidade clara. As funções não precisam ser permanentes, mas defini-las evita que todos reajam ao mesmo problema ao mesmo tempo.
+
+<Callout type="success" title="Estratégia de equipe">
+O grupo mais confiável nem sempre é o mais rápido. Uma equipe controlada que alcança os checkpoints com consistência geralmente supera uma equipe que acelera sem um plano compartilhado.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Responsável pela rota">
+    Observa a próxima seção e avisa quando avançar, frear ou esperar.
+  </Card>
+  <Card title="Líder do impulso">
+    Controla o ritmo principal para a frente e evita mudanças de velocidade desnecessárias.
+  </Card>
+  <Card title="Estabilizador">
+    Faz pequenas correções quando o grupo se aproxima de perigos ou bordas.
+  </Card>
+  <Card title="Responsável pela recuperação">
+    Acompanha os checkpoints e ajuda a equipe a se reorganizar depois de uma tentativa fracassada.
+  </Card>
+</CardGrid>
+
+Essas funções são especialmente úteis em seções com corredores estreitos, perigos móveis ou correntes contrárias. O responsável pela rota deve evitar dar comandos tarde demais. Um aviso antes do perigo é mais valioso do que uma reação depois do contato.
+
+| Situação do percurso | Função principal | Resposta da equipe |
+|---|---|---|
+| Trecho reto e aberto | Líder do impulso | Aumentar a velocidade gradualmente |
+| Passagem cheia de espinhos | Responsável pela rota | Avisar a entrada e o ponto de frenagem |
+| Corrente forte | Estabilizador | Fazer pequenas correções em direção ao centro |
+| Plataforma estreita | Todos os jogadores | Reduzir comandos repentinos e manter o espaçamento |
+| Checkpoint perdido | Responsável pela recuperação | Confirmar o ponto de reinício antes de se mover |
+| Aproximação final | Responsável pela rota | Substituir o pânico por comandos curtos e cronometrados |
+
+### Como evitar comandos conflitantes
+
+Movimentos conflitantes são uma das maiores causas de tentativas fracassadas. Se vários jogadores derem comandos ao mesmo tempo, o grupo pode acelerar quando deveria frear ou virar em direção a um perigo enquanto tenta se afastar dele.
+
+Use este padrão de comunicação:
+
+1. O responsável pela rota identifica o próximo perigo.
+2. O responsável dá um comando.
+3. Os outros jogadores confirmam brevemente.
+4. A equipe faz pequenas correções.
+5. O responsável confirma quando a seção está livre.
+
+Evite comentários constantes. Comandos repetidos podem fazer os jogadores corrigirem demais, especialmente quando o percurso exige uma breve pausa antes do próximo impulso.
+
+</Section>
+
+<Section icon={Target} title="Táticas para percursos de obstáculos e recuperação">
+
+O desafio da demo vem do gerenciamento do impulso sob pressão. Mover-se rapidamente é útil nos trechos seguros, mas a velocidade precisa ser equilibrada com o tempo necessário para frear, redirecionar ou se recuperar de uma colisão.
+
+<Callout type="info" title="Leitura da rota">
+Olhe além do obstáculo diretamente à sua frente. O melhor ponto de frenagem geralmente é determinado pelo perigo depois do próximo, e não pelo obstáculo que está na tela naquele momento.
+</Callout>
+
+### Frenagem e impulso
+
+Use movimentos graduais sempre que o percurso for desconhecido. Um breve impulso seguido de uma frenagem controlada dá à equipe mais opções do que manter a velocidade máxima em todas as seções.
+
+| Padrão de movimento | Melhor uso | Principal risco |
+|---|---|---|
+| Avanço lento | Plataformas apertadas e perigos desconhecidos | O progresso pode parecer cauteloso |
+| Breve impulso | Espaços abertos entre obstáculos | A aceleração antecipada pode fazer o grupo passar do ponto |
+| Impulso seguido de frenagem | Aproximações que exigem uma entrada precisa | Frear tarde demais causa colisões |
+| Manter a posição | Perigos e correntes baseados em tempo | Esperar demais pode causar perda de alinhamento |
+| Avanço coordenado | Seções que exigem impulso do grupo | Comandos conflitantes podem desestabilizar a equipe |
+
+### Como lidar com correntes
+
+Quando uma corrente afasta o grupo da rota desejada, evite correções bruscas. Vários pequenos ajustes são mais fáceis de controlar do que um único comando amplo. Sempre que possível, a equipe deve buscar o centro da faixa segura.
+
+Uma sequência útil para lidar com correntes é:
+
+- Reduza a velocidade desnecessária.
+- Identifique a direção da corrente.
+- Avise sobre a correção antes de entrar na parte mais forte.
+- Faça um pequeno ajuste em direção ao centro seguro.
+- Freie se o grupo começar a se afastar demais.
+- Retome o movimento somente depois que a formação estiver estável.
+
+### Gerenciamento dos checkpoints
+
+Os checkpoints devem mudar as prioridades da equipe. Antes de alcançar um, concentre-se na sobrevivência e no posicionamento. Depois de alcançá-lo, faça uma breve pausa para reorganizar a comunicação e confirmar a próxima rota.
+
+Não saia correndo imediatamente de um checkpoint se a seção seguinte não estiver clara. Alguns segundos de planejamento podem evitar um reinício mais longo.
+
+<Checklist
+  id="steam-demo-session"
+  title="Checklist da sessão da demo na Steam:"
+  items={[
+    "Confirme a página oficial atual da Steam e o status da demo",
+    "Teste o movimento, a frenagem, o áudio e o acesso ao multijogador",
+    "Designe um responsável pela rota antes de entrar no primeiro perigo",
+    "Alcance cada checkpoint com o impulso controlado",
+    "Analise um erro depois de cada tentativa fracassada"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Plano de prática e perguntas frequentes">
+
+Um plano de prática curto ajuda os novos jogadores a melhorar sem transformar cada tentativa em uma corrida contra o tempo. Comece aprendendo a distância necessária para controlar os movimentos, depois adicione a comunicação e só então otimize a velocidade de conclusão.
+
+<Callout type="tip" title="Recomendação de prática">
+Mude uma variável por vez. Se a equipe mudar simultaneamente a velocidade, as funções, a rota e a comunicação, será difícil identificar o que causou uma melhora ou uma falha.
+</Callout>
+
+| Rodada de prática | Foco | Medida de sucesso |
+|---|---|---|
+| Rodada 1 | Controles e frenagem | Todos os jogadores conseguem parar perto de um alvo seguro |
+| Rodada 2 | Comunicação | Os comandos são curtos e compreendidos |
+| Rodada 3 | Tempo dos perigos | A equipe espera pela abertura correta |
+| Rodada 4 | Consistência nos checkpoints | O grupo alcança os marcadores de progresso de forma confiável |
+| Rodada 5 | Aperfeiçoamento da velocidade | O movimento mais rápido não causa colisões repetidas |
+
+### Ciclo de melhoria sugerido
+
+Depois de cada tentativa, discuta apenas três pontos:
+
+- O que causou o primeiro erro grave?
+- Qual comando chegou tarde demais ou não ficou claro?
+- Qual único ajuste a equipe deve tentar em seguida?
+
+Isso mantém o feedback útil e evita que a sessão se transforme em um debate depois de cada colisão. Se um jogador for consistentemente melhor em interpretar a rota, deixe que ele dê os comandos na próxima tentativa. As funções podem mudar depois que o grupo se familiarizar com o percurso.
+
+<FAQ items={[
+  {
+    question: "Onde posso verificar o status da demo de Fart With Your Friends na Steam?",
+    answer: "Use a página oficial de busca da Steam e abra a página atual de Fart With Your Friends. Confira nela a disponibilidade mais recente da demo, as notas sobre os recursos e as informações do sistema antes de instalar."
+  },
+  {
+    question: "O que os novos jogadores devem praticar primeiro?",
+    answer: "Comece praticando o movimento e a frenagem em uma área segura. Entender a distância necessária para parar é mais útil do que tentar imediatamente a rota mais rápida."
+  },
+  {
+    question: "Quantos jogadores devem participar da primeira sessão de teste?",
+    answer: "Um grupo pequeno é mais fácil de coordenar durante a primeira partida. Comece com um ou dois amigos, estabeleça regras de comunicação e aumente o grupo depois que todos estiverem familiarizados com os controles."
+  },
+  {
+    question: "Qual é a melhor estratégia multijogador para obstáculos difíceis?",
+    answer: "Designe um responsável pela rota, use comandos curtos, reduza os movimentos repentinos e priorize alcançar os checkpoints com segurança antes de otimizar a velocidade."
+  }
+]} />
+
+A melhor abordagem para a demo de Fart With Your Friends na Steam é experimentar de forma controlada. Confirme as informações atuais da Steam, teste os controles, estabeleça as funções da equipe e trate cada obstáculo como um problema de tempo, em vez de uma corrida para acelerar constantemente. Com comandos claros e prática consistente nos checkpoints, os grupos podem transformar tentativas caóticas em partidas repetíveis.
+
+</Section>

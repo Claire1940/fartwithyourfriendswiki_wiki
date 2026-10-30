@@ -1,0 +1,273 @@
+import { Map, Settings, Users, Target, Trophy, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fart With Your Friends Steam-Demo: Einrichtungsanleitung und Tipps",
+  description: "Erfahre, wie du die Steam-Demo von Fart With Your Friends findest und testest, eine Multiplayer-Runde vorbereitest und die Teamarbeit in Hindernisparcours verbesserst.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Steam+Demo+Guide",
+  date: "2026-10-31",
+  author: "Fart With Your Friends Wiki-Team",
+  slug: "fart-with-your-friends-steam-demo"
+}
+
+<Callout type="info" title="Schnellübersicht">
+- **Steam-Demo von Fart With Your Friends**: Nutze das offizielle Steam-Listing, um die aktuelle Verfügbarkeit der Demo zu prüfen.
+- **Zentrale Herausforderung**: Koordiniere Bewegung, Bremsen, Positionierung und zeitlich abgestimmte Schübe in Hindernisparcours.
+- **Beste Vorbereitung**: Teste die Steuerung allein, bevor du Freunde zu einer Multiplayer-Runde einlädst.
+- **Teamtaktik**: Bestimme eine Person, die Geschwindigkeitsänderungen ansagt, während die anderen die Gruppe stabilisieren.
+- **Fortschrittsziel**: Erreiche Checkpoints zuverlässig, bevor du schnellere Abschlussrouten ausprobierst.
+</Callout>
+
+<Section icon={Map} title="Fart With Your Friends Steam-Demo: Was du zuerst prüfen solltest">
+
+Die Steam-Demo von Fart With Your Friends solltest du eher als kurzen Multiplayer-Geschicklichkeitstest betrachten und nicht als klassisches Spiel mit umfangreichem Fortschrittssystem. Der zentrale Reiz liegt in der koordinierten Bewegung durch gefährliche Parcours, bei denen die Spieler Beschleunigung, Bremsen, Positionierung und Timing ausbalancieren müssen.
+
+Bevor du eine Sitzung startest, bestätige den aktuellen Demo-Status auf der [offiziellen Steam-Suchseite](https://store.steampowered.com/search/?term=Fart%20With%20Your%20Friends). Steam-Listings können sich während der Entwicklung ändern. Prüfe daher die Store-Seite auf die neuesten Informationen zur Verfügbarkeit, zu den Systemanforderungen, zu Multiplayer-Hinweisen und zu Entwickler-Updates. Dieser Artikel ist auf den **31. Oktober 2026** datiert.
+
+<Callout type="tip" title="Tipp der Redaktion">
+Betrachte den ersten Durchlauf als Steuerungstest. Wenn du lernst, wie Bewegung, Bremsen und das Timing von Schüben zusammenspielen, werden spätere Multiplayer-Versuche deutlich konstanter.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Steuerung üben">
+    - Vorwärtsbewegung testen
+    - Die Bremstaste finden
+    - Lernen, wie schnell sich der Schwung verändert
+  </Card>
+  <Card title="Teamkoordination">
+    - Kurze Sprachbefehle verwenden
+    - Auf Gefahren hinweisen, bevor sie eintreten
+    - Vermeiden, dass mehrere Spieler plötzlich Änderungen vornehmen
+  </Card>
+  <Card title="Übersicht über den Parcours">
+    - Auf Stacheln und Strömungen achten
+    - Checkpoints identifizieren
+    - Schübe für enge Abschnitte aufsparen
+  </Card>
+</CardGrid>
+
+Die wichtigsten Fragen zu Beginn sind praktischer Natur:
+
+- Versteht jeder Spieler die Bewegungssteuerung?
+- Kann die Gruppe anhalten, ohne zusammenzustoßen?
+- Wer sagt an, wann das Team beschleunigen soll?
+- Welcher Spieler kann sich auf die Route konzentrieren, anstatt auf nahe Gefahren zu reagieren?
+- Wo kann sich die Gruppe nach einem Fehler am sichersten sammeln?
+
+| Prüfung | Warum sie wichtig ist | Empfohlene Maßnahme |
+|---|---|---|
+| Verfügbarkeit der Demo | Der Zugriff kann je nach Store-Status oder Entwicklungsphase variieren | Vor der Planung einer Sitzung das offizielle Steam-Listing prüfen |
+| Tastenbelegung | Unbekannte Steuerung führt früh zu Kollisionen | Jede Bewegungs- und Bremseingabe testen |
+| Multiplayer-Zugriff | Freunde benötigen möglicherweise denselben Build oder dieselbe Sitzungsmethode | Einladungen und Lobby-Schritte vor dem Start bestätigen |
+| Audiokommunikation | Mit kurzen Ansagen ist das Timing einfacher | Sprachchat oder kurze Textbefehle verwenden |
+| Verhalten der Checkpoints | Die Erholung hängt davon ab, wo der Fortschritt gespeichert wird | Nach dem Erreichen eines Checkpoints kurz anhalten |
+
+</Section>
+
+<Section icon={Settings} title="Einrichtung der Steam-Demo und Ablauf des ersten Durchlaufs">
+
+Eine reibungslose erste Sitzung hängt stärker von der Vorbereitung als von der Geschwindigkeit ab. Verwende die offizielle Store-Seite als verlässliche Quelle für Installations- und Verfügbarkeitsinformationen und bereite die Gruppe vor, bevor ihr einen schwierigen Parcours betretet.
+
+<Callout type="warning" title="Bevor du Freunde einlädst">
+Gehe nicht davon aus, dass jedes Store-Listing, jeder Build oder jede Multiplayer-Funktion unverändert ist. Prüfe die aktuelle Steam-Beschreibung und teste die Demo lokal, bevor du eine größere Gruppensitzung planst.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Aktuelles Listing bestätigen">
+    Öffne das offizielle Steam-Suchergebnis und wähle, sofern verfügbar, das aktuelle Listing von Fart With Your Friends aus. Prüfe den Demo-Status, die unterstützten Funktionen und alle auf der Seite angezeigten Entwicklerhinweise.
+  </Step>
+  <Step num="2" title="Demo installieren und starten">
+    Installiere die verfügbare Demo über Steam und starte sie anschließend einmal, ohne Freunde einzuladen. So hast du Zeit, Menüs, Steuerungshinweise, Anzeigeeinstellungen und Audiooptionen zu prüfen.
+  </Step>
+  <Step num="3" title="Bewegung und Bremsen testen">
+    Übe das Vorwärtsbewegen, Abbremsen und Anhalten in der Nähe eines sicheren Bereichs. Beginne nicht mit maximaler Geschwindigkeit, sondern lerne zuerst, wie viel Strecke zum Bremsen benötigt wird.
+  </Step>
+  <Step num="4" title="Eine kleine Testsitzung erstellen">
+    Lade einen oder zwei Freunde zu einem ersten Durchlauf ein. In einer kleineren Gruppe lassen sich Steuerungsprobleme leichter erkennen und klare Kommunikationsregeln festlegen.
+  </Step>
+  <Step num="5" title="Die Route mit Rollen wiederholen">
+    Bestimme beim zweiten Versuch einen Spieler, der Änderungen bei Beschleunigung und Bremsen ansagt. Die anderen Spieler können sich auf Positionierung und Gefahrenvermeidung konzentrieren.
+  </Step>
+</Steps>
+
+Verwende bei der Vorbereitung einer Sitzung die folgende Reihenfolge:
+
+| Vorbereitungsbereich | Schneller Test | Gutes Ergebnis |
+|---|---|---|
+| Anzeige | Sichtbarkeit von Gefahren und Parcoursrändern prüfen | Stacheln, Strömungen und Plattformen sind leicht zu erkennen |
+| Audio | Spielsound und Sprachchat testen | Ansagen bleiben auch in hektischen Momenten verständlich |
+| Steuerung | Jede Bewegungseingabe in einem sicheren Bereich drücken | Jeder Spieler weiß, wie man beschleunigt und bremst |
+| Verbindung | Einer kurzen Multiplayer-Testsitzung beitreten | Die Spieler bleiben synchron, ohne wiederholt die Verbindung zu verlieren |
+| Sitzungsregeln | Ansager und Neustartregeln festlegen | Das Team vermeidet sich überschneidende Anweisungen |
+
+Das nützlichste Kommunikationsvokabular ist einfach:
+
+- **Los**: Bewegung beginnen oder fortsetzen.
+- **Bremsen**: Geschwindigkeit sofort reduzieren.
+- **Halten**: Die aktuelle Position beibehalten.
+- **Links** oder **rechts**: Eine kleine Richtungsanpassung vornehmen.
+- **Warten**: Noch nicht in die nächste Gefahr hineingehen.
+- **Drücken**: Gemeinsam koordinierten Vorwärtsdruck ausüben.
+- **Checkpoint**: Nach dem Erreichen eines Fortschrittsmarkers kurz anhalten.
+
+Kurze Ansagen sind während einer Gefahr besser als Erklärungen. Längere Gespräche solltest du für den Erholungsbereich oder die Zeit nach dem Durchlauf aufheben.
+
+</Section>
+
+<Section icon={Users} title="Teamrollen für Multiplayer-Parcours">
+
+Multiplayer-Hindernisabschnitte werden einfacher, wenn jeder Spieler eine klare Aufgabe hat. Die Rollen müssen nicht dauerhaft bestehen, aber ihre Zuweisung verhindert, dass alle gleichzeitig auf dasselbe Problem reagieren.
+
+<Callout type="success" title="Teamstrategie">
+Die zuverlässigsten Gruppen sind nicht immer die schnellsten. Ein kontrolliertes Team, das regelmäßig Checkpoints erreicht, ist meist erfolgreicher als ein Team, das ohne gemeinsamen Plan beschleunigt.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Routenansager">
+    Beobachtet den bevorstehenden Abschnitt und sagt an, wann das Team losfahren, bremsen oder warten soll.
+  </Card>
+  <Card title="Schwungführer">
+    Steuert den grundlegenden Vorwärtsrhythmus und vermeidet unnötige Geschwindigkeitsänderungen.
+  </Card>
+  <Card title="Stabilisator">
+    Nimmt kleine Korrekturen vor, wenn die Gruppe in Richtung Gefahren oder Kanten driftet.
+  </Card>
+  <Card title="Erholungsspieler">
+    Behält die Checkpoints im Blick und hilft dem Team, sich nach einem gescheiterten Versuch neu zu formieren.
+  </Card>
+</CardGrid>
+
+Diese Rollen sind besonders in Abschnitten mit schmalen Fahrspuren, beweglichen Gefahren oder entgegengesetzten Strömungen hilfreich. Der Routenansager sollte es vermeiden, Befehle zu spät zu geben. Eine Warnung vor der Gefahr ist wertvoller als eine Reaktion nach dem Kontakt.
+
+| Situation im Parcours | Zuständige Rolle | Reaktion des Teams |
+|---|---|---|
+| Offene Gerade | Schwungführer | Geschwindigkeit allmählich erhöhen |
+| Von Stacheln durchsetzter Abschnitt | Routenansager | Eintritt und Bremspunkt ansagen |
+| Starke Strömung | Stabilisator | Kleine Korrekturen zur Mitte vornehmen |
+| Schmale Plattform | Alle Spieler | Plötzliche Eingaben reduzieren und Abstand halten |
+| Checkpoint verpasst | Erholungsspieler | Vor der Bewegung den Neustartpunkt bestätigen |
+| Letzte Annäherung | Routenansager | Panik durch kurze, zeitlich abgestimmte Befehle ersetzen |
+
+### So vermeidest du widersprüchliche Eingaben
+
+Widersprüchliche Bewegungen gehören zu den häufigsten Ursachen für gescheiterte Versuche. Wenn mehrere Spieler gleichzeitig Befehle geben, kann die Gruppe beschleunigen, obwohl sie bremsen sollte, oder in eine Gefahr abbiegen, während sie eigentlich davon wegsteuern wollte.
+
+Verwende dieses Kommunikationsmuster:
+
+1. Der Routenansager erkennt die nächste Gefahr.
+2. Der Ansager gibt einen einzigen Befehl.
+3. Die anderen Spieler bestätigen kurz.
+4. Das Team nimmt kleine Korrekturen vor.
+5. Der Ansager bestätigt, sobald der Abschnitt sicher ist.
+
+Vermeide ständige Kommentare. Wiederholte Befehle können dazu führen, dass Spieler übersteuern, besonders wenn der Parcours vor dem nächsten Bewegungsschub eine kurze Pause erfordert.
+
+</Section>
+
+<Section icon={Target} title="Taktiken und Erholung in Hindernisparcours">
+
+Die Herausforderung der Demo besteht darin, den Schwung unter Druck zu kontrollieren. Schnelle Bewegung ist auf sicheren Abschnitten nützlich, aber die Geschwindigkeit muss gegen die zum Bremsen, Umleiten oder Erholen nach einer Kollision benötigte Zeit abgewogen werden.
+
+<Callout type="info" title="Routenlesen">
+Schau über das Hindernis direkt vor dir hinaus. Der beste Bremspunkt wird oft durch die Gefahr nach dem nächsten Hindernis bestimmt und nicht durch das Hindernis, das gerade auf dem Bildschirm zu sehen ist.
+</Callout>
+
+### Bremsen und Schwung
+
+Verwende eine gleichmäßige Bewegung, wenn dir der Parcours noch unbekannt ist. Ein kurzer Schub mit anschließendem kontrolliertem Bremsen gibt dem Team mehr Möglichkeiten, als in jedem Abschnitt mit maximaler Geschwindigkeit zu fahren.
+
+| Bewegungsmuster | Beste Verwendung | Hauptrisiko |
+|---|---|---|
+| Langsames Vorrücken | Enge Plattformen und unbekannte Gefahren | Der Fortschritt kann vorsichtig wirken |
+| Kurzer Schub | Offene Lücken zwischen Hindernissen | Frühe Beschleunigung kann zum Überschießen führen |
+| Schub, dann bremsen | Annäherungen, die einen präzisen Eintritt erfordern | Zu spätes Bremsen verursacht Kollisionen |
+| Position halten | Zeitabhängige Gefahren und Strömungen | Zu langes Warten kann die Ausrichtung beeinträchtigen |
+| Koordinierter Druck | Abschnitte, die gemeinsamen Schwung erfordern | Widersprüchliche Eingaben können das Team destabilisieren |
+
+### Umgang mit Strömungen
+
+Wenn eine Strömung die Gruppe von der vorgesehenen Route wegzieht, solltest du dramatische Korrekturen vermeiden. Mehrere kleine Anpassungen lassen sich leichter kontrollieren als eine große Eingabe. Das Team sollte sich möglichst auf die Mitte der sicheren Spur zubewegen.
+
+Eine hilfreiche Abfolge bei Strömungen sieht so aus:
+
+- Unnötige Geschwindigkeit reduzieren.
+- Die Richtung der Strömung erkennen.
+- Die Korrektur vor dem stärksten Bereich ansagen.
+- Eine kleine Anpassung zur sicheren Mitte vornehmen.
+- Bremsen, wenn die Gruppe zu weit abdriftet.
+- Die Bewegung erst fortsetzen, wenn die Formation stabil ist.
+
+### Checkpoints verwalten
+
+Checkpoints sollten die Prioritäten des Teams verändern. Vor dem Erreichen eines Checkpoints konzentrierst du dich auf Überleben und Positionierung. Danach legst du eine kurze Pause ein, um die Kommunikation neu zu ordnen und die nächste Route zu bestätigen.
+
+Stürme nicht sofort von einem Checkpoint weg, wenn der kommende Abschnitt unklar ist. Ein paar Sekunden Planung können einen längeren Neustart verhindern.
+
+<Checklist
+  id="steam-demo-session"
+  title="Checkliste für eine Steam-Demo-Sitzung:"
+  items={[
+    "Das aktuelle offizielle Steam-Listing und den Demo-Status bestätigen",
+    "Bewegung, Bremsen, Audio und Multiplayer-Zugriff testen",
+    "Vor der ersten Gefahr einen Routenansager bestimmen",
+    "Jeden Checkpoint mit kontrolliertem Schwung erreichen",
+    "Nach jedem gescheiterten Versuch einen Fehler besprechen"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Übungsplan und FAQ">
+
+Ein kurzer Übungsplan hilft neuen Spielern, sich zu verbessern, ohne jeden Versuch in einen hektischen Speedrun zu verwandeln. Beginne damit, die benötigte Steuerungsdistanz zu lernen, füge anschließend Kommunikation hinzu und optimiere erst danach die Abschlussgeschwindigkeit.
+
+<Callout type="tip" title="Übungsempfehlung">
+Ändere immer nur eine Variable auf einmal. Wenn das Team gleichzeitig Geschwindigkeit, Rollen, Route und Kommunikation verändert, lässt sich nur schwer feststellen, was eine Verbesserung oder einen Fehlschlag verursacht hat.
+</Callout>
+
+| Übungsrunde | Schwerpunkt | Erfolgskriterium |
+|---|---|---|
+| Runde 1 | Steuerung und Bremsen | Jeder Spieler kann nahe einem sicheren Ziel anhalten |
+| Runde 2 | Kommunikation | Die Befehle sind kurz und werden verstanden |
+| Runde 3 | Timing der Gefahren | Das Team wartet auf die richtige Gelegenheit |
+| Runde 4 | Checkpoint-Konstanz | Die Gruppe erreicht Fortschrittsmarker zuverlässig |
+| Runde 5 | Geschwindigkeitsoptimierung | Schnellere Bewegung führt nicht zu wiederholten Kollisionen |
+
+### Empfohlene Verbesserungsschleife
+
+Besprich nach jedem Versuch nur drei Punkte:
+
+- Was hat den ersten großen Fehler verursacht?
+- Welcher Befehl kam zu spät oder war unklar?
+- Welche einzelne Anpassung sollte das Team als Nächstes ausprobieren?
+
+So bleibt das Feedback nützlich und die Sitzung wird nicht nach jeder Kollision zu einer Diskussion. Wenn ein Spieler regelmäßig besser im Lesen der Route ist, lass ihn den nächsten Versuch ansagen. Die Rollen können gewechselt werden, sobald sich die Gruppe mit dem Parcours vertraut gemacht hat.
+
+<FAQ items={[
+  {
+    question: "Wo kann ich den Status der Steam-Demo von Fart With Your Friends prüfen?",
+    answer: "Nutze die offizielle Steam-Suchseite und öffne das aktuelle Listing von Fart With Your Friends. Prüfe dort vor der Installation die neuesten Informationen zur Demo-Verfügbarkeit, zu den Funktionen und zu den Systemanforderungen."
+  },
+  {
+    question: "Was sollten neue Spieler zuerst üben?",
+    answer: "Beginne in einem sicheren Bereich mit Bewegung und Bremsen. Die benötigte Bremsstrecke zu verstehen ist nützlicher, als sofort die schnellste Route zu versuchen."
+  },
+  {
+    question: "Wie viele Spieler sollten an der ersten Testsitzung teilnehmen?",
+    answer: "Eine kleine Gruppe lässt sich beim ersten Durchlauf leichter koordinieren. Beginne mit einem oder zwei Freunden, legt Kommunikationsregeln fest und vergrößert die Gruppe, sobald die Steuerung vertraut ist."
+  },
+  {
+    question: "Was ist die beste Multiplayer-Strategie für schwierige Hindernisse?",
+    answer: "Bestimme einen Routenansager, verwende kurze Befehle, reduziere plötzliche Eingaben und priorisiere das sichere Erreichen von Checkpoints, bevor du die Geschwindigkeit optimierst."
+  }
+]} />
+
+Der beste Ansatz für die Steam-Demo von Fart With Your Friends ist kontrolliertes Experimentieren. Bestätige die aktuellen Steam-Informationen, teste die Steuerung, lege Teamrollen fest und betrachte jedes Hindernis als Timing-Problem statt als Wettrennen um ständig höhere Geschwindigkeit. Mit klaren Ansagen und konsequentem Checkpoint-Training können Gruppen chaotische Versuche in wiederholbare Durchläufe verwandeln.
+
+</Section>

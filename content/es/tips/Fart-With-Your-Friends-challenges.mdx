@@ -1,0 +1,204 @@
+import { Target, Users, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desafíos de Fart With Your Friends: consejos e ideas para fiestas",
+  description: "Planifica desafíos de Fart With Your Friends justos, divertidos y rejugables con reglas equilibradas, ideas de puntuación y consejos de preparación para fiestas.",
+  category: "guía",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Challenge+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de Fart With Your Friends",
+  slug: "/fart-with-your-friends-challenges"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los **desafíos de Fart With Your Friends** funcionan mejor con rondas cortas y reglas sencillas.
+- **Elige una condición de victoria** antes de que comience la primera ronda.
+- **Usa una puntuación justa** para que la comedia, el ritmo y la creatividad sean importantes.
+- **Rota al anfitrión** para mantener a todos los jugadores involucrados.
+- **Establece límites** antes de usar sonido, voz o mecánicas sorpresa.
+</Callout>
+
+<Section icon={Target} title="Desafíos de Fart With Your Friends: reglas básicas">
+
+Los mejores desafíos de Fart With Your Friends son fáciles de entender, rápidos de reiniciar y lo bastante flexibles para distintos tamaños de grupo. Empieza eligiendo un único objetivo y, después, define cómo consiguen puntos los jugadores y cuándo termina una ronda. Unas reglas claras evitan discusiones y permiten que todos se concentren en el ritmo y el humor.
+
+Mantén relajada la primera sesión. Un desafío debería crear momentos divertidos en lugar de castigar a los jugadores por experimentar. Si el juego incluye distintas herramientas, efectos, sonidos u opciones de interacción, permite una breve ronda de práctica antes de empezar a puntuar.
+
+| Elemento de la regla | Enfoque recomendado | Por qué ayuda |
+|---|---|---|
+| Duración de la ronda | 3–8 minutos | Mantiene la energía alta y limita los tiempos muertos |
+| Condición de victoria | La puntuación más alta o el mayor número de intentos exitosos | Facilita el seguimiento del objetivo |
+| Orden de los jugadores | Rotar en el sentido de las agujas del reloj en cada ronda | Da a todos la misma atención |
+| Desempate | Un intento de muerte súbita | Resuelve los empates sin reiniciar la sesión |
+| Regla de reinicio | Reiniciar después de un error claro | Evita confusiones sobre rondas discutidas |
+
+<Callout type="tip" title="Consejo del editor">
+Escribe las reglas del desafío en una sola frase antes de jugar. Si la frase necesita varias excepciones, simplifica el formato.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Desafío de ritmo">
+    Activa una acción durante una ventana muy breve. Puntúa a los jugadores por su precisión, paciencia y éxito al calcular el momento.
+  </Card>
+  <Card title="Desafío de comedia">
+    Crea el resultado más divertido usando un tema compartido. Deja que el grupo vote, pero impide que los jugadores voten por sí mismos.
+  </Card>
+  <Card title="Desafío de resistencia">
+    Continúa durante varias rondas evitando un error específico. Aumenta la presión gradualmente en lugar de comenzar con la dificultad máxima.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Users} title="Formatos de desafío para distintos grupos">
+
+El tamaño del grupo cambia cuál es el formato ideal. Dos jugadores pueden competir directamente, mientras que los grupos más grandes suelen necesitar turnos rotatorios o puntuación por equipos. El objetivo es evitar largas esperas y conseguir que cada ronda produzca un momento destacado claro.
+
+Para cuatro jugadores o más, utiliza una clasificación con valores de puntos pequeños. Un sistema sencillo, como tres puntos para el primer puesto, dos para el segundo y uno por participación, mantiene la competitividad sin hacer imposible remontar tras un error inicial.
+
+| Tamaño del grupo | Mejor formato | Puntuación sugerida |
+|---|---|---|
+| 2 jugadores | Rondas uno contra uno | 1 punto por ganar una ronda |
+| 3 jugadores | Todos contra todos | 3, 2 y 1 puntos |
+| 4 jugadores | Turnos individuales rotatorios | 2 puntos por éxito, 1 por estilo |
+| 5–8 jugadores | Equipos o cuadro | Puntos de equipo más una bonificación opcional |
+| 9 o más | Torneo corto | Clasificatorias, semifinales y final |
+
+Usa formatos por equipos cuando algunos jugadores sean nuevos. Emparejar a jugadores experimentados con otros que no conozcan el juego crea una sesión más acogedora y reduce la presión sobre quienes están aprendiendo los controles o las reglas de interacción.
+
+<Callout type="success" title="Juego limpio">
+Da a cada jugador el mismo número de intentos. Si una ronda depende de un efecto aleatorio, concede un pequeño punto de participación para que un resultado desafortunado no decida toda la sesión.
+</Callout>
+
+Un buen sistema de rotación puede seguir este patrón:
+
+- La primera ronda utiliza intentos individuales.
+- La segunda ronda empareja a los jugadores en equipos temporales.
+- La tercera ronda vuelve a la puntuación individual.
+- La ronda final utiliza el formato favorito del grupo.
+
+Esta estructura crea variedad sin exigir un cuadro de torneo complicado.
+
+</Section>
+
+<Section icon={Sparkles} title="Configuración paso a paso de un desafío">
+
+Utiliza la siguiente configuración cuando quieras crear rápidamente un desafío nuevo. Funciona para sesiones informales, eventos de la comunidad y partidas repetidas con el mismo grupo de amigos.
+
+<Steps>
+  <Step num="1" title="Elige el tema">
+    Elige un tema claro, como el ritmo, la sorpresa, la precisión, las reacciones o las combinaciones creativas. Evita combinar varios temas en la ronda inicial.
+  </Step>
+  <Step num="2" title="Define el objetivo">
+    Indica exactamente qué cuenta como éxito. Algunos ejemplos son realizar la acción con el mejor ritmo, conseguir más votos o completar una secuencia sin cometer errores.
+  </Step>
+  <Step num="3" title="Establece los límites">
+    Decide la duración de la ronda, el número de intentos, el orden de los jugadores y las acciones que no están permitidas. Los límites hacen que el desafío parezca intencionado.
+  </Step>
+  <Step num="4" title="Haz una ronda de práctica">
+    Deja que todos prueben el formato una vez sin registrar puntos. Utiliza esta ronda para resolver las reglas poco claras y confirmar que el desafío resulta cómodo para el grupo.
+  </Step>
+  <Step num="5" title="Registra los resultados">
+    Anota las puntuaciones después de cada ronda. Anuncia quién va en cabeza, pero mantén abierto el resultado final hasta completar el último desafío.
+  </Step>
+</Steps>
+
+| Pregunta de configuración | Respuesta rápida |
+|---|---|
+| ¿Cuántas rondas? | Tres para una partida informal, cinco para una sesión más larga |
+| ¿Cuántos intentos? | De uno a tres por jugador |
+| ¿Quién juzga el estilo? | El grupo, con la autopuntuación desactivada |
+| ¿Qué ocurre si las reglas no están claras? | Pausa la puntuación y acuerda una corrección |
+| ¿Qué ocurre si alguien se desconecta? | Repite la ronda cuando sea posible |
+
+<Callout type="warning" title="Evita que las reglas cambien">
+No cambies el sistema de puntuación a mitad de una partida importante. Si el formato no funciona, termina la ronda actual, explica el cambio y reinicia la clasificación.
+</Callout>
+
+Después de la primera sesión, guarda los formatos que hayan provocado más risas y menos pausas. Esos se convertirán en la rotación habitual de desafíos de tu grupo.
+
+</Section>
+
+<Section icon={Shield} title="Puntuación, límites y valor de repetición">
+
+Un buen desafío necesita algo más que una idea divertida. Los jugadores deben saber cómo se consiguen los puntos, qué ocurre después de un intento fallido y si las reacciones del público afectan al resultado. La coherencia importa más que una puntuación compleja.
+
+Para las rondas basadas en la comedia, utiliza una combinación de puntos objetivos y sociales. Los puntos objetivos recompensan el ritmo o la finalización, mientras que los puntos de estilo reconocen la originalidad. Limita las bonificaciones para que el momento favorito del grupo no eclipse todos los demás resultados.
+
+| Tipo de puntuación | Mejor uso | Ventaja | Riesgo |
+|---|---|---|---|
+| Puntuación objetiva | Ritmo o precisión | Fácil de verificar | Puede parecer menos creativa |
+| Votación del grupo | Comedia o estilo | Fomenta jugadas memorables | Puede favorecer a los jugadores más ruidosos |
+| Puntuación híbrida | Desafíos mixtos | Equilibra habilidad y humor | Requiere categorías claras |
+| Puntuación por equipos | Grupos grandes | Reduce el tiempo de espera | El impacto individual es menor |
+
+Antes de empezar, acuerden unos límites básicos:
+
+- No utilices el nombre real ni la información personal de un jugador como objetivo del desafío.
+- Evita grabar o compartir clips de voz sin el permiso de todos.
+- Mantén los efectos sorpresa dentro de los límites de comodidad del grupo.
+- Permite que un jugador se salte una ronda sin perder el acceso a sus próximos turnos.
+- Usa un anfitrión neutral para resolver las decisiones de puntuación poco claras.
+
+<Callout type="info" title="Consejo para repetir">
+Cambia solo una variable al repetir un desafío que haya funcionado. Aumenta la presión de tiempo, reduce los intentos o añade un tema nuevo, pero no reconstruyas todas las reglas a la vez.
+</Callout>
+
+<Checklist
+  id="challenge-session"
+  title="Antes de empezar:"
+  items={[
+    "Elige un objetivo para el desafío",
+    "Establece el número de rondas e intentos",
+    "Explica las reglas de puntuación y desempate",
+    "Confirma los límites de grabación y comodidad",
+    "Prepara un registro de puntuación sencillo"
+  ]}
+/>
+
+Un calendario de repetición útil consiste en mantener un formato conocido e introducir un formato experimental en cada sesión. Esto ofrece a los jugadores nuevos un punto de entrada sencillo y conserva la variedad para los habituales.
+
+</Section>
+
+<Section icon={Trophy} title="Ideas de desafíos y preguntas frecuentes">
+
+Las siguientes ideas están diseñadas como plantillas adaptables, no como modos fijos. Ajusta la dificultad al nivel de los jugadores y, después, mantén las reglas constantes durante toda la ronda.
+
+| Nombre del desafío | Objetivo | Dificultad |
+|---|---|---|
+| Ritmo perfecto | Conseguir la acción más cercana a una señal elegida | Media |
+| Preparación silenciosa | Completar la preparación sin instrucciones verbales | Difícil |
+| Ronda temática | Crear el resultado más divertido a partir de una propuesta | Fácil |
+| Final de un solo intento | Hacer un intento bajo la presión de un torneo | Media |
+| Relevo por equipos | Cada compañero completa una parte de la secuencia | Media |
+
+<Callout type="tip" title="Mejor formato para empezar">
+Empieza con un desafío de ritmo de tres rondas. Es corto, fácil de explicar y ofrece al grupo una referencia fiable antes de añadir reglas creativas.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los mejores desafíos de Fart With Your Friends para principiantes?",
+    answer: "Empieza con rondas cortas de ritmo, temáticas o de un solo intento. Estos formatos utilizan objetivos sencillos y ayudan a los jugadores nuevos a aprender las interacciones disponibles sin una penalización prolongada."
+  },
+  {
+    question: "¿Cuántos jugadores deberían participar en un desafío?",
+    answer: "De dos a cuatro jugadores es lo más fácil para una competición directa. Los grupos más grandes deberían utilizar equipos, turnos rotatorios o un cuadro para que el tiempo de espera sea manejable."
+  },
+  {
+    question: "¿Cómo deberían resolverse los empates?",
+    answer: "Utiliza un intento de muerte súbita con el mismo objetivo que la ronda empatada. Si el resultado sigue sin estar claro, deja que el grupo vote por el estilo o repite la ronda."
+  },
+  {
+    question: "¿Se pueden cambiar las reglas del desafío entre rondas?",
+    answer: "Sí, pero anuncia los cambios antes de que comience la siguiente ronda. Mantén estable el método de puntuación durante una ronda para que todos los jugadores compitan en las mismas condiciones."
+  }
+]} />
+
+</Section>

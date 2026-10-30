@@ -1,0 +1,216 @@
+import { Users, Map, Target, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Lobby de amigos do Fart With Your Friends: Guia de configuração",
+  description: "Aprenda a criar um lobby de amigos do Fart With Your Friends, entrar no mesmo servidor do Roblox, formar equipes e coordenar desafios de jangada.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/4338ca/fff?text=Friends+Lobby+Setup",
+  date: "2026-10-31",
+  author: "Equipe da Wiki do Fart With Your Friends"
+}
+
+<Callout type="info" title="Guia rápido">
+- A configuração do **lobby de amigos do Fart With Your Friends** começa colocando todos os jogadores na mesma experiência do Roblox.
+- **Entre no mesmo servidor** antes de selecionar uma atividade no rio ou um formato de equipe competitiva.
+- **Raft Race** oferece formatos de equipe de 1v1 a 4v4 para partidas multiplayer organizadas.
+- **Use comandos claros** para que os companheiros façam curvas coordenadas em vez de movimentos conflitantes.
+- **Verifique as configurações de privacidade** se um amigo não conseguir entrar ou aparecer em um servidor diferente.
+</Callout>
+
+<Section icon={Users} title="Configuração do lobby de amigos do Fart With Your Friends">
+
+As partidas no lobby de amigos do Fart With Your Friends funcionam melhor quando o grupo inteiro entra na mesma sessão de jogo do Roblox antes de escolher uma atividade. O jogo gira em torno de guiar uma jangada por desafios no rio, então entrar juntos é mais importante do que simplesmente serem amigos no Roblox.
+
+A [página oficial do jogo Fart With Your Friends no Roblox](https://www.roblox.com/games/98875597274178/Fart-With-Your-Friends?placeId=98875597274178&universeId=10771196798) lista atividades cooperativas e formatos de Raft Race que vão de 1v1 a 4v4. As informações disponíveis não confirmam uma interface de lobby separada e com nome próprio, portanto considere o servidor do Roblox e a seleção de atividades dentro do jogo como o ponto de encontro prático.
+
+<CardGrid cols={4}>
+  <Card title="Prepare o grupo">
+    Confirme quem vai jogar, quem convidará os demais e qual atividade o grupo deseja experimentar primeiro.
+  </Card>
+  <Card title="Abra o jogo">
+    Use a página oficial do jogo no Roblox e espere todos os jogadores terminarem de carregar a experiência.
+  </Card>
+  <Card title="Confirme o servidor">
+    Verifique se os amigos conseguem ver uns aos outros na mesma sessão antes de começar um desafio no rio.
+  </Card>
+  <Card title="Escolha a atividade">
+    Selecione Campaign, Raft Race, Endless River ou Daily River de acordo com o estilo de jogo preferido pelo grupo.
+  </Card>
+</CardGrid>
+
+| Objetivo do lobby | Ação recomendada | Por que isso importa |
+|---|---|---|
+| Reunir os amigos | Escolha um jogador para organizar a sessão | Reduz convites duplicados e confusão entre servidores |
+| Entrar juntos | Use os recursos de party ou entrada do Roblox | Ajuda o grupo a carregar na mesma experiência |
+| Conferir a presença | Confirme os nomes dos jogadores na mesma sessão | Evita que um amigo comece sozinho |
+| Começar a partida | Escolha a atividade depois que todos chegarem | Mantém a equipe unida antes de a jangada se mover |
+
+<Callout type="tip" title="Dica para o lobby">
+Escolha um líder da sessão antes de abrir o jogo. Essa pessoa pode compartilhar o link do jogo, confirmar a presença e avisar quando o grupo estiver pronto para selecionar um modo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Como entrar no mesmo servidor do Roblox">
+
+O método mais simples para criar um lobby de amigos é usar as opções normais de party e entrada do Roblox e, em seguida, verificar o servidor antes de selecionar um desafio. Um jogador que abrir o jogo separadamente pode carregar em outra sessão, então não presuma que todos estão juntos apenas porque iniciaram a mesma experiência.
+
+<Steps>
+  <Step num="1" title="Escolha o líder da sessão">
+    Escolha um amigo para iniciar a sessão do grupo. O líder deve abrir a página oficial do Fart With Your Friends no Roblox e avisar a todos quando entrarem.
+  </Step>
+  <Step num="2" title="Convide ou entre pelo Roblox">
+    Use os recursos disponíveis de party, convite ou entrada do Roblox para acessar a mesma experiência. Cada jogador deve esperar até que a área do jogo termine de carregar.
+  </Step>
+  <Step num="3" title="Verifique o grupo de jogadores">
+    Procure os outros jogadores na mesma sessão do jogo. Se alguém estiver ausente, pause a seleção do modo e ajude essa pessoa a entrar na sessão ativa.
+  </Step>
+  <Step num="4" title="Selecione uma atividade multiplayer">
+    Escolha uma atividade cooperativa no rio para praticar ou selecione Raft Race quando as equipes estiverem prontas para uma partida competitiva.
+  </Step>
+  <Step num="5" title="Confirme as equipes antes de começar">
+    Organize os jogadores disponíveis, definam os lados das equipes e estabeleçam comandos curtos de movimento antes de a jangada começar a desviar dos obstáculos.
+  </Step>
+</Steps>
+
+| Ponto de verificação | Resultado esperado | Se falhar |
+|---|---|---|
+| Página do jogo | Todos abriram a mesma experiência oficial | Compartilhe novamente o link oficial do jogo |
+| Entrada no servidor | Os jogadores aparecem em uma sessão compartilhada | Use novamente as opções de entrada ou party do Roblox |
+| Seleção da atividade | O grupo vê a mesma escolha de modo | Espere os jogadores que ainda estão carregando |
+| Configuração das equipes | Os jogadores foram atribuídos aos lados pretendidos | Reequilibre as equipes antes de começar |
+| Início da partida | Todos estão prontos para o rio | Cancele ou adie brevemente o início |
+
+<Callout type="warning" title="Aviso sobre o servidor">
+Se um amigo não conseguir entrar, verifique as configurações de privacidade, party e entrada do Roblox antes de reiniciar o jogo repetidamente. O problema pode estar relacionado ao acesso da conta ou à visibilidade do servidor, e não à experiência do Fart With Your Friends em si.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Escolha a atividade certa para o lobby de amigos">
+
+Quando todos estiverem na mesma sessão, selecione uma atividade compatível com o nível de experiência do grupo. Campaign é um ponto de partida prático para aprender o fluxo básico, enquanto Raft Race é melhor para a competição direta entre equipes. Endless River enfatiza a navegação contínua, e Daily River oferece um desafio recorrente.
+
+| Atividade | Objetivo principal | Ideal para | Abordagem multiplayer |
+|---|---|---|---|
+| Campaign | Avançar por desafios estruturados no rio | Jogadores novos e aprendizado gradual | Praticar movimentos e atenção aos obstáculos |
+| Raft Race | Competir contra outra equipe | Grupos competitivos | Dividir as equipes e usar comandos coordenados |
+| Endless River | Continuar navegando pelo maior tempo possível | Resistência e prática | Concentrar-se na sobrevivência e na direção consistente |
+| Daily River | Tentar o desafio diário recorrente | Jogadores que buscam um objetivo repetível | Comparar partidas e aperfeiçoar o plano da equipe |
+
+<CardGrid cols={3}>
+  <Card title="Lobby de Campaign">
+    Comece aqui quando os jogadores não estiverem familiarizados com os movimentos da jangada ou precisarem de tempo para entender como funciona a rota do rio.
+  </Card>
+  <Card title="Lobby de Raft Race">
+    Use este formato para competição direta. As estruturas de equipe disponíveis incluem 1v1, 2v2, 3v3 e 4v4.
+  </Card>
+  <Card title="Lobby de prática">
+    Endless River pode ajudar o grupo a testar a comunicação, os hábitos de fazer curvas e as reações sem se concentrar apenas no resultado de uma única corrida.
+  </Card>
+</CardGrid>
+
+Um bom lobby de amigos deve estabelecer um sistema simples de comandos antes da partida. Um jogador pode chamar a próxima curva, ou a equipe pode concordar que a pessoa com a visão mais clara liderará as decisões de movimento.
+
+Comandos úteis incluem:
+
+- **Esquerda** ou **direita** para uma curva próxima.
+- **Devagar** quando a equipe precisar de movimentos controlados.
+- **Obstáculo** quando um perigo estiver se aproximando.
+- **Reiniciar** quando o plano atual não estiver mais funcionando.
+- **Prontos** antes de começar uma rodada competitiva.
+
+<Callout type="success" title="Estratégia de equipe">
+Na primeira sessão do grupo, comece com uma atividade cooperativa ou Campaign. Passe para Raft Race depois que todos entenderem os controles e conseguirem seguir uma única direção compartilhada.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solução de problemas e coordenação no lobby de amigos">
+
+Os problemas multiplayer geralmente surgem por causa de servidores diferentes, carregamento atrasado, atribuições de equipe pouco claras ou decisões de movimento conflitantes. Resolva primeiro o problema de configuração, em vez de iniciar várias rodadas esperando que o grupo se sincronize por conta própria.
+
+| Problema | Causa provável | Solução prática |
+|---|---|---|
+| O amigo não está visível | Servidor diferente do Roblox | Entre novamente por meio do líder da sessão |
+| O amigo não consegue entrar | Restrição de privacidade ou party | Revise as configurações de entrada e privacidade do Roblox |
+| As equipes estão desiguais | Os jogadores entraram em momentos diferentes | Espere o grupo completo antes de escolher as equipes |
+| A jangada faz curvas imprevisíveis | Vários jogadores dão comandos conflitantes | Designe um único líder para os comandos |
+| O jogador carrega atrasado | Atraso de conexão ou carregamento | Pause a seleção do modo até o jogador aparecer |
+| A corrida parece desorganizada | Não há um plano antes do início | Definam primeiro os comandos e as funções de cada equipe |
+
+Durante a partida, mantenha a comunicação curta. Explicações longas são difíceis de acompanhar quando o rio muda rapidamente. A equipe deve priorizar o próximo obstáculo em vez de discutir cada erro anterior.
+
+<Checklist
+  id="friends-lobby-ready"
+  title="Checklist de preparação do lobby de amigos:"
+  items={[
+    "Escolha um líder da sessão",
+    "Abra a página oficial do Fart With Your Friends no Roblox",
+    "Confirme que todos os jogadores estão no mesmo servidor",
+    "Selecione uma atividade cooperativa ou um formato de Raft Race",
+    "Definam um único líder principal para os movimentos"
+  ]}
+/>
+
+O líder da sessão também deve evitar mudar de atividade enquanto outro jogador ainda estiver carregando. Esperar alguns instantes pode impedir que o grupo seja dividido entre atividades ou servidores diferentes.
+
+<Callout type="tip" title="Dica de coordenação">
+Use um único líder principal para os comandos durante os trechos difíceis. Os outros jogadores podem avisar sobre obstáculos, mas uma única direção final facilita a coordenação dos movimentos da jangada.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ e referência rápida do lobby de amigos">
+
+O processo do lobby de amigos é simples quando o grupo trata o servidor do Roblox como ponto de encontro. Comece reunindo todos, confirme a sessão compartilhada e só então selecione a atividade e a estrutura das equipes.
+
+| Tamanho do grupo | Formato adequado | Ponto de partida sugerido |
+|---|---|---|
+| 2 jogadores | Atividade cooperativa ou 1v1 | Campaign ou uma Raft Race simples |
+| 4 jogadores | 2v2 ou partida cooperativa | Campaign, Raft Race ou Endless River |
+| 6 jogadores | 3v3 | Raft Race com equipes equilibradas |
+| 8 jogadores | 4v4 | Raft Race para um desafio completo em equipe |
+
+<FAQ items={[
+  {
+    question: "O Fart With Your Friends tem uma tela de lobby de amigos separada?",
+    answer: "As informações oficiais disponíveis sobre o jogo confirmam atividades multiplayer e partidas em servidores do Roblox, mas não confirmam uma tela de lobby com nome separado. Use os recursos de party ou entrada do Roblox e verifique se todos estão na mesma sessão do jogo."
+  },
+  {
+    question: "Como coloco meus amigos no mesmo servidor do Fart With Your Friends?",
+    answer: "Escolha um líder da sessão, abra a página oficial do jogo no Roblox e peça aos demais para entrarem por meio dos recursos de party ou entrada do Roblox. Confirme que todos os jogadores aparecem na mesma sessão antes de selecionar um modo."
+  },
+  {
+    question: "Quais tamanhos de equipe estão disponíveis em Raft Race?",
+    answer: "Os formatos competitivos listados vão de 1v1 a 4v4, incluindo 2v2 e 3v3. Sempre que possível, mantenha as equipes equilibradas para um desafio mais justo."
+  },
+  {
+    question: "Qual atividade é melhor para a primeira sessão do lobby de amigos?",
+    answer: "Campaign ou outra atividade cooperativa no rio é um ponto de partida adequado, pois os jogadores podem aprender os movimentos da jangada e a comunicação antes de tentar uma Raft Race competitiva."
+  }
+]} />
+
+<Callout type="info" title="Nota de referência">
+Para obter acesso atual ao jogo e consultar as informações multiplayer publicadas, use a [página oficial do Fart With Your Friends no Roblox](https://www.roblox.com/games/98875597274178/Fart-With-Your-Friends?placeId=98875597274178&universeId=10771196798). A disponibilidade e os detalhes da interface podem mudar com futuras atualizações.
+</Callout>
+
+Uma rotina confiável para o lobby de amigos é:
+
+1. Escolha um líder da sessão.
+2. Entrem juntos na experiência oficial.
+3. Verifiquem o servidor compartilhado.
+4. Selecionem a atividade.
+5. Equilibrem as equipes.
+6. Definam os comandos de movimento.
+7. Comecem o desafio no rio.
+
+Essa configuração mantém o grupo organizado sem presumir que o jogo use um menu de lobby separado. Ela também oferece aos jogadores novos um caminho claro desde a entrada com os amigos até a conclusão da primeira partida coordenada de jangada.
+
+</Section>

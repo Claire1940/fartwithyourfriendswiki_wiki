@@ -1,0 +1,248 @@
+import { Monitor, Users, Settings, ShieldCheck, Trophy, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fart With Your Friends Steam-Multiplayer: Einrichtungsanleitung",
+  description: "Erfahre, wie du die Steam-Multiplayer-Unterstützung überprüfst, eine Gruppensitzung vorbereitest, Verbindungsprobleme behebst und ein reibungsloseres Fart With Your Friends-Match organisierst.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Steam+Multiplayer+Setup",
+  date: "2026-10-31",
+  author: "Fart With Your Friends Wiki-Team",
+  slug: "fart-with-your-friends-steam-multiplayer"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Der Steam-Multiplayer von Fart With Your Friends** erfordert, dass du vor dem Einladen einer Gruppe den aktuellen Steam-Eintrag überprüfst.
+- **Bestätige den Modus**, indem du die unterstützten Multiplayer-Funktionen, Spielerlimits und Eingabeanforderungen prüfst.
+- **Bereite den Host vor**: mit einer stabilen Verbindung, aktualisierten Spieldateien und einer privaten Steam-Sitzung.
+- **Verwende eine Test-Lobby**, bevor du ein größeres Gruppenspiel oder Community-Event organisierst.
+- **Behebe Probleme der Reihe nach**, indem du Updates, Einladungen, Privatsphäre-Einstellungen und Netzwerksoftware überprüfst.
+</Callout>
+
+<Section icon={Monitor} title="Grundlagen des Steam-Multiplayers von Fart With Your Friends">
+
+Für alle, die nach **Fart With Your Friends Steam-Multiplayer** suchen, ist die wichtigste Frage, ob die aktuelle Steam-Version die Art von Gruppensitzung unterstützt, die du organisieren möchtest. Multiplayer-Kennzeichnungen können verschiedene Systeme beschreiben, darunter Online-Koop, kompetitives Matchmaking, private Lobbys, lokales Spielen oder Remote-Play-Funktionen. Diese Optionen bieten nicht dasselbe Spielerlebnis. Deshalb ist es ein wichtiger erster Schritt, die genauen Angaben im Store-Eintrag zu überprüfen.
+
+Öffne die aktuelle [Steam-Suchseite für Fart With Your Friends](https://store.steampowered.com/search/?term=Fart%20With%20Your%20Friends) und sieh dir den Store-Eintrag des Spiels an, bevor du Pläne machst. Achte auf die unterstützte Spieleranzahl, Tags für Online- oder lokales Multiplayer-Spiel, Controller-Anforderungen sowie Hinweise zu Early Access oder Änderungen an den Funktionen.
+
+| Steam-Detail | Warum es wichtig ist | Was zu überprüfen ist |
+|---|---|---|
+| Multiplayer-Typ | Zeigt, wie sich die Spieler verbinden | Online, lokal oder Remote Play |
+| Spieleranzahl | Legt die Größe deiner Sitzung fest | Minimale und maximale Spielerzahl |
+| Eingabeunterstützung | Verhindert Controller-Konflikte | Tastatur, Gamepad oder gemischte Eingabe |
+| Sitzungsprivatsphäre | Legt fest, wer beitreten kann | Nur Freunde, nur auf Einladung oder öffentlich |
+| Plattformhinweise | Zeigt Kompatibilitätsgrenzen | Windows-Unterstützung und erforderliche Dienste |
+
+<CardGrid cols={3}>
+  <Card title="Online-Sitzung">
+    Ideal für Freunde, die von verschiedenen Computern aus beitreten. Bestätige, dass der Store-Eintrag Online-Spiel unterstützt, und prüfe, ob Einladungen über Steam verschickt werden.
+  </Card>
+  <Card title="Lokale Sitzung">
+    Nützlich, wenn mehrere Spieler einen Computer oder Bildschirm gemeinsam verwenden. Überprüfe den lokalen Mehrspielermodus und die Anzahl der unterstützten Controller.
+  </Card>
+  <Card title="Remote Play">
+    Eine praktische Option, wenn lokales Spielen unterstützt wird, die Spieler aber nicht am selben Ort sind. Die Verbindungsqualität hängt stark vom Host ab.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Vor der Terminplanung überprüfen">
+Gehe nicht davon aus, dass ein Multiplayer-Tag jeden Modus garantiert. Spielerlimits, lokale Unterstützung, Online-Zugriff und Remote-Play-Kompatibilität können sich zwischen Versionen unterscheiden und sich während der Entwicklung ändern.
+</Callout>
+
+Der Host sollte außerdem bestätigen, dass jeder Teilnehmer die erforderliche Version besitzt oder über die unterstützte Steam-Funktion beitreten kann. Wenn der Store-Eintrag unklar ist, führe eine kurze Testsitzung durch, anstatt dich auf Annahmen zu verlassen.
+
+</Section>
+
+<Section icon={Users} title="Gruppeneinrichtung und Spielerplanung">
+
+Eine zuverlässige Sitzung beginnt, bevor das Spiel gestartet wird. Lege fest, wer hostet, wie viele Personen beitreten und ob die Gruppe ein privates Match oder eine offenere Sitzung möchte. Kleine Gruppen lassen sich meist leichter koordinieren, da die Spieler schnell kommunizieren und Verbindungsprobleme beheben können, ohne alle anderen aufzuhalten.
+
+Verwende die folgende Tabelle als Planungshilfe und nicht als feste Regel. Die richtige Gruppengröße hängt vom aktuellen Store-Eintrag des Spiels und dem ausgewählten Modus ab.
+
+| Gruppengröße | Empfohlener Ansatz | Hauptvorteil | Häufiges Risiko |
+|---|---|---|---|
+| Zwei Spieler | Private Testsitzung | Schnelle Einrichtung und einfache Fehlerbehebung | Weniger Möglichkeiten zur gemeinsamen Problemlösung |
+| Drei bis vier Spieler | Nur-Freunde-Lobby | Gute Balance aus Kommunikation und Abwechslung | Ein getrennter Spieler kann die Sitzung beeinträchtigen |
+| Größere Gruppe | Zuerst das angegebene Spielerlimit bestätigen | Mehr soziale Interaktion | Mehr Einladungen und Verbindungsvariablen |
+| Unterschiedliche Erfahrung | Eine kurze Übungsrunde verwenden | Neue Spieler lernen ohne Druck | Das erste Match kann langsam vorangehen |
+
+Verteile vor dem Start einfache Verantwortlichkeiten:
+
+- **Host:** Startet die Sitzung, verwaltet Einladungen und bestätigt, dass die Lobby bereit ist.
+- **Spieler:** Aktualisieren das Spiel, nehmen Einladungen an und testen ihre Steuerung vor dem Beitritt.
+- **Gruppenorganisator:** Teilt die Startzeit, den Sprachkanal und einen Ersatzplan mit, falls jemand keine Verbindung herstellen kann.
+- **Beobachter oder Ersatzspieler:** Hilft, einen Platz zu besetzen, sofern die unterstützte Spieleranzahl dies erlaubt.
+
+<Callout type="tip" title="Praktischer Planungstipp">
+Wähle einen Host mit stabiler Verbindung und halte die erste Sitzung kurz. Ein zehnminütiger Test kann Probleme mit Einladungen, Steuerung und Audio aufdecken, bevor die Hauptgruppe eintrifft.
+</Callout>
+
+Eine private Sitzung ist für Freunde normalerweise der beste Ausgangspunkt. Sie reduziert unerwartete Beitritte und erleichtert das Pausieren, während die Steuerung überprüft wird. Öffentliche oder offene Sitzungen können für Community-Spiele nützlich sein, erfordern aber klarere Regeln und eine aktivere Moderation.
+
+<CardGrid cols={3}>
+  <Card title="Private Freundesgruppe">
+    Verwende diese Option, wenn alle die Sitzungszeit bereits kennen. Diese Einrichtung ermöglicht die klarste Kommunikation und die wenigsten Unterbrechungen.
+  </Card>
+  <Card title="Community-Match">
+    Verwende diese Option, wenn du andere Spieler kennenlernen möchtest. Teile die Regeln im Voraus und vermeide es, unnötige persönliche Informationen preiszugeben.
+  </Card>
+  <Card title="Test-Lobby">
+    Verwende sie vor einem Event oder einer Aufnahmesitzung. Bestätige Einladungen, Audio, Steuerung und Spielerlimits mit einer kleinen Gruppe.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Settings} title="Schritt-für-Schritt-Einrichtung des Steam-Multiplayers">
+
+Befolge diese Schritte, um eine zuverlässige Sitzung zu erstellen. Die Bezeichnungen der Steam-Menüs können je nach Client-Version leicht abweichen, aber die Reihenfolge ist für die meisten Multiplayer-Prüfungen hilfreich.
+
+<Steps>
+  <Step num="1" title="Aktuellen Store-Eintrag prüfen">
+    Öffne den offiziellen Steam-Eintrag und ermittle den unterstützten Multiplayer-Typ, die Spieleranzahl, Hinweise zu Controllern und alle Zugangsvoraussetzungen. Notiere die Details, bevor du Freunde einlädst.
+  </Step>
+  <Step num="2" title="Jede Installation aktualisieren">
+    Bitte jeden Spieler, ausstehende Steam-Updates zu installieren. Unterschiedliche Versionen können verhindern, dass Spieler derselben Sitzung beitreten, oder unerwartete Fehler verursachen.
+  </Step>
+  <Step num="3" title="Den Host auswählen">
+    Wähle den Spieler mit der zuverlässigsten Verbindung und einem Computer, auf dem das Spiel problemlos läuft. Der Host sollte Steam zuerst starten und während der Einrichtung verfügbar bleiben.
+  </Step>
+  <Step num="4" title="Eine private Sitzung erstellen">
+    Starte den unterstützten Multiplayer-Modus, wähle die praktisch strengste Privatsphäre-Einstellung und lade Freunde über Steam ein. Warte, bis alle bestätigen, dass sie die Sitzung sehen können.
+  </Step>
+  <Step num="5" title="Eine kurze Testrunde durchführen">
+    Überprüfe Bewegung, Eingabe, Sprachkommunikation und die Sichtbarkeit der Spieler. Wenn ein Problem auftritt, behebe es, bevor du ein längeres Match startest oder weitere Spieler einlädst.
+  </Step>
+</Steps>
+
+| Einrichtungsphase | Aktion des Hosts | Aktion des Spielers | Erfolgsprüfung |
+|---|---|---|---|
+| Store-Prüfung | Den angegebenen Modus bestätigen | Dieselben Details lesen | Alle verstehen den Sitzungstyp |
+| Update-Prüfung | Die Host-Version überprüfen | Ausstehende Updates installieren | Die Versionen stimmen überein |
+| Lobby-Erstellung | Privatsphäre festlegen und Spieler einladen | Die Einladung annehmen | Alle erreichen die Lobby |
+| Steuerungstest | Eine kurze Runde starten | Bewegung und Eingabe testen | Die Steuerung reagiert korrekt |
+| Match-Start | Bereitschaft bestätigen | Probleme frühzeitig melden | Die Gruppe beginnt gemeinsam |
+
+<Callout type="success" title="Beste Startkonfiguration">
+Verwende beim ersten Versuch eine private Sitzung nur für Freunde, die kleinstmögliche praktische Gruppe und eine kurze Testrunde. Mit dieser Konfiguration lassen sich Verbindungsprobleme leichter eingrenzen.
+</Callout>
+
+Wenn ein Spieler nicht beitreten kann, versende nicht wiederholt Einladungen, ohne zuerst die Grundlagen zu prüfen. Bestätige, dass der Spieler Steam gestartet hat, das richtige Konto verwendet, die Aktualisierung abgeschlossen ist und sich nicht bereits in einer anderen Sitzung befindet.
+
+</Section>
+
+<Section icon={ShieldCheck} title="Fehlerbehebung bei Verbindungen und Sitzungsstabilität">
+
+Multiplayer-Probleme entstehen oft durch Unterschiede bei der Einrichtung und nicht durch das Spiel selbst. Nimm jeweils nur eine Änderung vor, damit die Gruppe weiß, welche Anpassung das Problem gelöst hat. Wenn alle Anwendungen gleichzeitig neu gestartet werden, kann die Ursache schwerer zu erkennen sein.
+
+| Problem | Erste Prüfung | Nächste Maßnahme | Vermeiden |
+|---|---|---|---|
+| Einladung wird nicht angezeigt | Steam-Freundesstatus | Den Client erneut öffnen und die Einladung einmal erneut senden | Wiederholtes Senden von Einladungen |
+| Spieler kann die Lobby nicht betreten | Privatsphäre und Spielerlimit | Die private Sitzung neu erstellen | Annehmen, dass das Spiel offline ist |
+| Steuerung reagiert nicht | Verbindung des Eingabegeräts | Ein Gerät erneut verbinden und testen | Mehrere Steuerungseinstellungen gleichzeitig ändern |
+| Sprachkommunikation funktioniert nicht | Ausgewähltes Mikrofon | Einen separaten Sprachkanal verwenden | Die Lautstärke ohne Test erhöhen |
+| Match wird getrennt | Stabilität der Host-Verbindung | Hintergrundverkehr reduzieren und erneut versuchen | Einen Spieler beschuldigen, bevor die Protokolle geprüft wurden |
+
+Führe diese praktischen Prüfungen durch:
+
+- Schließe Downloads, Streams und andere Anwendungen mit hohem Bandbreitenbedarf auf dem Host-Computer.
+- Verbinde den Host nach Möglichkeit über ein stabiles Netzwerk.
+- Starte Steam erst neu, nachdem du bestätigt hast, dass das Problem nicht durch eine fehlende Einladung oder eine Privatsphäre-Einstellung verursacht wird.
+- Verzichte in der ersten Sitzung auf unnötige Overlays und Aufnahmeprogramme.
+- Wenn ein Spieler wiederholt die Verbindung verliert, lass die übrige Gruppe die Lobby testen, bevor du den Host wechselst.
+- Notiere die genaue Fehlermeldung, anstatt das Problem nur als „Multiplayer kaputt“ zu beschreiben.
+
+<Callout type="warning" title="Unnötige Netzwerkänderungen vermeiden">
+Ändere Router-Einstellungen, Firewall-Regeln oder Sicherheitssoftware nicht, ohne die Auswirkungen zu verstehen. Beginne mit Updates, Privatsphäre-Einstellungen, Neustarts und einer kleineren Test-Lobby.
+</Callout>
+
+Ein Host-Wechsel kann helfen, wenn eine Verbindung instabil ist, sollte aber als kontrollierter Test behandelt werden. Verlege die Sitzung zu einem anderen Host, lade ein oder zwei Spieler ein und vergleiche das Ergebnis. Wenn das Problem einem bestimmten Konto oder Computer folgt, wird es wahrscheinlich nicht vom ursprünglichen Host verursacht.
+
+<Checklist
+  id="steam-multiplayer-check"
+  title="Vor der Hauptsitzung:"
+  items={[
+    "Den aktuellen Steam-Multiplayer-Modus und das Spielerlimit bestätigen",
+    "Das Spiel und den Steam-Client auf jedem Computer aktualisieren",
+    "Einen Host mit stabiler Verbindung auswählen",
+    "Einladungen, Steuerung und Sprachkommunikation testen",
+    "Einen Ersatz-Host und einen Kommunikationskanal festlegen"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Bewährte Methoden für wiederholte Sitzungen">
+
+Sobald die erste Sitzung funktioniert, solltest du eine wiederholbare Routine erstellen. Eine konsequente Vorbereitung verkürzt die Wartezeit und erleichtert die Organisation wöchentlicher Matches, Community-Events oder lockerer Sitzungen mit Freunden.
+
+Eine nützliche Routine umfasst:
+
+- Teile die Startzeit und die erwartete Sitzungsdauer vor dem Start mit.
+- Bestimme einen primären Host und einen Ersatz-Host.
+- Verwende denselben Kommunikationskanal für Einrichtung und Fehlerbehebung.
+- Bitte die Spieler, Probleme vor Beginn des Matches zu melden.
+- Beginne mit einer privaten Lobby, wenn die Gruppe neue Spieler umfasst.
+- Beende die Sitzung ordentlich, damit die Spieler wissen, ob eine weitere Runde geplant ist.
+
+| Sitzungsziel | Empfohlene Einrichtung | Schwerpunkt der Vorbereitung |
+|---|---|---|
+| Lockerer Abend mit Freunden | Private Lobby | Einladungen und Sprachchat |
+| Spieler zum ersten Mal | Kleine Testgruppe | Steuerung und grundlegende Regeln |
+| Community-Event | Bestätigte Spielerliste | Zeitplan, Moderation, Ersatz-Host |
+| Wöchentliche wiederholte Sitzung | Gespeicherte Routine | Gleiche Host-Zeit und gleicher Kommunikationskanal |
+
+<CardGrid cols={4}>
+  <Card title="Zuverlässiger Host">
+    Hält die Lobby offen, bestätigt Einladungen und kümmert sich bei Bedarf um Neustarts.
+  </Card>
+  <Card title="Klare Regeln">
+    Erklärt das Sitzungsformat, das erwartete Verhalten und wie Spieler technische Probleme melden sollen.
+  </Card>
+  <Card title="Kurzer Test">
+    Überprüft die wichtigen Systeme, ohne die Einrichtung in eine lange Verzögerung zu verwandeln.
+  </Card>
+  <Card title="Ersatzplan">
+    Bietet einen anderen Host oder eine alternative Kommunikationsmethode, wenn die erste Einrichtung scheitert.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Sitzungen am Laufen halten">
+Wenn ein technisches Problem einen Spieler betrifft, lass den Rest der Gruppe einen kurzen Test durchführen, während dieser Spieler nach Updates sucht oder die Verbindung wiederherstellt. So wird die Ausfallzeit begrenzt, ohne das Problem zu ignorieren.
+</Callout>
+
+Die beste Einrichtung ist nicht unbedingt die komplizierteste. Eine kleine private Lobby mit aktualisierten Installationen, klaren Einladungen und einem getesteten Host ist oft effektiver als eine große Sitzung, die ohne Vorbereitung zusammengestellt wurde.
+
+</Section>
+
+<Section icon={HelpCircle} title="FAQ zum Steam-Multiplayer von Fart With Your Friends">
+
+<FAQ items={[
+  {
+    question: "Unterstützt Fart With Your Friends Steam-Multiplayer?",
+    answer: "Die genaue Multiplayer-Unterstützung sollte im aktuellen Steam-Eintrag bestätigt werden. Prüfe vor der Organisation einer Sitzung, ob auf der Seite Online-Multiplayer, lokales Spielen, Remote Play, die unterstützte Spieleranzahl und Controller-Anforderungen angegeben sind."
+  },
+  {
+    question: "Wie sollte ich meine erste Multiplayer-Sitzung einrichten?",
+    answer: "Wähle einen zuverlässigen Host, aktualisiere jede Installation, erstelle eine private Sitzung, lade eine kleine Gruppe ein und führe eine kurze Testrunde durch. Bestätige Steuerung und Kommunikation, bevor du ein längeres Match startest."
+  },
+  {
+    question: "Was soll ich tun, wenn ein Freund nicht beitreten kann?",
+    answer: "Überprüfe den Steam-Status, ausstehende Updates, die Privatsphäre der Lobby, Spielerlimits und ob sich der Freund bereits in einer anderen Sitzung befindet. Erstelle die private Lobby einmal neu und teste anschließend einen anderen Host, falls das Problem weiterhin besteht."
+  },
+  {
+    question: "Ist eine private Lobby besser als eine öffentliche Sitzung?",
+    answer: "Eine private Lobby ist normalerweise der einfachere Ausgangspunkt, da der Host die Einladungen kontrolliert und Probleme ohne unerwartete Spieler beheben kann. Öffentliche Sitzungen können für Community-Events besser geeignet sein, sobald die Gruppe die verfügbaren Multiplayer-Optionen kennt."
+  }
+]} />
+
+<Callout type="info" title="Abschließender Hinweis">
+Steam-Multiplayer-Funktionen können sich durch Updates oder Entwicklungsschritte ändern. Überprüfe den aktuellen Store-Eintrag erneut und führe bei jedem größeren Update eine kurze Test-Lobby durch.
+</Callout>
+
+</Section>

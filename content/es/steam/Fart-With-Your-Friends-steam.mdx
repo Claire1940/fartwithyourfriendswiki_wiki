@@ -1,0 +1,194 @@
+import { Map, Settings, Users, ShieldCheck, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fart With Your Friends en Steam: guía de configuración y consejos de juego",
+  description: "Aprende a encontrar, configurar y solucionar problemas de Fart With Your Friends en Steam con consejos prácticos para preparar partidas multijugador.",
+  category: "guía de Steam",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Steam+Setup+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de Fart With Your Friends",
+  slug: "fart-with-your-friends-steam"
+}
+
+<Callout type="info" title="Guía rápida">
+- Las búsquedas de **Fart With Your Friends en Steam** deben realizarse preferiblemente mediante la ficha actual de la tienda de Steam.
+- **Verifica el título** antes de instalar, ya que pueden aparecer juegos de fiesta con nombres similares en los resultados.
+- **Prepara el chat de voz** y la configuración del mando antes de invitar a tus amigos.
+- **Usa sesiones estables** probando la conexión del anfitrión y dejando tiempo para solucionar problemas.
+</Callout>
+
+<Section icon={Map} title="Fart With Your Friends en Steam: cómo encontrar la ficha correcta">
+
+Las búsquedas de Fart With Your Friends en Steam deben comenzar con la búsqueda oficial de Steam y la información de la tienda. Confirma el título exacto, los datos del desarrollador o editor, las funciones compatibles y los requisitos actuales del sistema antes de instalarlo. Así evitarás confundir el juego con experiencias multijugador de nombre similar.
+
+Las páginas de Steam pueden cambiar con el tiempo, así que considera la ficha activa de la tienda como la fuente de referencia para la disponibilidad, el precio, los sistemas operativos compatibles, las opciones de idioma y las funciones multijugador.
+
+<Callout type="tip" title="Consejo de búsqueda">
+Usa el título exacto en la búsqueda de Steam y después compara la descripción de la tienda y las capturas de pantalla antes de seleccionar un resultado. No te bases únicamente en una miniatura similar o en un título abreviado.
+</Callout>
+
+| Comprobación | Qué verificar | Por qué es importante |
+| --- | --- | --- |
+| Título exacto | Que coincida el nombre completo del juego | Evita instalar un juego de nombre similar |
+| Página de la tienda | Desarrollador, editor y capturas de pantalla | Confirma la identidad de la ficha |
+| Requisitos | Detalles mínimos y recomendados actuales | Ayuda a evitar problemas al iniciar |
+| Funciones | Multijugador, mando y compatibilidad de idiomas | Confirma que la configuración se adapta a tu grupo |
+| Actualizaciones | Noticias recientes o notas de parche | Muestra si la ficha recibe mantenimiento activo |
+
+<CardGrid cols={3}>
+  <Card title="Comprobar el título">
+    Compara el nombre completo, las ilustraciones de la tienda y la información del desarrollador antes de comprar o instalar.
+  </Card>
+  <Card title="Comprobar las funciones">
+    Revisa los detalles del multijugador, el mando, el chat de voz y el sistema operativo para la configuración prevista.
+  </Card>
+  <Card title="Comprobar la biblioteca">
+    Confirma que el juego aparece en tu biblioteca de Steam y que la instalación termina sin errores.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Settings} title="Instalación en Steam y primer inicio">
+
+Una vez confirmada la ficha correcta, instala el juego mediante Steam y realiza una breve comprobación durante el primer inicio. Mantén Steam actualizado, deja que la instalación termine y cierra las aplicaciones innecesarias si tu ordenador tiene poca memoria o capacidad de procesamiento disponible.
+
+<Callout type="warning" title="Antes de iniciar">
+No supongas que una descarga correcta garantiza una sesión multijugador exitosa. Inicia el juego una vez por tu cuenta, confirma que se carga el menú principal y revisa primero las opciones de entrada disponibles.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Abre la ficha oficial de la tienda">
+    Busca el título exacto en Steam y revisa los detalles de la ficha. Comprueba la plataforma compatible y los requisitos que aparecen en la página actual.
+  </Step>
+  <Step num="2" title="Instala mediante Steam">
+    Añade el juego a tu biblioteca cuando corresponda, selecciona una unidad de instalación y espera a que Steam verifique la descarga.
+  </Step>
+  <Step num="3" title="Realiza una prueba en solitario">
+    Inicia el juego sin invitar a tus amigos. Confirma que los menús, los gráficos, el audio y los dispositivos de entrada responden correctamente.
+  </Step>
+  <Step num="4" title="Ajusta la configuración">
+    Elige un modo de pantalla cómodo, confirma el micrófono activo y configura los controles antes de iniciar una sesión grupal.
+  </Step>
+</Steps>
+
+| Área de configuración | Primera comprobación recomendada | Si algo no funciona |
+| --- | --- | --- |
+| Instalación | Steam muestra el juego como listo para jugar | Reinicia Steam y verifica los archivos locales |
+| Pantalla | Los menús encajan en la pantalla y siguen siendo legibles | Prueba el modo ventana o sin bordes |
+| Audio | El sonido del juego llega al dispositivo seleccionado | Comprueba la salida del sistema y del juego |
+| Entrada | El teclado, el ratón o el mando responden | Vuelve a conectar el dispositivo y revisa las asignaciones |
+| Red | Steam permanece conectado durante el inicio | Reinicia el router o prueba otra conexión |
+
+<Callout type="success" title="Primera sesión fiable">
+Una breve prueba de inicio en solitario ahorra tiempo cuando se unen tus amigos. Resuelve los problemas de menús, audio y controles antes de abrir una sala multijugador.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Preparación del multijugador y consejos para el grupo">
+
+Una buena sesión de grupo depende de una comunicación clara y de un plan sencillo. Decide quién será el anfitrión, confirma que todos han instalado la misma versión actual y acuerda el medio de comunicación por voz antes de enviar las invitaciones.
+
+Cuando sea posible, usa como anfitrión a la persona con la conexión más estable. Si el juego ofrece códigos de sala, herramientas de invitación o ajustes del vestíbulo, comparte solo la información que el grupo necesite y mantén la sesión privada cuando sea posible.
+
+<Callout type="info" title="Planificación del grupo">
+Elige un anfitrión, un anfitrión de respaldo y un canal de voz. Esto facilita la recuperación si el primer vestíbulo se desconecta o si un jugador necesita volver a unirse.
+</Callout>
+
+| Rol | Responsabilidad | Hábito útil |
+| --- | --- | --- |
+| Anfitrión | Crea y administra la sesión | Prueba el vestíbulo antes de invitar a todos |
+| Jugadores | Se unen a la sala correcta y comprueban los controles | Evita cambiar la configuración durante una ronda activa |
+| Coordinador de voz | Explica el siguiente objetivo | Mantén las instrucciones breves y específicas |
+| Anfitrión de respaldo | Reinicia la sesión si es necesario | Debe saber cómo volver a invitar al grupo |
+
+Para empezar con mayor fluidez:
+
+- Invita a los jugadores después de que el anfitrión llegue al vestíbulo principal.
+- Pide a todos que confirmen que el micrófono y el dispositivo de salida funcionan.
+- Mantén pausadas las descargas en segundo plano durante la primera sesión.
+- Usa un apodo coherente para que el anfitrión pueda identificar a cada participante.
+- Reinicia el vestíbulo si varios jugadores tienen el mismo problema de conexión.
+
+<CardGrid cols={3}>
+  <Card title="Grupo pequeño">
+    Menos voces hacen que las instrucciones sean más fáciles de seguir. Usa este formato para aprender los controles y probar el vestíbulo.
+  </Card>
+  <Card title="Grupo grande">
+    Asigna a una persona para anunciar los objetivos y evitar que varios jugadores hablen al mismo tiempo.
+  </Card>
+  <Card title="Sesión informal">
+    Mantén la configuración sencilla, usa rondas cortas cuando estén disponibles y deja tiempo para que los jugadores que llegan tarde vuelvan a conectarse.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={ShieldCheck} title="Solución de problemas de Fart With Your Friends en Steam">
+
+Cuando Fart With Your Friends no se inicia o no se conecta correctamente, soluciona una variable cada vez. Empieza por Steam y la instalación del juego, y después revisa los dispositivos locales y la configuración de red. Evita cambiar varios ajustes a la vez, ya que eso dificulta identificar la causa.
+
+<Callout type="warning" title="Orden para solucionar problemas">
+Primero reinicia el juego y Steam; después verifica la instalación y, por último, comprueba la configuración de audio y red. Si el problema afecta a todos los jugadores, compara las noticias actuales de Steam o la información de soporte.
+</Callout>
+
+| Síntoma | Primera acción | Siguiente acción |
+| --- | --- | --- |
+| El juego no se inicia | Reinicia Steam | Verifica los archivos instalados |
+| Pantalla negra o incorrecta | Cambia el modo de pantalla | Actualiza los controladores gráficos si es necesario |
+| No hay audio del juego | Comprueba el dispositivo de salida | Revisa el volumen del sistema y el audio del juego |
+| Micrófono no disponible | Selecciona la entrada correcta | Prueba el micrófono fuera del juego |
+| Los amigos no pueden unirse | Recrea el vestíbulo | Pide a otro jugador que pruebe como anfitrión |
+| Las desconexiones continúan | Pausa las descargas | Prueba una conexión de red más estable |
+
+<Checklist
+  id="steam-session-check"
+  title="Antes de unirte a tus amigos:"
+  items={[
+    "Confirma la ficha exacta de Steam y la instalación actual",
+    "Inicia el juego una vez antes de la sesión grupal",
+    "Prueba la pantalla, el audio, el micrófono y los controles",
+    "Elige un anfitrión principal y uno de respaldo",
+    "Pausa las descargas innecesarias y las transmisiones en segundo plano"
+  ]}
+/>
+
+<Callout type="tip" title="Recuperación rápida">
+Si solo un jugador está afectado, soluciona primero el problema en el dispositivo de ese jugador. Si todos están afectados, recrea el vestíbulo y prueba con otro anfitrión antes de cambiar la configuración local.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas frecuentes sobre Fart With Your Friends en Steam">
+
+<FAQ items={[
+  {
+    question: "¿Cómo puedo encontrar Fart With Your Friends en Steam?",
+    answer: "Busca el título exacto en Steam y compara la página de la tienda, las ilustraciones, la información del desarrollador, las funciones compatibles y los requisitos actuales antes de instalarlo."
+  },
+  {
+    question: "¿Qué debo hacer antes de invitar a mis amigos?",
+    answer: "Inicia el juego una vez, confirma que el menú principal funciona, prueba los controles y el audio, y elige un anfitrión con una conexión estable."
+  },
+  {
+    question: "¿Por qué mis amigos no pueden unirse a mi sesión de Steam?",
+    answer: "Primero reinicia el vestíbulo, confirma que todos usan la misma versión actual, pausa las descargas en segundo plano y prueba con otro jugador como anfitrión si el problema continúa."
+  },
+  {
+    question: "¿Dónde puedo consultar la disponibilidad y los requisitos actuales?",
+    answer: "Usa la ficha activa de la tienda de Steam para consultar la disponibilidad actual, la información sobre sistemas compatibles, las funciones multijugador y otros detalles que pueden cambiar con el tiempo."
+  }
+]} />
+
+<Callout type="success" title="Recomendación final">
+Considera la ficha activa de Steam como la fuente principal de información, realiza una prueba de inicio en solitario y prepara el vestíbulo del grupo antes de comenzar la sesión.
+</Callout>
+
+</Section>

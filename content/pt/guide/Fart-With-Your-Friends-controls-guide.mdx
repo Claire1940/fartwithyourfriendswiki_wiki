@@ -1,0 +1,234 @@
+import { Gamepad2, Settings, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de controles de Fart With Your Friends: configuração e dicas",
+  description: "Aprenda a configurar os controles, testar os comandos, corrigir problemas comuns e criar hábitos confiáveis em Fart With Your Friends.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Controls+Guide",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de Fart With Your Friends",
+  slug: "fart-with-your-friends-controls-guide"
+}
+
+<Callout type="info" title="Guia rápido">
+- **Guia de controles de Fart With Your Friends**: Comece verificando o esquema de entrada ativo antes de jogar.
+- **Melhor configuração**: Mantenha o movimento, a interação e a ação principal ao alcance confortável.
+- **Comandos confiáveis**: Teste primeiro todos os botões importantes em uma sessão tranquila.
+- **Solução de problemas**: Verifique novamente a detecção do dispositivo, o foco, o remapeamento e a prioridade do controle.
+- **Objetivo do treino**: Desenvolva um ritmo simples em vez de depender de pressionamentos apressados.
+</Callout>
+
+<Section icon={Gamepad2} title="Guia de controles de Fart With Your Friends: configuração básica">
+
+O planejamento da configuração dos controles de Fart With Your Friends começa com uma regra simples: verifique o esquema de controle ativo antes de entrar em uma partida séria. Os nomes exatos e as atribuições disponíveis podem depender da sua plataforma, do dispositivo de entrada, da versão e das configurações locais. Por isso, este guia se concentra em hábitos de configuração confiáveis, e não em afirmações não verificadas sobre teclas específicas.
+
+Abra o menu de controles ou configurações na tela inicial ou no menu de pausa. Procure a seção que exibe as atribuições do teclado, controle ou dispositivo de entrada. Confirme qual dispositivo está ativo no momento e teste as ações que você espera usar com mais frequência. Um layout de controles é confortável quando você consegue se mover, reagir e interagir sem precisar desviar o olhar da ação repetidamente.
+
+| Grupo de controles | O que verificar | Objetivo recomendado |
+|---|---|---|
+| Movimento | Entrada direcional e sensibilidade | Movimento suave sem paradas acidentais |
+| Ação principal | Botão ou tecla principal | Fácil de alcançar durante o movimento |
+| Interação | Confirmar, usar ou ação contextual | Separação clara em relação ao cancelar |
+| Câmera ou visão | Analógico, mouse ou controle direcional | Acompanhamento confortável em velocidade normal |
+| Navegação do menu | Comandos de selecionar, voltar e pausar | Acesso confiável sem atribuições conflitantes |
+
+<CardGrid cols={3}>
+  <Card title="Configuração do teclado">
+    - Mantenha o conjunto principal de movimento confortável.
+    - Coloque a ação principal perto dos dedos mais usados para o movimento.
+    - Evite remapear teclas demais de uma só vez.
+  </Card>
+  <Card title="Configuração do controle">
+    - Confirme se o controle correto foi reconhecido.
+    - Verifique os comandos dos gatilhos, bumpers, botões frontais e analógicos.
+    - Teste a vibração separadamente dos controles essenciais.
+  </Card>
+  <Card title="Configuração para jogo compartilhado">
+    - Dê tempo para cada jogador identificar seu dispositivo.
+    - Evite trocar de dispositivo depois que uma rodada começar.
+    - Confirme que cada jogador consegue pausar ou sair com segurança.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica prática de configuração">
+Altere uma atribuição por vez, teste-a imediatamente e anote o layout que parecer natural. Sessões longas de remapeamento dificultam a identificação da origem de um problema de entrada.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Configure os controles antes de jogar">
+
+Uma breve rotina de configuração evita a maioria dos erros que podem ser prevenidos. Não espere até uma rodada importante para descobrir que o jogo está lendo o controle errado ou que uma ação foi atribuída a uma tecla desconfortável. Use o menu de configurações como uma área de testes, em vez de tratá-lo apenas como um lugar para fazer alterações cosméticas.
+
+A configuração mais útil geralmente é aquela que reduz a hesitação. Se duas ações são usadas em rápida sucessão, coloque-as em posições entre as quais sua mão possa se mover naturalmente. Se uma ação é ocasional, mas importante, escolha um botão fácil de encontrar e que não seja pressionado acidentalmente.
+
+<Steps>
+  <Step num="1" title="Identifique o dispositivo ativo">
+    Conecte o teclado, o controle ou outro dispositivo de entrada compatível antes de iniciar uma sessão. Verifique qual dispositivo responde quando você navega pelo menu. Se houver mais de um dispositivo conectado, teste-os um de cada vez para saber qual entrada está atribuída a cada jogador.
+  </Step>
+  <Step num="2" title="Revise a lista de atribuições">
+    Abra as configurações de controle e leia todas as ações importantes. Preste atenção especial ao movimento, à ação principal, à interação, a confirmar, cancelar, pausar e a quaisquer controles de câmera ou visão. Não presuma que um layout conhecido está ativo.
+  </Step>
+  <Step num="3" title="Remapeie pensando no alcance">
+    Aproxime a ação usada com mais frequência da mão responsável pelo movimento se a posição padrão causar hesitação. Mantenha uma entrada separada para cancelar ou voltar, para que erros no menu não se tornem comuns.
+  </Step>
+  <Step num="4" title="Teste em uma situação segura">
+    Entre em uma área tranquila, sessão de prática ou rodada casual. Pressione cada ação importante várias vezes enquanto se move, para, vira e abre um menu. Observe se há comandos não registrados ou ativações acidentais.
+  </Step>
+  <Step num="5" title="Salve e verifique novamente">
+    Confirme que as configurações foram salvas, volte ao jogo e teste o layout mais uma vez. Se o jogo oferecer perfis, mantenha um layout familiar disponível antes de experimentar um novo.
+  </Step>
+</Steps>
+
+| Verificação da configuração | Condição de aprovação | Se falhar |
+|---|---|---|
+| Detecção do dispositivo | O dispositivo pretendido controla o menu | Desconecte os outros dispositivos e reconecte o preferido |
+| Ação principal | A ação responde todas as vezes | Verifique a atribuição, o estado do botão e o foco |
+| Movimento | As mudanças de direção parecem previsíveis | Reduza a sensibilidade ou teste outro método de entrada |
+| Controles do menu | Confirmar e cancelar são distintos | Restaure os padrões e remapeie apenas as ações essenciais |
+| Comportamento do salvamento | As alterações permanecem depois de sair das configurações | Aplique as alterações e reinicie a tela de configurações |
+
+<Callout type="warning" title="Evite alterações durante a rodada">
+Alterar as atribuições durante uma partida ativa pode causar confusão, especialmente quando vários jogadores compartilham uma tela ou área de dispositivos. Termine a rodada, ajuste o layout e teste-o antes de continuar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhore o tempo de reação e a precisão dos comandos">
+
+Bons controles não dependem apenas da posição dos botões. O tempo de reação, a posição das mãos e a consistência determinam se um comando parece confiável. Comece aprendendo o ritmo da ação, em vez de pressionar repetidamente todos os botões próximos. Comandos apressados podem causar hesitação, seleções acidentais no menu ou oportunidades perdidas.
+
+Use um ciclo curto de prática:
+
+- Mova-se em uma direção, pare e repita.
+- Execute a ação principal enquanto estiver parado.
+- Execute-a novamente logo depois de mudar de direção.
+- Abra e feche o menu sem olhar para o teclado ou controle.
+- Repita a sequência mantendo a mesma posição das mãos.
+
+Para usuários de controle, evite apertar o dispositivo com tanta força que pequenos movimentos do analógico se tornem exagerados. Para usuários de teclado, mantenha os dedos próximos ao conjunto de movimento e evite esticá-los até teclas distantes durante momentos rápidos. Se o jogo incluir controle de câmera ou visão, comece com uma sensibilidade moderada. Aumente-a apenas quando conseguir acompanhar os movimentos sem fazer correções excessivas.
+
+| Exercício de prática | Objetivo | Sinal de sucesso |
+|---|---|---|
+| Movimento de parar e avançar | Desenvolve o controle sobre iniciar e parar | Seu personagem para quando esperado |
+| Mudança de direção | Testa transições rápidas | As viradas não parecem atrasadas ou exageradas |
+| Ação durante o movimento | Verifica o alcance do botão | A ação não interrompe o movimento sem intenção |
+| Ensaio do menu | Desenvolve confiança na navegação | Confirmar e cancelar parecem automáticos |
+| Comando repetido | Encontra pressionamentos inconsistentes | O mesmo comando produz a mesma resposta |
+
+<CardGrid cols={3}>
+  <Card title="Para jogadores iniciantes">
+    Pratique uma ação por vez. Conforto e consistência são mais importantes que velocidade nas primeiras sessões.
+  </Card>
+  <Card title="Para jogadores que estão retornando">
+    Verifique novamente seu layout depois de atualizações, mudanças de dispositivo ou longas pausas. A familiaridade pode esconder pequenas alterações de configuração.
+  </Card>
+  <Card title="Para grupos">
+    Use a mesma rotina de testes para todos os jogadores. Um processo compartilhado reduz discussões sobre o funcionamento correto de um dispositivo.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consistência supera complexidade">
+Um layout simples que você consegue repetir sob pressão geralmente é mais útil do que um layout altamente personalizado com muitas atribuições especializadas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Corrija problemas comuns de controle">
+
+Quando um comando falhar, isole o problema antes de alterar várias configurações. Primeiro, determine se o problema afeta uma ação, um dispositivo, um jogador ou o jogo inteiro. Isso torna a solução de problemas mais rápida e ajuda a evitar a substituição desnecessária de um layout confortável.
+
+Use a seguinte ordem de diagnóstico:
+
+| Sintoma | Área provável para verificar | Resposta recomendada |
+|---|---|---|
+| Nenhum comando funciona | Conexão do dispositivo ou foco do jogo | Reconecte o dispositivo e clique novamente no jogo |
+| Uma ação falha | Atribuição ou botão físico | Atribua temporariamente a ação a outra entrada |
+| O jogador errado responde | Prioridade ou atribuição do dispositivo | Desconecte os dispositivos não utilizados e reconecte-os na ordem dos jogadores |
+| O movimento parece instável | Analógico, tecla ou configuração de sensibilidade | Teste outra entrada e reduza a sensibilidade, se disponível |
+| As configurações são revertidas | Comportamento de salvamento ou perfil | Aplique as alterações, saia do menu e verifique novamente |
+| Resposta atrasada | Carga do sistema, conexão ou atraso da tela | Feche aplicativos desnecessários e faça um teste local |
+
+Se um controle não for reconhecido, desconecte outros controles e dispositivos de entrada antes de reconectar aquele que deseja usar. Se uma ação do teclado funcionar nos menus, mas não durante o jogo, confirme se a janela do jogo está em foco. Se um botão se comportar de maneira inconsistente, atribua temporariamente a ação a outro botão. Isso ajuda a separar um problema de atribuição de software de um problema de hardware.
+
+No jogo compartilhado, teste os dispositivos na mesma ordem em que os jogadores os usarão. Evite presumir que o primeiro dispositivo conectado sempre se tornará o primeiro jogador. O jogo pode priorizar a ordem de conexão, a seleção no menu ou o dispositivo que fornecer a primeira entrada.
+
+<Checklist
+  id="controls-troubleshooting"
+  title="Antes de iniciar outra sessão:"
+  items={[
+    "Confirme que o teclado ou controle pretendido foi detectado",
+    "Verifique os comandos de movimento, ação principal, interação, confirmar e cancelar",
+    "Verifique se cada jogador está atribuído ao dispositivo correto",
+    "Teste todos os controles remapeados fora de uma rodada séria",
+    "Salve o layout e confirme que ele continua ativo"
+  ]}
+/>
+
+<Callout type="warning" title="A ordem da solução de problemas é importante">
+Não redefina todas as configurações imediatamente. Teste o dispositivo, o foco, a atribuição e a configuração do jogador nessa ordem para preservar informações úteis sobre o problema.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Crie uma rotina confiável de controles">
+
+Depois que seu layout funcionar, mantenha-o estável. Alterar os controles repetidamente pode desacelerar sua evolução, pois suas mãos nunca desenvolvem padrões de movimento consistentes. Salve uma configuração preferida, anote atribuições incomuns e use a mesma sequência de aquecimento sempre que trocar de dispositivo.
+
+Uma rotina útil leva apenas alguns minutos:
+
+1. Navegue pelo menu usando o dispositivo pretendido.
+2. Teste o movimento em todas as direções.
+3. Execute a ação principal enquanto estiver parado.
+4. Combine movimento e ação.
+5. Abra e feche o menu.
+6. Comece uma rodada casual antes de tentar uma partida mais exigente.
+
+| Etapa da rotina | Momento | Objetivo |
+|---|---|---|
+| Verificação do dispositivo | Antes de iniciar | Confirmar o jogador e a entrada corretos |
+| Verificação das atribuições | Primeiro minuto | Verificar as ações essenciais |
+| Aquecimento de movimento | Uma sequência curta | Remover rigidez e correções excessivas |
+| Ensaio das ações | Várias repetições | Desenvolver um tempo de reação previsível |
+| Entrada na partida | Depois dos testes | Jogar apenas quando o layout parecer estável |
+
+Tenha a acessibilidade em mente. Se um controle padrão exigir um alcance desconfortável, remapeie-o desde cedo. Se a sensibilidade causar movimentos indesejados, ajuste-a gradualmente em vez de fazer uma grande alteração. Se vários jogadores tiverem necessidades diferentes, permita que cada pessoa use um layout que proporcione uma experiência confortável, mantendo as mesmas ações essenciais.
+
+<Callout type="tip" title="Recomendação do editor">
+Trate seu layout de controles preferido como um conjunto salvo: faça pequenas melhorias, teste-as em partidas casuais e mantenha uma versão comprovada disponível.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas frequentes sobre os controles de Fart With Your Friends">
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor layout de controles para Fart With Your Friends?",
+    answer: "O melhor layout é aquele que mantém o movimento, a ação principal e a interação ao alcance confortável. Comece com o layout padrão, teste-o e remapeie apenas as ações que causam hesitação ou pressionamentos acidentais."
+  },
+  {
+    question: "Devo usar teclado ou controle?",
+    answer: "Escolha o dispositivo que ofereça o movimento mais consistente e o acesso mais fácil às ações importantes. Teste os dois quando possível, mas evite alternar repetidamente durante a prática, pois a memória muscular se desenvolve mais lentamente."
+  },
+  {
+    question: "Por que meus controles não respondem?",
+    answer: "Verifique a conexão do dispositivo, o foco do jogo, a atribuição do jogador ativo e as atribuições individuais. Desconecte os dispositivos não utilizados, reconecte a entrada pretendida e teste uma ação por vez antes de redefinir o layout completo."
+  },
+  {
+    question: "Devo alterar os controles durante uma rodada?",
+    answer: "É mais seguro terminar a rodada antes de alterar as atribuições. Mudanças durante a rodada podem causar confusão, especialmente no jogo compartilhado. Ajuste o layout no menu de configurações, salve-o e teste-o em uma sessão casual."
+  }
+]} />
+
+<Callout type="info" title="Lembrete final">
+Uma configuração confiável vem da verificação, de pequenos ajustes e da prática repetida. Use este guia de controles de Fart With Your Friends sempre que trocar de dispositivo, atualizar seu layout ou retornar depois de uma longa pausa.
+</Callout>
+
+</Section>

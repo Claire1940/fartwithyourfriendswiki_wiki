@@ -1,1 +1,570 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Fart With Your Friends Wiki – Codes, Flöße & Maps",
+      "description": "Finde Fart With Your Friends Codes, Floß-Steuerung, Maps, Modi, Tiere, Updates und Einsteiger-Tipps. Spiele cleverer, überlebe jeden Fluss und gewinne mit Freunden.",
+      "keywords": "Fart With Your Friends, Roblox Codes, Floß-Guide, Maps, Tiere, Updates",
+      "ogTitle": "Fart With Your Friends Wiki – Codes, Flöße & Maps",
+      "ogDescription": "Finde Fart With Your Friends Codes, Floß-Steuerung, Maps, Modi, Tiere, Updates und Einsteiger-Tipps. Spiele cleverer, überlebe jeden Fluss und gewinne mit Freunden.",
+      "twitterTitle": "Fart With Your Friends Wiki – Codes, Flöße & Maps",
+      "twitterDescription": "Finde Fart With Your Friends Codes, Floß-Steuerung, Maps, Modi, Tiere, Updates und Einsteiger-Tipps. Spiele cleverer, überlebe jeden Fluss und gewinne mit Freunden."
+    }
+  },
+  "nav": {
+    "guide": "Guides",
+    "multiplayer": "Multiplayer",
+    "gameplay": "Gameplay",
+    "tips": "Tipps",
+    "steam": "Steam",
+    "videos": "Videos"
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Auf Roblox spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Design wechseln",
+    "lightMode": "Helles Design",
+    "darkMode": "Dunkles Design",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die gesuchte Seite existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Verwandte Artikel",
+    "readMore": "Weiterlesen",
+    "articlesComingSoon": "Artikel folgen in Kürze"
+  },
+  "hero": {
+    "badge": "Chaotisches Multiplayer-Floß-Obby",
+    "title": "Fart With Your Friends Wiki",
+    "description": "Fart With Your Friends ist ein chaotisches Roblox-Floßspiel, in dem Spieler zusammenarbeiten, durch wilde Flüsse rasen, Hindernissen ausweichen, Tiere und Flöße freischalten und sich in lustigen Multiplayer-Herausforderungen messen.",
+    "keywords": "Fart With Your Friends, Roblox, Floßspiel, Multiplayer-Obby, Floßrennen, Fluss-Level, Tiere, Flöße",
+    "getFreeCodesCTA": "Kostenlose Codes holen",
+    "playOnRobloxCTA": "Auf Roblox spielen",
+    "stats": {
+      "stat1": {
+        "value": "4",
+        "label": "Spielmodi"
+      },
+      "stat2": {
+        "value": "1-4",
+        "label": "Spieler pro Rennen"
+      },
+      "stat3": {
+        "value": "3",
+        "label": "Verfügbare Tiere"
+      },
+      "stat4": {
+        "value": "3",
+        "label": "Verfügbare Flöße"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Fart With Your Friends Gameplay",
+    "description": "Rase mit aufblasbaren Flößen chaotische Flüsse hinunter, weiche mit Freunden Hindernissen aus und meistere Campaign, Raft Race, Endless River und Daily River auf Roblox."
+  },
+  "tools": {
+    "title": "Fart With Your Friends",
+    "titleHighlight": "Toolbox",
+    "subtitle": "Spring direkt zu dem, was du brauchst – Codes, Guides, Modi, Flöße, Tiere, Events und die neuesten News.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Fart With Your Friends Codes",
+        "description": "Aktive Codes, abgelaufene Archive und die Anleitung zum Einlösen"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Fart With Your Friends Einsteiger-Guide",
+        "description": "Vom ersten Start bis zur abgeschlossenen Flussfahrt"
+      },
+      {
+        "icon": "Swords",
+        "title": "Fart With Your Friends Spielmodi",
+        "description": "Campaign, Raft Race, Endless River und Daily River"
+      },
+      {
+        "icon": "Users",
+        "title": "Fart With Your Friends Multiplayer",
+        "description": "Freunde einladen, Teams bilden und von 1v1 bis 4v4 Rennen fahren"
+      },
+      {
+        "icon": "Sailboat",
+        "title": "Fart With Your Friends Flöße",
+        "description": "Jedes Floß, jedes Theme und wie du es freischaltest"
+      },
+      {
+        "icon": "PawPrint",
+        "title": "Fart With Your Friends Tiere",
+        "description": "Penguin, Fox, Cat und jeder Begleiter-Freischalt"
+      },
+      {
+        "icon": "Ghost",
+        "title": "Fart With Your Friends Halloween-Event",
+        "description": "Haunted Graveyard, Fart Phantom und das Event-Bundle"
+      },
+      {
+        "icon": "Megaphone",
+        "title": "Fart With Your Friends Updates",
+        "description": "Offizielle News und Ankündigungen von HSF Studios"
+      }
+    ]
+  },
+  "modules": {
+    "fartWithYourFriendsCodes": {
+      "title": "Fart With Your Friends Codes",
+      "displayType": "codeCards",
+      "eyebrow": "Codes",
+      "subtitle": "Aktive Codes, eingestellte Codes und der Einlöse-Ablauf im Spiel auf einen Blick.",
+      "intro": "Dieser Bereich bündelt alle Fart With Your Friends Codes an einem Ort – neue Drops, abgelaufene Einträge und genau, wo du sie im Spiel einlöst.",
+      "cards": [
+        {
+          "name": "Aktive Codes",
+          "status": "Täglich aktualisiert",
+          "description": "Jeder funktionierende Fart With Your Friends Code erscheint hier, sobald er live geht – zusammen mit seinen Belohnungen und dem Ablaufzeitraum."
+        },
+        {
+          "name": "Abgelaufene Codes",
+          "status": "Archiviert",
+          "description": "Eingestellte Codes werden in einem eigenen Archiv mit ihrem Entfernungsdatum aufbewahrt, damit dich ein toter Code nie einen Einlöse-Versuch kostet."
+        },
+        {
+          "name": "Verfügbarkeit der Einlösung",
+          "status": "Schritt für Schritt",
+          "description": "Erfahre, wo sich die Code-Einlösung in Fart With Your Friends befindet, und folge einer kurzen Anleitung für ein reibungsloses Einlösen."
+        }
+      ]
+    },
+    "fartWithYourFriendsBeginnerGuide": {
+      "title": "Fart With Your Friends Einsteiger-Guide",
+      "displayType": "steps",
+      "eyebrow": "Einsteiger-Guide",
+      "subtitle": "Lerne den grundlegenden Ablauf vom Betreten des Spiels bis zur ersten abgeschlossenen Flussfahrt.",
+      "intro": "In Fart With Your Friends lenkst du ein Floß durch einen Fluss und arbeitest dabei mit anderen Spielern zusammen. Beginne mit dem Ziel, gewöhne dich an die Floßbewegung und koordiniere dich dann mit deinen Teamkollegen bei Hindernissen.",
+      "steps": [
+        {
+          "title": "Spiel betreten",
+          "description": "Tritt Fart With Your Friends über die Roblox-Spielseite bei und warte, bis das Spielgebiet geladen ist.",
+          "tip": "Wirf vor deiner ersten Fahrt einen Blick auf die verfügbaren Modi."
+        },
+        {
+          "title": "Fluss-Aktivität wählen",
+          "description": "Wähle eine passende Aktivität wie Campaign, Raft Race, Endless River oder Daily River.",
+          "tip": "Campaign ist der einfachste Ort, um den Grundablauf zu lernen."
+        },
+        {
+          "title": "Floß besteigen und steuern",
+          "description": "Steige auf das Floß und nutze die Bewegungssteuerung, um es den Fluss entlangzulenken.",
+          "tip": "Treffen Sie kleine, gezielte Korrekturen statt ständiger Richtungswechsel."
+        },
+        {
+          "title": "Auf Flusshindernisse reagieren",
+          "description": "Beobachte die Strecke voraus und passe die Richtung des Floßes an, je schwieriger der Fluss wird.",
+          "tip": "Schau vor jeder Kurve voraus, damit das Floß Zeit zum Reagieren hat."
+        },
+        {
+          "title": "Mit Teamkollegen koordinieren",
+          "description": "Kommuniziert über Bewegung, kommende Hindernisse und wann die Gruppe die Richtung ändern sollte.",
+          "tip": "Eine vereinbarte Richtung schlägt mehrere Spieler, die getrennt steuern."
+        },
+        {
+          "title": "Fahrt abschließen",
+          "description": "Fahre den Fluss entlang, bis die Aktivität abgeschlossen ist, schau dir das Ergebnis an und probiere dann einen anspruchsvolleren Modus.",
+          "tip": "Nutze deine erste abgeschlossene Fahrt, um die Kurven zu finden, die die meisten Probleme gemacht haben."
+        }
+      ]
+    },
+    "fartWithYourFriendsGameModes": {
+      "title": "Fart With Your Friends Spielmodi",
+      "displayType": "modeCards",
+      "eyebrow": "Spielmodi",
+      "subtitle": "Vergleiche Campaign, Raft Race, Endless River und Daily River auf einen Blick.",
+      "intro": "Jeder Modus bietet eine andere Art, den Fluss zu erleben. Campaign bietet strukturiertes Vorankommen, Raft Race konzentriert sich auf direkten Wettkampf, Endless River belohnt pures Überleben, und Daily River erneuert die Herausforderung jeden Tag.",
+      "modes": [
+        {
+          "mode": "Campaign",
+          "playStyle": "Progression",
+          "goal": "Arbeite dich durch strukturierte Flussherausforderungen und lerne das Kern-Gameplay.",
+          "players": "Solo oder Koop",
+          "bestFor": "Neue Spieler, die stetiges Vorankommen und Floß-Übung wollen."
+        },
+        {
+          "mode": "Raft Race",
+          "playStyle": "Wettkampf",
+          "goal": "Rase gegen ein anderes Team den Fluss hinunter und erreibe zuerst die Ziellinie.",
+          "players": "1v1, 2v2, 3v3 oder 4v4",
+          "bestFor": "Wettkampforientierte Gruppen, die eine direkte Team-gegen-Team-Herausforderung suchen."
+        },
+        {
+          "mode": "Endless River",
+          "playStyle": "Ausdauer",
+          "goal": "Navigiere so lange durch den Fluss, wie dein Team durchhält.",
+          "players": "Solo oder Koop",
+          "bestFor": "Übungsfahrten und um zu testen, wie lange eine Crew überlebt."
+        },
+        {
+          "mode": "Daily River",
+          "playStyle": "Tages-Herausforderung",
+          "goal": "Meistere die wechselnde Tages-Herausforderung des Flusses und Ziele auf ein starkes Ergebnis ab.",
+          "players": "Solo oder Koop",
+          "bestFor": "Spieler, die eine frische, wiederkehrende Herausforderung mit Freunden suchen."
+        }
+      ]
+    },
+    "fartWithYourFriendsMultiplayerGuide": {
+      "title": "Fart With Your Friends Multiplayer-Guide",
+      "displayType": "steps",
+      "eyebrow": "Multiplayer",
+      "subtitle": "Richte eine gemeinsame Roblox-Sitzung ein, trete demselben Server bei und koordiniere dein Floß-Team.",
+      "intro": "Multiplayer-Fahrten funktionieren am besten, wenn alle Spieler derselben Experience beitreten und sich vor dem Start auf einen Plan einigen. Raft Race unterstützt Teamformate von 1v1 bis 4v4 – klare Ansagen machen daher in Wettkampf-Lobbies den Unterschied.",
+      "steps": [
+        {
+          "title": "Freunde hinzufügen oder auswählen",
+          "description": "Stelle sicher, dass die Spieler, die du einladen möchtest, auf Roblox verfügbar sind, bevor du die Spielsitzung startest.",
+          "tip": "Lege vor einem Wettkampf-Match fest, wer in welches Team kommt."
+        },
+        {
+          "title": "Demselben Spiel beitreten",
+          "description": "Öffne Fart With Your Friends und nutze Roblox' Party- oder Beitreten-Funktionen, damit alle in dieselbe Experience kommen.",
+          "tip": "Bestätige, dass jeder Freund in der Sitzung geladen ist, bevor du einen Modus wählst."
+        },
+        {
+          "title": "Multiplayer-Aktivität wählen",
+          "description": "Wähle eine kooperative Fluss-Aktivität oder starte Raft Race für eine Team-gegen-Team-Herausforderung.",
+          "tip": "Übt zuerst gemeinsam und wechselt zu Raft Race, wenn die Crew bereit ist."
+        },
+        {
+          "title": "Teams bilden",
+          "description": "Organisiere die Spieler in die verfügbaren Raft-Race-Formate, von 1v1 bis 4v4.",
+          "tip": "Halte die Teamgrößen möglichst gleich, damit das Rennen ausgewogen bleibt."
+        },
+        {
+          "title": "Floß-Kommandos vereinbaren",
+          "description": "Bestimmt einen Spieler oder eine kleine Gruppe, die Kurven, Hindernis-Reaktionen und Richtungswechsel ansagt.",
+          "tip": "Kurze Ansagen wie links, rechts, langsam oder drehen halten Reaktionen schnell."
+        },
+        {
+          "title": "Herausforderung gemeinsam fahren",
+          "description": "Koordiniert die Floßbewegung, beobachtet den Fluss voraus und passt den Plan an, wenn Hindernisse oder schwierige Abschnitte auftauchen.",
+          "tip": "Eine gemeinsame Richtung schlägt einzelne Spieler, die unabhängig handeln."
+        }
+      ],
+      "teamFormatsLabel": "Raft-Race-Teamformate",
+      "teamFormats": [
+        "1v1",
+        "2v2",
+        "3v3",
+        "4v4"
+      ]
+    },
+    "fartWithYourFriendsRaftsGuide": {
+      "title": "Fart With Your Friends Flöße-Guide",
+      "displayType": "table",
+      "eyebrow": "Floß-Guide",
+      "subtitle": "Vergleiche jedes veröffentlichte Floß in Fart With Your Friends nach Theme, Freischaltung und Verfügbarkeit.",
+      "intro": "Dieser Guide ordnet die für Fart With Your Friends angekündigte Floß-Auswahl und trennt den Standard-Kader von Event-Flößen und kommenden Ergänzungen, damit du immer weißt, was gerade live ist.",
+      "tableHeaders": {
+        "raft": "Floß",
+        "theme": "Theme & Optik",
+        "howToGet": "So bekommst du es",
+        "availability": "Verfügbarkeit",
+        "note": "Vergleichshinweis"
+      },
+      "rows": [
+        {
+          "raft": "Standard-Flöße",
+          "theme": "Die wichtigsten aufblasbaren Floß-Designs, ab Tag eins verfügbar",
+          "howToGet": "Durch normales Spielen auf der offiziellen Spielseite freischaltbar",
+          "availability": "Immer verfügbar",
+          "note": "Der Haupt-Referenzpunkt beim Vergleich mit jedem anderen Floß"
+        },
+        {
+          "raft": "Event-Flöße – Candy Cane, Jack-o'-Lantern, Toxic Slime",
+          "theme": "Saisonale Event-Optik, von Zuckerstangen-Streifen bis zu leuchtenden Kürbisgesichtern und slime-grünen Skins",
+          "howToGet": "Über das laufende Event oder die von HSF Studios bekannt gegebene Aktion erhältlich",
+          "availability": "Auf das Event-Fenster begrenzt",
+          "note": "Schnapp dir Event-Flöße vor Eventende – sie sind die seltensten Gefährte der Auswahl"
+        },
+        {
+          "raft": "Künftige Flöße",
+          "theme": "Neue Themes, die für zukünftige Updates angekündigt wurden",
+          "howToGet": "Folge den offiziellen Anweisungen zum Release",
+          "availability": "Kommt mit zukünftigen Updates",
+          "note": "Behalte das Updates-Modul unten im Auge, damit dir kein neues Floß entgeht"
+        }
+      ]
+    },
+    "fartWithYourFriendsAnimalsGuide": {
+      "title": "Fart With Your Friends Tiere-Guide",
+      "displayType": "cardList",
+      "eyebrow": "Tiere und Haustiere",
+      "subtitle": "Stöbere durch alle tierischen Begleiter in Fart With Your Friends und erfahre, wie jeder Freischalt funktioniert.",
+      "intro": "Dieser Guide versammelt die für Fart With Your Friends angekündigten tierischen Begleiter – von den neuesten Ergänzungen Penguin, Fox und Cat bis zu künftigen Enthüllungen – damit du immer weißt, wer neben deinem Floß herschwimmt.",
+      "cards": [
+        {
+          "name": "Tierische Begleiter",
+          "category": "Jetzt im Spiel",
+          "appearance": "Das offizielle Tier-Aufgebot, inklusive Penguin, Fox und Cat",
+          "unlockCondition": "Freischaltbar über die auf der offiziellen Spielseite gezeigten Methoden",
+          "limitedStatus": "Permanentes Aufgebot"
+        },
+        {
+          "name": "Event-Tiere",
+          "category": "Begrenzte Zeit",
+          "appearance": "Tierische Begleiter, die an saisonale Events und Aktionen gekoppelt sind",
+          "unlockCondition": "Während des von HSF Studios genannten Event-Fensters erhältlich",
+          "limitedStatus": "Event-begrenzte Verfügbarkeit"
+        },
+        {
+          "name": "Künftige Tiere",
+          "category": "Bald verfügbar",
+          "appearance": "Neue Tier-Designs, die über offizielle Ankündigungen enthüllt wurden",
+          "unlockCondition": "Kommt mit dem zugehörigen Update, sobald es live geht",
+          "limitedStatus": "Angekündigt, bald verfügbar"
+        }
+      ]
+    },
+    "fartWithYourFriendsHalloweenEvent": {
+      "title": "Fart With Your Friends Halloween-Event",
+      "displayType": "cardList",
+      "eyebrow": "Zeitlich begrenztes Event",
+      "subtitle": "Erkunde den Haunted Graveyard, stelle dich dem Fart Phantom und sichere dir das zeitlich begrenzte Halloween-Bundle.",
+      "intro": "Das Halloween-Event bringt saisonale Inhalte zu Fart With Your Friends: ein neues Spuk-Örtchen, eine Grusel-Begegnung und ein thematisches Bundle. Das ist gerade live und das erwartet dich nach dem Event.",
+      "cards": [
+        {
+          "name": "Haunted Graveyard",
+          "type": "Event-Ort",
+          "description": "Ein Halloween-thematisierter Ort, der für das Event ins Spiel gekommen ist – voller Grusel-Atmosphäre und Floß-Herausforderungen.",
+          "availability": "Live während des Halloween-Events",
+          "afterEvent": "Kehrt nur zurück, wenn HSF Studios es in einem künftigen Event wiederbringt"
+        },
+        {
+          "name": "Fart Phantom",
+          "type": "Event-Charakter",
+          "description": "Der Star der Halloween-Ankündigung – eine geisterhafte Präsenz, die das Event-Inhalt heimsucht.",
+          "availability": "Live während des Halloween-Events",
+          "afterEvent": "Ein zeitlich begrenzter Auftritt gemäß dem offiziellen Event-Zeitplan"
+        },
+        {
+          "name": "Halloween-Bundle",
+          "type": "Zeitlich begrenztes Bundle",
+          "description": "Ein thematisches Bundle voller Halloween-Kosmetiken und Inhalte für das Event.",
+          "availability": "Für begrenzte Zeit verfügbar",
+          "afterEvent": "Verlässt den Shop mit Eventende, sofern HSF Studios keine Rückkehr ankündigt"
+        }
+      ]
+    },
+    "fartWithYourFriendsUpdatesNews": {
+      "title": "Fart With Your Friends Updates und offizielle News",
+      "displayType": "accordion",
+      "eyebrow": "Offizielle News",
+      "subtitle": "Verfolge neue Modi, Tiere, Flöße, Charaktere und Gameplay-Änderungen von HSF Studios.",
+      "intro": "Dieses Modul ist der Startseiten-Einstiegspunkt für alles Neue in Fart With Your Friends und trennt live Inhalte von bevorstehenden Ankündigungen, damit dich kein Drop verpasst.",
+      "entries": [
+        {
+          "title": "Neue Modi",
+          "status": "Live + Bevorstehend",
+          "content": "Jede Modus-Ergänzung landet hier – von der Auswahl aus Campaign, Raft Race, Endless River und Daily River bis zu künftigen Modus-Enthüllungen.",
+          "topics": [
+            "Modus-Releases",
+            "Modus-Ankündigungen",
+            "Änderungen an Spielregeln"
+          ]
+        },
+        {
+          "title": "Tiere, Flöße und Charaktere",
+          "status": "Live + Bevorstehend",
+          "content": "Verfolge das wachsende Aufgebot: die Tiere Penguin, Fox und Cat, Flöße wie Candy Cane, Toxic Slime und Jack-o'-Lantern sowie jeden neuen Charakter-Drop.",
+          "topics": [
+            "Tier-Ergänzungen",
+            "Floß-Ergänzungen",
+            "Charakter-Ergänzungen"
+          ]
+        },
+        {
+          "title": "Events und Gameplay-Anpassungen",
+          "status": "Live + Bevorstehend",
+          "content": "Saisonale Events wie das Halloween-Event, dazu Balance-Änderungen und Verfügbarkeits-Updates – mit klarer Trennung von live und bevorstehenden Inhalten.",
+          "topics": [
+            "Zeitlich begrenzte Events",
+            "Gameplay-Änderungen",
+            "Event-Verfügbarkeit"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Fart With Your Friends",
+    "titleHighlight": "FAQ",
+    "subtitle": "Schnelle Antworten zum Spiel, seinen Modi und diesem Wiki.",
+    "questions": [
+      {
+        "question": "Was ist Fart With Your Friends?",
+        "answer": "Fart With Your Friends ist ein chaotisches Roblox-Floßspiel von HSF Studios, in dem du ein aufblasbares Floß wilde Flüsse hinunterlenkst, Hindernissen ausweichst und dich in lustigen Multiplayer-Herausforderungen in den Modi Campaign, Raft Race, Endless River und Daily River misst."
+      },
+      {
+        "question": "Ist Fart With Your Friends kostenlos spielbar?",
+        "answer": "Ja. Fart With Your Friends ist auf Roblox kostenlos spielbar – öffne die offizielle Spielseite, klicke auf Spielen und du bist in Sekunden auf dem Fluss."
+      },
+      {
+        "question": "Wie viele Spieler können in Fart With Your Friends gemeinsam Rennen fahren?",
+        "answer": "Raft Race unterstützt Teamformate von 1v1 bis 4v4 – du kannst also gegen einen Freund antreten oder eine volle Crew mit je vier Spielern pro Seite mitbringen."
+      },
+      {
+        "question": "Welche Tiere kann man in Fart With Your Friends freischalten?",
+        "answer": "Das aktuelle Aufgebot umfasst die Begleiter Penguin, Fox und Cat, und HSF Studios fügt über Updates und Events regelmäßig weitere Tiere hinzu."
+      },
+      {
+        "question": "Gibt es Codes für Fart With Your Friends?",
+        "answer": "Der Codes-Bereich auf dieser Seite verfolgt jeden Fart With Your Friends Code – sobald ein neuer Code erscheint, findest du ihn hier mit seinen Belohnungen und dem Ablaufzeitraum, samt Schritt-für-Schritt-Einlöseanleitung."
+      },
+      {
+        "question": "Was steckt im Fart With Your Friends Halloween-Event?",
+        "answer": "Das Halloween-Event fügt den Ort Haunted Graveyard, den Charakter Fart Phantom und ein zeitlich begrenztes Halloween-Bundle hinzu – das Event-Modul oben deckt jedes Detail ab."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Fart With Your Friends zu spielen?",
+    "description": "Stürze dich mit deinen Freunden auf Roblox in chaotische Floßrennen – bildet Teams, überlebt wilde Flüsse und schaltet neue Tiere und Flöße frei!",
+    "joinCommunity": "Auf Roblox spielen",
+    "joinGame": "Einsteiger-Guide entdecken"
+  },
+  "footer": {
+    "title": "Fart With Your Friends Wiki",
+    "description": "Dein komplettes Ressourcen-Center für Fart With Your Friends Codes, Modi, Maps, Flöße, Tiere und Updates.",
+    "resources": "Ressourcen",
+    "community": "Community",
+    "legal": "Rechtliches",
+    "about": "Über uns",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "copyrightNotice": "Urheberrecht",
+    "copyright": "© 2026 Fart With Your Friends Wiki. Nicht verbunden mit den Entwicklern von Fart With Your Friends oder Roblox Corporation.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website.",
+    "roblox": "Roblox Offizielle Seite"
+  },
+  "pages": {
+    "guide": {
+      "title": "Fart With Your Friends Guides",
+      "description": "Vollständige Guides zu Einrichtung, Steuerung, allen vier Spielmodi und dem Spielen mit Freunden in Fart With Your Friends.",
+      "metaTitle": "Fart With Your Friends Guides – Modi, Steuerung & Einrichtung",
+      "metaDescription": "Schritt-für-Schritt-Guides für Fart With Your Friends: Einrichtung, Steuerung, Campaign, Raft Race, Endless River, Daily River und das Spielen mit Freunden.",
+      "categoryLabel": "SPIEL-GUIDES",
+      "whatIs": "Was sind Guides?",
+      "whatIsDescription": "Schritt-für-Schritt-Tutorials zu Installation, Floß-Steuerung, jedem Spielmodus und Multiplayer-Einrichtung. Jeder Guide führt dich vom ersten Start bis zu souveränen Flussfahrten mit Freunden.",
+      "why": "Warum unsere Guides lesen?",
+      "whySteps": {
+        "step1Title": "Schnell starten",
+        "step1Description": "Installiere das Spiel, trete einer Lobby bei und steuere dein Floß ohne Verwirrung",
+        "step2Title": "Jeden Modus verstehen",
+        "step2Description": "Erfahre, wie sich Campaign, Raft Race, Endless River und Daily River unterscheiden",
+        "step3Title": "Besser mit Freunden spielen",
+        "step3Description": "Lade Freunde ein, fülle eine 1v1-bis-4v4-Lobby und koordiniere euch als Team"
+      },
+      "featured": "Empfohlen & Essentiell",
+      "all": "Alle Guides"
+    },
+    "multiplayer": {
+      "title": "Fart With Your Friends Multiplayer",
+      "description": "Spiele Fart With Your Friends mit Freunden: Lobby-Einladungen, 1v1- bis 4v4-Rennen, Online-Koop und lokale Multiplayer-Einrichtung erklärt.",
+      "metaTitle": "Fart With Your Friends Multiplayer – Mit Freunden spielen",
+      "metaDescription": "Erfahre jede Möglichkeit, Fart With Your Friends mit Freunden zu spielen: Einladungen, Lobbys, 1v1- bis 4v4-Rennen, Online-Koop, Remote Play und lokalen Multiplayer.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "Was ist Multiplayer?",
+      "whatIsDescription": "Multiplayer umfasst jede Art, gegen echte Spieler zu Rennen: Freunde in eine Lobby einladen, 1v1- bis 4v4-Matches füllen und gemeinsam online oder auf einem Bildschirm fahren.",
+      "why": "Warum mit Freunden spielen?",
+      "whySteps": {
+        "step1Title": "Gegen echte Spieler fahren",
+        "step1Description": "Tausche den Solo-Grind gegen direkte Floßrennen gegen deine Freunde",
+        "step2Title": "In Sekunden einladen",
+        "step2Description": "Teile eine Lobby-Einladung und bring alle zum Paddeln, bevor das nächste Rennen startet",
+        "step3Title": "Passt für jede Gruppe",
+        "step3Description": "Von 1v1-Duellen bis zum vollen 4v4-Chaos – wähle das Setup, das zu deiner Crew passt"
+      },
+      "featured": "Empfohlen & Essentiell",
+      "all": "Alle Multiplayer-Guides"
+    },
+    "gameplay": {
+      "title": "Fart With Your Friends Gameplay",
+      "description": "Entdecke das Gameplay von Fart With Your Friends: vier Floß-Modi, Flusshindernisse, lustige Momente und was jedes Rennen besonders macht.",
+      "metaTitle": "Fart With Your Friends Gameplay – Modi, Flüsse & Flöße",
+      "metaDescription": "Sieh, wie Fart With Your Friends aussieht: Campaign, Raft Race, Endless River, Daily River, Hindernisfahrten, freischaltbare Tiere und Flöße.",
+      "categoryLabel": "GAMEPLAY",
+      "whatIs": "Was ist Gameplay?",
+      "whatIsDescription": "Gameplay-Guides erklären, wie jeder Modus funktioniert: durch Flüsse paddeln, Hindernissen ausweichen, mit gut getimten Fürzen boosten und neue Tiere und Flöße freischalten.",
+      "why": "Warum Gameplay erkunden?",
+      "whySteps": {
+        "step1Title": "Kenne deine Modi",
+        "step1Description": "Wähle souverän zwischen Campaign, Raft Race, Endless River und Daily River",
+        "step2Title": "Lies den Fluss",
+        "step2Description": "Lerne Hindernismuster und Tempo-Zonen, damit weniger Fahrten im Wasser enden",
+        "step3Title": "Schalte alles frei",
+        "step3Description": "Verfolge Tiere wie Penguin, Fox und Cat sowie Flöße, für die es sich zu Rennen lohnt"
+      },
+      "featured": "Empfohlen & Essentiell",
+      "all": "Alle Gameplay-Artikel"
+    },
+    "tips": {
+      "title": "Fart With Your Friends Tipps",
+      "description": "Praktische Tipps für Fart With Your Friends: Siegstrategien, Challenge-Ideen, Streich-Tricks und Gewohnheiten, die mehr Rennen gewinnen.",
+      "metaTitle": "Fart With Your Friends Tipps – Mehr Floßrennen gewinnen",
+      "metaDescription": "Werde besser mit Fart With Your Friends Tipps: Rennstrategien, Gewinn-Tricks, Challenge-Ideen, Streich-Moves und Teamwork-Gewohnheiten für jeden Modus.",
+      "categoryLabel": "TIPPS & STRATEGIEN",
+      "whatIs": "Was sind Tipps?",
+      "whatIsDescription": "Kurze, sofort umsetzbare Tipps zu Rennstrategie, Boost-Timing, Hindernis-Einschätzung und lustigen Challenge-Ideen, die du mit Freunden in jedem Modus ausprobieren kannst.",
+      "why": "Warum unsere Tipps nutzen?",
+      "whySteps": {
+        "step1Title": "Mehr Rennen gewinnen",
+        "step1Description": "Setze erprobte Strategien ein, statt alles auf die harte Tour zu lernen",
+        "step2Title": "Lustige Challenges fahren",
+        "step2Description": "Probiere Streich-Ideen und eigene Challenges, die Lobbys zum Lachen bringen",
+        "step3Title": "Team-Gewohnheiten aufbauen",
+        "step3Description": "Verwandle Solo-Können in Gruppen-Koordination für 4v4-Rennen"
+      },
+      "featured": "Empfohlen & Essentiell",
+      "all": "Alle Tipps"
+    },
+    "steam": {
+      "title": "Fart With Your Friends auf Steam",
+      "description": "Fart With Your Friends auf Steam: Demo-Verfügbarkeit, Release-Infos, Multiplayer auf dem PC und Steam-Remote-Play-Together-Einrichtung.",
+      "metaTitle": "Fart With Your Friends Steam – Demo, Release & Remote Play",
+      "metaDescription": "Alles zu Fart With Your Friends auf Steam: Demo-Status, Release-News, PC-Multiplayer und Remote Play Together mit Freunden.",
+      "categoryLabel": "STEAM-EDITION",
+      "whatIs": "Was ist die Steam-Edition?",
+      "whatIsDescription": "Die Steam-Edition bringt den Floß-Chaos auf den PC: prüfe die Demo-Verfügbarkeit, folge Release-News, richte Multiplayer ein und nutze Remote Play Together, um mit Freunden zu Rennen.",
+      "why": "Warum die Steam-Berichterstattung verfolgen?",
+      "whySteps": {
+        "step1Title": "Demo im Blick behalten",
+        "step1Description": "Wisse, wann eine spielbare Demo erscheint und was sie enthält",
+        "step2Title": "Auf dem PC einrichten",
+        "step2Description": "Bringe das Spiel zum Laufen und optimiere es für flüssige Multiplayer-Sessions",
+        "step3Title": "Überall gemeinsam spielen",
+        "step3Description": "Nutze Remote Play, um mit Freunden zu Rennen, die das Spiel nicht besitzen"
+      },
+      "featured": "Empfohlen & Essentiell",
+      "all": "Alle Steam-Artikel"
+    },
+    "videos": {
+      "title": "Fart With Your Friends Videos",
+      "description": "Sieh Fart With Your Friends in Aktion: Gameplay-Videos, lustige Momente, Live-Fahrten und Multiplayer-Höhepunkte aus echten Rennen.",
+      "metaTitle": "Fart With Your Friends Videos – Gameplay & Lustige Momente",
+      "metaDescription": "Die besten Fart With Your Friends Videos: Gameplay-Fahrten, lustige Momente, Live-Sessions und Multiplayer-Chaos aus echten Rennen auf den Flüssen.",
+      "categoryLabel": "VIDEOS",
+      "whatIs": "Was sind Videos?",
+      "whatIsDescription": "Kuratierte Video-Zusammenstellungen mit echten Rennen: Gameplay-Fahrten, lustige Fails, Multiplayer-Highlights und Live-Sessions, die dir das Spiel vor dem Spielen zeigen.",
+      "why": "Warum Videos ansehen?",
+      "whySteps": {
+        "step1Title": "Vor dem Spielen sehen",
+        "step1Description": "Schau echtes Renn-Material, um zu wissen, wie jeder Modus in Bewegung aussieht",
+        "step2Title": "Aus Fahrten lernen",
+        "step2Description": "Erkenne, wie starke Spieler Hindernisse, Boosts und Flusskurven meistern",
+        "step3Title": "Den Spaß teilen",
+        "step3Description": "Schicke die lustigsten Momente vor dem Spiele-Abend in deine Lobby"
+      },
+      "featured": "Empfohlen & Essentiell",
+      "all": "Alle Videos"
+    }
+  }
+}

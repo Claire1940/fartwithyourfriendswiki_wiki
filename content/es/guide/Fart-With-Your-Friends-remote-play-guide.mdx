@@ -1,0 +1,235 @@
+import { Users, Map, Target, Trophy, Shield, CheckCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de juego remoto de Fart With Your Friends: configuración y consejos",
+  description: "Aprende a jugar Fart With Your Friends de forma remota, unirte a la misma sesión de Roblox, elegir modos, coordinar el movimiento de la balsa y evitar errores comunes del equipo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4338ca/fff?text=Remote+Play+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de Fart With Your Friends",
+  slug: "/fart-with-your-friends-remote-play-guide"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía de juego remoto de Fart With Your Friends**: Únete a la misma experiencia de Roblox antes de elegir una actividad del río.
+- **Mejor punto de partida**: Usa una actividad cooperativa para practicar el movimiento de la balsa y el tiempo de reacción ante los obstáculos.
+- **Formatos de equipo**: Raft Race admite enfrentamientos desde **1v1 hasta 4v4**.
+- **Regla de comunicación**: Elige a una persona para indicar los giros, los obstáculos y los cambios de dirección.
+- **Configuración fiable**: Confirma que todos tus amigos están en la misma sesión antes de formar los equipos.
+</Callout>
+
+<Section icon={Users} title="Configuración del juego remoto para Fart With Your Friends">
+
+Los conceptos básicos de la guía de juego remoto de Fart With Your Friends comienzan por conseguir que todos entren en la misma experiencia de Roblox. La ficha oficial del juego presenta la experiencia como un desafío multijugador de balsas con actividades cooperativas y formatos de Raft Race que van de 1v1 a 4v4. Tu primer objetivo no es la velocidad, sino asegurarte de que el grupo comparte la misma sesión y entiende el plan.
+
+Usa la [página oficial de Fart With Your Friends en Roblox](https://www.roblox.com/games/98875597274178/Fart-With-Your-Friends?placeId=98875597274178&universeId=10771196798) para abrir la experiencia. La configuración de las cuentas de Roblox, las herramientas de grupo y las opciones para unirse pueden variar, así que comprueba que todos los jugadores hayan cargado el mismo juego antes de seleccionar un modo.
+
+| Etapa de configuración | Qué hacer | Comprobación de éxito |
+|---|---|---|
+| Invitar a jugadores | Selecciona a los amigos que se unirán a la sesión | Todos están disponibles en Roblox |
+| Abrir la experiencia | Usa la página oficial del juego en Roblox | Cada jugador carga Fart With Your Friends |
+| Confirmar el servidor | Usa las opciones disponibles de grupo o de acceso | Todos los jugadores aparecen en la misma sesión |
+| Elegir una actividad | Selecciona un modo cooperativo o Raft Race | El grupo acepta la actividad |
+| Establecer el plan del equipo | Forma los equipos y asigna a la persona encargada de la comunicación | Los jugadores saben quién da las indicaciones |
+
+<CardGrid cols={3}>
+  <Card title="Sesión cooperativa">
+    Ideal para aprender a mover la balsa, identificar los peligros del río y crear un ritmo de equipo compartido antes de competir.
+  </Card>
+  <Card title="Sala de Raft Race">
+    Ideal para una competición organizada. Confirma el número de integrantes antes de empezar, ya que los formatos van de **1v1 a 4v4**.
+  </Card>
+  <Card title="Partida de práctica">
+    Ideal para probar los cambios de dirección, descubrir las secciones difíciles del río y decidir qué jugador debe indicar los giros.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo para la configuración remota">
+Haz que todos los jugadores confirmen que están en la misma sesión antes de elegir un modo. Empezar una carrera demasiado pronto puede dejar a un amigo fuera del grupo previsto.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Elige la actividad adecuada del río">
+
+Fart With Your Friends incluye cuatro actividades anunciadas públicamente: Campaign, Raft Race, Endless River y Daily River. Cada una responde a un objetivo diferente de juego remoto. Campaign es un punto de partida práctico para los grupos nuevos, mientras que Raft Race está diseñado para la competición directa entre equipos.
+
+La experiencia exacta de un modo puede depender de la sesión de juego actual y del contenido disponible. Usa la comparación siguiente como guía de planificación, sin asumir que todas las actividades tienen objetivos o requisitos de jugadores idénticos.
+
+| Modo | Enfoque principal | Adecuado para grupos remotos | Enfoque recomendado |
+|---|---|---|---|
+| **Campaign** | Desafíos fluviales estructurados | Jugadores nuevos y equipos centrados en la progresión | Aprender el movimiento y el tiempo de reacción ante los obstáculos |
+| **Raft Race** | Competición entre equipos | Grupos organizados listos para competir | Equilibrar los equipos y nombrar a una persona encargada de las indicaciones |
+| **Endless River** | Navegación continua por el río | Sesiones de práctica y resistencia | Centrarse en reacciones constantes |
+| **Daily River** | Desafío fluvial recurrente | Grupos que buscan una actividad repetible | Comparar los intentos y perfeccionar las rutas |
+
+<Callout type="warning" title="Advertencia sobre la selección del modo">
+No trates todos los modos como si fueran una carrera. Campaign y las actividades centradas en la práctica son útiles para aprender, mientras que Raft Race recompensa la competición coordinada entre equipos.
+</Callout>
+
+### ¿Qué modo deberías jugar primero?
+
+Elige **Campaign** cuando el grupo incluya jugadores primerizos. Ofrece una forma estructurada de comprender el flujo básico del río sin añadir de inmediato a otro equipo como amenaza competitiva.
+
+Elige **Raft Race** cuando todos comprendan el patrón de movimiento y quieran un desafío directo. Las estructuras de equipo disponibles incluyen 1v1, 2v2, 3v3 y 4v4, así que organiza la sala antes de que comience la partida.
+
+Elige **Endless River** para practicar repetidamente. Este modo permite al equipo trabajar la constancia, la comunicación y las reacciones durante intentos de navegación más largos.
+
+Elige **Daily River** cuando el grupo quiera un objetivo recurrente. Compara las decisiones después de cada intento, especialmente en los giros y las secciones con obstáculos difíciles.
+
+| Situación del grupo | Mejor primera opción | Por qué encaja |
+|---|---|---|
+| Jugadores nuevos | **Campaign** | Introduce el flujo básico en un formato estructurado |
+| Amigos competitivos | **Raft Race** | Ofrece partidas entre equipos |
+| Grupo centrado en la práctica | **Endless River** | Fomenta la navegación repetida y la resistencia |
+| Jugadores que regresan | **Daily River** | Crea un desafío recurrente al que volver |
+
+</Section>
+
+<Section icon={Target} title="Flujo multijugador remoto paso a paso">
+
+Una sesión remota exitosa depende de una secuencia sencilla: reunir al grupo, entrar en la misma experiencia, seleccionar una actividad, establecer la comunicación y avanzar como un solo equipo. Usa estos pasos antes de cada partida organizada, especialmente cuando varios jugadores se conecten desde dispositivos o lugares diferentes.
+
+<Steps>
+  <Step num="1" title="Prepara al grupo">
+    Confirma qué amigos jugarán y decide si la sesión será cooperativa o competitiva. Para Raft Race, acuerden el tamaño de los equipos antes de entrar en la actividad.
+  </Step>
+  <Step num="2" title="Únanse a la misma experiencia">
+    Abre la página oficial de Roblox de Fart With Your Friends y usa las opciones disponibles de Roblox para unirse o formar un grupo. Espera hasta que todos los jugadores confirmen que el juego se ha cargado.
+  </Step>
+  <Step num="3" title="Selecciona la actividad">
+    Elige Campaign, Raft Race, Endless River o Daily River. Empieza con Campaign u otra actividad centrada en la práctica si el grupo todavía está aprendiendo.
+  </Step>
+  <Step num="4" title="Asigna a la persona que dará las indicaciones">
+    Elige a un jugador para que indique los giros, los peligros próximos y los cambios de dirección. Los demás jugadores deben apoyar sus indicaciones en lugar de dar instrucciones contradictorias.
+  </Step>
+  <Step num="5" title="Revisa la partida">
+    Después de la actividad, identifica la sección que causó más problemas. Ajusta el plan siguiente teniendo en cuenta el tiempo de reacción, la comunicación y unas respuestas más tempranas.
+  </Step>
+</Steps>
+
+| Indicación de comunicación | Significado | Respuesta del equipo |
+|---|---|---|
+| Izquierda | Prepárense para un ajuste hacia la izquierda | Realicen un movimiento controlado en lugar de correcciones repetidas |
+| Derecha | Prepárense para un ajuste hacia la derecha | Observen la ruta y respondan juntos |
+| Obstáculo | Se acerca un peligro o una sección difícil | Miren hacia delante y reduzcan las acciones contradictorias |
+| Más lento | Eviten un cambio demasiado brusco | Den prioridad al control y a la posición |
+| Giro | Comiencen un cambio de dirección planificado | Sigan el momento indicado por la persona encargada |
+
+<Callout type="success" title="Regla de coordinación">
+Una sola persona dando indicaciones claras suele ser más fácil de seguir que varios jugadores dando direcciones diferentes al mismo tiempo. Mantengan las indicaciones breves y hagan los ajustes de forma deliberada.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Consejos de juego remoto para controlar mejor la balsa">
+
+El juego remoto añade un desafío de comunicación porque los jugadores no comparten el mismo espacio físico. Un plan de equipo útil reduce ese problema. Antes de que la balsa empiece a moverse, decidan quién observará la ruta, quién indicará los cambios de dirección y cómo responderá el grupo cuando el río se vuelva difícil.
+
+Usen pequeños ajustes en lugar de cambiar de dirección rápidamente. Mirar hacia delante da al equipo más tiempo para reaccionar, mientras que las órdenes de último segundo pueden provocar movimientos contradictorios. El objetivo es lograr una respuesta compartida, no que cada jugador intente corregir la balsa por separado.
+
+<CardGrid cols={4}>
+  <Card title="Mira hacia delante">
+    Observa el río antes de que la balsa llegue a un giro. La información temprana da a la persona encargada más tiempo para comunicarse.
+  </Card>
+  <Card title="Usa indicaciones breves">
+    Las direcciones sencillas, como izquierda, derecha, más lento y giro, son más fáciles de entender durante las secciones complicadas.
+  </Card>
+  <Card title="Evita los conflictos">
+    Deja que la persona asignada lidere las decisiones de movimiento, a menos que el equipo necesite cambiar el plan.
+  </Card>
+  <Card title="Revisa los errores">
+    Identifica un área problemática después de cada partida y adapta el siguiente intento a ese problema.
+  </Card>
+</CardGrid>
+
+| Error común | Por qué causa problemas | Mejor respuesta |
+|---|---|---|
+| Todos dan indicaciones | Las órdenes contradictorias retrasan al equipo | Nombra a una persona principal para dar las indicaciones |
+| Girar en el último momento | Es posible que la balsa no responda a tiempo | Indica el ajuste con antelación |
+| Repetir grandes correcciones | Un movimiento excesivo puede reducir el control | Usa movimientos más pequeños y deliberados |
+| Ignorar la ruta que hay delante | El equipo reacciona después de que aparezca el peligro | Asigna jugadores para observar las próximas secciones |
+| Cambiar de plan constantemente | Los jugadores pierden la referencia de la dirección actual | Mantén un plan hasta que nueva información requiera un cambio |
+
+<Callout type="info" title="Estrategia de equipo">
+Los grupos remotos más fuertes consideran la comunicación como parte del control de la balsa. Decidan el plan antes de la partida, hagan ajustes medidos y revisen una mejora concreta después de cada intento.
+</Callout>
+
+### Cómo mejorar el rendimiento en Raft Race
+
+Raft Race exige más porque el equipo debe navegar por el río mientras compite contra otro grupo. Siempre que sea posible, empieza con equipos del mismo tamaño. Una configuración equilibrada mantiene el foco en la coordinación en lugar de en una sala desigual.
+
+Usa un plan breve antes de la carrera:
+
+- Decide quién indicará el primer giro.
+- Confirma las palabras de dirección que todos entienden.
+- Determina si el equipo prefiere un movimiento prudente o agresivo.
+- Acuerda que la persona encargada puede cambiar el plan cuando cambie la ruta.
+- Revisa el primer error importante después de la carrera.
+
+No supongas que unas órdenes más rápidas producen automáticamente un movimiento mejor. El buen momento es más importante que hablar constantemente. Una persona tranquila que se comunique con antelación puede ayudar al equipo a responder de forma más constante.
+
+</Section>
+
+<Section icon={CheckCircle} title="Lista de comprobación de la sesión remota">
+
+Usa esta lista antes de iniciar una partida cooperativa o un enfrentamiento de Raft Race. Cubre los detalles prácticos que suelen interrumpir una sesión remota.
+
+<Checklist
+  id="remote-play-checklist"
+  title="Antes de comenzar una partida:"
+  items={[
+    "Confirma que todos los amigos están usando la experiencia oficial de Roblox de Fart With Your Friends",
+    "Verifica que todos los jugadores hayan cargado la misma sesión",
+    "Elige Campaign, Raft Race, Endless River o Daily River",
+    "Asigna a un jugador para indicar los giros y las respuestas ante los obstáculos",
+    "Acuerden comandos breves de dirección antes de que la balsa empiece a moverse"
+  ]}
+/>
+
+| Punto de control | Condición para estar listo | Si no está listo |
+|---|---|---|
+| Lista de jugadores | Todos los amigos previstos están presentes | Pausa y confirma la sesión |
+| Actividad | El grupo acepta un modo | Explica el objetivo antes de empezar |
+| Formato de equipo | Los equipos de Raft Race están organizados | Equilibra los equipos cuando sea posible |
+| Persona encargada | Un jugador lidera las indicaciones | Elige a una persona antes de comenzar el movimiento |
+| Plan de revisión | El grupo sabe qué debe mejorar | Elige un error para analizar después |
+
+<Callout type="tip" title="Método de reinicio rápido">
+Si la primera partida se vuelve desorganizada, deja de añadir nuevas instrucciones. Termina o reinicia cuando sea práctico, elige a una sola persona para dar las indicaciones y vuelve a empezar con un plan de comunicación más sencillo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes: jugar de forma remota con amigos">
+
+<FAQ items={[
+  {
+    question: "¿Cómo juego Fart With Your Friends de forma remota con mis amigos?",
+    answer: "Abre la experiencia oficial de Roblox, usa las opciones disponibles de Roblox para formar un grupo o unirte, y confirma que todos los jugadores hayan cargado la misma sesión antes de seleccionar un modo."
+  },
+  {
+    question: "¿Qué modo de Fart With Your Friends es mejor para principiantes?",
+    answer: "Campaign es un punto de partida práctico porque ofrece desafíos fluviales estructurados. Una actividad cooperativa o centrada en la práctica también ayuda a los jugadores nuevos a aprender a mover la balsa antes de entrar en Raft Race."
+  },
+  {
+    question: "¿Qué tamaños de equipo están disponibles en Raft Race?",
+    answer: "La información publicada del juego indica que Raft Race ofrece formatos desde 1v1 hasta 4v4, incluidos enfrentamientos 1v1, 2v2, 3v3 y 4v4."
+  },
+  {
+    question: "¿Cómo puede coordinarse mejor un equipo remoto?",
+    answer: "Elijan a una persona para dar las indicaciones, usen comandos breves como izquierda o derecha, miren hacia delante para detectar los obstáculos y hagan pequeños ajustes en lugar de cambiar de dirección repetidamente."
+  }
+]} />
+
+<Callout type="success" title="Conclusión">
+Una sesión remota fiable comienza con la misma experiencia de Roblox, una actividad adecuada y un plan de comunicación compartido. Practica en un modo cooperativo antes de llevar ese plan a Raft Race.
+</Callout>
+
+</Section>

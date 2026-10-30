@@ -1,0 +1,248 @@
+import { Monitor, Users, Settings, ShieldCheck, Trophy, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Multijugador de Fart With Your Friends en Steam: guía de configuración",
+  description: "Aprende a comprobar la compatibilidad multijugador en Steam, preparar una sesión grupal, solucionar problemas de conexión y organizar una partida más fluida de Fart With Your Friends.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Steam+Multiplayer+Setup",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de Fart With Your Friends",
+  slug: "fart-with-your-friends-steam-multiplayer"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **multijugador de Fart With Your Friends en Steam** requiere comprobar la ficha actual de Steam antes de invitar a un grupo.
+- **Confirma el modo** revisando las funciones multijugador disponibles, el límite de jugadores y los requisitos de entrada.
+- **Prepara al anfitrión** con una conexión estable, los archivos del juego actualizados y una sesión privada de Steam.
+- **Usa un vestíbulo de prueba** antes de organizar una partida grupal más grande o un evento de la comunidad.
+- **Soluciona los problemas en orden** comprobando las actualizaciones, las invitaciones, la configuración de privacidad y el software de red.
+</Callout>
+
+<Section icon={Monitor} title="Conceptos básicos del multijugador de Fart With Your Friends en Steam">
+
+Para cualquiera que busque **el multijugador de Fart With Your Friends en Steam**, la pregunta principal es si la versión actual de Steam admite el tipo de sesión grupal que quieres organizar. Las etiquetas multijugador pueden describir varios sistemas diferentes, como el modo cooperativo en línea, el emparejamiento competitivo, los vestíbulos privados, el juego local o las funciones de juego remoto. Estas opciones no ofrecen la misma experiencia, por lo que comprobar los detalles exactos de la ficha es un primer paso importante.
+
+Abre la [página de búsqueda de Steam de Fart With Your Friends](https://store.steampowered.com/search/?term=Fart%20With%20Your%20Friends) y revisa la ficha del juego en la tienda antes de hacer planes. Busca el número de jugadores admitido, las etiquetas de multijugador en línea o local, los requisitos de los mandos y cualquier nota sobre el acceso anticipado o los cambios en las funciones.
+
+| Detalle de Steam | Por qué importa | Qué verificar |
+|---|---|---|
+| Tipo de multijugador | Muestra cómo se conectan los jugadores | Juego en línea, local o remoto |
+| Número de jugadores | Define el tamaño de la sesión | Mínimo y máximo de jugadores |
+| Compatibilidad de entrada | Evita conflictos con los mandos | Teclado, mando o entrada mixta |
+| Privacidad de la sesión | Controla quién puede unirse | Solo amigos, solo por invitación o pública |
+| Notas de la plataforma | Identifica los límites de compatibilidad | Compatibilidad con Windows y servicios necesarios |
+
+<CardGrid cols={3}>
+  <Card title="Sesión en línea">
+    Ideal para amigos que se unen desde ordenadores distintos. Confirma que la ficha admita el juego en línea y comprueba si las invitaciones se gestionan mediante Steam.
+  </Card>
+  <Card title="Sesión local">
+    Útil cuando varios jugadores comparten un ordenador o una pantalla. Verifica el multijugador local y revisa el número de mandos compatibles.
+  </Card>
+  <Card title="Juego remoto">
+    Una opción práctica cuando se admite el juego local, pero los jugadores no están físicamente juntos. La calidad de la conexión depende en gran medida del anfitrión.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Compruébalo antes de programar la sesión">
+No asumas que una etiqueta multijugador garantiza todos los modos. Los límites de jugadores, la compatibilidad local, el acceso en línea y la compatibilidad con el juego remoto pueden variar entre versiones y cambiar durante el desarrollo.
+</Callout>
+
+El anfitrión también debe confirmar que todos los participantes poseen la versión necesaria o pueden unirse mediante la función de Steam compatible. Si la ficha no es clara, realiza una breve sesión de prueba en lugar de confiar en suposiciones.
+
+</Section>
+
+<Section icon={Users} title="Configuración del grupo y planificación de jugadores">
+
+Una sesión fiable comienza antes de iniciar el juego. Decide quién será el anfitrión, cuántas personas participarán y si el grupo quiere una partida privada o una sesión más abierta. Los grupos pequeños suelen ser más fáciles de coordinar porque los jugadores pueden comunicarse rápidamente y recuperarse de los problemas de conexión sin retrasar a todos.
+
+Usa la siguiente tabla como referencia de planificación, no como una regla fija. El tamaño correcto del grupo depende de la ficha actual del juego y del modo seleccionado.
+
+| Tamaño del grupo | Enfoque recomendado | Ventaja principal | Riesgo habitual |
+|---|---|---|---|
+| Dos jugadores | Sesión de prueba privada | Configuración rápida y solución sencilla de problemas | Menos margen para recuperarse de forma cooperativa |
+| De tres a cuatro jugadores | Vestíbulo solo para amigos | Buen equilibrio entre comunicación y variedad | Un jugador desconectado puede afectar a la sesión |
+| Grupo grande | Confirma primero el límite de jugadores indicado | Mayor interacción social | Más invitaciones y variables de conexión |
+| Experiencia mixta | Usa una ronda de práctica breve | Los jugadores nuevos aprenden sin presión | La primera partida puede avanzar lentamente |
+
+Antes de empezar, asigna responsabilidades sencillas:
+
+- **Anfitrión:** Inicia la sesión, gestiona las invitaciones y confirma que el vestíbulo está listo.
+- **Jugadores:** Actualizan el juego, aceptan las invitaciones y prueban los controles antes de unirse.
+- **Organizador del grupo:** Comparte la hora de inicio, el canal de voz y un plan alternativo por si alguien no puede conectarse.
+- **Observador o sustituto:** Ayuda a cubrir un puesto si el número de jugadores admitido lo permite.
+
+<Callout type="tip" title="Consejo práctico de planificación">
+Elige un anfitrión con una conexión estable y mantén breve la primera sesión. Una prueba de diez minutos puede revelar problemas con las invitaciones, los controles y el audio antes de que llegue el grupo principal.
+</Callout>
+
+Una sesión privada suele ser el mejor punto de partida para los amigos. Reduce las incorporaciones inesperadas y facilita pausar la partida mientras se comprueban los controles. Las sesiones públicas o abiertas pueden ser útiles para jugar con la comunidad, pero requieren reglas más claras y una moderación más activa.
+
+<CardGrid cols={3}>
+  <Card title="Grupo privado de amigos">
+    Úsalo cuando todos conozcan de antemano la hora de la sesión. Esta configuración ofrece una comunicación más clara y menos interrupciones.
+  </Card>
+  <Card title="Partida de la comunidad">
+    Úsala cuando quieras conocer a otros jugadores. Comparte las reglas con antelación y evita exponer información personal innecesaria.
+  </Card>
+  <Card title="Vestíbulo de prueba">
+    Úsalo antes de un evento o una sesión de grabación. Confirma las invitaciones, el audio, los controles y los límites de jugadores con un grupo pequeño.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Settings} title="Configuración paso a paso del multijugador de Steam">
+
+Sigue estos pasos para crear una sesión fiable. El texto de los menús de Steam puede variar ligeramente según la versión del cliente, pero la secuencia sigue siendo útil para la mayoría de las comprobaciones multijugador.
+
+<Steps>
+  <Step num="1" title="Revisa la ficha actual de la tienda">
+    Abre la ficha oficial de Steam e identifica el tipo de multijugador compatible, el número de jugadores, las notas sobre los mandos y cualquier requisito de acceso. Anota los detalles antes de invitar a tus amigos.
+  </Step>
+  <Step num="2" title="Actualiza todas las instalaciones">
+    Pide a cada jugador que instale las actualizaciones pendientes de Steam. Las versiones diferentes pueden impedir que los jugadores se unan a la misma sesión o provocar errores inesperados.
+  </Step>
+  <Step num="3" title="Elige al anfitrión">
+    Selecciona al jugador con la conexión más fiable y un ordenador capaz de ejecutar el juego cómodamente. El anfitrión debe iniciar Steam primero y permanecer disponible durante la configuración.
+  </Step>
+  <Step num="4" title="Crea una sesión privada">
+    Inicia el modo multijugador compatible, elige la configuración de privacidad práctica más restrictiva e invita a tus amigos mediante Steam. Espera hasta que todos confirmen que pueden ver la sesión.
+  </Step>
+  <Step num="5" title="Realiza una ronda de prueba breve">
+    Comprueba el movimiento, la entrada, la comunicación por voz y la visibilidad de los jugadores. Si aparece algún problema, soluciónalo antes de comenzar una partida más larga o invitar a más jugadores.
+  </Step>
+</Steps>
+
+| Etapa de configuración | Acción del anfitrión | Acción del jugador | Comprobación de éxito |
+|---|---|---|---|
+| Revisión de la tienda | Confirma el modo indicado | Lee los mismos detalles | Todos entienden el tipo de sesión |
+| Comprobación de actualizaciones | Verifica la versión del anfitrión | Instala las actualizaciones pendientes | Las versiones están alineadas |
+| Creación del vestíbulo | Configura la privacidad e invita a los jugadores | Acepta la invitación | Todos llegan al vestíbulo |
+| Prueba de controles | Inicia una ronda breve | Prueba el movimiento y la entrada | Los controles responden correctamente |
+| Inicio de la partida | Confirma que todos están listos | Informa de los problemas cuanto antes | El grupo comienza unido |
+
+<Callout type="success" title="Mejor configuración inicial">
+Para el primer intento, usa una sesión privada solo para amigos, el grupo práctico más pequeño y una ronda de prueba breve. Esta configuración facilita aislar los problemas de conexión.
+</Callout>
+
+Si un jugador no puede unirse, no envíes invitaciones repetidamente sin comprobar lo básico. Confirma que el jugador haya iniciado Steam, esté usando la cuenta correcta, haya terminado de actualizar y no se encuentre ya dentro de otra sesión.
+
+</Section>
+
+<Section icon={ShieldCheck} title="Solución de problemas de conexión y estabilidad de la sesión">
+
+Los problemas multijugador suelen deberse a diferencias en la configuración y no al juego en sí. Realiza un cambio cada vez para que el grupo sepa qué ajuste resolvió el problema. Reiniciar todas las aplicaciones a la vez puede dificultar la identificación de la causa.
+
+| Problema | Primera comprobación | Siguiente acción | Evita |
+|---|---|---|---|
+| No aparece la invitación | Estado de amistad en Steam | Vuelve a abrir el cliente y reenvía la invitación una vez | Enviar invitaciones repetidamente |
+| El jugador no puede entrar al vestíbulo | Privacidad y límite de jugadores | Recrea la sesión privada | Asumir que el juego está desconectado |
+| Los controles no responden | Conexión del dispositivo de entrada | Vuelve a conectar un dispositivo y pruébalo | Cambiar varios ajustes de control a la vez |
+| Falla la comunicación por voz | Micrófono seleccionado | Usa un canal de voz independiente | Subir el volumen sin hacer pruebas |
+| La partida se desconecta | Estabilidad de la conexión del anfitrión | Reduce el tráfico en segundo plano y vuelve a intentarlo | Culpar a un jugador antes de revisar los registros |
+
+Utiliza estas comprobaciones prácticas:
+
+- Cierra las descargas, las transmisiones y otras aplicaciones que consuman mucho ancho de banda en el ordenador del anfitrión.
+- Conecta al anfitrión a una red estable siempre que sea posible.
+- Reinicia Steam solo después de confirmar que el problema no se debe a una invitación perdida o a la configuración de privacidad.
+- Mantén la primera sesión libre de superposiciones y herramientas de grabación innecesarias.
+- Si un jugador se desconecta repetidamente, permite que el resto del grupo pruebe el vestíbulo antes de cambiar de anfitrión.
+- Anota el mensaje de error exacto en lugar de describirlo únicamente como «el multijugador no funciona».
+
+<Callout type="warning" title="Evita cambios de red innecesarios">
+No cambies la configuración del router, las reglas del firewall ni el software de seguridad sin comprender sus efectos. Empieza por las actualizaciones, la configuración de privacidad, los reinicios y un vestíbulo de prueba más pequeño.
+</Callout>
+
+Cambiar de anfitrión puede ayudar cuando una conexión es inestable, pero debe tratarse como una prueba controlada. Traslada la sesión a otro anfitrión, invita a uno o dos jugadores y compara el resultado. Si el problema sigue a una cuenta o un ordenador específicos, es menos probable que lo cause el anfitrión original.
+
+<Checklist
+  id="steam-multiplayer-check"
+  title="Antes de la sesión principal:"
+  items={[
+    "Confirma el modo multijugador actual de Steam y el límite de jugadores",
+    "Actualiza el juego y el cliente de Steam en todos los ordenadores",
+    "Elige un anfitrión con una conexión estable",
+    "Prueba las invitaciones, los controles y la comunicación por voz",
+    "Acuerda un anfitrión de respaldo y un canal de comunicación"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Prácticas recomendadas para sesiones recurrentes">
+
+Cuando la primera sesión funcione, crea una rutina repetible. Una preparación constante reduce el tiempo de espera y facilita organizar partidas semanales, eventos de la comunidad o sesiones casuales con amigos.
+
+Una rutina útil incluye:
+
+- Comparte la hora de inicio y la duración prevista de la sesión antes de iniciar el juego.
+- Designa un anfitrión principal y uno de respaldo.
+- Usa el mismo canal de comunicación para la configuración y la solución de problemas.
+- Pide a los jugadores que informen de los problemas antes de que comience la partida.
+- Empieza con un vestíbulo privado cuando el grupo incluya jugadores nuevos.
+- Termina la sesión correctamente para que los jugadores sepan si está prevista otra ronda.
+
+| Objetivo de la sesión | Configuración recomendada | Enfoque de preparación |
+|---|---|---|
+| Noche casual con amigos | Vestíbulo privado | Invitaciones y chat de voz |
+| Jugadores primerizos | Grupo de prueba pequeño | Controles y reglas básicas |
+| Evento de la comunidad | Lista de jugadores confirmada | Horario, moderación y anfitrión de respaldo |
+| Sesión semanal recurrente | Rutina establecida | Misma hora del anfitrión y canal de comunicación |
+
+<CardGrid cols={4}>
+  <Card title="Anfitrión fiable">
+    Mantiene abierto el vestíbulo, confirma las invitaciones y gestiona los reinicios cuando es necesario.
+  </Card>
+  <Card title="Reglas claras">
+    Explica el formato de la sesión, el comportamiento esperado y cómo deben informar los jugadores de los problemas técnicos.
+  </Card>
+  <Card title="Prueba breve">
+    Comprueba los sistemas importantes sin convertir la configuración en una espera larga.
+  </Card>
+  <Card title="Plan alternativo">
+    Proporciona otro anfitrión o método de comunicación cuando la primera configuración falla.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Mantén el ritmo de las sesiones">
+Si un problema técnico afecta a un jugador, permite que el resto del grupo complete una prueba breve mientras esa persona comprueba las actualizaciones o vuelve a conectarse. Así se limita el tiempo de inactividad sin ignorar el problema.
+</Callout>
+
+La mejor configuración no tiene por qué ser la más complicada. Un vestíbulo privado pequeño con las instalaciones actualizadas, invitaciones claras y un anfitrión probado suele ser más eficaz que una sesión grande organizada sin preparación.
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas frecuentes sobre el multijugador de Fart With Your Friends en Steam">
+
+<FAQ items={[
+  {
+    question: "¿Fart With Your Friends es compatible con el multijugador de Steam?",
+    answer: "La compatibilidad multijugador exacta debe confirmarse en la ficha actual de Steam. Antes de organizar una sesión, comprueba si la página especifica el multijugador en línea, el juego local, el juego remoto, el número de jugadores admitido y los requisitos de los mandos."
+  },
+  {
+    question: "¿Cómo debería configurar mi primera sesión multijugador?",
+    answer: "Elige un anfitrión fiable, actualiza todas las instalaciones, crea una sesión privada, invita a un grupo pequeño y realiza una ronda de prueba breve. Confirma los controles y la comunicación antes de comenzar una partida más larga."
+  },
+  {
+    question: "¿Qué debo hacer si un amigo no puede unirse?",
+    answer: "Comprueba el estado de Steam, las actualizaciones pendientes, la privacidad del vestíbulo, los límites de jugadores y si el amigo ya está en otra sesión. Recrea una vez el vestíbulo privado y, si el problema continúa, prueba con otro anfitrión."
+  },
+  {
+    question: "¿Es mejor un vestíbulo privado que una sesión pública?",
+    answer: "Un vestíbulo privado suele ser el punto de partida más sencillo porque el anfitrión controla las invitaciones y puede solucionar problemas sin jugadores inesperados. Las sesiones públicas pueden funcionar mejor para eventos de la comunidad cuando el grupo ya conoce las opciones multijugador disponibles."
+  }
+]} />
+
+<Callout type="info" title="Recordatorio final">
+Las funciones multijugador de Steam pueden cambiar con las actualizaciones o los hitos del desarrollo. Vuelve a comprobar la ficha actual de la tienda y realiza una breve prueba en el vestíbulo cada vez que el juego reciba una actualización importante.
+</Callout>
+
+</Section>

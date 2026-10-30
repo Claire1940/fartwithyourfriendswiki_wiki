@@ -163,9 +163,15 @@ class TagExtractor:
         return self.tags
 
     def _extract_tags_from_line(self, line: str, line_num: int):
-        """从单行中提取标签"""
+        """从单行中提取标签（按位置顺序统一收集，保证同标签对的开/闭顺序正确）"""
         # 首先检查不正确的自闭合标签格式
         self._check_improper_self_closing(line, line_num)
+
+        # 检查 JSX 属性合法性（attr="value" / attr={expr}，残余非空即坏点）
+        self._check_jsx_attributes(line, line_num)
+
+        # 检查行内文本直接粘闭合标签（MDX 块级组件内容/闭合需独立成行）
+        self._check_inline_closing_tag(line, line_num)
 
         # 跳过内联代码
         line = self._remove_inline_code(line)
@@ -178,58 +184,57 @@ class TagExtractor:
         # 开始标签: <Component> 或 <Component prop="value">
         opening_pattern = r'<(\w+)(?:\s+[^>]*)?>'
 
-        # 首先匹配自闭合标签
+        # 三种标签都在同一行上匹配，收集为 (位置, Tag) 后按位置排序，
+        # 避免「先结束标签后开始标签」的提取顺序颠倒导致栈匹配误报
+        # （例如单行内闭合的 <th>xxx</th>，旧逻辑会先记 </th> 再记 <th>）
+        collected: List[Tuple[int, Tag]] = []
+
         for match in re.finditer(self_closing_pattern, line):
             tag_name = match.group(1)
-            column = match.start() + 1
-            self.tags.append(Tag(
+            collected.append((match.start(), Tag(
                 name=tag_name,
                 line=line_num,
-                column=column,
+                column=match.start() + 1,
                 is_closing=False,
                 is_self_closing=True,
                 content=match.group(0)
-            ))
+            )))
 
-        # 移除已匹配的自闭合标签
-        line = re.sub(self_closing_pattern, '', line)
-
-        # 匹配结束标签
         for match in re.finditer(closing_pattern, line):
             tag_name = match.group(1)
-            column = match.start() + 1
-            self.tags.append(Tag(
+            collected.append((match.start(), Tag(
                 name=tag_name,
                 line=line_num,
-                column=column,
+                column=match.start() + 1,
                 is_closing=True,
                 is_self_closing=False,
                 content=match.group(0)
-            ))
+            )))
 
-        # 匹配开始标签
         for match in re.finditer(opening_pattern, line):
             tag_name = match.group(1)
             # 跳过结束标签（已经匹配过了）
             if match.group(0).startswith('</'):
                 continue
-            # 跳过自闭合标签
+            # 跳过自闭合标签（已在自闭合轮收集）
             if match.group(0).endswith('/>'):
                 continue
-
-            column = match.start() + 1
 
             # 检查是否是自闭合标签类型
             is_self_closing = tag_name in self.SELF_CLOSING_TAGS
 
-            self.tags.append(Tag(
+            collected.append((match.start(), Tag(
                 name=tag_name,
                 line=line_num,
-                column=column,
+                column=match.start() + 1,
                 is_closing=False,
                 is_self_closing=is_self_closing,
                 content=match.group(0)
-            ))
+            )))
+
+        collected.sort(key=lambda pair: pair[0])
+        for _, tag in collected:
+            self.tags.append(tag)
 
     def _remove_inline_code(self, line: str) -> str:
         """移除行内代码（` ` 包裹的内容）"""
@@ -262,6 +267,51 @@ class TagExtractor:
                     column=column,
                     message=f"Self-closing tag <{tag_name}> should use <{tag_name} /> format, not <{tag_name}>"
                 ))
+
+    def _check_jsx_attributes(self, line: str, line_num: int):
+        """检测 JSX 开标签中的非法属性（如缺失 attr= 的裸文本或孤立引号）
+
+        MDX 编译器对属性段语法零容忍（如 <Step num="3" 标题文本"> 会直接编译失败），
+        此检查在本地验证阶段提前拦截，不依赖 dev/CI 编译报错。
+        """
+        clean_line = self._remove_inline_code(line)
+
+        for match in re.finditer(r'<([A-Z]\w*)((?:\s+[^<>]*?)?)(/?)>', clean_line):
+            attrs = match.group(2)
+            if not attrs.strip():
+                continue
+            cleaned = re.sub(r'\w+="[^"]*"', '', attrs)
+            cleaned = re.sub(r'\w+=\{[^}]*\}', '', cleaned).strip()
+            if cleaned:
+                self.errors.append(ValidationError(
+                    file_path=self.file_path,
+                    error_type='invalid_jsx_attribute',
+                    tag_name=match.group(1),
+                    line=line_num,
+                    column=match.start() + 1,
+                    message=f"Invalid JSX attribute syntax in <{match.group(1)}>: residual {cleaned[:50]!r}"
+                ))
+
+    def _check_inline_closing_tag(self, line: str, line_num: int):
+        """检测行内文本直接粘闭合标签（如 "text.</Callout>"）
+
+        MDX 对块级组件要求内容换行起段、闭合标签独立成行，否则编译报
+        "Expected the closing tag </X> either after the end of paragraph ..."。
+        栈匹配验证抓不到此语义级坏点，需单独检查。
+        """
+        clean_line = self._remove_inline_code(line)
+        stripped = clean_line.strip()
+        match = re.search(r'^(.+)</([A-Z]\w+)>$', stripped)
+        if match:
+            self.errors.append(ValidationError(
+                file_path=self.file_path,
+                error_type='inline_closing_tag',
+                tag_name=match.group(2),
+                line=line_num,
+                column=stripped.rfind('</' + match.group(2)) + 1,
+                message=f"Closing tag </{match.group(2)}> must be on its own line "
+                        f"(MDX block-level component), got inline after text: {match.group(1)[-40:]!r}"
+            ))
 
 
 class TagValidator:
@@ -506,6 +556,8 @@ class ErrorReporter:
                 'mismatched_tags': '标签不匹配',
                 'unexpected_closing_tag': '意外的结束标签',
                 'improper_self_closing_tag': '不正确的自闭合标签',
+                'invalid_jsx_attribute': 'JSX属性语法错误',
+                'inline_closing_tag': '行内文本粘闭合标签',
                 'missing_faq': '缺少FAQ组件',
                 'excessive_whitespace': '多余空格',
                 'duplicate_table_separator': '重复表格分隔线'

@@ -1,0 +1,210 @@
+import { Users, Map, Settings, Shield, Trophy, MessageCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fart With Your Friends: como entrar com amigos — Guia de configuração",
+  description: "Aprenda a entrar com amigos em Fart With Your Friends, configurar um lobby multijogador, resolver problemas de conexão e coordenar-se durante as fases cooperativas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Join+Friends+Guide",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de Fart With Your Friends",
+  slug: "fart-with-your-friends-how-to-join-friends"
+}
+
+<Callout type="info" title="Guia rápido">
+- **Fart With Your Friends** usa um lobby multijogador ou um sistema de convites para sessões cooperativas.
+- **Comece pelo anfitrião**: um jogador deve criar a sessão antes que os outros amigos tentem entrar.
+- **Use convites**: envie um convite pelo jogo ou pela plataforma e confirme se todos os jogadores aparecem no lobby.
+- **Coordene os movimentos**: checkpoints, tempo e impulsos controlados são importantes durante as fases compartilhadas.
+- **Solucione os problemas em ordem**: verifique o status do lobby, os convites, as configurações de privacidade e a estabilidade da conexão.
+</Callout>
+
+<Section icon={Users} title="Fart With Your Friends: como entrar com amigos">
+
+Fart With Your Friends foi criado para uma experiência cooperativa caótica, então a melhor abordagem é definir um anfitrião e fazer com que todos os outros entrem nessa sessão. Os nomes dos menus podem variar conforme a versão, mas o processo geral continua simples: abra a opção multijogador, crie ou selecione um lobby, convide seu grupo e aguarde até que cada jogador esteja visível antes de começar.
+
+A referência de gameplay disponível se concentra em vários jogadores atravessando juntos seções de obstáculos, usando checkpoints e comunicação por voz para coordenar o ritmo. Por isso, a etapa do lobby é especialmente importante: começar cedo demais pode deixar um amigo fora da sessão ou obrigar o grupo a repetir a configuração.
+
+**Destaques do vídeo:**
+
+- O movimento cooperativo depende de tempo e comunicação clara.
+- Os checkpoints ajudam o grupo a se recuperar após tentativas malsucedidas.
+- Os jogadores precisam coordenar as ações em vez de avançar individualmente com pressa.
+- O bate-papo por voz pode facilitar a organização durante obstáculos compartilhados.
+
+<YouTubeEmbed videoId="0EIyyL4h2wA" title="Fart with your friends BUT we're not friends (GONE WRONG)(SHOTS FIRED)" />
+
+<Callout type="tip" title="Configuração mais rápida">
+Escolha um anfitrião, crie a sessão multijogador, convide os amigos e não comece a fase até que o grupo completo esteja visível.
+</Callout>
+
+| Função do jogador | Ação recomendada | Por que isso importa |
+| --- | --- | --- |
+| Anfitrião | Criar o lobby e enviar os convites | Dá ao grupo uma única sessão clara para entrar |
+| Jogador que está entrando | Aceitar o convite e confirmar se a tela do lobby aparece | Evita entrar na sessão errada |
+| Grupo inteiro | Verificar a lista de jogadores visível antes de começar | Reduz inícios malsucedidos e companheiros ausentes |
+| Líder de voz | Avisar o momento dos movimentos | Ajuda a coordenar obstáculos compartilhados |
+
+Se um amigo não conseguir ver o convite, peça ao anfitrião que o reenvie uma vez depois de confirmar que o lobby está aberto. Enviar convites repetidamente sem verificar o estado da sessão pode causar confusão, especialmente quando vários amigos estão iniciando o jogo ao mesmo tempo.
+
+</Section>
+
+<Section icon={Settings} title="Configuração passo a passo do lobby multijogador">
+
+Use a sequência a seguir sempre que seu grupo quiser jogar junto. Os nomes dos botões podem ser diferentes, mas a ordem é útil para organizar a primeira sessão.
+
+<Steps>
+  <Step num="1" title="Escolha um anfitrião">
+    Decidam quem criará a sessão. O anfitrião deve ter uma conexão estável e permanecer no lobby enquanto os outros jogadores entram. Evitem que vários jogadores criem sessões separadas ao mesmo tempo.
+  </Step>
+  <Step num="2" title="Abra a opção multijogador">
+    No menu principal, selecione a opção associada a multijogador, cooperativo, lobby ou jogar com amigos. Se o jogo apresentar opções pública e privada, use a opção privada ou somente por convite para um grupo conhecido.
+  </Step>
+  <Step num="3" title="Convide todos os amigos">
+    Envie convites pelo menu disponível no jogo ou pela sobreposição da plataforma conectada. Peça que cada amigo confirme quando aceitar o convite, em vez de presumir que uma resposta atrasada significa que ele entrou.
+  </Step>
+  <Step num="4" title="Verifique o grupo">
+    Confira a lista de jogadores, os indicadores de prontidão ou a tela do lobby. Certifique-se de que todos os companheiros pretendidos estejam presentes antes de selecionar a fase ou iniciar a sessão.
+  </Step>
+  <Step num="5" title="Comece com um plano de coordenação">
+    Combinem um sistema simples de avisos antes de se mover. Use comandos curtos como “espera”, “vai”, “checkpoint” e “devagar” para que todos entendam a próxima ação.
+  </Step>
+</Steps>
+
+O anfitrião deve evitar iniciar imediatamente depois que o primeiro amigo entrar. Uma breve pausa para verificação é útil porque as sessões multijogador podem levar tempos diferentes para carregar. Ela também dá aos jogadores a chance de ajustar o áudio, o controle ou o teclado antes que o grupo chegue a um obstáculo difícil.
+
+| Etapa da configuração | O que confirmar | Erro comum |
+| --- | --- | --- |
+| Criação do anfitrião | O modo multijogador correto foi selecionado | Abrir acidentalmente uma sessão solo ou pública |
+| Convites | Cada amigo aceitou o convite atual | Entrar em um lobby antigo ou diferente |
+| Verificação do grupo | Todos os jogadores aparecem antes do início | Começar enquanto um amigo ainda está carregando |
+| Verificação de áudio | Os jogadores conseguem ouvir os avisos básicos | Descobrir problemas de voz durante uma seção cronometrada |
+| Início da fase | Todos estão prontos para se mover | Avançar antes que o grupo combine o ritmo |
+
+<Callout type="success" title="Hábito confiável do anfitrião">
+Mantenha o mesmo anfitrião durante toda a sessão sempre que possível. Isso dá ao grupo um lobby consistente e facilita a reconexão após uma tentativa malsucedida.
+</Callout>
+
+</Section>
+
+<Section icon={MessageCircle} title="Como se coordenar depois de entrar">
+
+Entrar com sucesso é apenas a primeira parte de uma boa partida cooperativa. As seções com obstáculos compartilhados costumam ficar mais difíceis quando os jogadores se movem em velocidades diferentes ou ativam ações sem avisar. Os grupos mais eficientes usam uma comunicação simples e tratam os checkpoints como pontos de reencontro.
+
+A referência de gameplay destaca avisos repetidos para diminuir o ritmo, esperar e avançar juntos. Esses hábitos são práticos para grupos novos porque reduzem empurrões acidentais, movimentos fora de tempo e situações em que um jogador chega a um obstáculo enquanto os outros ainda estão atrás.
+
+<CardGrid cols={4}>
+  <Card title="Avisos">
+    Use comandos curtos como “espera”, “vai”, “esquerda”, “devagar” e “checkpoint”. Palavras claras são mais fáceis de seguir durante momentos barulhentos ou caóticos.
+  </Card>
+  <Card title="Ritmo">
+    Movam-se em grupo perto dos perigos. O jogador mais rápido deve parar em vez de obrigar todos os outros a se recuperarem.
+  </Card>
+  <Card title="Recuperação">
+    Tratem os checkpoints como locais de reencontro. Confirmem que o grupo está reunido antes de tentar a próxima seção.
+  </Card>
+  <Card title="Paciência">
+    Tentativas malsucedidas são normais em fases cooperativas com obstáculos. Reorganizem o plano em vez de culpar um companheiro.
+  </Card>
+</CardGrid>
+
+Na primeira sessão, escolham uma pessoa para fazer os avisos de tempo. Isso não significa que esse jogador controlará todos; apenas evita que quatro pessoas deem instruções diferentes ao mesmo tempo. Mais tarde, vocês podem alternar quem faz os avisos se o grupo preferir um estilo mais descontraído.
+
+| Situação | Melhor resposta do grupo | Evite |
+| --- | --- | --- |
+| Um jogador chega primeiro a um perigo | Pare e descreva o próximo movimento | Ativar a seção sem avisar |
+| Um companheiro fica para trás | Espere em uma área segura ou checkpoint | Continuar até que o grupo se separe |
+| Várias tentativas falham | Mude o ritmo ou escolha um responsável pelos avisos | Repetir a mesma abordagem apressada |
+| O bate-papo por voz fica barulhento | Use comandos curtos e consistentes | Falar por cima de cada movimento |
+| A equipe chega a um checkpoint | Confirme se todos estão prontos | Presumir que o checkpoint resolveu todos os problemas |
+
+<Callout type="warning" title="Não apresse o grupo">
+Um movimento solo rápido pode parecer eficiente, mas os obstáculos cooperativos geralmente exigem um ritmo sincronizado. Espere a equipe antes de se comprometer com uma seção perigosa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Problemas para entrar e verificações de conexão">
+
+Quando um amigo não consegue entrar, comece pelas verificações mais simples. Confirme se o anfitrião ainda está no lobby, se o convite pertence à sessão atual e se o jogador que está entrando chegou à tela multijogador correta. Se o problema continuar, os dois jogadores devem reiniciar o processo de convite em vez de clicar repetidamente em uma solicitação que não responde.
+
+A causa exata depende da versão do jogo, da plataforma, da rede e das configurações de privacidade da sessão. A tabela abaixo se concentra em verificações práticas que não exigem suposições sobre um código de erro específico.
+
+<Checklist
+  id="join-friends-checklist"
+  title="Antes de reiniciar o lobby:"
+  items={[
+    "Confirme que o anfitrião criou uma sessão multijogador, e não uma partida solo",
+    "Verifique se o amigo aceitou o convite mais recente",
+    "Confirme que a configuração de privacidade do lobby permite a entrada dos jogadores pretendidos",
+    "Peça ao jogador que está entrando para voltar ao menu multijogador",
+    "Reinicie o processo de convite uma vez se a lista do grupo continuar incompleta"
+  ]}
+/>
+
+| Sintoma | Primeira verificação | Próxima ação |
+| --- | --- | --- |
+| O amigo não vê nenhum convite | Confirme que o anfitrião ainda está no lobby | Reenvie um convite atual |
+| O amigo aceita, mas não aparece | Verifique se o jogo voltou ao menu principal | Abra o multijogador novamente e entre |
+| O lobby está cheio ou incorreto | Compare a lista de jogadores visível | Feche a sessão e crie uma nova |
+| O jogador se desconecta durante o carregamento | Verifique a estabilidade da conexão e o status do jogo | Entre novamente pela sessão do anfitrião atual |
+| O bate-papo por voz não funciona | Revise as configurações de áudio do jogo | Use temporariamente uma chamada externa |
+
+Evite alterar várias configurações ao mesmo tempo. Se o anfitrião mudar a privacidade, reiniciar o jogo e enviar vários convites simultaneamente, será difícil identificar o que resolveu o problema. Faça uma alteração, tente entrar novamente e só então passe para a próxima verificação, se necessário.
+
+<Callout type="info" title="Solução de problemas de conexão">
+Se o grupo continuar incompleto, recrie a sessão a partir de um lobby limpo. Uma sessão nova criada pelo anfitrião costuma ser mais fácil de verificar do que uma sequência de convites iniciada antes de todos estarem prontos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Plano para a primeira sessão e perguntas frequentes">
+
+Uma breve rotina de preparação torna a primeira tentativa multijogador mais tranquila. Antes de iniciar uma fase, confirme o anfitrião, a lista do grupo, o método de comunicação e o primeiro ponto de reencontro. O objetivo não é eliminar todos os erros, mas tornar os erros fáceis de entender e de superar.
+
+Use este plano para um grupo novo:
+
+1. Escolha um anfitrião antes que alguém abra o modo multijogador.
+2. Convide os amigos e aguarde a confirmação visual.
+3. Teste um movimento ou aviso simples.
+4. Combine que os checkpoints serão pontos de reencontro.
+5. Comece a fase somente depois que o grupo estiver completo.
+
+| Objetivo da primeira sessão | Sinal de sucesso | Ajuste útil |
+| --- | --- | --- |
+| Entrar no mesmo lobby | Todos os jogadores pretendidos estão visíveis | Recrie o lobby se a lista estiver incompleta |
+| Estabelecer a comunicação | Todos entendem os avisos básicos | Use comandos mais curtos |
+| Chegar ao primeiro checkpoint | O grupo chega reunido | Diminua o ritmo do jogador da frente |
+| Recuperar-se de uma falha | Os jogadores se reúnem sem reiniciar desnecessariamente | Mude o tempo em vez de repetir às cegas |
+| Encerrar a sessão corretamente | O anfitrião permanece disponível para a próxima rodada | Saiam juntos antes de criar outro lobby |
+
+<Callout type="tip" title="Melhor regra para iniciantes">
+Na primeira tentativa, priorize permanecer juntos em vez de ganhar velocidade. Quando o grupo entender o ritmo da fase, será mais fácil coordenar tentativas rápidas.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Como entro com meus amigos em Fart With Your Friends?",
+    answer: "Peça a um jogador que crie o lobby multijogador e aceite o convite atual enviado por ele. Volte ao menu multijogador se o convite for aceito, mas a lista do grupo não for atualizada."
+  },
+  {
+    question: "Devo criar meu próprio lobby ou entrar no lobby do meu amigo?",
+    answer: "Entre no lobby do seu amigo quando ele já tiver criado a sessão. Usar um único anfitrião impede que o grupo se divida entre várias sessões."
+  },
+  {
+    question: "O que devo fazer se meu amigo não conseguir ver o convite?",
+    answer: "Confirme que o anfitrião ainda está no lobby ativo, verifique a privacidade da sessão e reenvie um convite atual. Se isso não funcionar, feche o lobby e crie uma nova sessão."
+  },
+  {
+    question: "Como os amigos podem se coordenar melhor durante as fases cooperativas?",
+    answer: "Use avisos curtos por voz, espere perto dos perigos e reúna o grupo nos checkpoints. Um único jogador pode fazer os avisos de tempo enquanto todos os outros se concentram nos movimentos."
+  }
+]} />
+
+</Section>

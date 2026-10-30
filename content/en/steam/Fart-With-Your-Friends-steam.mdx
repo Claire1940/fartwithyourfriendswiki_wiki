@@ -1,0 +1,194 @@
+import { Map, Settings, Users, ShieldCheck, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fart With Your Friends steam: Setup Guide & Play Tips",
+  description: "Learn how to find, set up, and troubleshoot Fart With Your Friends on Steam with practical multiplayer preparation tips.",
+  category: "steam-guide",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Steam+Setup+Guide",
+  date: "2026-10-31",
+  author: "Fart With Your Friends Wiki Team",
+  slug: "fart-with-your-friends-steam"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Fart With Your Friends steam** searches are best handled through the current Steam store listing.
+- **Verify the title** before installing because similarly named party games may appear in results.
+- **Prepare voice chat** and controller settings before inviting friends.
+- **Use stable sessions** by testing the host connection and leaving room for troubleshooting.
+</Callout>
+
+<Section icon={Map} title="Fart With Your Friends steam: Finding the Right Listing">
+
+Fart With Your Friends steam searches should begin with the official Steam search and store information. Confirm the exact title, developer or publisher details, supported features, and current system requirements before installing. This avoids confusing the game with similarly named multiplayer experiences.
+
+Steam pages can change over time, so treat the live store listing as the authority for availability, pricing, supported operating systems, language options, and multiplayer features.
+
+<Callout type="tip" title="Search Tip">
+Use the exact title in Steam search, then compare the store description and screenshots before selecting a result. Do not rely on a similar thumbnail or a shortened title alone.
+</Callout>
+
+| Check | What to verify | Why it matters |
+| --- | --- | --- |
+| Exact title | The full game name matches | Prevents installing a similarly named game |
+| Store page | Developer, publisher, screenshots | Confirms the listing identity |
+| Requirements | Current minimum and recommended details | Helps avoid launch problems |
+| Features | Multiplayer, controller, language support | Confirms the setup fits your group |
+| Updates | Recent news or patch notes | Shows whether the listing is actively maintained |
+
+<CardGrid cols={3}>
+  <Card title="Title Check">
+    Match the full name, store artwork, and developer information before purchasing or installing.
+  </Card>
+  <Card title="Feature Check">
+    Review multiplayer, controller, voice chat, and operating-system details for your planned setup.
+  </Card>
+  <Card title="Library Check">
+    Confirm the game appears in your Steam Library and that installation finishes without errors.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Settings} title="Steam Installation and First Launch">
+
+Once the correct listing is confirmed, install the game through Steam and complete a short first-launch check. Keep Steam updated, allow the installation to finish, and close unnecessary applications if your computer is short on available memory or processing capacity.
+
+<Callout type="warning" title="Before Launching">
+Do not assume that a successful download guarantees a successful multiplayer session. Start the game once by yourself, confirm the main menu loads, and review the available input settings first.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Open the Official Store Listing">
+    Search Steam for the exact title and review the listing details. Check the supported platform and the requirements shown on the live page.
+  </Step>
+  <Step num="2" title="Install Through Steam">
+    Add the game to your library when appropriate, select an installation drive, and wait for Steam to verify the download.
+  </Step>
+  <Step num="3" title="Run a Solo Test">
+    Launch the game without inviting friends. Confirm that menus, graphics, audio, and input devices respond correctly.
+  </Step>
+  <Step num="4" title="Adjust Your Settings">
+    Choose a comfortable display mode, confirm the active microphone, and map controls before starting a group session.
+  </Step>
+</Steps>
+
+| Setup area | Recommended first check | If something is wrong |
+| --- | --- | --- |
+| Installation | Steam shows the game as ready to play | Restart Steam and verify the local files |
+| Display | Menus fit the screen and remain readable | Try windowed or borderless mode |
+| Audio | Game sound reaches the selected device | Check system and in-game output settings |
+| Input | Keyboard, mouse, or controller responds | Reconnect the device and review bindings |
+| Network | Steam remains connected during launch | Restart the router or test another connection |
+
+<Callout type="success" title="Reliable First Session">
+A short solo launch test saves time when friends join. Resolve menu, audio, and control issues before opening a multiplayer room.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Multiplayer Preparation and Party Tips">
+
+A good party session depends on clear communication and a simple plan. Decide who will host, confirm that everyone has installed the same current build, and agree on voice communication before sending invitations.
+
+Use the host with the most stable connection when possible. If the game offers room codes, invite tools, or lobby settings, share only the information your group needs and keep the session private when available.
+
+<Callout type="info" title="Group Planning">
+Choose one host, one backup host, and one voice channel. This makes it easier to recover if the first lobby disconnects or a player needs to rejoin.
+</Callout>
+
+| Role | Responsibility | Useful habit |
+| --- | --- | --- |
+| Host | Creates and manages the session | Test the lobby before inviting everyone |
+| Players | Join the correct room and check controls | Avoid changing settings during a live round |
+| Voice lead | Explains the next objective | Keep instructions short and specific |
+| Backup host | Restarts the session if needed | Know how to invite the group again |
+
+For a smoother start:
+
+- Invite players after the host reaches the main lobby.
+- Ask everyone to confirm that their microphone and output device work.
+- Keep background downloads paused during the first session.
+- Use a consistent nickname so the host can identify each participant.
+- Restart the lobby if several players experience the same connection problem.
+
+<CardGrid cols={3}>
+  <Card title="Small Group">
+    Fewer voices make instructions easier to follow. Use this format for learning controls and testing the lobby.
+  </Card>
+  <Card title="Large Group">
+    Assign one person to call out objectives so several players do not speak over one another.
+  </Card>
+  <Card title="Casual Session">
+    Keep settings simple, use short rounds when available, and allow time for late players to reconnect.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={ShieldCheck} title="Troubleshooting Fart With Your Friends on Steam">
+
+When Fart With Your Friends does not launch or connect properly, troubleshoot one variable at a time. Start with Steam and the game installation, then check local devices and network settings. Avoid changing several settings at once because it makes the cause harder to identify.
+
+<Callout type="warning" title="Troubleshooting Order">
+First restart the game and Steam, then verify the installation, then check audio and network settings. If the issue affects every player, compare the current Steam news or support information.
+</Callout>
+
+| Symptom | First action | Next action |
+| --- | --- | --- |
+| Game will not launch | Restart Steam | Verify the installed files |
+| Black or incorrect display | Change display mode | Update graphics drivers if needed |
+| No game audio | Check output device | Review system volume and in-game audio |
+| Microphone unavailable | Select the correct input | Test the microphone outside the game |
+| Friends cannot join | Recreate the lobby | Have another player test as host |
+| Disconnects continue | Pause downloads | Test a more stable network connection |
+
+<Checklist
+  id="steam-session-check"
+  title="Before Joining Friends:"
+  items={[
+    "Confirm the exact Steam listing and current installation",
+    "Launch the game once before the group session",
+    "Test display, audio, microphone, and controls",
+    "Choose a primary host and backup host",
+    "Pause unnecessary downloads and background streams"
+  ]}
+/>
+
+<Callout type="tip" title="Fast Recovery">
+If only one player is affected, troubleshoot that player’s device first. If everyone is affected, recreate the lobby and test a different host before changing local settings.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Fart With Your Friends steam FAQ">
+
+<FAQ items={[
+  {
+    question: "How should I find Fart With Your Friends on Steam?",
+    answer: "Search Steam using the exact title, then compare the store page, artwork, developer information, supported features, and current requirements before installing."
+  },
+  {
+    question: "What should I do before inviting friends?",
+    answer: "Launch the game once, confirm that the main menu works, test your controls and audio, and choose a host with a stable connection."
+  },
+  {
+    question: "Why can friends not join my Steam session?",
+    answer: "Restart the lobby first, confirm that everyone is using the same current build, pause background downloads, and test another player as host if the issue continues."
+  },
+  {
+    question: "Where can I check current availability and requirements?",
+    answer: "Use the live Steam store listing for the current availability, supported system information, multiplayer features, and other details that may change over time."
+  }
+]} />
+
+<Callout type="success" title="Final Recommendation">
+Treat the live Steam listing as the source of truth, complete a solo launch test, and prepare the party lobby before the session begins.
+</Callout>
+
+</Section>

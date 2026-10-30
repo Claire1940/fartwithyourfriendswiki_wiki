@@ -1,0 +1,232 @@
+import { Map, Users, Target, Shield, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Modos de jogo de Fart With Your Friends: Guia e dicas cooperativas",
+  description: "Aprenda como funcionam os modos de jogo de Fart With Your Friends, incluindo percursos cooperativos de obstáculos, estratégia de checkpoints, controles e dicas para equipes.",
+  category: "guia",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Game+Modes+Guide",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de Fart With Your Friends"
+}
+
+<Callout type="info" title="Guia rápido">
+- **Os modos de jogo de Fart With Your Friends** atualmente são centrados em percursos cooperativos de obstáculos.
+- **O movimento compartilhado** exige que os dois jogadores coordenem direção, tempo e impulso.
+- **Os checkpoints** reduzem o tempo de recuperação após saltos fracassados, espinhos ou perigos.
+- **Movimentos lentos** geralmente são mais seguros do que se mover constantemente perto de obstáculos e rotas estreitas.
+- **A melhor configuração de equipe** usa um jogador para indicar as direções enquanto o outro controla o impulso.
+</Callout>
+
+<Section icon={Map} title="Visão geral dos modos de jogo de Fart With Your Friends">
+
+Os modos de jogo de Fart With Your Friends são melhor compreendidos por meio de seu design baseado em obstáculos compartilhados. O exemplo de gameplay disponível se concentra em dois jogadores controlando um personagem combinado através de um percurso perigoso cheio de espinhos, perigos semelhantes a veneno, seções de quique, passagens estreitas e checkpoints. Em vez de separar os jogadores em pistas individuais, o percurso exige que os dois participantes controlem juntos um único corpo em movimento.
+
+**Destaques do vídeo:**
+
+- Movimento cooperativo por um percurso de obstáculos desafiador
+- Mudanças de direção ao redor de espinhos, paredes e superfícies de quique
+- Recuperação por checkpoint após tentativas fracassadas
+- Comunicação entre os jogadores durante seções de precisão
+
+<YouTubeEmbed videoId="fW0phRj8IvA" title="ROBLOX FART WITH YOUR FRIENDS IS SO FUNNY! 😂" />
+
+O modo principal não é baseado na busca por pontuações individuais. O progresso depende de alcançar o próximo checkpoint e, eventualmente, concluir o percurso. Os jogadores podem assumir responsabilidades diferentes em cada seção, mas o sucesso vem do movimento sincronizado, não da força independente de cada personagem.
+
+| Nome do modo | Objetivo principal | Relação entre os jogadores | Principal desafio |
+| --- | --- | --- | --- |
+| Percurso cooperativo | Chegar juntos ao final | Controle compartilhado | Coordenar os movimentos |
+| Avanço por checkpoints | Passar pelos perigos | Trabalho em equipe focado na recuperação | Repetir seções difíceis |
+| Seção de precisão | Atravessar rotas estreitas ou perigosas | Um jogador orienta o tempo | Evitar correções excessivas |
+| Seção de impulso | Usar movimentos de quique ou lançamento | Os dois jogadores controlam a direção | Controlar a velocidade e o ângulo |
+
+Como o desafio do jogo muda de um obstáculo para outro, um sistema de comunicação flexível é mais útil do que memorizar uma única rota. Anuncie as mudanças de direção antes de executá-las, confirme quem está controlando o impulso e evite mudar de plano repetidamente na mesma área perigosa.
+
+<Callout type="tip" title="Dica para entender o modo">
+Trate cada segmento de obstáculos como um pequeno desafio em equipe. Identifique primeiro a direção segura e, em seguida, faça um movimento controlado em vez de vários comandos conflitantes.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Funções e comunicação no modo cooperativo">
+
+A estrutura de equipe mais eficiente usa funções temporárias em vez de classes permanentes de personagem. Um jogador atua como **orientador**, descrevendo a próxima direção e alertando sobre os perigos. O outro atua como **condutor**, aplicando o comando de movimento e ajustando a velocidade. Essas funções podem ser trocadas sempre que o percurso exigir um tipo diferente de controle.
+
+O orientador não deve fornecer um fluxo constante de instruções. Comandos demais podem fazer o condutor reagir tarde ou inverter a direção por engano. Frases curtas como “segura para a esquerda”, “devagar”, “para” ou “direita depois do quique” são mais fáceis de seguir durante as seções difíceis.
+
+| Função na equipe | Responsabilidade principal | Melhor forma de comunicação | Erro comum |
+| --- | --- | --- | --- |
+| Orientador | Ler a rota e anunciar os perigos | Comandos curtos e antecipados | Dar instruções tarde demais |
+| Condutor | Aplicar o movimento e controlar o impulso | Confirmar cada comando | Corrigir demais após o contato |
+| Observador | Observar o próximo obstáculo | Avisar antes que a tela avance | Concentrar-se apenas no perigo atual |
+| Líder de reinício | Decidir quando uma tentativa fracassada deve ser reiniciada | Indicar claramente o checkpoint | Continuar um movimento perdido |
+
+Em algumas seções, os dois jogadores podem precisar contribuir igualmente. Uma área de quique ou lançamento pode exigir que um jogador empurre em uma direção enquanto o outro impede que o personagem compartilhado deslize para um perigo. Nesses momentos, a melhor abordagem é estabelecer qual comando terá prioridade antes de começar a se mover.
+
+<CardGrid cols={3}>
+  <Card title="Estratégia do orientador">
+    - Ler o próximo perigo
+    - Usar comandos curtos
+    - Anunciar a direção com antecedência
+    - Evitar mudar as instruções durante o movimento
+  </Card>
+  <Card title="Estratégia do condutor">
+    - Seguir um comando de cada vez
+    - Usar movimentos leves perto dos perigos
+    - Confirmar quando o controle mudar
+    - Parar antes de fazer uma correção arriscada
+  </Card>
+  <Card title="Estratégia de recuperação">
+    - Identificar o checkpoint mais recente
+    - Reiniciar após um ângulo ruim
+    - Restabelecer a comunicação
+    - Repetir com movimentos mais lentos
+  </Card>
+</CardGrid>
+
+Uma regra útil é separar **navegação** de **correção**. A navegação decide para onde a equipe deve ir. A correção cuida dos pequenos ajustes depois que o movimento começa. Se os dois jogadores tentarem resolver as duas tarefas ao mesmo tempo, o personagem compartilhado pode deslizar para trás, ser lançado na direção errada ou voltar para uma seção anterior.
+
+<Callout type="info" title="Regra de comunicação">
+O jogador que dá as instruções deve indicar o movimento pretendido, enquanto o jogador que controla o impulso deve confirmar se o comando é seguro para executar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia do percurso passo a passo">
+
+O percurso cooperativo se torna mais fácil de administrar quando cada tentativa segue a mesma rotina. Não trate toda falha como um motivo para improvisar. Em vez disso, use o sistema de checkpoints para isolar o problema e repita a seção com um ajuste deliberado.
+
+<Steps>
+  <Step num="1" title="Localize o checkpoint atual">
+    Antes de se mover, identifique onde a equipe reaparecerá caso a tentativa falhe. Saber o ponto de recuperação ajuda a decidir se é melhor continuar, reiniciar ou testar uma rota arriscada.
+  </Step>
+  <Step num="2" title="Leia o próximo perigo">
+    Procure espinhos, paredes, superfícies de quique, passagens estreitas ou obstáculos com aparência venenosa. Decida a direção desejada antes que qualquer jogador aplique um movimento forte.
+  </Step>
+  <Step num="3" title="Defina o controle">
+    Escolha um orientador e um condutor para o segmento. O orientador indica a próxima direção, enquanto o condutor controla o impulso do personagem compartilhado.
+  </Step>
+  <Step num="4" title="Use comandos controlados">
+    Comece com um movimento leve e aumente a pressão apenas quando a rota estiver livre. Perto dos perigos, pequenos ajustes são mais fáceis de recuperar do que um lançamento repentino.
+  </Step>
+  <Step num="5" title="Confirme a aterrissagem">
+    Depois de alcançar uma plataforma segura ou um checkpoint, pare brevemente e troque as funções se necessário. Não avance às pressas para o próximo obstáculo enquanto a equipe ainda estiver se reposicionando.
+  </Step>
+</Steps>
+
+| Situação do percurso | Estilo de comando recomendado | Por que ajuda |
+| --- | --- | --- |
+| Caminho aberto | Movimento moderado | Permite avançar sem hesitação desnecessária |
+| Corredor de espinhos | Movimento leve e controlado | Reduz a chance de deslizar para os perigos |
+| Seção de quique | Correção direcional | Mantém o ângulo do lançamento sob controle |
+| Interseção confusa | Pare e comunique-se | Impede que os dois jogadores escolham rotas opostas |
+| Área após o checkpoint | Pausa breve | Permite que a equipe redefina as funções |
+
+O hábito mais importante é diminuir o ritmo antes que o perigo apareça. Muitas tentativas fracassadas começam quando os jogadores entram em uma área perigosa com impulso total e só então tentam corrigir o movimento. Nesse momento, a janela de reação disponível pode ser curta demais.
+
+Se a equipe chegar a um beco sem saída ou voltar ao início de uma seção, use a falha como informação. Pergunte se o problema veio da rota, do tempo, da direção ou de comandos conflitantes. Mude apenas um fator na próxima tentativa para identificar o que melhorou o resultado.
+
+<Callout type="success" title="Método de progresso">
+Após cada tentativa fracassada, mude apenas uma variável: velocidade, tempo da mudança de direção, distribuição das funções ou escolha da rota. Isso torna as seções difíceis mais fáceis de aprender.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perigos, checkpoints e recuperação">
+
+O principal perigo no modo cooperativo não é simplesmente tocar em um obstáculo. É perder o controle do movimento compartilhado enquanto tenta evitá-lo. Uma correção rápida pode resolver um problema, mas criar outro, especialmente quando há perigos dos dois lados da rota.
+
+Os checkpoints mudam a forma como as equipes devem lidar com o risco. Depois que um checkpoint é garantido, o objetivo deixa de ser proteger toda a jornada desde o começo. Em vez disso, os jogadores podem se concentrar em aprender o próximo segmento. Se uma posição se tornar impossível de recuperar, voltar ao checkpoint costuma ser mais eficiente do que continuar forçando o movimento.
+
+| Tipo de perigo | Sinal de alerta | Resposta mais segura | Conselho de recuperação |
+| --- | --- | --- | --- |
+| Espinhos | Obstáculos afiados próximos à rota | Reduza a velocidade e alinhe-se cedo | Reinicie a partir do checkpoint mais recente |
+| Superfície de quique | Seção de lançamento ou ricochete | Combine a direção antes do contato | Repita com um ângulo menor |
+| Passagem estreita | Pouco espaço para correções | Use comandos de movimento curtos | Defina um único condutor |
+| Desvio na direção errada | O personagem compartilhado se move para trás | Pare os comandos conflitantes | Confirme novamente a rota |
+| Visão obstruída | Perigo escondido pelo cenário | Pare e examine o caminho | Deixe o orientador conduzir |
+
+A equipe também deve distinguir entre um **erro** e uma **situação perdida**. Um erro pode ser corrigido com um pequeno comando. Uma situação perdida ocorre quando o personagem compartilhado já está direcionado para um perigo inevitável ou preso contra o cenário. Continuar pressionando botões em uma situação perdida pode desperdiçar tempo e gerar confusão. Peça um reinício e tente novamente com um plano revisado.
+
+<CardGrid cols={4}>
+  <Card title="Antes do movimento">
+    Verifique a rota, a posição dos perigos e a localização do checkpoint.
+  </Card>
+  <Card title="Durante o movimento">
+    Use uma direção clara e evite correções conflitantes.
+  </Card>
+  <Card title="Em terreno seguro">
+    Pare, confirme o progresso e prepare a próxima instrução.
+  </Card>
+  <Card title="Após uma falha">
+    Identifique a causa, redefina as funções e mude uma variável.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Evite comandos de pânico">
+Alternar rapidamente entre movimentos para a esquerda e para a direita pode tornar uma seção difícil ainda menos previsível. Quando a rota ficar perigosa, pare se possível e retome uma estrutura única de orientador e condutor.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de prática e objetivos do modo">
+
+Os jogadores que desejam melhorar devem acompanhar comportamentos repetíveis, em vez de apenas contar as seções concluídas. O objetivo é criar um processo de equipe confiável que funcione em diferentes padrões de obstáculos.
+
+<Checklist
+  id="co-op-mode-practice"
+  title="Checklist de prática do modo cooperativo:"
+  items={[
+    "Escolha um orientador e um condutor antes de entrar em cada seção difícil",
+    "Identifique o próximo checkpoint antes de tentar uma rota arriscada",
+    "Use comandos de movimento curtos perto de espinhos e passagens estreitas",
+    "Mude apenas uma variável da estratégia após cada tentativa fracassada",
+    "Pare depois de alcançar um terreno seguro para preparar a próxima instrução"
+  ]}
+/>
+
+Uma boa sessão de prática pode seguir três fases. Primeiro, jogue devagar e concentre-se em entender a rota. Segundo, repita o mesmo segmento reduzindo as pausas desnecessárias. Terceiro, tente fazer uma corrida mais fluida mantendo a comunicação objetiva. Essa abordagem é mais consistente do que buscar velocidade antes que a equipe compreenda os perigos.
+
+| Objetivo de prática | O que medir | Resultado útil |
+| --- | --- | --- |
+| Melhor comunicação | Menos comandos conflitantes | Decisões de movimento mais claras |
+| Melhor controle | Menos correções grandes | Posicionamento mais estável |
+| Melhor recuperação | Reinícios de checkpoint mais rápidos | Menos tempo perdido após falhas |
+| Melhor consistência | Mais seções repetidas com sucesso | Memória mais forte da rota |
+
+O design cooperativo do jogo também faz da paciência parte da estratégia. Uma equipe pode entender a rota correta e ainda assim falhar porque o movimento começa rápido demais ou a direção muda tarde demais. Trate as primeiras tentativas como exploração da rota e depois use o checkpoint para aperfeiçoar o tempo.
+
+<Callout type="tip" title="Dica para melhorar em equipe">
+Comemore o progresso controlado, não apenas as conclusões. Alcançar um checkpoint com menos correções é uma melhoria significativa, pois mostra que a equipe está aprendendo o modo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ: Modos de jogo de Fart With Your Friends">
+
+<FAQ items={[
+  {
+    question: "Quais são os principais modos de jogo de Fart With Your Friends?",
+    answer: "O formato disponível mais claro é um modo cooperativo de percurso de obstáculos em que dois jogadores controlam juntos o movimento através de perigos, seções de quique, rotas estreitas e checkpoints. Outros modos distintos devem ser confirmados por meio de atualizações oficiais do jogo antes de serem tratados como recursos estabelecidos."
+  },
+  {
+    question: "Como dois jogadores controlam o mesmo personagem?",
+    answer: "A equipe coordena os movimentos direcionais e o impulso em conjunto. Um método prático é usar um jogador como orientador e o outro como condutor, trocando as funções quando uma seção exigir um tempo ou controle diferente."
+  },
+  {
+    question: "O que os jogadores devem fazer depois de atingir um obstáculo?",
+    answer: "Volte ao checkpoint mais recente quando a posição não puder mais ser recuperada. Antes de tentar novamente, identifique se a velocidade, o tempo da mudança de direção, a escolha da rota ou os comandos conflitantes causaram a falha."
+  },
+  {
+    question: "Comandos rápidos são melhores para concluir o percurso?",
+    answer: "Geralmente não perto dos perigos. Comandos leves e deliberados oferecem mais tempo para corrigir o movimento, especialmente ao redor de espinhos, passagens estreitas, superfícies de quique e áreas com visibilidade limitada."
+  }
+]} />
+
+</Section>

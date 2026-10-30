@@ -1,0 +1,234 @@
+import { Map, Users, Target, Shield, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fart With Your Friends jogar com amigos: Guia de Configuração Cooperativa",
+  description: "Aprenda a jogar Fart With Your Friends com amigos usando funções cooperativas claras, dicas de tempo, estratégias de checkpoints e coordenação por chat de voz.",
+  category: "guia",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Co-op+Setup+Guide",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de Fart With Your Friends",
+  slug: "fart-with-your-friends-play-with-friends"
+}
+
+<Callout type="info" title="Guia rápido">
+- **Jogar Fart With Your Friends com amigos** funciona melhor com chat de voz e funções definidas.
+- **Coordene os movimentos** antes de ativar propulsão, saltos ou trechos perigosos de plataformas.
+- **Use os checkpoints** como pontos de reencontro em vez de correr após cada tentativa fracassada.
+- **Controle o tempo** de cada impulso de pum para evitar passar direto pelas plataformas e pelos perigos.
+- **Tenha paciência** quando um trecho exigir que vários jogadores se movam juntos.
+</Callout>
+
+<Section icon={Users} title="Fart With Your Friends jogar com amigos: Noções básicas do cooperativo">
+
+Fart With Your Friends funciona melhor quando abordado como um jogo cooperativo de plataforma focado em comunicação. Ao jogar com amigos, o sucesso depende menos da velocidade individual e mais de movimentos sincronizados, impulsos de pum controlados e chamadas claras antes de cada obstáculo. O principal desafio é manter o grupo unido enquanto vocês atravessam plataformas, checkpoints, perigos ambientais e trechos que punem movimentos apressados.
+
+A configuração mais confiável usa um anfitrião, um líder de chamadas, um líder de movimento e um jogador responsável por observar os perigos. Essas funções não precisam ser permanentes. Alterne-as sempre que um trecho ficar difícil ou quando um jogador tiver uma visão melhor do caminho.
+
+**Destaques do vídeo:**
+
+- A plataforma cooperativa depende de um tempo compartilhado.
+- Os checkpoints oferecem momentos naturais para reencontrar o grupo.
+- Pequenos impulsos de movimento são mais seguros do que uma aceleração constante.
+- O chat de voz ajuda os jogadores a reagir a perigos e saltos perdidos.
+- A coordenação do grupo se torna ainda mais importante durante encontros com monstros.
+
+<YouTubeEmbed videoId="0EIyyL4h2wA" title="Fart with your friends BUT we're not friends (GONE WRONG)(SHOTS FIRED)" />
+
+| Função cooperativa | Responsabilidade principal | Melhor chamada de comunicação |
+|---|---|---|
+| Líder de chamadas | Anuncia quando o grupo deve se mover | “Espera, depois vai.” |
+| Líder de movimento | Testa o próximo salto ou caminho | “A próxima plataforma está segura.” |
+| Observador de perigos | Acompanha monstros, armadilhas e o tempo | “Perigo atrás de nós.” |
+| Responsável pelo checkpoint | Confirma que o grupo se reencontrou | “Todos prontos.” |
+
+<Callout type="tip" title="Melhor formação inicial">
+Escolha um jogador para comandar os movimentos nos primeiros trechos. Uma única voz clara impede que quatro jogadores comecem em momentos diferentes e transformem um salto viável em uma falha do grupo.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Chat de voz">
+    Mantenha as chamadas curtas e específicas. Use “vai”, “espera”, “esquerda” e “para” em vez de explicações longas durante um salto.
+  </Card>
+  <Card title="Impulsos de movimento">
+    Use impulsos controlados para ajustar a posição. Segurar o movimento por tempo demais pode fazer um jogador passar de uma plataforma ou cair em um perigo.
+  </Card>
+  <Card title="Checkpoints">
+    Trate os checkpoints como pontos de reinício. Reúna o grupo antes de tentar o próximo desafio, em vez de se espalhar pelo caminho.
+  </Card>
+  <Card title="Paciência">
+    Uma tentativa mais lenta costuma ser melhor do que um reinício rápido. Dê tempo para cada jogador confirmar sua posição antes de avançar.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Configuração cooperativa antes da primeira tentativa">
+
+Uma boa sessão começa antes do primeiro obstáculo difícil. Decida quem será o anfitrião, confirme que todos conseguem ouvir o chat de voz e combinem um sistema simples de chamadas. Isso evita confusão quando um jogador precisa parar, esperar por um companheiro ou avisar o grupo sobre um perigo.
+
+O anfitrião também deve explicar como a equipe lidará com os erros. A regra mais simples é parar no próximo ponto seguro, identificar o que falhou e tentar novamente com uma mudança. Repetir o mesmo salto com o mesmo tempo geralmente causa frustração sem melhorar o resultado.
+
+| Tarefa de configuração | Ação recomendada | Por que ajuda |
+|---|---|---|
+| Escolha do anfitrião | Escolha o jogador com a conexão mais estável | Reduz interrupções evitáveis durante os movimentos do grupo |
+| Chat de voz | Confirme que todos conseguem ouvir o líder de chamadas | Facilita o controle do tempo e os avisos de perigo |
+| Distribuição de funções | Escolha um líder de chamadas, um líder de movimento e um observador de perigos | Dá a cada jogador uma responsabilidade clara |
+| Regra de repetição | Altere uma decisão de tempo ou caminho por tentativa | Facilita a identificação da causa das falhas |
+| Regra dos checkpoints | Reúna o grupo antes de continuar | Impede que os jogadores entrem sozinhos no próximo trecho |
+
+<Steps>
+  <Step num="1" title="Crie a sessão">
+    Inicie a sessão cooperativa e certifique-se de que todos os amigos entraram antes de seguir para o primeiro caminho. Evite começar enquanto alguém ainda estiver ajustando os controles ou tentando se reconectar.
+  </Step>
+  <Step num="2" title="Escolha o líder de chamadas">
+    Designe um jogador para controlar o tempo do grupo. Essa pessoa deve anunciar quando esperar, avançar, diminuir a velocidade ou se preparar para um salto.
+  </Step>
+  <Step num="3" title="Teste o movimento">
+    Use uma área inicial segura para confirmar quão rapidamente os jogadores aceleram, param e se recuperam. Isso dá à equipe uma noção compartilhada de distância antes dos trechos mais difíceis.
+  </Step>
+  <Step num="4" title="Defina a regra de repetição">
+    Decida que cada tentativa fracassada receberá um ajuste. Altere a duração do impulso, a posição inicial ou a ordem de movimento em vez de mudar tudo de uma vez.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Use chamadas simples">
+Um vocabulário consistente é mais valioso do que comentários detalhados. “Pronto”, “espera”, “vai”, “devagar” e “para” são suficientes para a maioria das sequências de movimento cooperativas.
+</Callout>
+
+| Chamada | Significado | Quando usar |
+|---|---|---|
+| Pronto | Todos estão posicionados | Antes de um salto sincronizado |
+| Espera | Ainda não inicie o movimento | Quando um companheiro ainda estiver se recuperando |
+| Vai | Comece o movimento planejado | Depois que o caminho estiver livre |
+| Devagar | Reduza o próximo impulso | Perto de uma plataforma estreita |
+| Reiniciar | Volte à última posição segura | Depois que o grupo perder a formação |
+
+</Section>
+
+<Section icon={Map} title="Sincronizando saltos, plataformas e impulsos de pum">
+
+A principal habilidade cooperativa é o tempo. Os jogadores precisam tratar cada impulso de pum como uma ferramenta de movimento, e não como um botão para usar continuamente. Impulsos curtos permitem que a equipe corrija a posição, enquanto impulsos mais longos podem criar distância quando o caminho estiver livre. A escolha correta depende da largura da plataforma, da próxima área de aterrissagem e de os companheiros estarem prontos para seguir.
+
+Na maioria dos trechos difíceis, use um ritmo de três fases: alinhar, chamar o movimento e corrigir a aterrissagem. Não deixe todos os jogadores experimentarem ao mesmo tempo. Um jogador pode testar o caminho enquanto os outros observam e se preparam para copiar o tempo bem-sucedido.
+
+| Situação | Abordagem mais segura | Erro comum |
+|---|---|---|
+| Plataforma larga | Use um impulso moderado e ajuste após aterrissar | Continuar se movendo depois de alcançar a segurança |
+| Plataforma estreita | Use impulsos curtos com uma pausa entre eles | Segurar o impulso por tempo demais |
+| Salto em grupo | Espere até que todos estejam alinhados | Começar antes de o jogador mais lento estar pronto |
+| Caminho desconhecido | Deixe o líder de movimento testar primeiro | Enviar o grupo inteiro às cegas |
+| Recuperação | Pare e recupere a posição | Tentar forçar outro salto imediatamente |
+
+<Callout type="warning" title="Evite impulsos de pânico">
+Quando um jogador perde uma aterrissagem, evite pressionar o movimento repetidamente sem um plano. Impulsos de pânico podem empurrar os companheiros para o mesmo perigo e dificultar a recuperação.
+</Callout>
+
+Uma sequência útil para uma plataforma difícil é:
+
+- Vá para uma posição inicial estável.
+- Confirme que a próxima área de aterrissagem está livre.
+- Anuncie a duração ou a direção do impulso.
+- Movam-se juntos quando o líder de chamadas der o sinal.
+- Pare assim que o primeiro jogador alcançar uma posição segura.
+- Deixe os jogadores restantes copiarem o tempo.
+
+Se a equipe continuar passando do ponto, encurte o impulso e faça uma pausa antes da aterrissagem. Se os jogadores ficarem aquém, comecem de uma posição mais avançada ou usem um impulso um pouco mais longo. Altere apenas uma variável por tentativa para que a equipe descubra o que realmente funcionou.
+
+</Section>
+
+<Section icon={Shield} title="Checkpoints, perigos e trechos com monstros">
+
+Os checkpoints devem orientar a forma como o grupo joga. Quando a equipe alcançar um, pare e confirme que todos estão prontos antes de continuar. Um checkpoint não serve apenas para proteger o progresso; ele também funciona como uma reinicialização da comunicação. Os jogadores podem revisar o caminho, trocar de função e decidir quem liderará a próxima tentativa.
+
+Trechos com perigos exigem mais disciplina do que a plataforma comum. O grupo deve se mover em uma formação compacta, evitar impulsos desnecessários e acompanhar a localização da ameaça. Quando um monstro ou perigo móvel entrar no caminho, o líder de chamadas deve priorizar a sobrevivência em vez da velocidade.
+
+| Tipo de desafio | Prioridade da equipe | Resposta recomendada |
+|---|---|---|
+| Perigo móvel | Manter o espaçamento | Siga o líder de chamadas e evite mudanças repentinas de direção |
+| Trecho com monstros | Controlar o ruído e o movimento | Use impulsos deliberados e observe a posição da ameaça |
+| Caminho estreito | Preservar o alinhamento | Mova um jogador por vez, se necessário |
+| Falha de tempo | Recuperar com segurança | Pare, reúna o grupo e tente novamente a partir da última posição estável |
+| Vários perigos | Manter uma opção de fuga | Não comprometa o grupo inteiro sem um caminho alternativo |
+
+<Callout type="success" title="Hábito nos checkpoints">
+Depois de alcançar um checkpoint, faça uma pausa suficiente para confirmar que todo o grupo está presente. Continuar com um jogador ausente costuma causar mortes desnecessárias e a repetição de trechos.
+</Callout>
+
+Durante encontros com monstros, evite tratar o caminho como uma corrida. Um jogador deve observar a ameaça enquanto outro comanda os movimentos. Se a equipe precisar escolher entre um caminho rápido e um caminho mais seguro, use a opção que mantenha mais jogadores juntos. Uma retirada coordenada costuma ser melhor do que separar o grupo em várias plataformas.
+
+</Section>
+
+<Section icon={Trophy} title="Solução de problemas e checklist de progresso">
+
+A maioria das tentativas cooperativas fracassadas acontece por problemas de comunicação, e não por falta de habilidade mecânica. A tabela abaixo ajuda a identificar a causa provável e a correção mais útil.
+
+| Problema | Causa provável | Correção prática |
+|---|---|---|
+| Os jogadores são lançados em momentos diferentes | Não há um único líder de chamadas | Designe um líder para o trecho |
+| Todos passam do ponto | Os impulsos são longos demais | Use impulsos mais curtos e faça uma pausa antes da aterrissagem |
+| Um jogador continua ficando para trás | A formação está rápida demais | Espere em plataformas seguras e avancem como grupo |
+| O trecho com monstros desmorona | Os jogadores entram em pânico após um aviso | Use um observador de perigos e uma chamada de retirada |
+| As mesmas falhas se repetem | Nenhuma tentativa está sendo analisada | Altere uma variável antes de tentar novamente |
+
+<Checklist
+  id="co-op-session"
+  title="Checklist da sessão cooperativa:"
+  items={[
+    "Confirme que todos os jogadores conseguem ouvir o chat de voz",
+    "Designe um líder de chamadas e um líder de movimento",
+    "Concordem sobre chamadas de tempo curtas",
+    "Reúnam o grupo após cada checkpoint",
+    "Altere uma variável após cada tentativa fracassada"
+  ]}
+/>
+
+<Callout type="tip" title="Revise a última tentativa">
+Após uma tentativa fracassada, faça uma pergunta: a equipe falhou por causa do tempo, do posicionamento ou da comunicação? Corrija primeiro essa categoria em vez de mudar o caminho inteiro.
+</Callout>
+
+Um ciclo confiável de progressão do grupo é:
+
+1. Alcance uma plataforma segura.
+2. Confirme que todo o grupo está pronto.
+3. Identifique o próximo perigo ou ponto de aterrissagem.
+4. Escolha o jogador que testará ou liderará o movimento.
+5. Execute o impulso ao sinal do líder de chamadas.
+6. Pare, reúna o grupo e repita a partir da próxima posição segura.
+
+Esse método é especialmente útil quando a equipe está lidando com tentativas limitadas, mortes repetidas ou um caminho que inclui vários saltos consecutivos. O objetivo não é simplesmente avançar mais rápido. O objetivo é reduzir movimentos não planejados e tornar cada tentativa informativa.
+
+</Section>
+
+<Section icon={Swords} title="Perguntas frequentes sobre jogar Fart With Your Friends com amigos">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor maneira de jogar Fart With Your Friends com amigos?",
+    answer: "Use o chat de voz, designe um jogador como líder de chamadas e movam-se como grupo. Chamadas curtas de tempo, como “espera”, “vai” e “para”, tornam a plataforma cooperativa mais fácil."
+  },
+  {
+    question: "Todos os jogadores devem usar impulsos de pum ao mesmo tempo?",
+    answer: "Somente quando o caminho exigir movimentos sincronizados. Em trechos estreitos ou desconhecidos, deixe um jogador testar o tempo enquanto os outros observam e copiam a abordagem bem-sucedida."
+  },
+  {
+    question: "Como uma equipe deve lidar com os checkpoints?",
+    answer: "Trate os checkpoints como pontos de reencontro. Confirme que todos chegaram, revise o próximo obstáculo e designe o líder de chamadas antes de continuar."
+  },
+  {
+    question: "O que os jogadores devem fazer durante trechos com monstros ou perigos?",
+    answer: "Priorize o espaçamento, os movimentos controlados e os avisos claros. Use um observador de perigos, evite impulsos de pânico e escolha uma retirada segura quando o caminho se tornar incerto."
+  }
+]} />
+
+<Callout type="info" title="Recomendação final">
+Para uma sessão mais tranquila, priorize a comunicação clara em vez da velocidade. Uma equipe paciente que se move junta geralmente avançará mais do que um grupo de jogadores individualmente rápidos.
+</Callout>
+
+</Section>

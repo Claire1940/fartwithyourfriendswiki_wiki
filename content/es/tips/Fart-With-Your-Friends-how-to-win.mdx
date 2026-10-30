@@ -1,0 +1,224 @@
+import { Map, Target, Shield, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cómo ganar en Fart With Your Friends: consejos y trucos para equipos",
+  description: "Aprende a ganar en Fart With Your Friends mediante movimientos coordinados, un uso cuidadoso del gas, atención a los peligros y comunicaciones claras del equipo.",
+  category: "guía",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=How+To+Win+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de Fart With Your Friends",
+  slug: "fart-with-your-friends-how-to-win"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Cómo ganar en Fart With Your Friends** depende del ritmo, la posición y la comunicación del equipo.
+- **Usa impulsos controlados** en lugar de mantener los controles de movimiento durante toda la sección.
+- **Asigna a un líder** para decidir cuándo debe moverse, detenerse o retroceder el grupo.
+- **Deja espacio cerca de los peligros** para que un jugador no empuje al equipo hacia una zona peligrosa.
+- **Recupérate con calma** después de los errores en lugar de activar varios impulsos descontrolados.
+</Callout>
+
+<Section icon={Map} title="Cómo ganar en Fart With Your Friends: movimiento básico">
+
+La respuesta más fiable a **cómo ganar en Fart With Your Friends** es tratar cada impulso de gas como una herramienta de movimiento compartida. El equipo no se limita a avanzar a toda velocidad. Cada jugador cambia la posición, la velocidad y el espacio del grupo, por lo que una acción individual puede ayudar a todos o provocar que el equipo sea eliminado.
+
+Los equipos más fuertes usan impulsos cortos y deliberados. Comprueban la siguiente abertura, acuerdan la dirección y después liberan el movimiento juntos. Cuando el recorrido se vuelve estrecho, los jugadores deben reducir su impulso en lugar de intentar alcanzar la máxima distancia.
+
+| Situación de movimiento | Acción recomendada | Error común |
+|---|---|---|
+| Espacio abierto | Usa un impulso medido hacia el siguiente punto de referencia | Gastar todo el gas disponible de inmediato |
+| Pasillo estrecho | Pulsa el movimiento y deja espacio para corregir | Mantener el impulso demasiado tiempo |
+| Giro o esquina | Espera al líder y muévanse juntos | Girar en direcciones diferentes |
+| Peligro cercano | Detente, alinéate y usa un pequeño empuje | Entrar en pánico y empujar hacia el peligro |
+| Recuperación tras fallar | Vuelve a centrarte antes de moverte otra vez | Intentar corregir el movimiento con impulsos aleatorios |
+
+<CardGrid cols={4}>
+  <Card title="Impulsos controlados">
+    Usa acciones cortas para mantener una velocidad predecible. Esto da tiempo al grupo para reaccionar cuando cambia el recorrido.
+  </Card>
+  <Card title="Dirección compartida">
+    Todos deben saber si el siguiente movimiento será hacia delante, hacia atrás, a la izquierda o a la derecha antes de liberar gas.
+  </Card>
+  <Card title="Espacio entre jugadores">
+    Mantén suficiente espacio entre los jugadores para evitar que un impulso obligue a varios personajes a entrar en el mismo peligro.
+  </Card>
+  <Card title="Conocimiento del recorrido">
+    Mira más allá de la plataforma inmediata. El movimiento más seguro suele ser el que prepara el siguiente giro.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo profesional">
+Usa el impulso más pequeño que te permita alcanzar la siguiente posición segura. El movimiento adicional es difícil de deshacer cerca de paredes, huecos y peligros móviles.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Crea un sistema fiable de comunicaciones del equipo">
+
+La comunicación clara es más valiosa que las reacciones rápidas. Un equipo debe usar órdenes breves que describan la siguiente acción, no explicaciones largas durante una sección peligrosa. Un jugador puede actuar como líder mientras los demás confirman su posición y siguen el ritmo.
+
+Entre las órdenes útiles se incluyen «espera», «despacio», «adelante», «atrás» y «alto». El vocabulario exacto importa menos que la coherencia. Si «adelante» significa realizar un movimiento fuerte del grupo, no debería usarse después para un pequeño ajuste durante la misma partida.
+
+| Orden | Significado | Mejor uso |
+|---|---|---|
+| Espera | No liberes gas todavía | Esperar a que el grupo se alinee o a que pase un ciclo de peligro |
+| Despacio | Usa solo un impulso ligero | Recorridos estrechos y giros de precisión |
+| Adelante | Comprométete con un movimiento más fuerte | Aberturas despejadas y secciones largas y seguras |
+| Atrás | Aléjate del peligro actual | Recuperarse de un ángulo incorrecto |
+| Alto | Cancela el siguiente movimiento | Evitar un empuje accidental |
+| Listos | Confirma la posición y la atención | Prepararse para una acción coordinada |
+
+El líder no debe dar órdenes constantemente. Demasiadas instrucciones crean confusión y hacen que los jugadores reaccionen antes de la señal importante. Un buen patrón es:
+
+- Identificar la siguiente zona segura.
+- Confirmar qué jugadores deben moverse.
+- Dar una orden clara.
+- Esperar a que el grupo se estabilice.
+- Repetir solo cuando cambie el recorrido.
+
+<Callout type="warning" title="Evita las señales contradictorias">
+No combines «adelante», «alto» y «espera» en el mismo momento. Si el equipo recibe instrucciones contradictorias, detente y vuelve a establecer un único líder antes de continuar.
+</Callout>
+
+Un segundo jugador puede vigilar la parte trasera del grupo y avisar si algún personaje se aleja del recorrido previsto. Esto resulta especialmente útil cuando el ángulo de la cámara o la geometría del nivel dificultan que el líder vea a todos al mismo tiempo.
+
+El equipo también debe acordar quién se responsabiliza de las decisiones inciertas. Si nadie asume el control, varios jugadores pueden intentar liderar a la vez. Esto suele producir impulsos superpuestos y una mala colocación.
+
+</Section>
+
+<Section icon={Swords} title="Método ganador paso a paso">
+
+Usa la siguiente rutina al comienzo de cada sección, no solo después de un intento fallido. Repetir la misma preparación facilita reproducir los movimientos exitosos y ayuda al grupo a identificar qué decisión provocó un error.
+
+<Steps>
+  <Step num="1" title="Examina el recorrido">
+    Antes de moverte, identifica la siguiente plataforma, giro, abertura o peligro. No empieces con un impulso grande simplemente porque el recorrido parezca despejado.
+  </Step>
+  <Step num="2" title="Establece la formación">
+    Coloca a los jugadores en una posición funcional con suficiente espacio para corregir la dirección. Los personajes que ya estén cerca de un borde deben esperar a tener un ángulo más seguro.
+  </Step>
+  <Step num="3" title="Elige la fuerza del impulso">
+    Decide si la sección necesita un ajuste ligero, un empuje constante o un avance decidido. Usa una fuerza compartida en lugar de varias acciones sin coordinación.
+  </Step>
+  <Step num="4" title="Muévete con una sola señal">
+    El líder da la orden y el equipo libera el movimiento al mismo tiempo. Los jugadores deben evitar añadir gas extra a menos que el líder cambie el plan.
+  </Step>
+  <Step num="5" title="Estabilízate antes de repetir">
+    Cuando el grupo llegue a la siguiente zona segura, detente y vuelve a revisar el recorrido. El movimiento inmediato de seguimiento es una causa frecuente de pasarse de largo.
+  </Step>
+</Steps>
+
+| Fase | Pregunta del equipo | Condición de éxito |
+|---|---|---|
+| Exploración | ¿Dónde está la siguiente posición segura? | Todos conocen el objetivo |
+| Formación | ¿Están los jugadores alineados y separados? | Nadie está atrapado contra un borde |
+| Selección | ¿Cuánto movimiento se necesita? | El grupo está de acuerdo sobre la fuerza del impulso |
+| Ejecución | ¿Quién da la señal? | Se realiza una acción sincronizada |
+| Estabilización | ¿Estamos listos para la siguiente sección? | El grupo está estable antes de continuar |
+
+<Callout type="success" title="Patrón ganador">
+Una partida exitosa suele parecer controlada, no espectacular: explorar, alinearse, impulsarse, estabilizarse y repetir. La constancia supera a la velocidad arriesgada cuando el recorrido se vuelve técnico.
+</Callout>
+
+Si el grupo falla un giro, no intentes inmediatamente un segundo empuje grande. Primero identifica si el equipo está demasiado adelantado, demasiado atrás o mirando en la dirección equivocada. Una pequeña corrección suele crear una mejor posición de recuperación que otro movimiento con toda la fuerza.
+
+</Section>
+
+<Section icon={Shield} title="Peligros, giros y decisiones de recuperación">
+
+La mayoría de los fallos ocurren cuando el equipo trata un peligro como si fuera un tramo normal de espacio abierto. Las zonas peligrosas requieren un ritmo diferente: menos movimiento, más observación y un plan de salida claro. El grupo debe saber dónde quiere detenerse después de superar el peligro.
+
+Los giros son igual de importantes. Un equipo que llega a una esquina con demasiado impulso puede no ser capaz de girar con seguridad. Empieza a reducir la velocidad antes del giro en lugar de intentar corregir el ángulo después de cruzarlo.
+
+| Problema | Por qué ocurre | Mejor respuesta |
+|---|---|---|
+| Pasarse de una abertura | El equipo usó un impulso fuerte demasiado tarde | Reduce la velocidad antes de la abertura y comprométete antes |
+| Empujar contra una pared | Los jugadores se movieron sin comprobar la alineación | Detente, gira la formación y usa un impulso ligero |
+| Separar al grupo | Los jugadores siguieron direcciones diferentes | Vuelve a un solo líder y usa un objetivo compartido |
+| Perder el control cerca de un peligro | El gas se liberó continuamente | Haz pausas entre impulsos y conserva espacio para corregir |
+| Repetir el mismo error | El equipo cambió las acciones sin revisar la causa | Identifica la decisión fallida antes de volver a intentarlo |
+
+Usa el siguiente orden de prioridad al recuperarte:
+
+1. Protege a los jugadores que todavía están en una posición segura.
+2. Detén los movimientos innecesarios.
+3. Identifica la zona estable más cercana.
+4. Mueve al grupo hacia esa zona con pequeñas correcciones.
+5. Reanuda el ritmo normal solo después de que todos estén alineados.
+
+<Callout type="warning" title="Regla de recuperación">
+No sacrifiques una posición estable para rescatar a un jugador que ya se está desviando hacia el peligro. Estabiliza primero al grupo principal y después intenta una recuperación controlada si el recorrido lo permite.
+</Callout>
+
+Cuando un compañero realice un impulso accidental, evita culparlo durante la secuencia activa. El objetivo inmediato es impedir un segundo error. Cuando el grupo esté a salvo, analiza si el problema se debió a un ritmo poco claro, a una mala separación o a una orden incorrecta sobre el recorrido.
+
+| Tipo de recuperación | Primera acción | Seguimiento |
+|---|---|---|
+| Demasiado adelantado | Detener el movimiento | Esperar a que se despeje el recorrido |
+| Demasiado retrasado | Volver a alinear el grupo | Usar un impulso medido hacia delante |
+| Dirección equivocada | Establecer el objetivo correcto | Girar antes de moverse |
+| Grupo separado | Proteger al grupo más numeroso | Volver a conectarse usando impulsos cortos |
+| Peligro inminente | Cancelar las acciones adicionales | Alejarse solo cuando el camino esté despejado |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de práctica y estrategia final">
+
+La mejora nace de practicar las decisiones que provocan fallos repetidos. Un equipo que solo intenta moverse más rápido puede terminar una sección por casualidad, pero tendrá problemas cuando cambie el recorrido. En su lugar, practica el movimiento controlado, la comunicación y la recuperación como habilidades separadas.
+
+<Checklist
+  id="fart-with-your-friends-winning-routine"
+  title="Antes de cada intento:"
+  items={[
+    "Elegir un líder para la siguiente sección",
+    "Acordar el significado de espera, despacio, adelante, atrás y alto",
+    "Identificar la siguiente posición segura antes de liberar gas",
+    "Dejar espacio para corregir cerca de giros y peligros",
+    "Revisar la causa del último error antes de volver a intentarlo"
+  ]}
+/>
+
+<CardGrid cols={3}>
+  <Card title="Prioridad para principiantes">
+    Concéntrate en detenerte en posiciones seguras. Terminar una sección con control es más valioso que ganar un poco de distancia adicional.
+  </Card>
+  <Card title="Prioridad intermedia">
+    Mejora la sincronización. El equipo debe liberar el movimiento al mismo tiempo y evitar impulsos adicionales no programados.
+  </Card>
+  <Card title="Prioridad avanzada">
+    Planifica dos decisiones por adelantado. Prepara el siguiente giro mientras estabilizas la posición actual, pero no te muevas antes de que el recorrido esté despejado.
+  </Card>
+</CardGrid>
+
+La estrategia final es sencilla: comunícate antes de moverte, usa menos gas cerca del peligro y trata cada impulso como una decisión del equipo. Cuando el grupo falle, revisa el ritmo y la posición en lugar de repetir la misma acción con más fuerza.
+
+<Callout type="info" title="Conclusión">
+La victoria suele decidirse antes de que comience el impulso. Un objetivo claro, un solo líder, un uso controlado del gas y un plan de recuperación estable ofrecen al equipo las mejores posibilidades de superar las secciones difíciles.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor estrategia general para ganar en Fart With Your Friends?",
+    answer: "Usa impulsos sincronizados y controlados. Elige un líder, identifica la siguiente posición segura, muévete con una sola señal y estabilízate antes de intentar la siguiente acción."
+  },
+  {
+    question: "¿Debe el equipo usar impulsos fuertes siempre que el recorrido esté despejado?",
+    answer: "Normalmente no. Un movimiento fuerte puede ayudar en una sección larga y despejada, pero crea riesgos cerca de esquinas, paredes, huecos y peligros. Ajusta la fuerza del impulso al espacio disponible para corregir."
+  },
+  {
+    question: "¿Cómo puede un equipo evitar empujarse hacia el peligro?",
+    answer: "Mantén espacio entre los jugadores, evita las órdenes superpuestas y haz una pausa antes de las secciones estrechas. El líder debe decidir cuándo se mueve el grupo y cuándo todos deben esperar."
+  },
+  {
+    question: "¿Qué deben hacer los jugadores después de fallar un giro?",
+    answer: "Detén los movimientos innecesarios, identifica la posición actual del grupo y usa pequeñas correcciones hacia la zona estable más cercana. Evita repetir inmediatamente un impulso con toda la fuerza."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,259 @@
+import { Map, Target, Shield, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gameplay da demo de Fart With Your Friends: dicas e truques",
+  description: "Aprenda as principais estratégias de movimento, checkpoints, perigos e trabalho em equipe apresentadas no gameplay da demo de Fart With Your Friends.",
+  category: "guia",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Demo+Gameplay+Tips",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de Fart With Your Friends"
+}
+
+<Callout type="info" title="Guia rápido">
+- O **gameplay da demo de Fart With Your Friends** gira em torno do movimento cooperativo por seções de obstáculos perigosos.
+- A **propulsão controlada** é mais confiável do que manter o movimento na força máxima perto de espinhos.
+- A **comunicação** ajuda os jogadores a coordenar direção, tempo e responsabilidades durante saltos difíceis.
+- Os **checkpoints** oferecem pontos de recuperação, mas reinícios deliberados podem ser úteis após uma tentativa ruim.
+- **Ajustes lentos** geralmente são mais seguros do que impulsos repentinos quando há perigos por perto.
+</Callout>
+
+<Section icon={Map} title="Visão geral do gameplay da demo de Fart With Your Friends">
+
+O gameplay da demo de Fart With Your Friends apresenta um desafio cooperativo de percurso com obstáculos, no qual os jogadores usam movimento direcional e impulso movido a gases para atravessar perigos em conjunto. O desafio principal não é simplesmente alcançar a próxima plataforma. Os dois jogadores precisam se comunicar, reagir às mudanças de posição e evitar empurrar o personagem ou objeto de movimento compartilhado contra espinhos, áreas venenosas e outros obstáculos.
+
+A habilidade mais importante da demo é controlar o impulso. Empurrões fortes podem criar distância, mas também dificultam as curvas. Ajustes menores dão à equipe mais tempo para analisar o caminho e corrigir a direção antes de chegar a um perigo.
+
+**Destaques do vídeo:**
+- O movimento cooperativo exige chamadas constantes de direção.
+- Espinhos e obstáculos ambientais punem comandos apressados.
+- Os checkpoints ajudam a preservar o progresso durante tentativas mais longas.
+- A propulsão lenta é útil ao se aproximar de seções estreitas.
+- A coordenação da equipe se torna mais importante do que a velocidade.
+
+<YouTubeEmbed videoId="fW0phRj8IvA" title="ROBLOX FART WITH YOUR FRIENDS IS SO FUNNY! 😂" />
+
+| Elemento do gameplay | O que significa | Resposta recomendada |
+|---|---|---|
+| Movimento compartilhado | Os dois jogadores influenciam o mesmo caminho ou impulso | Definam uma única pessoa para dar as chamadas antes de se mover |
+| Mudanças de direção | Os comandos para a esquerda e para a direita alteram a aproximação | Usem comandos curtos e claros |
+| Espinhos | O contato pode interromper a tentativa | Diminuam a velocidade antes de entrar nas áreas perigosas |
+| Checkpoints | Os marcadores de progresso reduzem a necessidade de repetir o caminho | Estabilizem o movimento imediatamente após alcançar um |
+| Tentativas após renascer | Um caminho fracassado pode devolver os jogadores ao progresso alcançado | Reiniciem deliberadamente em vez de entrar em pânico |
+
+<CardGrid cols={3}>
+  <Card title="Controle do impulso">
+    Use empurrões calculados em vez de movimento constante. Um comando curto pode criar distância suficiente sem causar uma curva impossível de recuperar.
+  </Card>
+  <Card title="Leitura do caminho">
+    Observe antecipadamente espinhos, paredes, áreas venenosas e passagens estreitas antes de escolher uma direção.
+  </Card>
+  <Card title="Chamadas da equipe">
+    Um jogador deve dar a direção principal enquanto o outro confirma os perigos e o momento adequado.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica profissional">
+Trate cada comando de movimento como uma decisão compartilhada. Chamadas claras como “esquerda”, “direita”, “devagar” e “pare” são mais úteis do que vários jogadores dando direções diferentes ao mesmo tempo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dicas essenciais de movimento e direção">
+
+A demo recompensa o movimento controlado em vez de correções frenéticas. Quando o caminho está aberto, uma propulsão mais forte pode ajudar a equipe a avançar. Perto de um espinho ou de uma passagem estreita, porém, um empurrão completo pode criar impulso demais para ser recuperado com segurança.
+
+Um ritmo útil é mover-se, observar e então ajustar. Não presuma que a primeira direção está correta apenas porque funcionou por alguns segundos. Os obstáculos podem exigir um novo ângulo, e a equipe pode começar a se mover para trás acidentalmente se ninguém confirmar o caminho.
+
+| Situação | Melhor estilo de comando | Erro comum |
+|---|---|---|
+| Caminho aberto | Empurrão moderado para a frente | Manter o movimento sem verificar o caminho |
+| Perto de espinhos | Ajustes leves e curtos | Corrigir demais e entrar no perigo |
+| Passagem estreita | Movimento lento com paradas frequentes | Tentar atravessar na velocidade máxima |
+| Após quicar em uma borda | Recentrar antes de empurrar novamente | Continuar o comando original automaticamente |
+| Caminho incerto | Parar e identificar a próxima faixa segura | Adivinhar com base em chamadas desesperadas |
+
+<Steps>
+  <Step num="1" title="Escolha quem dará as chamadas de direção">
+    Antes de se mover, decidam qual jogador terá a responsabilidade final pelas chamadas do caminho. O segundo jogador deve observar os perigos, confirmar a direção e avisar sobre mudanças próximas.
+  </Step>
+  <Step num="2" title="Comece com um empurrão pequeno">
+    Comece com um comando de movimento controlado em vez de usar imediatamente a propulsão máxima. Isso cria espaço para avaliar o caminho e evita uma colisão precoce.
+  </Step>
+  <Step num="3" title="Leia o próximo perigo">
+    Identifique espinhos, áreas venenosas, paredes e o próximo checkpoint antes de alcançar o obstáculo atual. Planejar uma seção à frente reduz as curvas de última hora.
+  </Step>
+  <Step num="4" title="Solte o comando e reposicione-se">
+    Quando o caminho ficar instável, pare de empurrar e deixe o movimento se estabilizar. Reposicionar-se geralmente é mais seguro do que aplicar ainda mais força para corrigir um ângulo ruim.
+  </Step>
+  <Step num="5" title="Confirme o checkpoint">
+    Depois de alcançar um checkpoint, faça uma breve pausa e verifique o novo caminho. Não avance com pressa apenas porque a equipe conseguiu progredir.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evite conflitos de direção">
+Dois jogadores dando comandos opostos podem anular o progresso ou enviar a equipe para um perigo. Usem uma única pessoa como responsável principal pelas chamadas e deixem que o segundo jogador faça avisos curtos em vez de competir nas instruções.
+</Callout>
+
+Um bom padrão de comunicação deve ser conciso e fácil de repetir:
+
+- **“Frente”** significa começar ou manter o caminho.
+- **“Esquerda” ou “direita”** identifica a próxima correção.
+- **“Devagar”** significa reduzir a propulsão antes de um perigo.
+- **“Pare”** significa pausar imediatamente e reavaliar.
+- **“Checkpoint”** confirma que a equipe pode planejar a partir de uma posição mais segura.
+
+</Section>
+
+<Section icon={Shield} title="Como lidar com perigos e recuperar checkpoints">
+
+Os perigos são mais ameaçadores quando a equipe chega até eles sem um plano compartilhado. Espinhos podem aparecer ao lado do caminho, atrás da trajetória de movimento ou perto de um ponto de quique. Perigos venenosos e outras áreas vermelhas também exigem posicionamento cuidadoso, pois uma correção agressiva pode resolver um problema enquanto cria outro.
+
+A abordagem mais segura é dividir o caminho em seções curtas. Mova-se apenas o suficiente para alcançar a próxima posição estável e então reavalie. Isso impede que um erro se transforme em um longo deslizamento sem controle.
+
+| Tipo de perigo | Sinal de alerta | Abordagem mais segura | Conselho de recuperação |
+|---|---|---|---|
+| Parede de espinhos | Obstáculo pontiagudo ao lado do caminho | Entre devagar e mantenha o movimento centralizado | Pare de empurrar se o ângulo ficar incerto |
+| Área venenosa | Zona colorida perigosa próxima ao caminho | Faça um ajuste leve e evite quicar sem necessidade | Volte ao checkpoint após uma tentativa fracassada |
+| Borda estreita | Pouco espaço para corrigir | Faça comandos direcionais pequenos | Recentre-se antes de tentar o próximo empurrão |
+| Seção de quique | O impulso muda após o contato | Espere um novo ângulo imediatamente | Diga a próxima direção antes de pousar |
+| Caminho na direção errada | O progresso começa a se mover para trás | Pare e verifique o caminho pretendido | Reinicie se voltar for mais seguro do que forçar o avanço |
+
+<Callout type="success" title="Disciplina nos checkpoints">
+Um checkpoint é mais do que um marcador de progresso. Use-o como um ponto de reinício da comunicação: identifique o próximo perigo, escolha quem dará as chamadas e decidam se o próximo movimento deve ser leve ou forte.
+</Callout>
+
+Quando uma tentativa fica instável, forçar o caminho pode desperdiçar mais tempo do que reiniciar a partir do checkpoint mais recente. Um reinício deliberado pode ser útil quando a equipe está voltada para a direção errada, presa contra um obstáculo ou entrando repetidamente no mesmo perigo.
+
+A decisão de reiniciar deve seguir três perguntas:
+
+- Os dois jogadores estão voltados para o caminho pretendido?
+- A posição atual pode ser corrigida com um movimento pequeno?
+- Reiniciar a partir do checkpoint proporcionaria um ângulo melhor?
+
+Se a resposta às duas primeiras perguntas for não, pare de adicionar comandos. Uma falha controlada geralmente é mais fácil de recuperar do que uma sequência de correções cada vez mais agressivas.
+
+</Section>
+
+<Section icon={Swords} title="Funções cooperativas e estratégia de equipe">
+
+Fart With Your Friends fica mais fácil de administrar quando cada jogador tem uma função clara. O movimento é compartilhado, mas as decisões não precisam ser caóticas. Um jogador pode se concentrar na propulsão e no controle direcional enquanto o outro acompanha os perigos, o tempo e as mudanças no caminho.
+
+Essas funções podem mudar conforme o caminho exigir. Um jogador que cuidou da seção anterior pode não ter a melhor visão da próxima. A equipe deve alternar as responsabilidades quando a visibilidade ou o posicionamento mudarem.
+
+<CardGrid cols={4}>
+  <Card title="Responsável pelas chamadas">
+    Dá a direção principal e decide quando começar, diminuir a velocidade ou parar.
+  </Card>
+  <Card title="Observador">
+    Procura espinhos, perigos venenosos, paredes e o próximo checkpoint.
+  </Card>
+  <Card title="Controlador">
+    Aplica os comandos de movimento com ajustes curtos e deliberados.
+  </Card>
+  <Card title="Líder do reinício">
+    Decide quando abandonar um ângulo ruim em favor de um reinício no checkpoint.
+  </Card>
+</CardGrid>
+
+| Problema da equipe | Causa provável | Correção |
+|---|---|---|
+| O caminho se move repetidamente para trás | Ninguém confirma a direção pretendida | Pausem e nomeiem o próximo alvo |
+| Os jogadores discutem sobre os comandos | Várias pessoas dão chamadas | Escolham uma pessoa para dar as chamadas na seção |
+| A equipe ultrapassa os perigos | Os comandos são mantidos por tempo demais | Usem empurrões mais curtos e pausas planejadas |
+| O progresso para perto de um obstáculo | O ângulo não está sendo reavaliado | Recentrem-se antes de aplicar mais movimento |
+| Um checkpoint é alcançado, mas perdido rapidamente | A equipe corre para a próxima área | Parem, observem e planejem o próximo segmento |
+
+Uma boa chamada da equipe deve descrever tanto a direção quanto a intensidade. “Direita” identifica o caminho, mas “direita leve” comunica quanto movimento é apropriado. “Frente, depois pare” é mais útil do que repetir “vai” enquanto a equipe se aproxima de um espinho.
+
+<Callout type="info" title="Aprimore a comunicação">
+Use comandos de duas partes em seções difíceis: direção mais intensidade. Exemplos incluem “esquerda leve”, “frente devagar” e “direita, depois pare”. Isso reduz a ambiguidade quando o caminho muda rapidamente.
+</Callout>
+
+Se a equipe falhar várias vezes no mesmo obstáculo, mude o processo em vez de repetir a mesma tentativa. Troque quem dá as chamadas, reduza a força do movimento ou aproxime-se de um ângulo diferente. A repetição só ajuda quando a equipe aprende algo com cada falha.
+
+</Section>
+
+<Section icon={Trophy} title="Plano de prática e checklist de progresso">
+
+A maneira mais rápida de melhorar é praticar uma mecânica de cada vez. Jogadores novos frequentemente tentam resolver movimento, leitura do caminho e comunicação ao mesmo tempo. Um plano de prática estruturado torna cada habilidade mais fácil de reconhecer.
+
+Comece com seções abertas e aprenda quanto movimento um comando curto produz. Em seguida, pratique parar antes de um perigo. Por fim, combine chamadas de direção com o planejamento de checkpoints. O objetivo é obter controle consistente, não simplesmente concluir uma seção por sorte.
+
+| Fase de prática | Objetivo principal | Indicador de sucesso |
+|---|---|---|
+| Fase 1 | Aprender a propulsão básica | A equipe consegue se mover sem corrigir excessivamente de imediato |
+| Fase 2 | Praticar as paradas | Os jogadores conseguem pausar antes de espinhos ou áreas venenosas |
+| Fase 3 | Adicionar chamadas do caminho | Um jogador dá a direção enquanto o outro observa |
+| Fase 4 | Usar checkpoints | A equipe planeja cada seção a partir de uma posição estável |
+| Fase 5 | Lidar com falhas | Os jogadores reiniciam com calma em vez de repetir comandos sem controle |
+
+<Checklist
+  id="demo-gameplay-skills"
+  title="Objetivos do gameplay da demo:"
+  items={[
+    "Escolher uma única pessoa para dar as chamadas de direção antes de cada seção de obstáculos",
+    "Praticar comandos de movimento curtos perto de espinhos e perigos venenosos",
+    "Confirmar o caminho antes de avançar a partir de um checkpoint",
+    "Usar comandos de duas partes, como esquerda leve ou frente devagar",
+    "Reiniciar deliberadamente quando o ângulo atual não puder ser recuperado"
+  ]}
+/>
+
+<Callout type="tip" title="Rotina de prática">
+Faça algumas tentativas concentrando-se apenas em parar de forma controlada. Quando a equipe conseguir parar com segurança, as mudanças de direção e a navegação pelos perigos ficarão mais fáceis de administrar.
+</Callout>
+
+Use a seguinte rotina durante uma sessão focada:
+
+1. **Observe a seção** antes de aplicar qualquer movimento.
+2. **Nomeie a próxima posição segura** em vez de todo o caminho.
+3. **Aplique um empurrão curto** e observe o ângulo resultante.
+4. **Pare antes do perigo** sempre que possível.
+5. **Revise o erro** após a falha e mude uma variável na próxima tentativa.
+
+Essa abordagem mantém a prática mensurável. Se a equipe falhar, identifique se o problema foi força excessiva, comunicação pouco clara, leitura ruim do caminho ou uma correção tardia. Mudar um fator por vez facilita acompanhar a melhoria.
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas frequentes sobre o gameplay da demo de Fart With Your Friends">
+
+A demo foi criada em torno de movimento compartilhado, atenção aos obstáculos e comunicação. Jogadores que a tratam como um desafio de plataforma comum focado em velocidade podem ter dificuldades, pois o caminho mais seguro geralmente exige paciência e tempo coordenado.
+
+<FAQ items={[
+  {
+    question: "Qual é o principal desafio no gameplay da demo de Fart With Your Friends?",
+    answer: "O principal desafio é controlar o impulso compartilhado enquanto se atravessam espinhos, perigos venenosos, seções estreitas e mudanças de direção. O sucesso depende do tempo e da comunicação, e não de movimento constante para a frente."
+  },
+  {
+    question: "Os dois jogadores devem dar comandos de movimento?",
+    answer: "Geralmente é melhor escolher uma única pessoa para dar as chamadas principais de direção. O segundo jogador pode observar os perigos, confirmar o caminho e fazer avisos curtos sem criar comandos conflitantes."
+  },
+  {
+    question: "O que a equipe deve fazer depois de alcançar um checkpoint?",
+    answer: "Faça uma breve pausa, confirme o próximo caminho seguro e decida se o movimento seguinte exige um ajuste leve ou um empurrão mais forte. Avançar imediatamente com pressa pode desperdiçar o progresso recém-conquistado."
+  },
+  {
+    question: "Quando os jogadores devem reiniciar em vez de continuar?",
+    answer: "Reinicie quando a equipe estiver voltada para a direção errada, presa contra um obstáculo ou repetindo a mesma correção fracassada. Um reinício deliberado a partir do checkpoint mais recente pode proporcionar uma abordagem melhor."
+  }
+]} />
+
+| Pergunta | Resposta curta |
+|---|---|
+| Melhor estratégia geral? | Mova-se em pequenos impulsos, observe à frente e comunique uma direção por vez. |
+| Melhor resposta aos espinhos? | Diminua a velocidade cedo e evite correções de última hora. |
+| Função mais útil na equipe? | Uma pessoa clara nas chamadas, apoiada por um observador focado nos perigos. |
+| Como as falhas devem ser usadas? | Identifique um erro, ajuste uma variável e tente novamente. |
+
+<Callout type="warning" title="Lembrete final">
+Não meça o progresso apenas pela velocidade. Em seções difíceis, uma abordagem mais lenta com posicionamento estável costuma ser mais valiosa do que uma tentativa rápida que chega ao próximo perigo sem controle.
+</Callout>
+
+</Section>
