@@ -53,728 +53,368 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Fart With Your Friends Gameplay",
+    "description": "Race inflatable rafts down chaotic rivers, dodge obstacles with friends, and master Campaign, Raft Race, Endless River, and Daily River on Roblox."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Fart With Your Friends",
+    "titleHighlight": "Toolkit",
+    "subtitle": "Jump straight to what you need — codes, guides, modes, rafts, animals, events, and the latest news.",
     "cards": [
       {
+        "icon": "Ticket",
+        "title": "Fart With Your Friends Codes",
+        "description": "Active codes, expired archives, and the redeem walkthrough"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Fart With Your Friends Beginner Guide",
+        "description": "From your first launch to a completed river run"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Swords",
+        "title": "Fart With Your Friends Game Modes",
+        "description": "Campaign, Raft Race, Endless River, and Daily River"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Users",
+        "title": "Fart With Your Friends Multiplayer",
+        "description": "Invite friends, form teams, and race 1v1 to 4v4"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Sailboat",
+        "title": "Fart With Your Friends Rafts",
+        "description": "Every raft, theme, and how to unlock it"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "PawPrint",
+        "title": "Fart With Your Friends Animals",
+        "description": "Penguin, Fox, Cat, and every companion unlock"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Ghost",
+        "title": "Fart With Your Friends Halloween Event",
+        "description": "Haunted Graveyard, Fart Phantom, and the event bundle"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Megaphone",
+        "title": "Fart With Your Friends Updates",
+        "description": "Official news and announcements from HSF Studios"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+    "fartWithYourFriendsCodes": {
+      "title": "Fart With Your Friends Codes",
+      "displayType": "codeCards",
+      "eyebrow": "Codes",
+      "subtitle": "Check active codes, retired codes, and the in-game redemption flow at a glance.",
+      "intro": "This section keeps every Fart With Your Friends code in one place — new drops, expired entries, and exactly where to redeem them inside the game.",
+      "cards": [
+        {
+          "name": "Active Codes",
+          "status": "Refreshed Daily",
+          "description": "Every working Fart With Your Friends code is listed here the moment it goes live, together with its rewards and expiry window."
+        },
+        {
+          "name": "Expired Codes",
+          "status": "Archived",
+          "description": "Retired codes are kept in a dedicated archive with their removal dates, so a dead code never costs you a redeem attempt."
+        },
+        {
+          "name": "Redemption Availability",
+          "status": "Step-by-Step",
+          "description": "Learn where the code redemption entry lives in Fart With Your Friends and follow a short walkthrough for a smooth redeem every time."
+        }
+      ]
+    },
+    "fartWithYourFriendsBeginnerGuide": {
+      "title": "Fart With Your Friends Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "eyebrow": "Beginner Guide",
+      "subtitle": "Learn the basic flow from entering the game to completing your first river run.",
+      "intro": "Fart With Your Friends centers on guiding a raft through a river while working with other players. Start with the objective, get a feel for raft movement, and then coordinate with teammates around obstacles.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Enter the Game",
+          "description": "Join Fart With Your Friends through its Roblox game page and wait for the game area to load.",
+          "tip": "Scan the available modes before starting your first run."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Choose a River Activity",
+          "description": "Select a suitable activity such as Campaign, Raft Race, Endless River, or Daily River.",
+          "tip": "Campaign is the most forgiving place to learn the basic flow."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Board and Control the Raft",
+          "description": "Get onto the raft and use the movement controls to help guide it along the river.",
+          "tip": "Make small, deliberate adjustments instead of constant direction changes."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "React to River Obstacles",
+          "description": "Watch the route ahead and adjust the raft's direction as the river becomes harder to navigate.",
+          "tip": "Look ahead before each turn so the raft has time to respond."
+        },
+        {
+          "title": "Coordinate with Teammates",
+          "description": "Communicate about movement, upcoming obstacles, and when the group should change direction.",
+          "tip": "One agreed direction beats several players steering separately."
+        },
+        {
+          "title": "Complete the Run",
+          "description": "Continue through the river until the activity is completed, then review the result and try a more challenging mode.",
+          "tip": "Use your first completed run to spot the turns that caused the most trouble."
         }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+    "fartWithYourFriendsGameModes": {
+      "title": "Fart With Your Friends Game Modes",
+      "displayType": "modeCards",
+      "eyebrow": "Game Modes",
+      "subtitle": "Compare Campaign, Raft Race, Endless River, and Daily River at a glance.",
+      "intro": "Each mode offers a different way to play the river. Campaign provides structured progression, Raft Race focuses on direct competition, Endless River rewards pure survival, and Daily River refreshes the challenge every day.",
+      "modes": [
+        {
+          "mode": "Campaign",
+          "playStyle": "Progression",
+          "goal": "Work through structured river challenges and learn the core gameplay.",
+          "players": "Solo or co-op",
+          "bestFor": "New players who want steady progression and raft-control practice."
+        },
+        {
+          "mode": "Raft Race",
+          "playStyle": "Competitive",
+          "goal": "Race another team down the river and claim the finish first.",
+          "players": "1v1, 2v2, 3v3, or 4v4",
+          "bestFor": "Competitive groups who want a direct team-versus-team challenge."
+        },
+        {
+          "mode": "Endless River",
+          "playStyle": "Endurance",
+          "goal": "Keep navigating the river for as long as your team can hold on.",
+          "players": "Solo or co-op",
+          "bestFor": "Practice runs and testing how long a crew can survive."
+        },
+        {
+          "mode": "Daily River",
+          "playStyle": "Daily Challenge",
+          "goal": "Take on the river's rotating daily challenge and aim for a strong finish.",
+          "players": "Solo or co-op",
+          "bestFor": "Players who want a fresh recurring challenge with friends."
+        }
+      ]
+    },
+    "fartWithYourFriendsMultiplayerGuide": {
+      "title": "Fart With Your Friends Multiplayer Guide",
+      "displayType": "steps",
+      "eyebrow": "Multiplayer",
+      "subtitle": "Set up a shared Roblox session, join the same server, and coordinate your raft team.",
+      "intro": "Multiplayer runs work best when every player joins the same experience and agrees on a plan before the raft moves. Raft Race supports team formats from 1v1 through 4v4, so clear callouts matter in competitive lobbies.",
+      "steps": [
+        {
+          "title": "Add or Select Your Friends",
+          "description": "Make sure the players you want to invite are available on Roblox before starting the game session.",
+          "tip": "Decide who joins which team before entering a competitive match."
+        },
+        {
+          "title": "Join the Same Game",
+          "description": "Open Fart With Your Friends and use Roblox's party or join features so everyone enters the same experience.",
+          "tip": "Confirm every friend has loaded into the session before choosing a mode."
+        },
+        {
+          "title": "Select a Multiplayer Activity",
+          "description": "Choose a cooperative river activity or enter Raft Race for a team-versus-team challenge.",
+          "tip": "Practice together first, then switch to Raft Race when the crew is ready."
+        },
+        {
+          "title": "Form the Teams",
+          "description": "Organize players into the available Raft Race formats, from 1v1 to 4v4.",
+          "tip": "Keep team sizes even when possible so the race stays balanced."
+        },
+        {
+          "title": "Agree on Raft Commands",
+          "description": "Choose one player or a small group to call out turns, obstacle responses, and direction changes.",
+          "tip": "Short callouts such as left, right, slow, or turn keep reactions quick."
+        },
+        {
+          "title": "Run the Challenge Together",
+          "description": "Coordinate raft movement, watch the river ahead, and adjust the plan when obstacles or difficult sections appear.",
+          "tip": "A shared direction beats every player acting independently."
+        }
+      ],
+      "teamFormatsLabel": "Raft Race Team Formats",
+      "teamFormats": [
+        "1v1",
+        "2v2",
+        "3v3",
+        "4v4"
+      ]
+    },
+    "fartWithYourFriendsRaftsGuide": {
+      "title": "Fart With Your Friends Rafts Guide",
+      "displayType": "table",
+      "eyebrow": "Raft Guide",
+      "subtitle": "Compare every published raft in Fart With Your Friends by theme, acquisition, and availability.",
+      "intro": "This guide organizes the raft lineup announced for Fart With Your Friends, separating the standard roster from event rafts and upcoming additions so you always know what is live right now.",
+      "tableHeaders": {
+        "raft": "Raft",
+        "theme": "Theme & Look",
+        "howToGet": "How to Get",
+        "availability": "Availability",
+        "note": "Comparison Note"
+      },
+      "rows": [
+        {
+          "raft": "Standard Rafts",
+          "theme": "The core inflatable raft designs available from day one",
+          "howToGet": "Unlocked through normal play on the official game page",
+          "availability": "Always available",
+          "note": "The main reference point when comparing any other raft"
+        },
+        {
+          "raft": "Event Rafts — Candy Cane, Jack-o'-Lantern, Toxic Slime",
+          "theme": "Seasonal event visuals, from candy stripes to glowing jack-o'-lantern faces and slime-green skins",
+          "howToGet": "Claimed through the running event or promotion stated by HSF Studios",
+          "availability": "Limited to the event window",
+          "note": "Grab event rafts before the event ends — they are the rarest rides in the lineup"
+        },
+        {
+          "raft": "Upcoming Rafts",
+          "theme": "New themes announced for future updates",
+          "howToGet": "Follow the official release instructions when they ship",
+          "availability": "Arriving with future updates",
+          "note": "Track the Updates module below so a new raft never slips past you"
+        }
+      ]
+    },
+    "fartWithYourFriendsAnimalsGuide": {
+      "title": "Fart With Your Friends Animals Guide",
+      "displayType": "cardList",
+      "eyebrow": "Animals and Pets",
+      "subtitle": "Browse every animal companion in Fart With Your Friends and see how each unlock works.",
+      "intro": "This guide collects the animal companions announced for Fart With Your Friends — from the newest Penguin, Fox, and Cat additions to future reveals — so you always know who is swimming alongside your raft.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "Animal Companions",
+          "category": "In Game Now",
+          "appearance": "The official animal roster, including the Penguin, Fox, and Cat additions",
+          "unlockCondition": "Unlocked through the methods shown on the official game page",
+          "limitedStatus": "Permanent roster"
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Event Animals",
+          "category": "Limited Time",
+          "appearance": "Animal companions tied to seasonal events and promotions",
+          "unlockCondition": "Claimed during the event window stated by HSF Studios",
+          "limitedStatus": "Event-limited availability"
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "Upcoming Animals",
+          "category": "Coming Soon",
+          "appearance": "New animal designs revealed through official announcements",
+          "unlockCondition": "Arrives with the related update once it goes live",
+          "limitedStatus": "Announced, arriving soon"
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+    "fartWithYourFriendsHalloweenEvent": {
+      "title": "Fart With Your Friends Halloween Event",
+      "displayType": "cardList",
+      "eyebrow": "Limited-Time Event",
+      "subtitle": "Explore the Haunted Graveyard, face the Fart Phantom, and grab the limited-time Halloween Bundle.",
+      "intro": "The Halloween Event brings seasonal content to Fart With Your Friends: a haunted new location, a spooky encounter, and a themed bundle. Here is what is live and what to expect when the event wraps up.",
       "cards": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "name": "Haunted Graveyard",
+          "type": "Event Location",
+          "description": "A Halloween-themed location added to the game for the event, full of spooky atmosphere and raft-run challenges.",
+          "availability": "Live during the Halloween Event",
+          "afterEvent": "Returns only if HSF Studios brings it back in a future event"
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "name": "Fart Phantom",
+          "type": "Event Character",
+          "description": "The star of the Halloween announcement — a ghostly presence haunting the event content.",
+          "availability": "Live during the Halloween Event",
+          "afterEvent": "A limited-time appearance that follows the official event schedule"
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "name": "Halloween Bundle",
+          "type": "Limited-Time Bundle",
+          "description": "A themed bundle packed with Halloween cosmetics and content for the event.",
+          "availability": "Available for a limited time",
+          "afterEvent": "Leaves the store when the event ends unless HSF Studios announces a return"
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
+    "fartWithYourFriendsUpdatesNews": {
+      "title": "Fart With Your Friends Updates and Official News",
       "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+      "eyebrow": "Official News",
+      "subtitle": "Track new modes, animals, rafts, characters, and gameplay changes from HSF Studios.",
+      "intro": "This module is the homepage entry point for everything new in Fart With Your Friends, separating live content from upcoming announcements so you never miss a drop.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "title": "New Modes",
+          "status": "Live + Upcoming",
+          "content": "Every mode addition lands here — from the Campaign, Raft Race, Endless River, and Daily River lineup to future mode reveals.",
+          "topics": [
+            "Mode launches",
+            "Mode announcements",
+            "Gameplay rule changes"
+          ]
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "title": "Animals, Rafts, and Characters",
+          "status": "Live + Upcoming",
+          "content": "Follow the growing roster: the Penguin, Fox, and Cat animals, rafts like Candy Cane, Toxic Slime, and Jack-o'-Lantern, and every new character drop.",
+          "topics": [
+            "Animal additions",
+            "Raft additions",
+            "Character additions"
+          ]
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Events and Gameplay Adjustments",
+          "status": "Live + Upcoming",
+          "content": "Seasonal events like the Halloween Event, plus balance changes and availability updates, with live and upcoming content clearly separated.",
+          "topics": [
+            "Limited-time events",
+            "Gameplay changes",
+            "Event availability"
+          ]
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Fart With Your Friends",
+    "titleHighlight": "FAQ",
+    "subtitle": "Quick answers about the game, its modes, and this wiki.",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Fart With Your Friends?",
+        "answer": "Fart With Your Friends is a chaotic Roblox raft game by HSF Studios where you guide an inflatable raft down wild rivers, dodge obstacles, and compete in funny multiplayer challenges across Campaign, Raft Race, Endless River, and Daily River modes."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Is Fart With Your Friends free to play?",
+        "answer": "Yes. Fart With Your Friends is free to play on Roblox — open the official game page, hit play, and you are on the river in seconds."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How many players can race together in Fart With Your Friends?",
+        "answer": "Raft Race supports team formats from 1v1 up to 4v4, so you can duel a friend or bring a full crew of four per side."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Which animals can you unlock in Fart With Your Friends?",
+        "answer": "The current roster includes the Penguin, Fox, and Cat companions, and HSF Studios keeps adding more animals through updates and events."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Does Fart With Your Friends have codes?",
+        "answer": "The Codes section on this site tracks every Fart With Your Friends code — when a new code drops, it appears here with its rewards and expiry window, alongside a step-by-step redemption guide."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What is in the Fart With Your Friends Halloween Event?",
+        "answer": "The Halloween Event adds the Haunted Graveyard location, the Fart Phantom character, and a limited-time Halloween Bundle — the event module above covers every detail."
       }
     ]
   },
